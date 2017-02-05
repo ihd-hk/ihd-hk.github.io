@@ -13,22 +13,57 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: ihD | Global Technology Consultant
+email: IHD@ihd-hk.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  ihD Ltd is a Hong Kong-registered Private Limited Company, specialising in IT,
+  ELV & Security, and Audio-Visual Systems, as well as Mechanical & Architectural
+  Acoustics, design and Consultancy. Our company is not involved in any way in the
+  supply of equipment nor in installation. We focus instead on Design, Consultancy,
+  and Project Management, allowing us to remain independant, specifying equipment
+  and systems most suited to our clients technical and budgetary needs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
+kramdown:
+   input: GFM
+   hard_wrap: false
+# theme: minima
 gems:
-  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
 exclude:
+  - assets/bootstrap
   - Gemfile
   - Gemfile.lock
+sass:
+  style: compressed
+
+# Navigation
+navigation_en:
+  - text: Home
+    url: '/'
+  - text: About
+    url: '/about.html'
+  - text: Services
+    url: '/services.html'
+  - text: Team Members
+    url: '/team.html'
+  - text: Portfolio
+    url: '/portfolio.html'
+  - text: Contact
+    url: '/contact.html'
+
+
+# CANNOT CHANGE THESE
+lsi: false
+safe: true
+source: ""
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax

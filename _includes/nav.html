@@ -1,0 +1,29 @@
+<nav class="navbar navbar-light navbar-toggleable-md fixed-top bg-faded">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primarynav" aria-controls="primarynav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">
+        <img alt="Brand" src="{{ "/images/logo.png" | prepend: site.baseurl }}">
+      </a>
+    </div>
+
+    <div id="primarynav" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav ml-auto">
+      {% for link in site.navigation_en %}
+        <li class="nav-item{% if page.url == link.url %} active{% endif %}">
+          <a class="nav-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a>
+        </li>
+        {% endfor %}
+
+        <li class="flag"><a href="ch/"><img src="images/CN.png" alt="Chinese" /></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container"><div class="row">
+  <div class="col-md-12 text-right small">e: <a href="mailto:ihd@ihd-hk.com">IHD@ihd-hk.com</a>&nbsp;t: <a href="tel:0085228191108">+852 2819 1108</a></div>
+</div></div>
