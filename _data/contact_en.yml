@@ -3,13 +3,21 @@
     Units 1901-1903, 19/F, Bonham Trade Centre
     50 Bonham Strand, Sheung Wan, Hong Kong
     (MTR Exit A2)
-  tel: +852 2819 1108
-  fax: +852 2819 1077
+  tel:
+    text: +852 2819 1108
+    href: 0085228191108
+  fax:
+    text: +852 2819 1077
+    href: 0085228191077
   contact:
     - name: Mr. Ian Duncan Harris
-      tel: +852 9732 0384
+      tel:
+        text: +852 9732 0384
+        href: 0085297320384
     - name: Mr. Adrian Lim
-      tel: +852 9180 1065
+      tel:
+        text: +852 9180 1065
+        href: 0085291801065
   email: IHD@ihd-hk.com
 
 - name: China - Shanghai
@@ -19,8 +27,12 @@
     Changning District,
     Shanghai,
     China
-  tel: +86 21-6136-3096
-  fax: +86 21-6136-3095
+  tel:
+    text: +86 21-6136-3096
+    href: 00862161363096
+  fax:
+    text: +86 21-6136-3095
+    href: 00862161363095
   contact:
     - name: Cathy Lin
   email: IHD@ihd-hk.com
@@ -32,8 +44,12 @@
     Dongcheng District,
     Beijing,
     China
-  tel: +86 21-6136-3096
-  fax: +86 21-6136-3095
+  tel:
+    text: +86 21-6136-3096
+    href: 00862161363096
+  fax:
+    text: +86 21-6136-3095
+    href: 00862161363095
   contact:
     - name: Mandy Liu
   email: IHD@ihd-hk.com
@@ -43,8 +59,12 @@
     **ihDesign Sdn Bhd**
     Unit 5-40-2, No. 14, Persiaran Anggerik Vanilla
     Kota Kemuning, 40460 Shah Alam, Selangor, Malaysia
-  tel: +60 3 3884 9808
-  fax: +60 3 3884 9809
+  tel:
+    text: +60 3 3884 9808
+    href: 0060338849808
+  fax:
+    text: +60 3 3884 9809
+    href: 0060338849809
   contact:
     - name: Mr. Chong Kok Siong
   email: IHD@ihd-hk.com
@@ -54,8 +74,12 @@
     **ihD Philippines Ltd. Inc.**
     6C, Emerald Place Building, 604 Shaw Blvd
     Pasig City, 1600, Philippines
-  tel: +63 2 4777078
-  fax: +63 2 4777078
+  tel:
+    text: +63 2 4777078
+    href: 006324777078
+  fax:
+    text: +63 2 4777078
+    href: 006324777078
   contact:
     - name: Judith Paz
   email: IHD@ihd-hk.com

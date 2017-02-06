@@ -9,7 +9,7 @@ page_id: 'contact_page'
 
 <div class="row">
 {% for location in site.data.contact_en %}
-<div class="col-md-6">
+<div class="col-md-6 my-4">
 ## {{ location.name }}
 
 {% if location.address %}
@@ -20,20 +20,20 @@ Adddress
 
 {% if location.tel %}
 Tel
-: [{{ location.tel }}](tel:{{ location.tel }})
+: [{{ location.tel.text }}](tel:{{ location.tel.href }})
 {% endif %}
 
 
 {% if location.fax %}
 Fax
-: [{{ location.fax }}](tel:{{ location.fax }})
+: [{{ location.fax.text }}](tel:{{ location.fax.href }})
 {% endif %}
 
 
 {% if location.contact %}
 Contact
 {% for contact in location.contact %}
-: **{{ contact.name }}** {% if contact.tel %}([{{ contact.tel }}](tel:{{ contact.tel }})){% endif %}
+: **{{ contact.name }}** {% if contact.tel %}([{{ contact.tel.text }}](tel:{{ contact.tel.href }})){% endif %}
 {% endfor %}
 {% endif %}
 
