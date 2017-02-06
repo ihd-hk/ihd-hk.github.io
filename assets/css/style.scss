@@ -197,6 +197,30 @@ footer {
   }
 }
 
+
+#contact_page {
+  dl {
+    @extend .row;
+    dt {
+      @extend .col-md-2;
+      @extend .text-right;
+      &:after {
+        content: ':';
+      }
+    }
+    dd {
+      @extend .col-md-10;
+      p {
+        margin:0;
+      }
+      &+dd {
+        @extend .offset-md-2;
+      }
+
+    }
+  }
+}
+
 .row {
   &.copyright {
     margin: 1em 0 0;

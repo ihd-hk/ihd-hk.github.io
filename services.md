@@ -35,7 +35,7 @@ For more information about our company, download our Coporate Profile here:
 English Corporate Profile Chinese Corporate Profile
 
 {:.text-center}
-[![English Corporate Profile]({{ "/images/services/corporate-profile-en.png" | prepend: site.baseurl }}){:.service-cover}]({{ "/assets/PA000-D-999 Rev Q - ihD Corporate Profile.pdf" | prepend: site.baseurl }}) [![Chinese Corporate Profile]({{ "/images/services/corporate-profile-ch.png" | prepend: site.baseurl }}){:.service-cover}]({{ "/assets/PA000-D-999 Rev Q - ihD Corporate Profile (Chi).pdf" | prepend: site.baseurl }})
+[![English Corporate Profile]({{ "/images/services/corporate-profile-en.png" | relative_url }}){:.service-cover}]({{ "/assets/PA000-D-999 Rev Q - ihD Corporate Profile.pdf" | relative_url }}) [![Chinese Corporate Profile]({{ "/images/services/corporate-profile-ch.png" | relative_url }}){:.service-cover}]({{ "/assets/PA000-D-999 Rev Q - ihD Corporate Profile (Chi).pdf" | relative_url }})
 
 ## Qualifications
 
