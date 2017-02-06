@@ -2,6 +2,7 @@
 layout: page
 title: Services
 permalink: /services.html
+language: en
 ---
 
 # Services

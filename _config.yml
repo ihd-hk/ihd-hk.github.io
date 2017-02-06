@@ -9,6 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
   and systems most suited to our clients technical and budgetary needs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repository: ihd-hk/ihd-hk.github.io
 
 # Build settings
 markdown: kramdown
@@ -21,6 +22,7 @@ kramdown:
 gems:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
+  - jekyll-seo-tag
 exclude:
   - assets/bootstrap
   - Gemfile
@@ -29,7 +31,8 @@ sass:
   style: compressed
 
 # Navigation
-navigation_en:
+navigation:
+  en:
   - text: Home
     url: '/'
   - text: About
@@ -42,6 +45,19 @@ navigation_en:
     url: '/portfolio.html'
   - text: Contact
     url: '/contact.html'
+  ch:
+  - text: Home
+    url: '/ch/'
+  - text: About
+    url: '/ch/about.html'
+  - text: Services
+    url: '/ch/services.html'
+  - text: Team Members
+    url: '/ch/team.html'
+  - text: Portfolio
+    url: '/ch/portfolio.html'
+  - text: Contact
+    url: '/ch/contact.html'
 
 
 # CANNOT CHANGE THESE

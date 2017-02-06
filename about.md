@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about.html
+language: en
 ---
 
 # About

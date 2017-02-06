@@ -5,20 +5,29 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">
-        <img alt="Brand" src="{{ "/images/logo.png" | prepend: site.baseurl }}">
+      <a class="navbar-brand" href="{{ "/" | relative_url }}">
+        <img alt="Brand" src="{{ "/images/logo.png" | relative_url }}">
       </a>
     </div>
 
     <div id="primarynav" class="navbar-collapse collapse">
       <ul class="nav navbar-nav ml-auto">
-      {% for link in site.navigation_en %}
-        <li class="nav-item{% if page.url == link.url %} active{% endif %}">
-          <a class="nav-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a>
-        </li>
-        {% endfor %}
+        {% if page.language == "en" %}
+          {% for link in site.navigation.en %}
+          <li class="nav-item{% if page.url == link.url %} active{% endif %}">
+            <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.text }}</a>
+          </li>
+          {% endfor %}
+          <li class="flag"><a href="{{"/ch/" | relative_url}}"><img src="{{ "/images/CN.png" | relative_url }}" alt="Chinese" /></a></li>
+        {% else %}
+          {% for link in site.navigation.ch %}
+          <li class="nav-item{% if page.url == link.url %} active{% endif %}">
+            <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.text }}</a>
+          </li>
+          {% endfor %}
+          <li class="flag"><a href="{{"/" | relative_url}}"><img src="{{ "/images/GB.png" | relative_url }}" alt="English" /></a></li>
+        {% endif %}
 
-        <li class="flag"><a href="ch/"><img src="images/CN.png" alt="Chinese" /></a></li>
       </ul>
     </div>
   </div>
