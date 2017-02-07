@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card{% if include.item.files.size > 0 %} has-images{% endif %}">
   {% if include.item.files %}
     {% for image in include.item.files %}
     <img src="{{ "/images/portfolio/" | append: image | relative_url }}" alt="{{ include.item.title_en }}" class="card-img-top img-fluid" />
