@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "glob": "^7.1.0",
+    "underscore": "^1.8.3",
+    "xlsx": "^0.8.0"
+  }
+}

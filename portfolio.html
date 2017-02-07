@@ -1,0 +1,17 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio.html
+language: en
+page_id: portfolio_page
+---
+
+<h1>Portfolio</h1>
+
+<div class="card-columns">
+{% for item in site.data.portfolio.items %}
+
+{% include portfolio-en.html item=item %}
+
+{% endfor %}
+</div>

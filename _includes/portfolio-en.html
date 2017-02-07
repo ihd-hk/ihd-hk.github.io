@@ -1,0 +1,14 @@
+<div class="card">
+  {% if include.item.files %}
+    {% for image in include.item.files %}
+    <img src="{{ "/images/portfolio/" | append: image | relative_url }}" alt="{{ include.item.title_en }}" class="card-img-top img-fluid" />
+    {% endfor %}
+  {% endif %}
+
+  <div class="card-block">
+    <p class="card-title">{{ include.item.title_en }}</p>
+    {% if include.item.description_en %}
+    <p class="card-text">{{ include.item.desc_en }}</p>
+    {% endif %}
+  </div>
+</div>
