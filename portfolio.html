@@ -8,10 +8,40 @@ page_id: portfolio_page
 
 <h1>Portfolio</h1>
 
-<div class="card-columns">
+<div id="portfolio_filters" class="row">
+  <div class="col-md-4">
+    <select name="location" class="form-control input-lg">
+      <option value="-1">All Countries</option>
+    {% for location in site.data.portfolio.countries %}
+      <option value="{{location.key}}">{{location.en}}</option>
+    {% endfor %}
+    </select>
+  </div>
+
+  <div class="col-md-4">
+    <select name="discipline" class="form-control input-lg">
+      <option value="-1">All Disciplines</option> <!-- placeholder -->
+    {% for discipline in site.data.portfolio.disciplines %}
+      <option value="{{discipline.key}}">{{discipline.en}}</option>
+    {% endfor %}
+    </select>
+  </div>
+
+  <div class="col-md-4">
+    <select name="type" class="form-control input-lg">
+      <option value="-1">All Types</option>
+    {% for type in site.data.portfolio.codes %}
+      <option value="{{type.key}}">{{type.en}}</option>
+    {% endfor %}
+    </select>
+  </div>
+</div>
+
+<div class="row" id="porfolio_grid">
 {% for item in site.data.portfolio.items %}
 
 {% include portfolio-en.html item=item %}
 
 {% endfor %}
 </div>
+

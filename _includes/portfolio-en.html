@@ -1,14 +1,28 @@
-<div class="card{% if include.item.files.size > 0 %} has-images{% endif %}">
-  {% if include.item.files %}
-    {% for image in include.item.files %}
-    <img src="{{ "/images/portfolio/" | append: image | relative_url }}" alt="{{ include.item.title_en }}" class="card-img-top img-fluid" />
-    {% endfor %}
-  {% endif %}
-
-  <div class="card-block">
-    <p class="card-title">{{ include.item.title_en }}</p>
-    {% if include.item.description_en %}
-    <p class="card-text">{{ include.item.desc_en }}</p>
+<div class="col-md-3 my-1 portfolio-item" data-locations='{{ include.item.country_en | split:',' | jsonify }}' data-codes='{{ include.item.codes | split:'' | jsonify }}' data-disciplines='{{ include.item.disciplines | split:'', | jsonify }}'>
+  <div class="card {% if include.item.files.size > 0 %} has-images{% endif %}">
+    {% if include.item.files %}
+      {% for image in include.item.files %}
+      <img src="{{ "/images/portfolio/" | append: image | relative_url }}" alt="{{ include.item.title_en }}" class="card-img-top img-fluid" />
+      {% endfor %}
     {% endif %}
+
+    <div class="card-block">
+      <p class="card-title">{{ include.item.title_en }}</p>
+      {% if include.item.description_en %}
+      <p class="card-text">{{ include.item.desc_en }}</p>
+      {% endif %}
+
+      {% for country in include.item.country_en | split:',' %}
+        <span class="badge badge-pill badge-default">{{country}}</span>
+      {% endfor %}
+
+      {% for code in include.item.codes | split:'' %}
+        <span class="badge badge-pill badge-default">{{code}}</span>
+      {% endfor %}
+
+      {% for discipline in include.item.disciplines | split:'' %}
+        <span class="badge badge-pill badge-default">{{discipline}}</span>
+      {% endfor %}
+    </div>
   </div>
 </div>

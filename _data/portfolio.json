@@ -7068,207 +7068,256 @@
       "files": []
     }
   ],
-  "disciplines": {
-    "A": {
+  "disciplines": [
+    {
+      "key": "A",
       "en": "Audio-Visual",
       "ch": "视听"
     },
-    "C": {
+    {
+      "key": "C",
       "en": "Acoustics",
       "ch": "声学"
     },
-    "E": {
+    {
+      "key": "E",
       "en": "ELV",
       "ch": "弱电"
     },
-    "I": {
+    {
+      "key": "I",
       "en": "IT/Communications",
       "ch": "信息科技/通讯"
     },
-    "P": {
+    {
+      "key": "P",
       "en": "Public Address",
       "ch": "公共广播"
     },
-    "S": {
+    {
+      "key": "S",
       "en": "Security",
       "ch": "安防"
     },
-    "T": {
+    {
+      "key": "T",
       "en": "PABX/Tel",
       "ch": "公共广播系统/通讯"
     },
-    "F": {
+    {
+      "key": "F",
       "en": "Future #1",
       "ch": "未来#1"
     },
-    "Y": {
+    {
+      "key": "Y",
       "en": "Future #2",
       "ch": "未来#2"
     }
-  },
-  "codes": {
-    "H": {
+  ],
+  "codes": [
+    {
+      "key": "H",
       "en": "Hotel",
       "ch": "酒店"
     },
-    "C": {
+    {
+      "key": "C",
       "en": "Casino",
       "ch": "赌场"
     },
-    "M": {
+    {
+      "key": "M",
       "en": "Mall/Retail",
       "ch": "商店"
     },
-    "O": {
+    {
+      "key": "O",
       "en": "Office",
       "ch": "办公室"
     },
-    "R": {
+    {
+      "key": "R",
       "en": "Residential",
       "ch": "住宅"
     },
-    "Z": {
+    {
+      "key": "Z",
       "en": "Mixed-Use Deveopment",
       "ch": "综合发展"
     },
-    "Ú": {
+    {
+      "key": "Ú",
       "en": "Auditorium",
       "ch": "礼堂"
     },
-    "B": {
+    {
+      "key": "B",
       "en": "Bar",
       "ch": "酒吧"
     },
-    "N": {
+    {
+      "key": "N",
       "en": "Cinema",
       "ch": "电影院"
     },
-    "U": {
+    {
+      "key": "U",
       "en": "Club",
       "ch": "会所"
     },
-    "Y": {
+    {
+      "key": "Y",
       "en": "Community Centre",
       "ch": "社区中心"
     },
-    "I": {
+    {
+      "key": "I",
       "en": "Corporate/Investment Banking",
       "ch": "企业/投资银行"
     },
-    "E": {
+    {
+      "key": "E",
       "en": "Education",
       "ch": "教学"
     },
-    "X": {
+    {
+      "key": "X",
       "en": "Exhibition Gallery",
       "ch": "展馆"
     },
-    "D": {
+    {
+      "key": "D",
       "en": "Fine Dining/Restaurant",
       "ch": "美食/餐厅"
     },
-    "L": {
+    {
+      "key": "L",
       "en": "Healthcare",
       "ch": "卫生保健"
     },
-    "S": {
+    {
+      "key": "S",
       "en": "Museum/Visitors Centre/Show-Suite",
       "ch": "博物馆/旅客中心/展览会埸"
     },
-    "T": {
+    {
+      "key": "T",
       "en": "Theme Park",
       "ch": "乐园"
     },
-    "V": {
+    {
+      "key": "V",
       "en": "Villa",
       "ch": "别墅"
     },
-    "W": {
+    {
+      "key": "W",
       "en": "Worship",
       "ch": "崇拜仪式会堂"
     }
-  },
-  "countries": {
-    "0": {
-      "en": "0",
-      "ch": "0"
-    },
-    "China": {
+  ],
+  "countries": [
+    {
+      "key": "China",
       "en": "China",
       "ch": "中国"
     },
-    "Hong Kong": {
+    {
+      "key": "Hong Kong",
       "en": "Hong Kong",
       "ch": "香港"
     },
-    "Indonesia": {
+    {
+      "key": "Indonesia",
       "en": "Indonesia",
       "ch": "印度尼西亚"
     },
-    "Philippines": {
+    {
+      "key": "Philippines",
       "en": "Philippines",
       "ch": "菲律宾"
     },
-    "India": {
+    {
+      "key": "India",
       "en": "India",
       "ch": "印度"
     },
-    "Malaysia": {
+    {
+      "key": "Malaysia",
       "en": "Malaysia",
       "ch": "马来西亚"
     },
-    "Korea": {
+    {
+      "key": "Korea",
       "en": "Korea",
       "ch": "韩国"
     },
-    "Singapore": {
+    {
+      "key": "Singapore",
       "en": "Singapore",
       "ch": "新加坡"
     },
-    "Japan": {
+    {
+      "key": "Japan",
       "en": "Japan",
       "ch": "日本"
     },
-    "Saipan": {
+    {
+      "key": "Saipan",
       "en": "Saipan",
       "ch": "塞班"
     },
-    "Taiwan": {
+    {
+      "key": "Taiwan",
       "en": "Taiwan",
       "ch": "台湾"
     },
-    "undefined": {},
-    "": {
+    {},
+    {
+      "key": "",
       "en": "",
       "ch": ""
     },
-    "Vietnam": {
+    {
+      "key": "Vietnam",
       "en": "Vietnam",
       "ch": "越南"
     },
-    "Sri Lanka": {
+    {
+      "key": "Sri Lanka",
       "en": "Sri Lanka",
       "ch": "斯里兰卡"
     },
-    "Thailand": {
+    {
+      "key": "0",
+      "en": "0",
+      "ch": "0"
+    },
+    {
+      "key": "Thailand",
       "en": "Thailand",
       "ch": "泰国"
     },
-    "Turkey": {
+    {
+      "key": "Turkey",
       "en": "Turkey",
       "ch": "土耳其"
     },
-    "Maldives": {
+    {
+      "key": "Maldives",
       "en": "Maldives",
       "ch": "马尔代夫"
     },
-    "Cambodia": {
+    {
+      "key": "Cambodia",
       "en": "Cambodia",
       "ch": "柬埔寨"
     },
-    "UAE": {
+    {
+      "key": "UAE",
       "en": "UAE",
       "ch": "亚联酋"
     }
-  }
+  ]
 }
