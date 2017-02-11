@@ -13,7 +13,7 @@ page_id: portfolio_page
     <select name="location" class="form-control input-lg">
       <option value="-1">All Countries</option>
     {% for location in site.data.portfolio.countries %}
-      <option value="{{location.key}}">{{location.en}}</option>
+      <option value="{{location[0]}}">{{location[1].en}}</option>
     {% endfor %}
     </select>
   </div>
@@ -22,7 +22,7 @@ page_id: portfolio_page
     <select name="discipline" class="form-control input-lg">
       <option value="-1">All Disciplines</option> <!-- placeholder -->
     {% for discipline in site.data.portfolio.disciplines %}
-      <option value="{{discipline.key}}">{{discipline.en}}</option>
+      <option value="{{discipline[0]}}">{{discipline[1].en}}</option>
     {% endfor %}
     </select>
   </div>
@@ -31,7 +31,7 @@ page_id: portfolio_page
     <select name="type" class="form-control input-lg">
       <option value="-1">All Types</option>
     {% for type in site.data.portfolio.codes %}
-      <option value="{{type.key}}">{{type.en}}</option>
+      <option value="{{type[0]}}">{{type[1].en}}</option>
     {% endfor %}
     </select>
   </div>
@@ -45,3 +45,8 @@ page_id: portfolio_page
 {% endfor %}
 </div>
 
+{% include portfolio-modal.html %}
+
+<script>
+  require.deps.push('app/portfolio');
+</script>

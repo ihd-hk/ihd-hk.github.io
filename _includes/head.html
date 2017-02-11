@@ -9,7 +9,7 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}">
 
   <!-- Custom Fonts -->
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -34,4 +34,26 @@
   <![endif]-->
 
   {% seo %}
+
+  <script>
+  var require = {
+    baseUrl: '{{ "assets/js/vendor" | relative_url }}',
+    paths: {
+      jquery: 'jquery.min',
+      shuffle: 'shuffle/shuffle.min',
+      select2: 'select2/select2.min',
+      underscore: 'underscore-min',
+      app: '../app'
+    },
+    shim: {
+      'bootstrap/util': {
+        deps: [ 'jquery' ]
+      },
+      'bootstrap/modal': {
+        deps: [ 'jquery', 'bootstrap/util' ]
+      }
+    },
+    deps: []
+  };
+  </script>
 </head>

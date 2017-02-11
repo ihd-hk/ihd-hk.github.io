@@ -1,14 +1,32 @@
-<div class="card{% if include.item.files.size > 0 %} has-images{% endif %}">
-  {% if include.item.files %}
-    {% for image in include.item.files %}
-    <img src="{{ "/images/portfolio/" | append: image | relative_url }}" alt="{{ include.item.title_ch }}" class="card-img-top img-fluid" />
-    {% endfor %}
-  {% endif %}
-
-  <div class="card-block">
-    <p class="card-title">{{ include.item.title_ch }}</p>
-    {% if include.item.description_en %}
-    <p class="card-text">{{ include.item.desc_ch }}</p>
+<div class="col-md-3 my-1 portfolio-item" data-locations='{{ include.item.country_ch | split:',' | jsonify }}' data-codes='{{ include.item.codes | split:'' | jsonify }}' data-disciplines='{{ include.item.disciplines | split:'', | jsonify }}'>
+  <div class="card {% if include.item.files.size > 0 %} has-images{% endif %}">
+    {% if include.item.files %}
+      {% for image in include.item.files %}
+      <img src="{{ "/images/portfolio/" | append: image | relative_url }}" alt="{{ include.item.title_ch }}" class="card-img-top img-fluid" />
+      {% endfor %}
     {% endif %}
+
+    <div class="card-block">
+      <p class="card-title">{{ include.item.title_ch }}</p>
+      {% if include.item.description_ch %}
+      <p class="card-text">{{ include.item.desc_ch }}</p>
+      {% endif %}
+
+      <div class="tags">
+        {% for code in include.item.codes %}
+          <span>{{ site.data.portfolio.codes[code].ch}}</span>
+        {% endfor %}
+
+        {% for discipline in include.item.disciplines %}
+          <span>{{site.data.portfolio.disciplines[discipline].ch}}</span>
+        {% endfor %}
+
+        <span>{{include.item.country_ch}}</span>
+      </div>
+
+      {% if include.item.desc_ch %}
+        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#portfolio_description_modal" data-title="{{ include.item.title_ch }}" data-body="{{include.item.desc_ch}}">Read more</a>
+      {% endif %}
+    </div>
   </div>
 </div>

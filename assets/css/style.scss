@@ -17,6 +17,8 @@ $navbar-padding-y: 0;
 
 $nav-pills-border-radius: 0;
 
+$card-spacer-x: 1rem;
+
 
 @import "bootstrap/bootstrap";
 // @TODO Select 2 SASS
@@ -226,6 +228,26 @@ footer {
       &:hover {
         &:nth-child(2) {
           opacity: 1;
+        }
+      }
+    }
+    .card-title {
+      text-align: center;
+    }
+    .tags {
+      text-align: right;
+      span {
+        font-weight: lighter;
+        font-size: 0.6rem;
+        font-style: italic;
+        color: #aaa;
+        white-space: nowrap;
+
+        &:after {
+          content: ', ';
+        }
+        &:last-child:after {
+          content: '';
         }
       }
     }

@@ -1,4 +1,4 @@
-(function ($, Shuffle) {
+requirejs(['jquery', 'shuffle', 'select2', 'underscore'], function ($, Shuffle, select2, _) {
   'use strict';
   var $list = $('#porfolio_grid'),
     $locationFilter = $('#portfolio_filters select[name="location"]'),
@@ -95,4 +95,4 @@
 
   $('#portfolio_filters ').on('change', 'select', updateFilter);
 
-})(jQuery, window.shuffle);
+});

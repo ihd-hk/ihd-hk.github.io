@@ -12,17 +12,21 @@
       <p class="card-text">{{ include.item.desc_en }}</p>
       {% endif %}
 
-      {% for country in include.item.country_en | split:',' %}
-        <span class="badge badge-pill badge-default">{{country}}</span>
-      {% endfor %}
+      <div class="tags">
+        {% for code in include.item.codes %}
+          <span>{{ site.data.portfolio.codes[code].en}}</span>
+        {% endfor %}
 
-      {% for code in include.item.codes | split:'' %}
-        <span class="badge badge-pill badge-default">{{code}}</span>
-      {% endfor %}
+        {% for discipline in include.item.disciplines %}
+          <span>{{site.data.portfolio.disciplines[discipline].en}}</span>
+        {% endfor %}
 
-      {% for discipline in include.item.disciplines | split:'' %}
-        <span class="badge badge-pill badge-default">{{discipline}}</span>
-      {% endfor %}
+        <span>{{include.item.country_en}}</span>
+      </div>
+
+      {% if include.item.desc_en %}
+        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#portfolio_description_modal" data-title="{{ include.item.title_en }}" data-body="{{include.item.desc_en}}">Read more</a>
+      {% endif %}
     </div>
   </div>
 </div>

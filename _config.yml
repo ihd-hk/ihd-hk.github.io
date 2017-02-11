@@ -59,12 +59,13 @@ navigation:
   - text: Contact
     url: '/ch/contact.html'
 
+incremental: true
 
 # CANNOT CHANGE THESE
 lsi: false
 safe: true
 source: ""
-incremental: false
+# incremental: false
 highlighter: rouge
 gist:
   noscript: false
