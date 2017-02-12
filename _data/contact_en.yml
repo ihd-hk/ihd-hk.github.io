@@ -18,7 +18,6 @@
       tel:
         text: +852 9180 1065
         href: 0085291801065
-  email: IHD@ihd-hk.com
 
 - name: China - Shanghai
   address: >
@@ -35,7 +34,6 @@
     href: 00862161363095
   contact:
     - name: Ms. Cathy Lin
-  email: IHD@ihd-hk.com
 
 - name: China - Beijing
   address: >
@@ -52,7 +50,6 @@
     href: 00862161363095
   contact:
     - name: Ms. Mandy Liu
-  email: IHD@ihd-hk.com
 
 - name: Malaysia
   address: >
@@ -67,7 +64,6 @@
     href: 0060338849809
   contact:
     - name: Mr. Chong Kok Siong
-  email: IHD@ihd-hk.com
 
 - name: Philippines
   address: >
@@ -82,5 +78,3 @@
     href: 006324777078
   contact:
     - name: Ms. Judith Paz
-  email: IHD@ihd-hk.com
-

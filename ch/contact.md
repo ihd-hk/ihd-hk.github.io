@@ -9,6 +9,12 @@ jumbo_include: 'contact_map.html'
 
 # Contact
 
+<div class="row"><div class="col-md-12">
+You can contact us on this email or at any of the local offices listed below.
+
+**电邮:** [ihd@ihd-kh.com](mailto:ihd@ihd-kh.com)
+</div></div>
+
 <div class="row">
 {% for location in site.data.contact_ch %}
 <div class="col-md-6 my-4">
@@ -39,11 +45,6 @@ jumbo_include: 'contact_map.html'
 {% endfor %}
 {% endif %}
 
-
-{% if location.email %}
-电邮
-: [{{ location.email }}](mailto:{{ location.email }})
-{% endif %}
 
 </div>
 {% endfor %}
