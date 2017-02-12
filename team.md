@@ -11,7 +11,8 @@ language: en
 
 Our consultants and project managers report directly to the principal consultant in all aspects.
 
-**TODO**
+{:.text-center}
+![Org Chart]({{ "/images/org_chart.jpg" | relative_url }})
 
 ## Our Team
 
