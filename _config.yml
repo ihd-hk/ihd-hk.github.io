@@ -59,6 +59,9 @@ navigation:
   - text: Contact
     url: '/ch/contact.html'
 
+api_keys:
+  google_maps: 'AIzaSyBDRrK7p4IlWKWS9e2PbxS_7K6a46lnkv4'
+
 incremental: true
 
 # CANNOT CHANGE THESE

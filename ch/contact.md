@@ -4,6 +4,7 @@ title: Contact
 permalink: /ch/contact.html
 page_id: 'contact_page'
 language: ch
+jumbo_include: 'contact_map.html'
 ---
 
 # Contact
