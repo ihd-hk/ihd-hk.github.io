@@ -39,7 +39,7 @@ navigation:
     url: '/about.html'
   - text: Services
     url: '/services.html'
-  - text: Team Members
+  - text: Team
     url: '/team.html'
   - text: Portfolio
     url: '/portfolio.html'
@@ -52,7 +52,7 @@ navigation:
     url: '/ch/about.html'
   - text: Services
     url: '/ch/services.html'
-  - text: Team Members
+  - text: Team
     url: '/ch/team.html'
   - text: Portfolio
     url: '/ch/portfolio.html'
