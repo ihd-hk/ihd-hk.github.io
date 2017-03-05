@@ -12,7 +12,7 @@ language: en
 Our consultants and project managers report directly to the principal consultant in all aspects.
 
 {:.text-center}
-![Org Chart]({{ "/images/org_chart.jpg" | relative_url }})
+![Org Chart]({{ "/images/org_chart.jpg" | relative_url }}){:.img-fluid}
 
 ## Our Team
 

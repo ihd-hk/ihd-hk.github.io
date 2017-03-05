@@ -21,8 +21,6 @@ $card-spacer-x: 1rem;
 
 
 @import "bootstrap/bootstrap";
-// @TODO Select 2 SASS
-// @import "bower_components/select2/src/scss/core.scss";
 @import "select2/core.scss";
 
 
@@ -50,11 +48,21 @@ footer {
 .navbar-brand {
   padding: 0;
   line-height: 50px;
+  height: 50px;
   display: block;
   &> img {
-    max-height: 50px;
+    height: 50px;
     display: block;
+    position: absolute;
+    right: 0;
+    @include media-breakpoint-up(sm) {
+      left: 0;
+    }
+    @include media-breakpoint-up(lg) {
+      height: 70px;
+    }
   }
+
 }
 .nav {
   .flag {
@@ -74,7 +82,12 @@ footer {
     .nav-item {
       .nav-link {
         line-height: 22px;
-        padding: 14px;
+        padding: 14px 8px;
+        font-size: 0.9rem;
+        @include media-breakpoint-up(lg) {
+          padding: 14px;
+          font-size: 1rem;
+        }
         &:hover {
           background-color: lighten($brand-primary, 33.333%)
         }
@@ -83,6 +96,16 @@ footer {
         .nav-link {
           background-color: $brand-primary;
           color: #f0f0f0;
+        }
+      }
+    }
+  }
+  &.navbar-toggleable-sm {
+    .container {
+      @include media-breakpoint-down(sm) {
+        margin: 10px;
+        .navbar-toggler {
+          float: left;
         }
       }
     }
