@@ -24,6 +24,7 @@ $carousel-control-opacity: 0.75;
 
 @import "bootstrap/bootstrap";
 @import "select2/core.scss";
+@import "tether/tether.sass";
 
 
 $footer-background: $gray-dark;
@@ -325,12 +326,14 @@ footer {
         width: 3em;
         height: 3em;
         margin-right: 0.5em;
+        float: left;
       }
       p {
         margin: 0;
         font-size: 0.8em;
         line-height: 1.25em;
         @extend .text-center;
+        float: left;
       }
     }
   }
