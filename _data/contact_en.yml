@@ -1,5 +1,5 @@
 - name: Hong Kong
-  address: >
+  address: |
     Units 1901-1903, 19/F, Bonham Trade Centre
     50 Bonham Strand, Sheung Wan, Hong Kong
     (MTR Exit A2)
@@ -20,7 +20,7 @@
         href: 0085291801065
 
 - name: China - Shanghai
-  address: >
+  address: |
     **ihD (Shanghai) Technology Consultant Co. Ltd**
     Unit F, 19/F, Zhongxi Mansion, 121 Jiangsu Road,
     Changning District,
@@ -36,7 +36,7 @@
     - name: Ms. Cathy Lin
 
 - name: China - Beijing
-  address: >
+  address: |
     1306/F Hongtian Shangwu,
     Dongzhimen Wai Xiejie Road,
     Dongcheng District,
@@ -52,7 +52,7 @@
     - name: Ms. Mandy Liu
 
 - name: Malaysia
-  address: >
+  address: |
     **ihDesign Sdn Bhd**
     Unit 5-40-2, No. 14, Persiaran Anggerik Vanilla
     Kota Kemuning, 40460 Shah Alam, Selangor, Malaysia
@@ -66,7 +66,7 @@
     - name: Mr. Chong Kok Siong
 
 - name: Philippines
-  address: >
+  address: |
     **ihD Philippines Ltd. Inc.**
     6C, Emerald Place Building, 604 Shaw Blvd
     Pasig City, 1600, Philippines
@@ -80,7 +80,7 @@
     - name: Ms. Judith Paz
 
 - name: India
-  address: >
+  address: |
     **ihD Technology Consultant Pvt Ltd India: E-001 Ashok Vihar**
     Off. Military road
     Marol, Andheri (East)
