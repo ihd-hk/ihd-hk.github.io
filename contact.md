@@ -12,7 +12,7 @@ jumbo_include: 'contact_map.html'
 <div class="row"><div class="col-md-12">
 You can contact us on this email or at any of the local offices listed below.
 
-**Email:** [ihd@ihd-kh.com](mailto:ihd@ihd-kh.com)
+**Email:** [ihD@ihd-kh.com](mailto:ihd@ihd-kh.com)
 </div></div>
 
 <div class="row">
