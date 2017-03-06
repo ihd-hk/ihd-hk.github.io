@@ -19,6 +19,8 @@ $nav-pills-border-radius: 0;
 
 $card-spacer-x: 1rem;
 
+$carousel-control-opacity: 0.75;
+
 
 @import "bootstrap/bootstrap";
 @import "select2/core.scss";
@@ -116,10 +118,16 @@ footer {
 }
 
 .carousel-cover-image {
-  height: 400px;
-  width: 100%;
+  height: 500px;
   background-size: cover;
-  z-index: -1;
+  background-position: center;
+}
+.carousel-caption {
+  background: rgba(0,0,0, 0.5);
+  color: rgba(255,255,255, 0.9);
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .profile-image {
   img {

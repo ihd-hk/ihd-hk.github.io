@@ -1,8 +1,16 @@
-<div id="homepageCarousel" class="carousel slide" data-ride="carousel" markdown="0">
+<div id="homepageCarousel" class="carousel slide mb-5" data-ride="carousel" markdown="0">
+  <ol class="carousel-indicators">
+    <li data-target="#homepageCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#homepageCarousel" data-slide-to="1"></li>
+    <li data-target="#homepageCarousel" data-slide-to="2"></li>
+  </ol>
   <div class="carousel-inner" role="listbox">
     {% for slide in site.carousel_images %}
-    <div class="carousel-item{% if forloop.index0 == 0 %} active{% endif %}">
-      <img class="d-block img-fluid" src="{{ slide | prepend:'images/carousel/' | relative_url }}" alt="First slide">
+    <div class="carousel-item{% if forloop.index0 == 0 %} active{% endif %} carousel-cover-image" style="background-image: url({{ slide.image | prepend:'images/carousel/' | relative_url }})">
+      <div class="carousel-caption">
+        <h3>{{slide.header}}</h3>
+        <p>{{slide.text}}</p>
+      </div>
     </div>
     {% endfor %}
   </div>

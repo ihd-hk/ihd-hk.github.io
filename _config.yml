@@ -63,9 +63,15 @@ api_keys:
   google_maps: 'AIzaSyBDRrK7p4IlWKWS9e2PbxS_7K6a46lnkv4'
 
 carousel_images:
-  - carousel-1.jpg
-  - carousel-2.jpg
-  - carousel-3.jpg
+  - image: carousel-1.jpg
+    header: Hong Kong Jockey Club, Audio-Visual & Acoustics
+    text: Leisure - Casino - Racecourse - Museum - Visitor Centre
+  - image: carousel-2.jpg
+    header: Hong Kong Jockey Club, Audio-Visual & Acoustics
+    text: Leisure - Casino - Racecourse - Museum - Visitor Centre
+  - image: carousel-3.jpg
+    header: Hong Kong Jockey Club, Audio-Visual & Acoustics
+    text: Leisure - Casino - Racecourse - Museum - Visitor Centre
 
 incremental: true
 
