@@ -7,10 +7,8 @@
   <div class="carousel-inner" role="listbox">
     {% for slide in site.carousel_images %}
     <div class="carousel-item{% if forloop.index0 == 0 %} active{% endif %} carousel-cover-image" style="background-image: url({{ slide.image | prepend:'images/carousel/' | relative_url }})">
-      <div class="carousel-caption">
-        <h3>{{slide.header}}</h3>
-        <p>{{slide.text}}</p>
-      </div>
+      <div class="carousel-caption carousel-caption-top">{{slide.header}}</div>
+      <div class="carousel-caption">{{slide.text}}</div>
     </div>
     {% endfor %}
   </div>

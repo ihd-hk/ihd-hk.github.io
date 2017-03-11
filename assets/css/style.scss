@@ -123,12 +123,31 @@ footer {
   background-size: cover;
   background-position: center;
 }
+
+.carousel-indicators,
 .carousel-caption {
   background: rgba(0,0,0, 0.5);
-  color: rgba(255,255,255, 0.9);
+  color: rgba(255,255,255, 0.8);
   left: 0;
   right: 0;
+}
+.carousel-indicators {
   bottom: 0;
+  height: 3px;
+  margin: 0;
+  padding: 15px 0;
+}
+.carousel-caption {
+  bottom: 30px;
+  top: auto;
+  padding: 1em 0 0;
+  &.carousel-caption-top {
+    background: transparent;
+    color: rgba(255,255,255, 0.75);
+    padding: 0.5em 0;
+    top: 0;
+    bottom: auto;
+  }
 }
 .profile-image {
   img {
