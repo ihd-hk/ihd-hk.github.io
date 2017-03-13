@@ -10,8 +10,8 @@
       </a>
     </div>
 
-    <div id="primarynav" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav ml-auto">
+    <div id="primarynav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
         {% if page.language == "en" %}
           {% for link in site.navigation.en %}
           <li class="nav-item{% if page.url == link.url %} active{% endif %}">
@@ -36,3 +36,6 @@
 <div class="container"><div class="row">
   <div class="col-md-12 text-right small">e: <a href="mailto:ihd@ihd-hk.com">ihD@ihd-hk.com</a>&nbsp;t: <a href="tel:0085228191108">+852 2819 1108</a></div>
 </div></div>
+<script>
+  require.deps.push('bootstrap/collapse')
+</script>
