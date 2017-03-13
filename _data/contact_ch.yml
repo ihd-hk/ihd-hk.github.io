@@ -35,8 +35,11 @@
 - name: 马来西亚
   address: >
     **ihDesign Sdn Bhd**
-    Unit 5-40-2, No. 14, Persiaran Anggerik Vanilla
-    Kota Kemuning, 40460 Shah Alam, Selangor, Malaysia
+    Unit 5-40-2, No. 14,
+    Persiaran Anggerik Vanilla
+    Kota Kemuning, 40460 Shah Alam,
+    Selangor,
+    Malaysia
   tel:
     text: +60 3 3884 9808
     href: 0060338849808
@@ -49,8 +52,10 @@
 - name: 菲律宾
   address: >
     **ihD Philippines Ltd. Inc.**
-    6C, Emerald Place Building, 604 Shaw Blvd
-    Pasig City, 1600, Philippines
+    6C, Emerald Place Building,
+    604 Shaw Blvd
+    Pasig City, 1600,
+    Philippines
   tel:
     text: +63 2 4777078
     href: 006324777078

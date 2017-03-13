@@ -1,7 +1,10 @@
 - name: Hong Kong
   address: |
-    Units 1901-1903, 19/F, Bonham Trade Centre
-    50 Bonham Strand, Sheung Wan, Hong Kong
+    Units 1901-1903, 19/F,
+    Bonham Trade Centre
+    50 Bonham Strand,
+    Sheung Wan,
+    Hong Kong
     (MTR Exit A2)
   tel:
     text: +852 2819 1108
@@ -22,7 +25,8 @@
 - name: China - Shanghai
   address: |
     **ihD (Shanghai) Technology Consultant Co. Ltd**
-    Unit F, 19/F, Zhongxi Mansion, 121 Jiangsu Road,
+    Unit F, 19/F, Zhongxi Mansion,
+    121 Jiangsu Road,
     Changning District,
     Shanghai,
     China
@@ -54,8 +58,11 @@
 - name: Malaysia
   address: |
     **ihDesign Sdn Bhd**
-    Unit 5-40-2, No. 14, Persiaran Anggerik Vanilla
-    Kota Kemuning, 40460 Shah Alam, Selangor, Malaysia
+    Unit 5-40-2, No. 14,
+    Persiaran Anggerik Vanilla
+    Kota Kemuning, 40460 Shah Alam,
+    Selangor,
+    Malaysia
   tel:
     text: +60 3 3884 9808
     href: 0060338849808
@@ -68,8 +75,10 @@
 - name: Philippines
   address: |
     **ihD Philippines Ltd. Inc.**
-    6C, Emerald Place Building, 604 Shaw Blvd
-    Pasig City, 1600, Philippines
+    6C, Emerald Place Building,
+    604 Shaw Blvd
+    Pasig City, 1600,
+    Philippines
   tel:
     text: +63 2 4777078
     href: 006324777078
@@ -81,7 +90,8 @@
 
 - name: India
   address: |
-    **ihD Technology Consultant Pvt Ltd India: E-001 Ashok Vihar**
+    **ihD Technology Consultant Pvt Ltd India**
+    E-001 Ashok Vihar
     Off. Military road
     Marol, Andheri (East)
     Mumbai - 400 072

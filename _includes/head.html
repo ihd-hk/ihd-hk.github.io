@@ -44,6 +44,7 @@
       select2: 'select2/select2.min',
       underscore: 'underscore-min',
       // tether: 'tether/tether.min',
+      touchSwipe: 'jquery.touchSwipe.min',
       app: '../app'
     },
     shim: {
@@ -57,7 +58,7 @@
       //   deps: [ 'bootstrap/util', 'tether' ]
       // },
       'bootstrap/carousel': {
-        deps: [ 'bootstrap/util' ]
+        deps: [ 'touchSwipe', 'bootstrap/util' ]
       }
     },
     deps: []

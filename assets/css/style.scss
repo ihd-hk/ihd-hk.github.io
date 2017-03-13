@@ -119,7 +119,10 @@ footer {
 }
 
 .carousel-cover-image {
-  height: 500px;
+  height: 200px;
+  @include media-breakpoint-up(md) {
+    height: 500px;
+  }
   background-size: cover;
   background-position: center;
 }
@@ -166,14 +169,7 @@ footer {
   width: 125px;
 }
 
-// @TODO
-// #contact_page {
-//   @media (max-width: $dl-horizontal-breakpoint - 1) {
-//     dd {
-//       margin-bottom: $line-height-base;
-//     }
-//   }
-// }
+
 #portfolio_filters-sticky-wrapper {
   z-index: 100;
   position: relative;
@@ -182,86 +178,9 @@ footer {
   background: rgba(255,255,255, 0.9);
   padding: 10px 0;
 }
-// #porfolio_grid {
-//   .portfolio-item {
-//     @extend .col-md-3;
-//     @extend .col-sm-4;
-//     @extend .col-6;
-
-//     img {
-//       width: 100%;
-//     }
-//     h2 {
-//       font-size: $font-size-h5;
-//       text-align: center;
-//       font-weight: normal;
-//       margin:0 0 1em 0;
-//     }
-
-//     .card {
-//       background: #fafafa;
-//       border: 1px solid $gray-lighter;
-//       margin-top: $grid-gutter-width-base / 2;
-//       margin-bottom: $grid-gutter-width-base / 2;
-//       overflow: hidden;
-//       .card-content {
-//         padding: $grid-gutter-width-base / 2;
-//       }
-//     }
-
-//     p.labels {
-//       text-align: right;
-//       margin: 0;
-//       font-size:0;
-//       line-height: 0;
-//       span.label {
-//         font-size: 12px;
-//         line-height: 2em;
-//         margin-left: 0.2em;
-//         font-weight: lighter;
-//         padding: 0.25em 0.6em;
-//         color: #808080;
-//         background-color: rgba(0,0,0, 0.06);
-//       }
-//     }
-
-//     .image-container {
-//       width: 100%;
-//       padding-bottom: 100%;
-//       position: relative;
-//       height: 0;
-//       overflow: hidden;
-//       img {
-//         display: block;
-//         width: 100%;
-//         height: 100%;
-//         position: absolute;
-//         left:0;
-//         transition: all .3s ease-in-out;
-//       }
-//       img:nth-child(2) {
-//         opacity: 0;
-//       }
-//       &:hover {
-//         img:nth-child(2) {
-//           opacity: 1;
-//         }
-//       }
-//     }
-//   }
-// }
 
 
 #portfolio_page {
-  // .card-columns {
-  //   @include media-breakpoint-only(lg) {
-  //     column-count: 4;
-  //   }
-  //   @include media-breakpoint-only(xl) {
-  //     column-count: 5;
-  //   }
-  // }
-
   .card {
     &.has-images {
       .card-block {
@@ -307,31 +226,70 @@ footer {
 
 #contact_page {
   dl {
-    @extend .row;
+    @include make-row();
     margin-bottom: 0;
     dt {
-      @extend .col-md-2;
-      @extend .text-right;
+      @extend %grid-column;
+      @include media-breakpoint-up(md) {
+        @include make-col(2);
+      }
+      @include media-breakpoint-up(sm) {
+        text-align: right;
+        @include make-col(3);
+      }
       &:after {
         content: ':';
       }
     }
     dd {
-      @extend .col-md-10;
+      @extend %grid-column;
+      @include media-breakpoint-up(md) {
+        @include make-col(10);
+      }
+      @include media-breakpoint-up(sm) {
+        @include make-col(9);
+      }
       p {
-        margin:0;
+        margin: 0;
+        @include media-breakpoint-only(md) {
+          strong {
+            display: block;
+          }
+        }
       }
       &+dd {
-        @extend .offset-md-2;
+        @include media-breakpoint-up(md) {
+          @include make-col-offset(2);
+        }
+        @include media-breakpoint-up(sm) {
+          @include make-col-offset(3);
+        }
       }
-    }
-    &.address {
-      dd {
-        white-space: pre;
+      &.address {
+        white-space: pre-line;
       }
     }
   }
 }
+
+.company-features {
+  h6 {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+
+    @include media-breakpoint-down(sm) {
+      position: absolute;
+      bottom: 0;
+      left: $grid-gutter-width-base / 2;
+      right: $grid-gutter-width-base / 2;
+      background: rgba(255,255,255, 0.5);
+      text-shadow: 0 0 2px white;
+      padding: 0.5em 0;
+    }
+  }
+}
+
 
 .row {
   &.copyright {
@@ -346,13 +304,23 @@ footer {
         height: 3em;
         margin-right: 0.5em;
         float: left;
+        @include media-breakpoint-only(md) {
+          float: none;
+          margin: 0 auto 0.5em;
+          display: block;
+        }
       }
       p {
         margin: 0;
         font-size: 0.8em;
-        line-height: 1.25em;
-        @extend .text-center;
-        float: left;
+        line-height: 3.75em;
+        @include media-breakpoint-up(sm) {
+          line-height: 1.25em;
+          text-align: center;
+        }
+        @include media-breakpoint-up(lg) {
+          margin-left: 4.375em;  // ( (3em + 0.5em) / 0.8em)... width+margin / font-size
+        }
       }
     }
   }

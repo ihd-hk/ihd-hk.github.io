@@ -21,8 +21,9 @@ You can contact us on this email or at any of the local offices listed below.
 ## {{ location.name }}
 
 {% if location.address %}
+
 Adddress
-: {{ location.address }}{:.address}
+: {:.address} {{ location.address }}
 {% endif %}
 
 
