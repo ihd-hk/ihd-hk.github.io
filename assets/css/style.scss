@@ -58,7 +58,7 @@ footer {
     display: block;
     position: absolute;
     right: 0;
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(md) {
       left: 0;
     }
     @include media-breakpoint-up(lg) {
@@ -86,7 +86,7 @@ footer {
       .nav-link {
         line-height: 22px;
         padding: 14px 8px;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         @include media-breakpoint-up(lg) {
           padding: 14px;
           font-size: 1rem;
@@ -304,7 +304,7 @@ footer {
         height: 3em;
         margin-right: 0.5em;
         float: left;
-        @include media-breakpoint-only(md) {
+        @include media-breakpoint-between(sm, md) {
           float: none;
           margin: 0 auto 0.5em;
           display: block;

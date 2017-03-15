@@ -9,7 +9,7 @@ language: en
 Our Mission Statement “Turning Dreams into Reality” is what we do – as a Team of experienced, practical and pro-active Consultants and Engineers, we navigate Technology and Acoustics, applying the most-fitting solutions to your needs and budget
 </div></div></div>
 
-{% include homepage_carousel.html %}
+{% include homepage_carousel.html slides=site.data.homepage_carousel_en %}
 
 <div class="container"><div class="row"><div class="col-md-12">
 {:.text-center}

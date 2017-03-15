@@ -5,16 +5,16 @@ permalink: /ch/team.html
 language: ch
 ---
 
-# Team
+# 团队成员
 
-## Company Structure
+## 公司构架
 
-Our consultants and project managers report directly to the principal consultant in all aspects.
+顾问和项目经理直接向首席顾问汇报项目所有情况
 
 {:.text-center}
 ![Org Chart]({{ "/images/org_chart_c.jpg" | relative_url }})
 
-## Our Team
+## 团队成员
 
 {% capture profile %}
 BSC. ENG(HONS), C.ENG, MIET, AES, CTS-D

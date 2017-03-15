@@ -46,32 +46,22 @@ navigation:
   - text: Contact
     url: '/contact.html'
   ch:
-  - text: Home
+  - text: 主页
     url: '/ch/'
-  - text: About
+  - text: 关于德勤
     url: '/ch/about.html'
-  - text: Services
+  - text: 服务范围
     url: '/ch/services.html'
-  - text: Team
+  - text: 团队成员
     url: '/ch/team.html'
-  - text: Portfolio
+  - text: 项目案例
     url: '/ch/portfolio.html'
-  - text: Contact
+  - text: 联系方式
     url: '/ch/contact.html'
 
 api_keys:
   google_maps: 'AIzaSyBDRrK7p4IlWKWS9e2PbxS_7K6a46lnkv4'
 
-carousel_images:
-  - image: homepage-lake.jpg
-    header: Kempinski Beijing ELV & Audio-Visual
-    text: Hospitality - Home Automation - Residential
-  - image: homepage-racecourse.jpg
-    header: Hong Kong Jockey Club Audio-Visual & Acoustics
-    text: Leisure - Retail - Casino - Racecourse - Museum - Visitor Centre
-  - image: homepage-bj-cityscape.jpg
-    header: China World Summit Wing ELV & Audio-Visual Systems
-    text: Corporate – Meeting/Collaboration/Huddle – Office – Legal
 
 incremental: true
 

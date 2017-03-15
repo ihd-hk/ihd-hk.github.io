@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Contact
+title: 联系方式
 permalink: /ch/contact.html
 page_id: 'contact_page'
 language: ch
 jumbo_include: 'contact_map.html'
 ---
 
-# Contact
+# 联系方式
 
 <div class="row"><div class="col-md-12">
-You can contact us on this email or at any of the local offices listed below.
+你可以通过下面的邮箱联系我们或者联系下列的分公司
 
 **电邮:** [ihd@ihd-kh.com](mailto:ihd@ihd-kh.com)
 </div></div>

@@ -11,7 +11,11 @@
     {{ content }}
   </div>
 
-  {% include footer.html %}
+  {% if page.language == "en" %}
+    {% include footer-en.html %}
+  {% else %}
+    {% include footer-ch.html %}
+  {% endif %}
 </body>
 
 </html>
