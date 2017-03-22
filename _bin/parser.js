@@ -71,11 +71,13 @@ data.items = data.items.filter(function(item) {
 });
 
 data.items.forEach(function(item, index, items) {
-  if (!(item.country_en in data.countries)) {
-    data.countries[item.country_en] = {
-      en: item.country_en,
-      ch: item.country_ch,
-    };
+  if (item.country_en) {
+    if (!(item.country_en in data.countries)) {
+      data.countries[item.country_en] = {
+        en: item.country_en,
+        ch: item.country_ch,
+      };
+    }
   }
   items[index].files = glob.sync(item.project + '-*.jpg', {cwd: 'images/portfolio', nocase: true});
 });
