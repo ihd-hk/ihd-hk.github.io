@@ -12,7 +12,7 @@ language: ch
 顾问和项目经理直接向首席顾问汇报项目所有情况
 
 {:.text-center}
-![Org Chart]({{ "/images/org_chart_c.jpg" | relative_url }})
+![Org Chart]({{ "/images/org_chart_ch.svg" | relative_url }}){:.img-fluid.col-sm-6}
 
 ## 团队成员
 
