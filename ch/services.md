@@ -30,14 +30,12 @@ language: ch
 - 第五步: 项目执行, 包括对已指定的音视频承包商进行技术指导, 检查阶段性项目现场执行情况,对工程质量进行评估, 项目跟踪,并协助最后的测试和试运行以及项目移交
 - 如对我们有更深入了解 , 请下载我司公司介绍书:
 
-## Further Information
-For more information about our company, download our Corporate Profile here:
+## 深入了解
+如对我们有更深入了解, 请下载我司介绍书:
 
 {:.text-center}
 [![English Corporate Profile]({{ "/images/services/corporate-profile-en.png" | relative_url }}){:.service-cover}]({{ "/assets/PA000-D-999 Rev Q - ihD Corporate Profile.pdf" | relative_url }}) [![Chinese Corporate Profile]({{ "/images/services/corporate-profile-ch.png" | relative_url }}){:.service-cover}]({{ "/assets/PA000-D-999 Rev Q - ihD Corporate Profile (Chi).pdf" | relative_url }})
 
 ## Qualifications
 
-ihD has qualified as an InfoComm International AV Provider of Excellence, or APEx. The InfoComm APEx program is a marketing recognition program for integration companies and AV design consulting firms dedicated to upholding industry excellence by providing quality service to customers. The InfoComm APEx program recognizes companies based on the number of employees holding key industry certifications, including InfoComm’s CTS credential, completion of continuing education classes, and positive customer survey responses. APEx providers must also prove that they meet or exceed the requirements within 2 ANSI/INFOCOMM standards, the Standard Guide for Audiovisual Systems Design and Coordination Processes and the AV System Performance Verification Standard, to foster better communication between the AV provider and the client.
-
-“The APEx designation gives AV companies a mark of distinction in the marketplace,” said David Labuskes, CTS, RCDD, InfoComm International’s Executive Director and Chief Executive Officer. “Customers of APEx companies can be confident of the AV provider’s professionalism and commitment to ongoing training, customer service and dedication to excellence.”
+德勤设计具有InfoComm组织“国际音视频最佳解决方案提供者”资格认证，即APEx认证ᇭ该认证是授予有能力⃉客户提供最优质服务的音视频集成公司和设计咨询公司的最佳市场认可ᇭ该认证是基于公司内部员工所拥有音视频领域认证证书数量⃉依据，其内容包括InfoComm的 CTS认证ᇬ音视频持续教育课程完成数量和客户调查反馈情况ᇭ被APEx认证的公司必须保证可满足甚至超越ANSI/INFOCOMM 标准的要求，音视频系统设计指导标准，及项目管理和音视频系统验收标准，培养音视频公司与业⃊之间更好的交流ᇭInfoComm执行总裁David Labuskes说：“APEx认证是音视频行业中不同视音频公司区分的一个很好的依据，客户可以充分信任具有APEx认证的音视频公司，相信他们的专业水平和执行能力”。
