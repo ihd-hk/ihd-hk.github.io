@@ -1,5 +1,5 @@
 - name: 香港
-  address: >
+  address: |
     德勤設計有限公司
     香港上环文咸东街50号宝恒商业中心19楼1901-03室
     (上环地铁站A2出口)
@@ -20,7 +20,7 @@
         href: 0085291801065
 
 - name: 上海
-  address: >
+  address: |
     上海德恳設計咨询顾问有限公司
     上海市长宁区江苏路121号中西大厦19楼F座
   tel:
@@ -33,7 +33,7 @@
     - name: 林佳 Cathy Lin
 
 - name: 北京
-  address: >
+  address: |
   上海德恳設計咨询顾问有限公司
   北京市东城区东直门 外斜街宏天商务1306室
   tel:
@@ -46,7 +46,7 @@
     - name: 刘曼丽 Mandy Liu
 
 - name: 马来西亚
-  address: >
+  address: |
     **ihDesign Sdn Bhd**
     Unit 5-40-2, No. 14,
     Persiaran Anggerik Vanilla
@@ -62,7 +62,7 @@
     - name: 莊國雄Chong Kok Siong
 
 - name: 菲律宾
-  address: >
+  address: |
     **ihD Philippines Ltd. Inc.**
     6C, Emerald Place Building,
     604 Shaw Blvd
@@ -78,7 +78,7 @@
     - name: Judith Paz
 
 - name: 印度
-  address: >
+  address: |
     **ihD Technology Consultant Pvt Ltd India**
     E-001 Ashok Vihar
     Off. Military Road
