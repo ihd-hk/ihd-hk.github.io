@@ -3,6 +3,7 @@ layout: page
 title: 服务
 permalink: /ch/services.html
 language: ch
+redirect_from: /c_services.html
 ---
 
 # 服务
