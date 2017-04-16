@@ -3,6 +3,7 @@ layout: page
 title: Team
 permalink: /team.html
 language: en
+redirect_from: /e_team.html
 ---
 
 # Team
