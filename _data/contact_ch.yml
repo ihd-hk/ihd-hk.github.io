@@ -51,8 +51,7 @@
     Unit 5-40-2, No. 14,
     Persiaran Anggerik Vanilla
     Kota Kemuning, 40460 Shah Alam,
-    Selangor,
-    Malaysia
+    Selangor, 马来西亚 Malaysia
   tel:
     text: +60 3 3884 9808
     href: 0060338849808
@@ -68,7 +67,7 @@
     6C, Emerald Place Building,
     604 Shaw Blvd
     Pasig City, 1600,
-    Philippines
+    菲律宾 Philippines
   tel:
     text: +63 2 4777078
     href: 006324777078
@@ -79,13 +78,13 @@
     - name: Judith Paz
 
 - name: 印度
-  address: |
+  address: >
     **ihD Technology Consultant Pvt Ltd India**
     E-001 Ashok Vihar
     Off. Military Road
     Marol, Andheri (East)
     Mumbai - 400 072
-    India
+    印度 India
   tel:
     text: +91 9820709184
     href: 00919820709184
