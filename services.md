@@ -3,6 +3,7 @@ layout: page
 title: Services
 permalink: /services.html
 language: en
+redirect_from: /e_services.html
 ---
 
 # Services
