@@ -12,7 +12,7 @@ jumbo_include: 'contact_map.html'
 <div class="row"><div class="col-md-12">
 你可以通过下面的邮箱联系我们或者联系下列的分公司
 
-**电邮:** [ihd@ihd-kh.com](mailto:ihd@ihd-kh.com)
+**电邮:** [ihd@ihd-hk.com](mailto:ihd@ihd-hk.com)
 </div></div>
 
 <div class="row">
