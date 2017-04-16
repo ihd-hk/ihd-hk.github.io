@@ -10,11 +10,11 @@
     text: +852 2819 1077
     href: 0085228191077
   contact:
-    - name: 夏德勤 Ian Duncan Harris
+- name: 夏德勤 Ian Duncan Harris
       tel:
         text: +852 9732 0384
         href: 0085297320384
-    - name: 林忠祥 Adrian Lim
+- name: 林忠祥 Adrian Lim
       tel:
         text: +852 9180 1065
         href: 0085291801065
@@ -32,26 +32,14 @@
   contact:
     - name: 林佳 Cathy Lin
 
-- name: 北京
-  address: >
-  上海德恳設計咨询顾问有限公司
-  北京市东城区东直门 外斜街宏天商务1306室
-  tel:
-    text: +86 21-6136-3096
-    href: 00862161363096
-  fax:
-    text: +86 21-6136-3095
-    href: 00862161363095
-  contact:
-    - name: 刘曼丽 Mandy Liu
-
 - name: 马来西亚
   address: >
     **ihDesign Sdn Bhd**
     Unit 5-40-2, No. 14,
     Persiaran Anggerik Vanilla
     Kota Kemuning, 40460 Shah Alam,
-    Selangor, 马来西亚 Malaysia
+    Selangor,
+    Malaysia
   tel:
     text: +60 3 3884 9808
     href: 0060338849808
@@ -59,7 +47,7 @@
     text: +60 3 3884 9809
     href: 0060338849809
   contact:
-    - name: Chong Kok Siong
+    - name: 莊國雄 Chong Kok Siong
 
 - name: 菲律宾
   address: >
@@ -67,7 +55,7 @@
     6C, Emerald Place Building,
     604 Shaw Blvd
     Pasig City, 1600,
-    菲律宾 Philippines
+    Philippines
   tel:
     text: +63 2 4777078
     href: 006324777078
@@ -76,17 +64,3 @@
     href: 006324777078
   contact:
     - name: Judith Paz
-
-- name: 印度
-  address: >
-    **ihD Technology Consultant Pvt Ltd India**
-    E-001 Ashok Vihar
-    Off. Military Road
-    Marol, Andheri (East)
-    Mumbai - 400 072
-    印度 India
-  tel:
-    text: +91 9820709184
-    href: 00919820709184
-  contact:
-   - name: Claron D'Souza
