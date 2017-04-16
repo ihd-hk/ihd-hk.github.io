@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about.html
 language: en
+redirect_from: /e_about.html
 ---
 
 # About
