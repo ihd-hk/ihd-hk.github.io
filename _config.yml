@@ -23,6 +23,7 @@ gems:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
   - jekyll-seo-tag
+  - jekyll-redirect-from
 exclude:
   - assets/bootstrap
   - Gemfile
