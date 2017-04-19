@@ -65,13 +65,11 @@ api_keys:
   google_maps: 'AIzaSyBDRrK7p4IlWKWS9e2PbxS_7K6a46lnkv4'
 
 
-incremental: true
-
 # CANNOT CHANGE THESE
 lsi: false
 safe: true
 source: ""
-# incremental: false
+incremental: false
 highlighter: rouge
 gist:
   noscript: false
