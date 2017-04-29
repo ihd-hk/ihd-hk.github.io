@@ -32,7 +32,7 @@ Moving to Hong Kong, Ian operated the Consultancy Group within LSI, a Systems In
 MBA B.ENG(HONS), MIET, CTS<br/>
 Business Development / Senior Consultant
 
-Consultant previously managing large AV Projects departments and formerly project manager in AV Systems in Singapore and Hong Kong. Native Putonghua and English, fluent in Cantonese. Graduate of Chinese University (MBA) and Manchester Institute of Technology (B.Eng), University of Manchester Institute of Science and Technology (UMIST) in B.Eng (Hons)
+Consultant previously managing large AV Projects departments and formerly project manager in AV Systems in Singapore and Hong Kong. Native Putonghua and English, fluent in Cantonese. Graduate of Chinese University (MBA) and University of Manchester Institute of Science and Technology (UMIST) in B.Eng (Hons)
 {% endcapture %}
 {% include team-profile.html name="Adrian Lim" image_url="/images/team/adrian-lim.jpg" profile=profile%}
 
