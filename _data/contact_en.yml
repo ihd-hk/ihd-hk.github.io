@@ -31,13 +31,13 @@
     Shanghai,
     China
   tel:
-    text: +86 21-6136-3096
-    href: 00862161363096
+    text: +8613810948246
+    href: 008613810948246
   fax:
     text: +86 21-6136-3095
     href: 00862161363095
   contact:
-    - name: Ms. Cathy Lin
+    - name: Mr. Adrian Lim
 
 - name: Beijing
   address: |
@@ -50,10 +50,10 @@
     text: +86 21-6136-3096
     href: 00862161363096
   fax:
-    text: +86 21-6136-3095
-    href: 00862161363095
+    text: +8613810948246
+    href: 008613810948246
   contact:
-    - name: Ms. Mandy Liu
+    - name: Mr. Adrian Lim
 
 - name: Malaysia
   address: |
