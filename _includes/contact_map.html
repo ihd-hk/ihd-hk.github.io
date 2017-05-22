@@ -1,41 +1,4 @@
 <div id="map"></div>
-<script>
-  function initMap() {
-    var locations = [
-      { name: 'Hong Kong', lat: 22.285751, lng: 114.151216 },
-      { name: 'Shanghai', lat: 31.223229, lng: 121.429183 },
-      { name: 'Beijing', lat: 39.944872, lng: 116.440303 },
-      { name: 'Malaysia', lat: 3.002691, lng: 101.539828 },
-      { name: 'Phillipines', lat: 14.583366, lng: 121.051311 },
-      { name: 'India', lat: 19.115796, lng: 72.887422 }
-    ];
-
-    var center = { lat: 0, lng: 0 };
-
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 4,
-      zoomControl: true,
-      mapTypeControl: false,
-      rotateControl: false,
-      streetViewControl: false,
-      fullscreenControl: false,
-      scrollwheel: false
-    });
-
-    locations.forEach(function(location) {
-      new google.maps.Marker({
-        position: location,
-        map: map,
-        title: location.name,
-        animation: google.maps.Animation.DROP
-      });
-      center.lat += location.lat;
-      center.lng += location.lng;
-    });
-    center.lat /= locations.length;
-    center.lng /= locations.length;
-
-    map.setCenter(center);
-  }
+  <script>
+  require.deps.push('app/contact-map')
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.api_keys.google_maps }}&callback=initMap"></script>

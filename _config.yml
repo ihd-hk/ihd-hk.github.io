@@ -61,9 +61,6 @@ navigation:
   - text: 联系方式
     url: '/ch/contact.html'
 
-api_keys:
-  google_maps: 'AIzaSyBDRrK7p4IlWKWS9e2PbxS_7K6a46lnkv4'
-
 
 # CANNOT CHANGE THESE
 lsi: false

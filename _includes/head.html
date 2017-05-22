@@ -43,7 +43,6 @@
       shuffle: 'shuffle/shuffle.min',
       select2: 'select2/select2.min',
       underscore: 'underscore-min',
-      // tether: 'tether/tether.min',
       touchSwipe: 'jquery.touchSwipe.min',
       app: '../app'
     },
@@ -57,11 +56,11 @@
       'bootstrap/collapse': {
         deps: [ 'bootstrap/util' ]
       },
-      // 'bootstrap/tooltip': {
-      //   deps: [ 'bootstrap/util', 'tether' ]
-      // },
       'bootstrap/carousel': {
         deps: [ 'touchSwipe', 'bootstrap/util' ]
+      },
+      'leaflet.ChineseTmsProviders': {
+        deps: [ 'leaflet/leaflet' ]
       }
     },
     deps: []
