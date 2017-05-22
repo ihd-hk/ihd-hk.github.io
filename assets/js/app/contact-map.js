@@ -3,7 +3,7 @@ requirejs(['leaflet/leaflet', 'leaflet.ChineseTmsProviders'], function (L) {
     zoomControl: false
   });
 
-  L.tileLayer.chinaProvider('Google.Normal.Map', {}).addTo(map);
+  L.tileLayer.chinaProvider('Geoq.Normal.Gray', {}).addTo(map);
 
   var locations = [
     { name: 'Hong Kong', lat: 22.285751, lng: 114.151216 },
