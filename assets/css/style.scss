@@ -33,12 +33,12 @@ $navbar-bg: rgba(#f0f0f0, 0.95);
 
 body > #page {
   background-color: $body-bg;
-  padding-bottom: $line-height-base;
+  padding-bottom: 1em;
 }
 
 body {
   background-color: $footer-background;
-  border-top: 50px solid $body-bg;
+  border-top: 70px solid $body-bg;
 }
 footer {
   background-color: $footer-background;
