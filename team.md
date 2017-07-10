@@ -8,13 +8,6 @@ redirect_from: /e_team.html
 
 # Team
 
-## Company Structure
-
-Our consultants and project managers report directly to the principal consultant in all aspects.
-
-{:.text-center}
-![Org Chart]({{ "/images/org_chart_en.svg" | relative_url }}){:.img-fluid.col-sm-6}
-
 ## Our Team
 
 {% capture profile %}
