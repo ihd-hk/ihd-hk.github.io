@@ -558,50 +558,6 @@
     },
     {
       "nda": "",
-      "project": "PA161035",
-      "date": "Dec-16",
-      "title_en": "Bloomberg Hong Kong ",
-      "title_ch": "香港彭博",
-      "disciplines": [
-        "A"
-      ],
-      "codes": [
-        "I"
-      ],
-      "city_en": "Hong Kong",
-      "city_ch": "香港",
-      "country_en": "Hong Kong",
-      "country_ch": "香港",
-      "hotel_en": "0",
-      "hotel_ch": "",
-      "desc_en": null,
-      "desc_ch": null,
-      "files": []
-    },
-    {
-      "nda": "",
-      "project": "PA162001",
-      "date": "Sep-16",
-      "title_en": "Bloomberg Mumbai",
-      "title_ch": "印度孟买彭博 ",
-      "disciplines": [
-        "A"
-      ],
-      "codes": [
-        "I"
-      ],
-      "city_en": "Mumbai",
-      "city_ch": "孟买",
-      "country_en": "India",
-      "country_ch": "印度",
-      "hotel_en": "0",
-      "hotel_ch": "",
-      "desc_en": null,
-      "desc_ch": null,
-      "files": []
-    },
-    {
-      "nda": "",
       "project": "PA156009",
       "date": "Jul-15",
       "title_en": "Boutique Hotel in Shenzhen",
