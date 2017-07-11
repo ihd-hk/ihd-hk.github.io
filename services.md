@@ -8,8 +8,6 @@ redirect_from: /e_services.html
 
 # Services Provided
 
-## Scope of services provided
-
 ihD provides essential and timely professional consultancy in the ELV, IT, PABX, Security, Audio-Visual, and Acoustics disciplines, with fully-detailed design services carried out entirely in-house:
 
 - **ELV Extra-Low Voltage Systems.** Design, comprising the extra-low voltage systems for Facilities, such as Building Management Automation, Car Park Management system, Guestroom Management Systems, and more
