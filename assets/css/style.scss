@@ -21,6 +21,8 @@ $card-spacer-x: 1rem;
 
 $carousel-control-opacity: 0.75;
 
+$spacer: 0.5rem;
+
 
 @import "bootstrap/bootstrap";
 @import "select2/core.scss";
@@ -28,21 +30,26 @@ $carousel-control-opacity: 0.75;
 @import "leaflet/leaflet";
 
 $footer-background: $gray-dark;
+$footer-color: $gray-lighter;
+
 $navbar-bg: rgba(#f0f0f0, 0.95);
 
+p {
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
 
 body > #page {
   background-color: $body-bg;
-  padding-bottom: 1em;
 }
 
 body {
   background-color: $footer-background;
-  border-top: 70px solid $body-bg;
+  border-top: 60px solid $body-bg;
 }
 footer {
   background-color: $footer-background;
-  color: $gray-lighter;
+  color: $footer-color;
 
   &>.container {
     padding-top: 10px;
@@ -293,12 +300,20 @@ footer {
 
 .row {
   &.copyright {
-    margin: 1em 0 0;
+    margin: $spacer 0 0;
     color: lighten($footer-background, 25%);
     @extend .small;
+    address {
+      margin-bottom: $spacer;
+    }
   }
   &.our-values {
     div {
+      a {
+        display: block;
+        height: 100%;
+        color: $footer-color;
+      }
       img {
         width: 3em;
         height: 3em;
@@ -314,12 +329,26 @@ footer {
         margin: 0;
         font-size: 0.8em;
         line-height: 3.75em;
+
+        // Vertical align
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+        @include media-breakpoint-between(sm, md) {
+          top: 0;
+          transform: none;
+        }
+
         @include media-breakpoint-up(sm) {
           line-height: 1.25em;
           text-align: center;
         }
         @include media-breakpoint-up(lg) {
           margin-left: 4.375em;  // ( (3em + 0.5em) / 0.8em)... width+margin / font-size
+        }
+        @include media-breakpoint-up(xl) {
+          margin-right: 1rem;  // No maths... just looks right ;)
         }
       }
     }
