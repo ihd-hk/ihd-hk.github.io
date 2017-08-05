@@ -41,8 +41,6 @@ navigation:
     url: '/about.html'
   - text: Services
     url: '/services.html'
-  - text: Team
-    url: '/team.html'
   - text: Portfolio
     url: '/portfolio.html'
   - text: Contact
@@ -54,8 +52,6 @@ navigation:
     url: '/ch/about.html'
   - text: 服务范围
     url: '/ch/services.html'
-  - text: 团队成员
-    url: '/ch/team.html'
   - text: 项目案例
     url: '/ch/portfolio.html'
   - text: 联系方式

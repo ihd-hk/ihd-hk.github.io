@@ -23,6 +23,9 @@ $carousel-control-opacity: 0.75;
 
 $spacer: 0.5rem;
 
+$figure-caption-color: #000;
+
+$transition-team-row: cubic-bezier(0.86, 0, 0.07, 1);
 
 @import "bootstrap/bootstrap";
 @import "select2/core.scss";
@@ -166,9 +169,50 @@ footer {
   margin-bottom: 1em;
 }
 
-.team-member {
-  h3 {
-    margin-top: 0;
+.team-row {
+  justify-content: space-around;
+  figure {
+    position: relative;
+    overflow: hidden;
+
+    p {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    img {
+      @include transition();
+    }
+
+    figcaption {
+      @extend %grid-column;
+      @include transition();
+
+      position: absolute;
+      overflow: hidden;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transform: translateY(100%);
+
+      p {
+        padding: $spacer $spacer;
+        background-color: rgba(255,255,255, 0.75);
+        color: $body-color;
+        text-align: center;
+      }
+    }
+
+    &:hover {
+      img {
+        filter: gray; /* IE6-9 */
+        -webkit-filter: grayscale(1) brightness(0.75) blur(2px); /* Google Chrome, Safari 6+ & Opera 15+ */
+        filter: grayscale(1) brightness(0.75) blur(2px); /* Microsoft Edge and Firefox 35+ */
+      }
+      figcaption {
+        transform: translateY(0%);
+      }
+    }
   }
 }
 

@@ -3,6 +3,9 @@ layout: page
 title: About
 permalink: /ch/about.html
 language: ch
+redirect_from:
+  - /c_about.html
+  - /ch/team.html
 ---
 
 # 公司简介
@@ -12,3 +15,7 @@ language: ch
 德勤在项目设计和项目执行中拥有良好声誉。虽然目前公司并不提供设备供应和安装的服务，但是我们拥有多年项目管理的实战经验，使我们在工程评估协调以及对音视频系统安装人员的监督方面颇具优势，能确保每个工程的顺利完成。
 
 德勤首席音视频顾问 Ian D. Harris BSc (Hons), C.Eng, MIET, AES, CTS-D 在公司香港总部工作，其它各个分公司都具有一批专业的和激情的团队，为客户提供专业的服务。
+
+## 团队成员
+
+{% include team.md %}
