@@ -71,9 +71,6 @@ footer {
     @include media-breakpoint-up(md) {
       left: 0;
     }
-    @include media-breakpoint-up(lg) {
-      height: 70px;
-    }
   }
 
 }
