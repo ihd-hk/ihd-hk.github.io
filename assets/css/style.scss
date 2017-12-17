@@ -168,6 +168,16 @@ footer {
 
 .team-row {
   justify-content: space-around;
+  &:hover {
+    figure {
+      img {
+        filter: gray; /* IE6-9 */
+        -webkit-filter: opacity(0.25) brightness(0.75) blur(2px); /* Google Chrome, Safari 6+ & Opera 15+ */
+        filter: opacity(0.25) brightness(0.75) blur(2px); /* Microsoft Edge and Firefox 35+ */
+      }
+    }
+  }
+
   figure {
     position: relative;
     overflow: hidden;
@@ -202,9 +212,8 @@ footer {
 
     &:hover {
       img {
-        filter: gray; /* IE6-9 */
-        -webkit-filter: grayscale(1) brightness(0.75) blur(2px); /* Google Chrome, Safari 6+ & Opera 15+ */
-        filter: grayscale(1) brightness(0.75) blur(2px); /* Microsoft Edge and Firefox 35+ */
+        -webkit-filter: none;
+        filter: none;
       }
       figcaption {
         transform: translateY(0%);
