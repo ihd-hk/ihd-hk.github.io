@@ -47,6 +47,6 @@ gem 'jekyll-theme-tactile', '0.0.4'
 gem 'jekyll-theme-time-machine', '0.0.4'
 
 # See: https://pages.github.com/versions/
-gem 'nokogiri', '1.7.2'
+#gem 'nokogiri', '1.7.2'
 
 gem "dotenv"
