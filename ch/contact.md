@@ -21,8 +21,9 @@ jumbo_include: 'contact_map.html'
 ## {{ location.name }}
 
 {% if location.address %}
+
 地址
-: {{ location.address }}
+: {:.address} {{ location.address }}
 {% endif %}
 
 
