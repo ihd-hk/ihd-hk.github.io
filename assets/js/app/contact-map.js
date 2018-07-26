@@ -11,7 +11,7 @@ requirejs(['leaflet/leaflet', 'leaflet.ChineseTmsProviders'], function (L) {
     { name: 'Beijing', lat: 39.944872, lng: 116.440303 },
     { name: 'Malaysia', lat: 3.002691, lng: 101.539828 },
     { name: 'Phillipines', lat: 14.583366, lng: 121.051311 },
-    { name: 'India', lat: 19.115796, lng: 72.887422 }
+    { name: 'India', lat: 13.0268553, lng: 77.6307368 }
   ];
 
   var bounds = [
