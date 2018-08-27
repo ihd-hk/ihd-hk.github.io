@@ -1,7 +1,6 @@
 requirejs(['leaflet/leaflet', 'leaflet.ChineseTmsProviders'], function (L) {
   var map = L.map('map', {
-    zoomControl: false,
-    tap: false
+    zoomControl: false
   });
 
   L.tileLayer.chinaProvider('Google.Normal.Map', {}).addTo(map);
