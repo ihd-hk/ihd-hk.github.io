@@ -42,13 +42,23 @@ p {
   text-align: justify;
 }
 
-body > #page {
-  background-color: $body-bg;
-}
-
 body {
   background-color: $footer-background;
-  border-top: 60px solid $body-bg;
+  border-top: 70px solid $body-bg;
+  @include media-breakpoint-up(md) {
+    border-top-width: 50px;
+  }
+
+  & > #page {
+    background-color: $body-bg;
+    padding-top: 10px;
+  }
+
+  &#contact_page {
+    #page {
+      padding-top: 0;
+    }
+  }
 }
 footer {
   background-color: $footer-background;
@@ -406,6 +416,9 @@ footer {
 }
 
 #map {
-  height: 600px;
+  height: 50vh;
+  @include media-breakpoint-up(md) {
+  height: 66vh;
+  }
   margin-bottom: 2rem;
 }

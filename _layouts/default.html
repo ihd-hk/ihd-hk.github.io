@@ -3,8 +3,7 @@
 
 {% include head.html %}
 
-<body>
-
+<body{% if page.page_id != null %} id="{{ page.page_id }}"{% endif %}>
   <div id="page">
     {% include nav.html %}
 

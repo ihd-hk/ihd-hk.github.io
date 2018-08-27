@@ -46,6 +46,8 @@ Contact
 {% endfor %}
 {% endif %}
 
+{:.d-block.d-sm-none}
+[Back To Top](#page)
 </div>
 {% endfor %}
 

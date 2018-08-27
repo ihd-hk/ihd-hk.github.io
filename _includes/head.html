@@ -54,6 +54,7 @@
       select2: 'select2/select2.min',
       underscore: 'underscore-min',
       touchSwipe: 'jquery.touchSwipe.min',
+      smoothScroll: 'smooth-scroll.polyfills.min',
       app: '../app'
     },
     shim: {
@@ -70,7 +71,7 @@
         deps: [ 'touchSwipe', 'bootstrap/util' ]
       },
       'leaflet.ChineseTmsProviders': {
-        deps: [ 'leaflet/leaflet' ]
+        deps: [ 'leaflet/leaflet', 'smoothScroll' ]
       }
     },
     deps: []
