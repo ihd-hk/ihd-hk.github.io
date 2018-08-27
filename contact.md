@@ -18,6 +18,7 @@ You can contact us on this email or at any of the local offices listed below.
 <div class="row">
 {% for location in site.data.contact_en %}
 <div class="col-md-6 my-4">
+{:#{{ location.id }}}
 ## {{ location.name }}
 
 {% if location.address %}
@@ -46,7 +47,7 @@ Contact
 {% endfor %}
 {% endif %}
 
-{:.d-block.d-sm-none}
+{:.d-block.d-sm-none.float-right}
 [Back To Top](#page)
 </div>
 {% endfor %}

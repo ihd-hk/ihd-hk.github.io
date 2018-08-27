@@ -18,6 +18,7 @@ jumbo_include: 'contact_map.html'
 <div class="row">
 {% for location in site.data.contact_ch %}
 <div class="col-md-6 my-4">
+{:#{{ location.id }}}
 ## {{ location.name }}
 
 {% if location.address %}
@@ -46,7 +47,8 @@ jumbo_include: 'contact_map.html'
 {% endfor %}
 {% endif %}
 
-
+{:.d-block.d-sm-none.float-right}
+[Back To Top](#page)
 </div>
 {% endfor %}
 
