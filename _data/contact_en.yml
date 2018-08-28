@@ -1,7 +1,7 @@
 - name: Hong Kong
   id: hong-kong
   address: |
-    Units 1901-1903, 19/F,
+    **Units 1901-1903, 19/F**
     Bonham Trade Centre
     50 Bonham Strand,
     Sheung Wan,
@@ -48,10 +48,10 @@
 - name: Beijing
   id: beijing
   address: |
-    1504 Block B Chaowai MEN Office Building
-    26 Chaoyangmen Street
-    Chaoyang District
-    Beijing
+    **1504 Block B Chaowai MEN Office Building**
+    26 Chaoyangmen Street,
+    Chaoyang District,
+    Beijing,
     China
   tel:
     text: +86 138 1094 8246
@@ -105,9 +105,9 @@
   id: india
   address: |
     **#1256, KAS Towers, 1st Floor**
-    HBR Layout
-    Outer Ring Road Hennur Junction
-    Bangalore - 560044
+    HBR Layout,
+    Outer Ring Road Hennur Junction,
+    Bangalore - 560044,
     India
   tel:
     text: +91 9538 211 399
