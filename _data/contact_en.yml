@@ -40,6 +40,10 @@
     href: 00862161363095
   contact:
     - name: Mr. Adrian Lim
+    - name: Mr. Ian Duncan Harris
+      tel:
+        text: +86 155 4688 5827
+        href: 008615546885827
 
 - name: Beijing
   id: beijing
@@ -57,6 +61,10 @@
     href: 00862161363095
   contact:
     - name: Mr. Adrian Lim
+    - name: Mr. Ian Duncan Harris
+      tel:
+        text: +86 155 4688 5827
+        href: 008615546885827
 
 - name: Malaysia
   id: malaysia
