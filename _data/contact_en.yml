@@ -44,10 +44,10 @@
 - name: Beijing
   id: beijing
   address: |
-    1203 Hongtian Shangwu,
-    Dongzhimen Wai Xiejie Street,
-    42 Dongcheng District,
-    Beijing,
+    1504 Block B Chaowai MEN Office Building
+    26 Chaoyangmen Street
+    Chaoyang District
+    Beijing
     China
   tel:
     text: +86 138 1094 8246
