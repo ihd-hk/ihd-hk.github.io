@@ -8,7 +8,7 @@ requirejs(['leaflet/leaflet', 'leaflet.ChineseTmsProviders'], function (L) {
   var locations = [
     { name: 'Hong Kong',   id: 'hong-kong',   lat: 22.285751,  lng: 114.151216 },
     { name: 'Shanghai',    id: 'shanghai',    lat: 31.223229,  lng: 121.429183 },
-    { name: 'Beijing',     id: 'beijing',     lat: 39.944872,  lng: 116.440303 },
+    { name: 'Beijing',     id: 'beijing',     lat: 39.9237520, lng: 116.4347290 },
     { name: 'Malaysia',    id: 'malaysia',    lat: 3.002691,   lng: 101.539828 },
     { name: 'Philippines', id: 'philippines', lat: 14.583366,  lng: 121.051311 },
     { name: 'India',       id: 'india',       lat: 13.0268553, lng: 77.6307368 }
