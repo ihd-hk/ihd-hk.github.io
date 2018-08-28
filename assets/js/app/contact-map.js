@@ -4,7 +4,7 @@ requirejs(['leaflet/leaflet', 'leaflet.ChineseTmsProviders'], function (L) {
   });
 
   L.tileLayer.chinaProvider('Google.Normal.Map', {}).addTo(map);
-,
+
   var locations = [
     { name: 'Hong Kong',   id: 'hong-kong',   lat: 22.285751, lng: 114.151216 },
     { name: 'Shanghai',    id: 'shanghai',    lat: 31.223229, lng: 121.429183 },
