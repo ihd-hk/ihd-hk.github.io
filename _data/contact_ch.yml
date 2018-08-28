@@ -33,6 +33,10 @@
     href: 00862161363095
   contact:
     - name: 林忠祥 Adrian Lim
+    - name: 夏德勤 Ian Duncan Harris
+      tel:
+        text: +86 155 4688 5827
+        href: 008615546885827
 
 - name: 北京
   id: beijing
@@ -47,6 +51,10 @@
     href: 00862161363095
   contact:
     - name: 林忠祥 Adrian Lim
+    - name: 夏德勤 Ian Duncan Harris
+      tel:
+        text: +86 155 4688 5827
+        href: 008615546885827
 
 - name: 马来西亚
   id: malaysia
