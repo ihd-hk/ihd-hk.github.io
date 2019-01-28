@@ -256,7 +256,7 @@ footer {
 #portfolio_page {
   .card {
     &.has-images {
-      .card-block {
+      .card-body {
         padding-top: 100%;
         margin-top: $spacer;
       }

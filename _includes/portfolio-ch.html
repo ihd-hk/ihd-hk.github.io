@@ -1,4 +1,4 @@
-<div class="col-md-3 my-1 portfolio-item" data-locations='{{ include.item.country_ch | split:',' | jsonify }}' data-codes='{{ include.item.codes | split:'' | jsonify }}' data-disciplines='{{ include.item.disciplines | split:'', | jsonify }}'>
+<div class="col-md-3 my-3 portfolio-item" data-locations='{{ include.item.country_ch | split:',' | jsonify }}' data-codes='{{ include.item.codes | split:'' | jsonify }}' data-disciplines='{{ include.item.disciplines | split:'', | jsonify }}'>
   <div class="card {% if include.item.files.size > 0 %} has-images{% endif %}">
     {% if include.item.files %}
       {% for image in include.item.files %}
@@ -6,7 +6,7 @@
       {% endfor %}
     {% endif %}
 
-    <div class="card-block">
+    <div class="card-body">
       <p class="card-title">{{ include.item.title_ch }}</p>
       {% if include.item.description_ch %}
       <p class="card-text">{{ include.item.desc_ch }}</p>
