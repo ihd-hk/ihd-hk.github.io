@@ -74,6 +74,11 @@
         deps: [ 'leaflet/leaflet', 'smoothScroll' ]
       }
     },
+    map: {
+      '*': {
+        'bootstrap/util.js': 'bootstrap/util', // TBH Not sure why we need this with Bootstrap 4.1 now...
+      }
+    },
     deps: []
   };
   </script>
