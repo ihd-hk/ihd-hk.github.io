@@ -48,7 +48,7 @@ jumbo_include: 'contact_map.html'
 {% endif %}
 
 {:.d-block.d-sm-none.float-right}
-[Back To Top](#page)
+[回到顶端](#page)
 </div>
 {% endfor %}
 
