@@ -4,8 +4,8 @@
       "nda": "",
       "project": "PA176001",
       "date": "Feb-17",
-      "title_en": " ",
-      "title_ch": "大阅城项目 ",
+      "title_en": "",
+      "title_ch": "大阅城项目",
       "disciplines": [
         "A",
         "C",
@@ -14,7 +14,7 @@
         "S"
       ],
       "codes": [],
-      "city_en": " ",
+      "city_en": "",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -129,7 +129,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121046-1.jpg",
+        "PA121046-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -201,7 +204,7 @@
       "nda": "",
       "project": "PA174001",
       "date": "Feb-17",
-      "title_en": "AC & JW Marriott Penang Waterfront ",
+      "title_en": "AC & JW Marriott Penang Waterfront",
       "title_ch": "0",
       "disciplines": [
         "A",
@@ -240,7 +243,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA161014-1.jpg",
+        "PA161014-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -350,7 +356,10 @@
       "hotel_ch": "阿丽拉",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121026-1.jpg",
+        "PA121026-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -396,7 +405,10 @@
       "hotel_ch": "新世界",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141028-1.jpg",
+        "PA141028-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -466,7 +478,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131005-1.jpg",
+        "PA131005-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -550,6 +565,53 @@
       "city_ch": "北京",
       "country_en": "China",
       "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": [
+        "PA156007-1.jpg",
+        "PA156007-2.jpg"
+      ]
+    },
+    {
+      "nda": "",
+      "project": "PA161035",
+      "date": "Dec-16",
+      "title_en": "Bloomberg Hong Kong",
+      "title_ch": "香港彭博",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA162001",
+      "date": "Sep-16",
+      "title_en": "Bloomberg Mumbai",
+      "title_ch": "印度孟买彭博",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Mumbai",
+      "city_ch": "孟买",
+      "country_en": "India",
+      "country_ch": "印度",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -737,7 +799,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151012-1.jpg",
+        "PA151012-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -781,7 +846,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141008-1.jpg",
+        "PA141008-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -848,11 +916,14 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121006-1.jpg",
+        "PA121006-2.jpg"
+      ]
     },
     {
       "nda": "",
-      "project": "PA166006 ",
+      "project": "PA166006",
       "date": "Nov-16",
       "title_en": "China Resources Land Headquarter Building Project",
       "title_ch": "深圳湾华润置地总部大厦项目",
@@ -1102,7 +1173,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA156008-1.jpg",
+        "PA156008-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -1241,7 +1315,10 @@
       "hotel_ch": "洲际",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141017-1.jpg",
+        "PA141017-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -1383,7 +1460,9 @@
       "hotel_ch": "希尔顿",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141043-1.jpg"
+      ]
     },
     {
       "nda": "",
@@ -1406,7 +1485,10 @@
       "hotel_ch": "希尔顿",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121049-1.jpg",
+        "PA121049-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -1537,7 +1619,10 @@
       "hotel_ch": "香格里拉",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121003-1.jpg",
+        "PA121003-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -1669,7 +1754,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA156005-1.jpg",
+        "PA156005-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -1882,7 +1970,10 @@
       "hotel_ch": "四季",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151014-1.jpg",
+        "PA151014-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -1912,7 +2003,10 @@
       "hotel_ch": "四季",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121002-1.jpg",
+        "PA121002-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -2009,7 +2103,10 @@
       "hotel_ch": "四季",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131027-1.jpg",
+        "PA131027-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -2058,7 +2155,10 @@
       "hotel_ch": "四季",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131034-1.jpg",
+        "PA131034-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -2173,7 +2273,9 @@
       "hotel_ch": "四季",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141030-1.jpg"
+      ]
     },
     {
       "nda": "",
@@ -2198,7 +2300,10 @@
       "hotel_ch": "四季",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA125003-1.jpg",
+        "PA125003-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -2426,7 +2531,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151015-1.jpg",
+        "PA151015-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -2518,7 +2626,10 @@
       "hotel_ch": "凯悦",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131011-1.jpg",
+        "PA131011-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -2628,7 +2739,9 @@
       "hotel_ch": "凯悦",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121037-1.jpg"
+      ]
     },
     {
       "nda": "",
@@ -2966,13 +3079,16 @@
       "hotel_ch": "格兰云天",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141018-1.jpg",
+        "PA141018-2.jpg"
+      ]
     },
     {
       "nda": "",
       "project": "PA166005",
       "date": "Oct-16",
-      "title_en": "Guangzhou Trendy Le Meridien Hotel ",
+      "title_en": "Guangzhou Trendy Le Meridien Hotel",
       "title_ch": "广州赫基艾美酒店",
       "disciplines": [
         "A",
@@ -3017,7 +3133,7 @@
       "nda": "",
       "project": "PA171007",
       "date": "Feb-17",
-      "title_en": "HKJC Happy Valley Racecourse Grandstand 2017 ",
+      "title_en": "HKJC Happy Valley Racecourse Grandstand 2017",
       "title_ch": "香港赛马会 (跑马地) - 2017年",
       "disciplines": [
         "A",
@@ -3125,7 +3241,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151011-1.jpg",
+        "PA151011-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -3175,9 +3294,9 @@
     },
     {
       "nda": "",
-      "project": "PA166008 ",
+      "project": "PA166008",
       "date": "Dec-16",
-      "title_en": "Hengqin Hilton Garden Inn Hotel at Zhuhai ",
+      "title_en": "Hengqin Hilton Garden Inn Hotel at Zhuhai",
       "title_ch": "珠海横琴希尔顿花园酒店",
       "disciplines": [
         "A",
@@ -3340,7 +3459,10 @@
       "hotel_ch": "希尔顿",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131029-1.jpg",
+        "PA131029-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -3385,7 +3507,7 @@
       "country_ch": "中国",
       "hotel_en": "Hilton",
       "hotel_ch": "希尔顿",
-      "desc_en": "This is  dsfdsfsddsdfs dfdffd g f effdsssdfds dsfdfds dsvdvdv",
+      "desc_en": null,
       "desc_ch": null,
       "files": []
     },
@@ -3611,7 +3733,10 @@
       "hotel_ch": "暫沒中文名稱",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121009-1.jpg",
+        "PA121009-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -3677,7 +3802,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151016-1.jpg",
+        "PA151016-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -3957,7 +4085,10 @@
       "hotel_ch": "凯悦",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131018-1.jpg",
+        "PA131018-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -3980,7 +4111,10 @@
       "hotel_ch": "凯悦",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121028-1.jpg",
+        "PA121028-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -4090,7 +4224,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121039-1.jpg",
+        "PA121039-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -4293,7 +4430,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141037-1.jpg",
+        "PA141037-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -4576,13 +4716,16 @@
       "hotel_ch": "文华东方",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141015-1.jpg",
+        "PA141015-2.jpg"
+      ]
     },
     {
       "nda": "",
       "project": "PA171009",
       "date": "Feb-17",
-      "title_en": "Luxury Collection Champarama, Nha Trang, Vietnam ",
+      "title_en": "Luxury Collection Champarama, Nha Trang, Vietnam",
       "title_ch": "0",
       "disciplines": [
         "A",
@@ -4591,7 +4734,7 @@
       "codes": [
         "H"
       ],
-      "city_en": "Vietnam ",
+      "city_en": "Vietnam",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -4801,7 +4944,10 @@
       "hotel_ch": "美高梅",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA161012-1.jpg",
+        "PA161012-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -4823,7 +4969,10 @@
       "hotel_ch": "文华东方",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151009-1.jpg",
+        "PA151009-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -4869,7 +5018,10 @@
       "hotel_ch": "文华东方",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141027-1.jpg",
+        "PA141027-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -4937,7 +5089,9 @@
       "hotel_ch": "文华东方",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151021-1.jpg"
+      ]
     },
     {
       "nda": "",
@@ -5074,7 +5228,10 @@
       "hotel_ch": "万豪",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151025-1.jpg",
+        "PA151025-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -5097,7 +5254,11 @@
       "hotel_ch": "万豪",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA156001-1.jpg",
+        "PA156001-2.jpg",
+        "PA156001-3.jpg"
+      ]
     },
     {
       "nda": "",
@@ -5165,7 +5326,9 @@
       "hotel_ch": "万豪",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131039-1.jpg"
+      ]
     },
     {
       "nda": "",
@@ -5190,7 +5353,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121042-1.jpg",
+        "PA121042-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -5436,7 +5602,10 @@
       "hotel_ch": "新世界",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151003-1.jpg",
+        "PA151003-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -5506,7 +5675,11 @@
       "hotel_ch": "雅高",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121036-1.jpg",
+        "PA121036-2.jpg",
+        "PA121036-3.jpg"
+      ]
     },
     {
       "nda": "",
@@ -5578,7 +5751,10 @@
       "hotel_ch": "太古",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141044-1.jpg",
+        "PA141044-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -5645,7 +5821,10 @@
       "hotel_ch": "凯悦",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121004-1.jpg",
+        "PA121004-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -5734,7 +5913,10 @@
       "hotel_ch": "凯悦",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131012-1.jpg",
+        "PA131012-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -5801,7 +5983,9 @@
       "hotel_ch": "半岛",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121001-1.jpg"
+      ]
     },
     {
       "nda": "",
@@ -5875,7 +6059,7 @@
       "project": "PA121013",
       "date": "Feb-12",
       "title_en": "Plantation Hotel",
-      "title_ch": "种植园酒店 ",
+      "title_ch": "种植园酒店",
       "disciplines": [
         "A",
         "C"
@@ -5962,7 +6146,10 @@
       "hotel_ch": "喜达屋",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA161001-1.jpg",
+        "PA161001-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -6052,7 +6239,10 @@
       "hotel_ch": "费尔蒙 莱佛士",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151022-1.jpg",
+        "PA151022-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -6075,7 +6265,9 @@
       "hotel_ch": "万豪",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131036-1.jpg"
+      ]
     },
     {
       "nda": "",
@@ -6169,7 +6361,10 @@
       "hotel_ch": "新世界",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA125008-1.jpg",
+        "PA125008-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -6192,7 +6387,10 @@
       "hotel_ch": "新世界",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121024-1.jpg",
+        "PA121024-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -6269,7 +6467,7 @@
       "title_en": "SOGO Causeway Bay",
       "title_ch": "祟高铜锣湾",
       "disciplines": [
-        " ",
+        "",
         "A"
       ],
       "codes": [
@@ -6884,7 +7082,10 @@
       "hotel_ch": "香格里拉",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121017-1.jpg",
+        "PA121017-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -7401,7 +7602,10 @@
       "hotel_ch": "喜达屋",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151019-1.jpg",
+        "PA151019-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -7468,7 +7672,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121047-1.jpg",
+        "PA121047-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -7519,7 +7726,7 @@
       "nda": "",
       "project": "PA161030",
       "date": "Nov-16",
-      "title_en": "Swire Club Project ",
+      "title_en": "Swire Club Project",
       "title_ch": "太古俱乐部项目",
       "disciplines": [
         "A",
@@ -7568,7 +7775,7 @@
       "project": "PA164001",
       "date": "Feb-16",
       "title_en": "TA3&4 Kuala Lumpur",
-      "title_ch": "吉隆坡TA3和4 ",
+      "title_ch": "吉隆坡TA3和4",
       "disciplines": [
         "A",
         "C",
@@ -7674,7 +7881,9 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141040-1.jpg"
+      ]
     },
     {
       "nda": "",
@@ -7903,7 +8112,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141003-1.jpg",
+        "PA141003-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -7991,7 +8203,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131002-1.jpg",
+        "PA131002-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -8145,7 +8360,10 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121014-1.jpg",
+        "PA121014-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -8189,7 +8407,10 @@
       "hotel_ch": "文华东方",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA141036-1.jpg",
+        "PA141036-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -8413,7 +8634,10 @@
       "hotel_ch": "特兰斯",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131035-1.jpg",
+        "PA131035-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -8458,13 +8682,16 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA151024-1.jpg",
+        "PA151024-2.jpg"
+      ]
     },
     {
       "nda": "",
       "project": "PA161034",
       "date": "Dec-16",
-      "title_en": "Victoria's Secret Flagship Store in Beijing ",
+      "title_en": "Victoria's Secret Flagship Store in Beijing",
       "title_ch": "0",
       "disciplines": [
         "E"
@@ -8515,7 +8742,7 @@
       "title_ch": "三亚华尔道夫酒店及别墅",
       "disciplines": [
         "E",
-        " "
+        ""
       ],
       "codes": [
         "H"
@@ -8596,7 +8823,10 @@
       "hotel_ch": "喜达屋",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121018-1.jpg",
+        "PA121018-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -8618,7 +8848,10 @@
       "hotel_ch": "喜达屋",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131009-1.jpg",
+        "PA131009-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -8664,7 +8897,10 @@
       "hotel_ch": "喜达屋",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA121048-1.jpg",
+        "PA121048-2.jpg"
+      ]
     },
     {
       "nda": "",
@@ -8716,7 +8952,7 @@
       "project": "PA171002",
       "date": "Jan-17",
       "title_en": "Wisma Damansara at Kuala Lumpur",
-      "title_ch": " ",
+      "title_ch": "",
       "disciplines": [
         "A",
         "S",
@@ -8826,7 +9062,10 @@
       "hotel_ch": "凯悦",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA131038-1.jpg",
+        "PA131038-2.jpg"
+      ]
     },
     {
       "nda": "",
