@@ -13,7 +13,7 @@ redirect_from:
 <h1>Portfolio</h1>
 
 <div id="portfolio_filters" class="row">
-  <div class="col-md-4">
+  <div class="col-4">
     <select name="location" class="form-control input-lg">
       <option value="-1">All Countries</option>
     {% for location in site.data.portfolio.countries %}
@@ -22,7 +22,7 @@ redirect_from:
     </select>
   </div>
 
-  <div class="col-md-4">
+  <div class="col-4">
     <select name="discipline" class="form-control input-lg">
       <option value="-1">All Disciplines</option> <!-- placeholder -->
     {% for discipline in site.data.portfolio.disciplines %}
@@ -31,7 +31,7 @@ redirect_from:
     </select>
   </div>
 
-  <div class="col-md-4">
+  <div class="col-4">
     <select name="type" class="form-control input-lg">
       <option value="-1">All Types</option>
     {% for type in site.data.portfolio.codes %}
