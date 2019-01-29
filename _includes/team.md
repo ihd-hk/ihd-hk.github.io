@@ -1,7 +1,7 @@
 <div class="row team-row">
 {% for person in site.data.team %}
 
-<figure class="figure col-md-3">
+<figure class="figure col-6 col-md-3">
 
 {% if person.page != null %}
 

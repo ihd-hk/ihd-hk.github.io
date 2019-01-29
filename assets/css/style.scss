@@ -1,13 +1,10 @@
 ---
 ---
 
-
-
 $font-family-sans-serif:  Tahoma, Arial, sans-serif;
 
 $icon-font-path: '../fonts/';
 $component-offset-horizontal: 120px;
-// $body-bg: #fff;
 $font-size-base: 1rem;
 $grid-gutter-width: 20px;
 
@@ -48,6 +45,10 @@ body {
   @include media-breakpoint-up(md) {
     border-top-width: 50px;
   }
+  @include media-breakpoint-down(xs) {
+    font-size: 0.75rem;
+  }
+
 
   & > #page {
     background-color: $body-bg;
