@@ -2,27 +2,6 @@
   "items": [
     {
       "nda": "",
-      "project": "PA176001",
-      "date": "Feb-17",
-      "title_en": "",
-      "title_ch": "大阅城项目",
-      "disciplines": [
-        "A",
-        "C",
-        "I",
-        "E",
-        "S"
-      ],
-      "codes": [],
-      "city_en": "",
-      "hotel_en": "0",
-      "hotel_ch": "",
-      "desc_en": null,
-      "desc_ch": null,
-      "files": []
-    },
-    {
-      "nda": "",
       "project": "PA156015",
       "date": "Jan-16",
       "title_en": " Yangshuo Hotel Guangxi",
@@ -57,6 +36,32 @@
       ],
       "city_en": "Beijing",
       "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176001",
+      "date": "Feb-17",
+      "title_en": "'Hyatt Place and Hyatt House Yinchuan Dayuecheng",
+      "title_ch": "大阅城项目",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "E",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "YinChuan",
+      "city_ch": "银川",
       "country_en": "China",
       "country_ch": "中国",
       "hotel_en": "0",
@@ -205,7 +210,7 @@
       "project": "PA174001",
       "date": "Feb-17",
       "title_en": "AC & JW Marriott Penang Waterfront",
-      "title_ch": "0",
+      "title_ch": "万豪国际和傲途格精选酒店",
       "disciplines": [
         "A",
         "C"
@@ -217,8 +222,8 @@
       "city_ch": "槟城",
       "country_en": "Malaysia",
       "country_ch": "马来西亚",
-      "hotel_en": "0",
-      "hotel_ch": "",
+      "hotel_en": "Marriott",
+      "hotel_ch": "万豪",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -338,6 +343,29 @@
     },
     {
       "nda": "",
+      "project": "PA171035",
+      "date": "Aug-17",
+      "title_en": "Accor Hotels Design Standard Review",
+      "title_ch": "雅高酒店",
+      "disciplines": [
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Bangkok",
+      "city_ch": "曼谷",
+      "country_en": "Thailand",
+      "country_ch": "泰国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA121026",
       "date": "May-12",
       "title_en": "Alila Seminyak, Bali",
@@ -360,6 +388,31 @@
         "PA121026-1.jpg",
         "PA121026-2.jpg"
       ]
+    },
+    {
+      "nda": "",
+      "project": "PA186026",
+      "date": "Aug-18",
+      "title_en": "Andaz Hotel Xian",
+      "title_ch": "西安安达仕酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "T"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Xian",
+      "city_ch": "西安",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
     },
     {
       "nda": "",
@@ -386,10 +439,33 @@
     },
     {
       "nda": "",
+      "project": "PA181039",
+      "date": "Jan-00",
+      "title_en": "Anki Resort & Beach Club Koh Samui, Thailand ",
+      "title_ch": "泰国苏梅岛Anki海滩俱乐部度假村",
+      "disciplines": [
+        "I",
+        "S"
+      ],
+      "codes": [
+        "V"
+      ],
+      "city_en": "Sabah",
+      "city_ch": "Sabah",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA141028",
       "date": "Jun-14",
       "title_en": "Apartment in Block H2 of New World Centre Remodeling, Hong Kong",
-      "title_ch": "香港新世界中心H2座改建項目",
+      "title_ch": "香港新世界中心H2座改建项目",
       "disciplines": [
         "A",
         "I"
@@ -412,10 +488,32 @@
     },
     {
       "nda": "",
-      "project": "PA123002P",
+      "project": "PA176028",
+      "date": "Dec-17",
+      "title_en": "Ascendas Plaza, Shanghai, China",
+      "title_ch": "上海腾飞大厦",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA123002",
       "date": "May-12",
       "title_en": "Ascott Residence",
-      "title_ch": "雅诗阁住宅項目",
+      "title_ch": "雅诗阁住宅项目",
       "disciplines": [
         "A"
       ],
@@ -434,21 +532,20 @@
     },
     {
       "nda": "",
-      "project": "PA171010",
-      "date": "Mar-17",
-      "title_en": "BT Quatreus",
-      "title_ch": "0",
+      "project": "PA171034",
+      "date": "Aug-17",
+      "title_en": "BGI Centre",
+      "title_ch": "华大基因中心",
       "disciplines": [
-        "A",
-        "I"
+        "E"
       ],
       "codes": [
-        "I"
+        "O"
       ],
-      "city_en": "Hong Kong",
-      "city_ch": "香港",
-      "country_en": "Hong Kong",
-      "country_ch": "香港",
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -482,6 +579,30 @@
         "PA131005-1.jpg",
         "PA131005-2.jpg"
       ]
+    },
+    {
+      "nda": "",
+      "project": "PA186016",
+      "date": "Mar-18",
+      "title_en": "Beijing Hyatt House Hotel",
+      "title_ch": "北京银泰凯悦嘉寓酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Da Nang",
+      "city_ch": "岘港",
+      "country_en": "Vietnam",
+      "country_ch": "越南",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
     },
     {
       "nda": "",
@@ -576,20 +697,22 @@
     },
     {
       "nda": "",
-      "project": "PA161035",
-      "date": "Dec-16",
-      "title_en": "Bloomberg Hong Kong",
-      "title_ch": "香港彭博",
+      "project": "PA186036",
+      "date": "Dec-18",
+      "title_en": "Beijing New Airport VIP Lounge ",
+      "title_ch": "北京新机场VIP休息室項目 ",
       "disciplines": [
-        "A"
-      ],
-      "codes": [
+        "A",
+        "C",
         "I"
       ],
-      "city_en": "Hong Kong",
-      "city_ch": "香港",
-      "country_en": "Hong Kong",
-      "country_ch": "香港",
+      "codes": [
+        "D"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -598,20 +721,44 @@
     },
     {
       "nda": "",
-      "project": "PA162001",
-      "date": "Sep-16",
-      "title_en": "Bloomberg Mumbai",
-      "title_ch": "印度孟买彭博",
+      "project": "PA10022",
+      "date": "Sep-10",
+      "title_en": "Beijing Yan Jiao MGM Hotel & Resort",
+      "title_ch": "汇福健康中心度假酒店",
       "disciplines": [
-        "A"
+        "A",
+        "C"
       ],
       "codes": [
-        "I"
+        "H"
       ],
-      "city_en": "Mumbai",
-      "city_ch": "孟买",
-      "country_en": "India",
-      "country_ch": "印度",
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "MGM",
+      "hotel_ch": "美高梅",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171016",
+      "date": "Mar-17",
+      "title_en": "Bistro Bar of Royal Garden Hotel",
+      "title_ch": "香港帝苑酒店 - J's Bar Bistro",
+      "disciplines": [
+        "A",
+        "V"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -631,6 +778,51 @@
       ],
       "codes": [
         "H"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171010",
+      "date": "Mar-17",
+      "title_en": "British Telecom, Hong Kong - Showcase",
+      "title_ch": "英国电信 - 香港展览厅",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "O"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171024",
+      "date": "Jun-17",
+      "title_en": "Buji MixC, Shenzhen, China",
+      "title_ch": "深圳布吉万象汇项目",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "O",
+        "T"
       ],
       "city_en": "Shenzhen",
       "city_ch": "深圳",
@@ -738,7 +930,7 @@
       "project": "PA171011",
       "date": "Mar-17",
       "title_en": "CX Conference Tower Project",
-      "title_ch": "0",
+      "title_ch": "国泰会议塔项目",
       "disciplines": [
         "A",
         "V"
@@ -758,6 +950,53 @@
     },
     {
       "nda": "",
+      "project": "PA184008 ",
+      "date": "Jan-00",
+      "title_en": "Canopy Hotel BBCC, Kuala Lumpur ",
+      "title_ch": "吉隆坡冠层BBCC酒店",
+      "disciplines": [
+        "A",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Kuala Lumpur",
+      "city_ch": "吉隆坡",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171050",
+      "date": "Dec-17",
+      "title_en": "Capital Greens IV, New Delhi, India",
+      "title_ch": "印度新德里首都绿地四期",
+      "disciplines": [
+        "A",
+        "I",
+        "S"
+      ],
+      "codes": [
+        "R"
+      ],
+      "city_en": "Chongqing",
+      "city_ch": "重庆",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA000094",
       "date": "Jan-06",
       "title_en": "Capital Research Hong Kong",
@@ -765,6 +1004,28 @@
       "disciplines": [
         "A",
         "C"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA008018",
+      "date": "Jan-00",
+      "title_en": "Capital Research Maint Admin",
+      "title_ch": "资本研究 - 香港",
+      "disciplines": [
+        "A"
       ],
       "codes": [
         "I"
@@ -853,6 +1114,29 @@
     },
     {
       "nda": "",
+      "project": "PA173003",
+      "date": "Jun-17",
+      "title_en": "Caticlan Beach Fron Hotel",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Iloilo",
+      "city_ch": "伊洛伊洛",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA156006",
       "date": "Apr-15",
       "title_en": "Changbaishan Double Tree by Hilton",
@@ -876,6 +1160,31 @@
     },
     {
       "nda": "",
+      "project": "PA176004",
+      "date": "May-17",
+      "title_en": "Chengdu Hyatt Place and Hyatt House Hotel",
+      "title_ch": "成都凯悦嘉轩及凯悦嘉寓酒店",
+      "disciplines": [
+        "A",
+        "I",
+        "E",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Chengdu",
+      "city_ch": "成都",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA000129",
       "date": "May-07",
       "title_en": "Chengdu Show Suite",
@@ -885,6 +1194,29 @@
       ],
       "codes": [
         "X"
+      ],
+      "city_en": "Chengdu",
+      "city_ch": "成都",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186012",
+      "date": "May-18",
+      "title_en": "Chengdu Tianfu Financial Building 24F",
+      "title_ch": "成都天府金融大厦24楼",
+      "disciplines": [
+        "A",
+        "E"
+      ],
+      "codes": [
+        "O"
       ],
       "city_en": "Chengdu",
       "city_ch": "成都",
@@ -1270,6 +1602,146 @@
     },
     {
       "nda": "",
+      "project": "PA176015",
+      "date": "Sep-17",
+      "title_en": "Cordis Hotel, Beijing",
+      "title_ch": "北京康德思酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176011",
+      "date": "Aug-17",
+      "title_en": "Courtyand and Marriott at Hailing Bay One, Yangjiang",
+      "title_ch": "海陵湾一号万怡及万豪酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Yangjiang",
+      "city_ch": "阳江",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA174005",
+      "date": "Sep-17",
+      "title_en": "Courtyard Setia Alam, Malaysia",
+      "title_ch": "马来西亚实地阿南万怡酒店 ",
+      "disciplines": [
+        "A",
+        "C",
+        "I"
+      ],
+      "codes": [
+        "R"
+      ],
+      "city_en": "Macau",
+      "city_ch": "澳门",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Marriott",
+      "hotel_ch": "万豪",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA174005",
+      "date": "Sep-17",
+      "title_en": "Courtyard Setia Alam, Malaysia",
+      "title_ch": "马来西亚实地阿南万怡酒店 ",
+      "disciplines": [
+        "A",
+        "C",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Setia Alam",
+      "city_ch": "Setia Alam",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176023",
+      "date": "Nov-17",
+      "title_en": "Courtyard by Marriott Shenzhen",
+      "title_ch": "深圳光明万怡酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Marriott",
+      "hotel_ch": "万豪",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181002",
+      "date": "Jan-18",
+      "title_en": "Courtyard by Marriott at Chengdu",
+      "title_ch": "天投国际商务中心万怡酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Hangzhou",
+      "city_ch": "\r\n杭州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PAihDP",
       "date": "Sep-12",
       "title_en": "Crimson Hotel Cebu",
@@ -1285,11 +1757,58 @@
         "H"
       ],
       "city_en": "Cebu",
-      "city_ch": "宿霧",
+      "city_ch": "宿雾",
       "country_en": "Philippines",
       "country_ch": "菲律宾",
       "hotel_en": "Filinvest Crimson",
       "hotel_ch": "菲林维斯深红",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA184003",
+      "date": "Mar-18",
+      "title_en": "Crowne Plaza Kota Kinabalu, Malaysia",
+      "title_ch": "马来西亚亚庇皇冠假日酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Kota Kinabalu",
+      "city_ch": "哥打京那巴鲁",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA184005",
+      "date": "May-18",
+      "title_en": "Crowne Plaza Kuala Lumpur",
+      "title_ch": "吉隆坡皇冠假日酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Kuala Lumpur",
+      "city_ch": "吉隆坡",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -1419,18 +1938,35 @@
       "title_en": "District 616,735 Xiao Dong Men Project",
       "title_ch": "黄浦区小东门616，735街坊地块项目",
       "disciplines": [
-        "A",
-        "C"
+        "A"
       ],
       "codes": [
-        "H",
-        "M",
-        "O",
-        "R",
-        "Z"
+        "H"
       ],
       "city_en": "Shanghai",
       "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186025",
+      "date": "Aug-18",
+      "title_en": "Donghai Langham Hotel, Shenzhen",
+      "title_ch": "深圳东海朗廷酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
       "country_en": "China",
       "country_ch": "中国",
       "hotel_en": "0",
@@ -1492,6 +2028,31 @@
     },
     {
       "nda": "",
+      "project": "PA181043",
+      "date": "Jan-00",
+      "title_en": "Double Tree by Hilton at Halong Bay, Vietnam ",
+      "title_ch": "双树希尔顿酒店在越南下龙湾  ",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Halong Bay",
+      "city_ch": "Halong Bay",
+      "country_en": "Vietnam",
+      "country_ch": "越南",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA000119",
       "date": "Apr-07",
       "title_en": "Double Tree by Hilton, Kunshan",
@@ -1514,11 +2075,67 @@
     },
     {
       "nda": "",
+      "project": "PA176017",
+      "date": "Oct-17",
+      "title_en": "Double Tree by Hilton, Zhuhai",
+      "title_ch": "中葡商贸中心酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Zhuhai",
+      "city_ch": "珠海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA173002",
+      "date": "Apr-17",
+      "title_en": "Dusit D2 Wave Hotel",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "V",
+        "A",
+        "C",
+        "I",
+        "T",
+        "S",
+        "E",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "La Union",
+      "city_ch": "拉允隆省",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA171008",
       "date": "Feb-17",
       "title_en": "Dusit International",
-      "title_ch": "0",
+      "title_ch": "都喜天阙国际",
       "disciplines": [
+        " ",
         "A",
         "I"
       ],
@@ -1526,6 +2143,9 @@
         "H"
       ],
       "city_en": "Pattaya",
+      "city_ch": "芭堤雅",
+      "country_en": "Thailand",
+      "country_ch": "泰国",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -1579,10 +2199,10 @@
     },
     {
       "nda": "",
-      "project": "PA11008P",
+      "project": "PA11008",
       "date": "Aug-11",
       "title_en": "East West Bank Beaufort",
-      "title_ch": "东西银行",
+      "title_ch": "菲律宾东西方银行",
       "disciplines": [
         "A"
       ],
@@ -1593,6 +2213,53 @@
       "city_ch": "马尼拉",
       "country_en": "Philippines",
       "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": [
+        "PA11008-1.jpg",
+        "PA11008-2.jpg"
+      ]
+    },
+    {
+      "nda": "",
+      "project": "PHA11008",
+      "date": "Aug-11",
+      "title_en": "East West Bank Beaufort, Philippines",
+      "title_ch": "菲律宾东西方银行",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Bonifacio Global City",
+      "city_ch": "BGC",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181018",
+      "date": "Mar-18",
+      "title_en": "Edition Hotel Orchard Boulevard, Singapore",
+      "title_ch": "新加坡乌节林荫道艾迪逊酒店",
+      "disciplines": [
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Singapore",
+      "city_ch": "新加坡",
+      "country_en": "Singapore",
+      "country_ch": "新加坡",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -1714,10 +2381,32 @@
     },
     {
       "nda": "",
-      "project": "PA11003P",
+      "project": "PHA11003",
       "date": "Dec-10",
       "title_en": "Entrata Urban Hotel Complex",
-      "title_ch": "Entrata 城市酒店综合項目",
+      "title_ch": "菲律宾马尼拉Entrata 城市酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Muntilnlupa",
+      "city_ch": "文珍俞巴市",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA11003",
+      "date": "Dec-10",
+      "title_en": "Entrata Urban Hotel Complex",
+      "title_ch": "Entrata 城市酒店综合项目",
       "disciplines": [
         "A"
       ],
@@ -1730,6 +2419,39 @@
       "country_ch": "菲律宾",
       "hotel_en": "Filinvest Crimson",
       "hotel_ch": "菲林维斯深红",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": [
+        "PA11003-1.jpg",
+        "PA11003-2.jpg"
+      ]
+    },
+    {
+      "nda": "",
+      "project": "PA173001",
+      "date": "Feb-17",
+      "title_en": "Event's Pavilion, Clark",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "V",
+        "A",
+        "C",
+        "I",
+        "T",
+        "S",
+        "E",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Pampanga",
+      "city_ch": "邦板牙省",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -1775,6 +2497,29 @@
       "city_ch": "德里",
       "country_en": "India",
       "country_ch": "印度",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163016",
+      "date": "Nov-16",
+      "title_en": "Flour Daniel Office",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Muntilnlupa",
+      "city_ch": "文珍俞巴市",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -1849,6 +2594,29 @@
     },
     {
       "nda": "",
+      "project": "PA176014",
+      "date": "Aug-17",
+      "title_en": "Four Points by Sheraton Xiamen, Mingfa Bay, China",
+      "title_ch": "厦门明发海湾福朋喜来登酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Xiamen",
+      "city_ch": "厦门",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA151013",
       "date": "May-15",
       "title_en": "Four Points by Sheraton, Aloft, Element Tianjin",
@@ -1866,6 +2634,52 @@
       "country_ch": "中国",
       "hotel_en": "Starwood",
       "hotel_ch": "喜达屋",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176021",
+      "date": "Oct-17",
+      "title_en": "Four Seasons Hangzhou",
+      "title_ch": "杭州四季酒店",
+      "disciplines": [
+        "A",
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Hangzhou",
+      "city_ch": "\r\n杭州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Four Seasons",
+      "hotel_ch": "四季",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176029",
+      "date": "Dec-17",
+      "title_en": "Four Seasons Hangzhou",
+      "title_ch": "杭州武林四季酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Hangzhou",
+      "city_ch": "\r\n杭州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Four Seasons",
+      "hotel_ch": "四季",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -2333,6 +3147,54 @@
     },
     {
       "nda": "",
+      "project": "PA176025",
+      "date": "Nov-17",
+      "title_en": "Four Seasons Suzhou",
+      "title_ch": "苏州四季酒店",
+      "disciplines": [
+        "A",
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Suzhou",
+      "city_ch": "苏州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Four Seasons",
+      "hotel_ch": "四季",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176025",
+      "date": "Nov-17",
+      "title_en": "Four Seasons Suzhou",
+      "title_ch": "苏州四季酒店",
+      "disciplines": [
+        "A",
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Suzhou",
+      "city_ch": "苏州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Four Seasons",
+      "hotel_ch": "四季",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA000105",
       "date": "Jan-06",
       "title_en": "FreshFields Bruckhaus Deringer",
@@ -2415,6 +3277,28 @@
       "country_ch": "中国",
       "hotel_en": "Galaxy",
       "hotel_ch": "银河",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171046",
+      "date": "Nov-17",
+      "title_en": "Galaxy Macau Phase 3C",
+      "title_ch": "澳门银河渡假村三期C - 酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Macau",
+      "city_ch": "澳门",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -2538,7 +3422,7 @@
     },
     {
       "nda": "",
-      "project": "PA11007P",
+      "project": "PA11007",
       "date": "Oct-11",
       "title_en": "Globe Headquarters",
       "title_ch": "环球总部",
@@ -2556,11 +3440,60 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
+      "files": [
+        "PA11007-1.jpg",
+        "PA11007-2.jpg"
+      ]
+    },
+    {
+      "nda": "",
+      "project": "PHA11007",
+      "date": "Oct-11",
+      "title_en": "Globe Telecom Headquarters, Philippines",
+      "title_ch": "菲律宾环球电信总部",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Bonifacio Global City",
+      "city_ch": "BGC",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
       "files": []
     },
     {
       "nda": "",
-      "project": "PA11004P",
+      "project": "PA171028",
+      "date": "Aug-17",
+      "title_en": "Grand Bay Hotel at Chengdu",
+      "title_ch": "成都海湾半山酒店",
+      "disciplines": [
+        "A",
+        "I",
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Chengdu",
+      "city_ch": "成都",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA11004",
       "date": "Jul-11",
       "title_en": "Grand Cenia Hotel",
       "title_ch": "Cenia酒店",
@@ -2575,7 +3508,7 @@
       "country_en": "Philippines",
       "country_ch": "菲律宾",
       "hotel_en": "Grand Cenia",
-      "hotel_ch": "暫沒中文名稱",
+      "hotel_ch": "暂没中文名称",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -2598,6 +3531,30 @@
       "country_ch": "中国",
       "hotel_en": "Hyatt",
       "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163002",
+      "date": "Jun-16",
+      "title_en": "Grand Hyatt (Walki Talkie)",
+      "title_ch": "菲律宾马尼拉君悦酒店",
+      "disciplines": [
+        "S",
+        "E",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Bonifacio Global City",
+      "city_ch": "BGC",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -2691,6 +3648,28 @@
       "city_ch": "合肥",
       "country_en": "China",
       "country_ch": "中国",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA000071",
+      "date": "Jan-05",
+      "title_en": "Grand Hyatt Hong Kong",
+      "title_ch": "香港君悦酒店 - 显示系统",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
       "hotel_en": "Hyatt",
       "hotel_ch": "凯悦",
       "desc_en": null,
@@ -2835,12 +3814,12 @@
     },
     {
       "nda": "",
-      "project": "PA010015",
-      "date": "Oct-07",
+      "project": "PA007146",
+      "date": "Jun-10",
       "title_en": "Grand Hyatt Pune",
       "title_ch": "印度浦那君悦酒店",
       "disciplines": [
-        "C"
+        "A"
       ],
       "codes": [
         "H"
@@ -2857,12 +3836,12 @@
     },
     {
       "nda": "",
-      "project": "PA007146",
-      "date": "Jun-10",
+      "project": "PA010015",
+      "date": "Oct-07",
       "title_en": "Grand Hyatt Pune",
       "title_ch": "印度浦那君悦酒店",
       "disciplines": [
-        "A"
+        "C"
       ],
       "codes": [
         "H"
@@ -2915,6 +3894,28 @@
       "city_ch": "深圳",
       "country_en": "China",
       "country_ch": "中国",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181011",
+      "date": "Feb-18",
+      "title_en": "Grand Hyatt Singapore - Brix Bar",
+      "title_ch": "新加坡君悦酒店 - Brix酒吧",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Singapore",
+      "city_ch": "新加坡",
+      "country_en": "Singapore",
+      "country_ch": "新加坡",
       "hotel_en": "Hyatt",
       "hotel_ch": "凯悦",
       "desc_en": null,
@@ -3109,20 +4110,68 @@
     },
     {
       "nda": "",
+      "project": "PA171048",
+      "date": "Nov-17",
+      "title_en": "Guiyang Hyatt House",
+      "title_ch": "贵阳会展城凯悦嘉寓酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Guiyang",
+      "city_ch": "贵阳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA161027",
       "date": "Oct-16",
-      "title_en": "HASD (Phase 1) at Vietnam\r\n",
-      "title_ch": "0",
+      "title_en": "HASD (Phase 1) at Vietnam",
+      "title_ch": "越南会安Hoiana度假村",
       "disciplines": [
         "A"
       ],
       "codes": [
         "H"
       ],
-      "city_en": "Da Nang",
-      "city_ch": "岘港",
-      "country_en": "Vietnam",
-      "country_ch": "越南",
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA003 ",
+      "date": "Oct-06",
+      "title_en": "HKAA Signage",
+      "title_ch": "0",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "O",
+        "T"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -3138,6 +4187,28 @@
       "disciplines": [
         "A",
         "C"
+      ],
+      "codes": [
+        "U"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA000064",
+      "date": "Jan-05",
+      "title_en": "HKJC Shatin 3F Public Stand and Banqueting",
+      "title_ch": "香港赛马会 - 沙田 Grandstand Level 3",
+      "disciplines": [
+        "A"
       ],
       "codes": [
         "U"
@@ -3200,6 +4271,28 @@
     },
     {
       "nda": "",
+      "project": "PA181012",
+      "date": "Mar-18",
+      "title_en": "HLD Middle Road Development Leasing Office, Hong Kong",
+      "title_ch": "恒基兆业地产有限公司 - 中间道商业发展项目租务处",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "O"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA151017",
       "date": "Aug-15",
       "title_en": "Haitang Bay Waldorf Astoria Hotel",
@@ -3216,7 +4309,53 @@
       "country_en": "China",
       "country_ch": "中国",
       "hotel_en": "WA",
-      "hotel_ch": "華爾代夫",
+      "hotel_ch": "华尔代夫",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171051",
+      "date": "Dec-17",
+      "title_en": "Hang Lung Spring City 66 in Kunming",
+      "title_ch": "昆明恒隆广场",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "M",
+        "O"
+      ],
+      "city_en": "Chongqing",
+      "city_ch": "重庆",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186032",
+      "date": "Oct-18",
+      "title_en": "Hangzhou Bay Hyatt Place Hotel ",
+      "title_ch": "Ningbo宁波杭州湾凯悦嘉軒酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "D"
+      ],
+      "city_en": "Ningbo",
+      "city_ch": "宁波",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -3559,6 +4698,52 @@
     },
     {
       "nda": "",
+      "project": "PA171020",
+      "date": "May-17",
+      "title_en": "Hilton Saigon, Vietnam",
+      "title_ch": "越南西贡希尔顿酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Saigon",
+      "city_ch": "胡志明市",
+      "country_en": "Vietnam",
+      "country_ch": "越南",
+      "hotel_en": "Hilton",
+      "hotel_ch": "希尔顿",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181022",
+      "date": "Apr-18",
+      "title_en": "Hilton Saigon, Vietnam",
+      "title_ch": "越南西贡希尔顿酒店",
+      "disciplines": [
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Saigon",
+      "city_ch": "胡志明市",
+      "country_en": "Vietnam",
+      "country_ch": "越南",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA141001",
       "date": "Jan-14",
       "title_en": "Hilton Tengchong, Yunnan",
@@ -3595,6 +4780,31 @@
       ],
       "city_en": "Hainan",
       "city_ch": "海南",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "IHG",
+      "hotel_ch": "洲际",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176009",
+      "date": "Jun-17",
+      "title_en": "Holiday Inn at Liaocheng, Shandong",
+      "title_ch": "山东聊城洲际假日酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shandong",
+      "city_ch": "山东",
       "country_en": "China",
       "country_ch": "中国",
       "hotel_en": "IHG",
@@ -3715,6 +4925,74 @@
     },
     {
       "nda": "",
+      "project": "PA171017",
+      "date": "Apr-17",
+      "title_en": "Hong Kong Wetland Park",
+      "title_ch": "香港湿地公园",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "T"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176013",
+      "date": "Aug-17",
+      "title_en": "Honghe Nativeland Mile Sheraton and Element Hotel at Yunnan",
+      "title_ch": "云南红河水乡喜来登酒店及源宿酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Yunnan",
+      "city_ch": "云南",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171014",
+      "date": "Mar-17",
+      "title_en": "Hotel Complex at Omr Chennai, India",
+      "title_ch": "印度钦奈酒店综合大楼",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Omr Chennai",
+      "city_ch": "钦奈",
+      "country_en": "India",
+      "country_ch": "印度",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA121009",
       "date": "Feb-12",
       "title_en": "Hotel Icon",
@@ -3730,13 +5008,57 @@
       "country_en": "Hong Kong",
       "country_ch": "香港",
       "hotel_en": "Icon",
-      "hotel_ch": "暫沒中文名稱",
+      "hotel_ch": "暂没中文名称",
       "desc_en": null,
       "desc_ch": null,
       "files": [
         "PA121009-1.jpg",
         "PA121009-2.jpg"
       ]
+    },
+    {
+      "nda": "",
+      "project": "PA176027",
+      "date": "Dec-17",
+      "title_en": "Hotel Kapok in Beijing New Airport",
+      "title_ch": "华润北京新机场木棉花酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176027",
+      "date": "Nov-17",
+      "title_en": "Hotel Kapok in Beijing New Airport",
+      "title_ch": "华润北京新机场木棉花酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
     },
     {
       "nda": "",
@@ -3770,6 +5092,28 @@
         "A"
       ],
       "codes": [
+        "H"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171019",
+      "date": "Apr-17",
+      "title_en": "Huawei - Technology Showcase, Lychee Garden, China",
+      "title_ch": "华为荔枝园服务大厅",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
         "I"
       ],
       "city_en": "Shenzhen",
@@ -3784,15 +5128,15 @@
     },
     {
       "nda": "",
-      "project": "PA151016",
-      "date": "Jul-15",
-      "title_en": "Huawai University",
-      "title_ch": "华为大学",
+      "project": "PA171036",
+      "date": "Aug-17",
+      "title_en": "Huawei Conference Room Service Transformation Solution",
+      "title_ch": "华为会议室服务变革解决方案",
       "disciplines": [
         "A"
       ],
       "codes": [
-        "E"
+        "I"
       ],
       "city_en": "Shenzhen",
       "city_ch": "深圳",
@@ -3802,10 +5146,7 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": [
-        "PA151016-1.jpg",
-        "PA151016-2.jpg"
-      ]
+      "files": []
     },
     {
       "nda": "",
@@ -3853,28 +5194,6 @@
     },
     {
       "nda": "",
-      "project": "PA156010",
-      "date": "Aug-15",
-      "title_en": "Huawei Research and Development Project",
-      "title_ch": "华为研发生产楼项目",
-      "disciplines": [
-        "A"
-      ],
-      "codes": [
-        "I"
-      ],
-      "city_en": "Shanghai",
-      "city_ch": "上海",
-      "country_en": "China",
-      "country_ch": "中国",
-      "hotel_en": "0",
-      "hotel_ch": "",
-      "desc_en": null,
-      "desc_ch": null,
-      "files": []
-    },
-    {
-      "nda": "",
       "project": "PA151010",
       "date": "Apr-15",
       "title_en": "Huawei Research and Development Project",
@@ -3899,7 +5218,7 @@
       "nda": "",
       "project": "PA164003",
       "date": "May-16",
-      "title_en": "Huawei Tecnhologies, Integra Tower, KL",
+      "title_en": "Huawei Technologies , Integra Tower, KL",
       "title_ch": "吉隆坡华为技术INTEGRA塔",
       "disciplines": [
         "C"
@@ -3913,6 +5232,143 @@
       "country_ch": "马来西亚",
       "hotel_en": "0",
       "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186008",
+      "date": "Mar-18",
+      "title_en": "Huawei Training Institute",
+      "title_ch": "华为培训学院",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA151016",
+      "date": "Jul-15",
+      "title_en": "Huawei University",
+      "title_ch": "华为大学",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "E"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": [
+        "PA151016-1.jpg",
+        "PA151016-2.jpg"
+      ]
+    },
+    {
+      "nda": "",
+      "project": "PA181045",
+      "date": "Jan-00",
+      "title_en": "Huawei project in Suzhou ",
+      "title_ch": "苏州基地A1楼Openlab",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Suzhou",
+      "city_ch": "苏州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186010",
+      "date": "Mar-18",
+      "title_en": "Huidong Hezhen East Bay Phase II-III Hotel",
+      "title_ch": "惠东合正东部湾二-三期（酒店）",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Hiidong",
+      "city_ch": "惠东",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186033",
+      "date": "Nov-18",
+      "title_en": "Hyatt Hotel 32F at North Bund, Shanghai",
+      "title_ch": "上海北外滩茂悦酒店32F",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA009",
+      "date": "Nov-06",
+      "title_en": "Hyatt Malate",
+      "title_ch": "0",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Manila",
+      "city_ch": "马尼拉",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -3957,6 +5413,31 @@
       ],
       "city_en": "Changsha",
       "city_ch": "长沙",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186031",
+      "date": "Sep-18",
+      "title_en": "Hyatt Place Changsha Airport, China",
+      "title_ch": "长沙空港城凯悦嘉轩酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
       "country_en": "China",
       "country_ch": "中国",
       "hotel_en": "Hyatt",
@@ -4016,6 +5497,28 @@
     },
     {
       "nda": "",
+      "project": "PA176019",
+      "date": "Sep-17",
+      "title_en": "Hyatt Place Hotel, Ningbo",
+      "title_ch": "宁波凯悦嘉轩酒店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Ningbo",
+      "city_ch": "宁波",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA166004",
       "date": "Jun-16",
       "title_en": "Hyatt Place Zhuhai",
@@ -4026,12 +5529,83 @@
       ],
       "codes": [
         "H",
-        "O",
-        "R",
-        "Z"
+        "O"
       ],
       "city_en": "Zhuhai",
       "city_ch": "珠海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176024",
+      "date": "Nov-17",
+      "title_en": "Hyatt Place at Creative Valley, Xian",
+      "title_ch": "西安创意谷凯悦嘉轩酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Xian",
+      "city_ch": "西安",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176024",
+      "date": "Nov-17",
+      "title_en": "Hyatt Place at Creative Valley, Xian",
+      "title_ch": "三亚鸿洲中心万丽酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Xian",
+      "city_ch": "西安",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171012",
+      "date": "Mar-17",
+      "title_en": "Hyatt Place at Hongde West Street, Changsha",
+      "title_ch": "长沙弘德西街凯悦嘉轩酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Changsha",
+      "city_ch": "长沙",
       "country_en": "China",
       "country_ch": "中国",
       "hotel_en": "Hyatt",
@@ -4092,6 +5666,28 @@
     },
     {
       "nda": "",
+      "project": "PA000065",
+      "date": "Jan-05",
+      "title_en": "Hyatt Regency Dongguan",
+      "title_ch": "东莞松山湖凯悦酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Dong Guan",
+      "city_ch": "东莞",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA121028",
       "date": "Mar-12",
       "title_en": "Hyatt Regency Hotel Delhi",
@@ -4118,6 +5714,31 @@
     },
     {
       "nda": "",
+      "project": "PA176012",
+      "date": "Aug-17",
+      "title_en": "Hyatt Regency Hotel at Beijing",
+      "title_ch": "北京世园凯悦酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA008001",
       "date": "Jan-08",
       "title_en": "Hyatt Regency Hotel, Pune, India",
@@ -4130,6 +5751,31 @@
       ],
       "city_en": "Pune",
       "city_ch": "浦那",
+      "country_en": "India",
+      "country_ch": "印度",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181028",
+      "date": "Jul-18",
+      "title_en": "Hyatt Regency Nha Trang",
+      "title_ch": "凯悦酒店芽庄",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Nha Trang",
+      "city_ch": "芽庄",
       "country_en": "India",
       "country_ch": "印度",
       "hotel_en": "Hyatt",
@@ -4206,6 +5852,29 @@
     },
     {
       "nda": "",
+      "project": "PA176008",
+      "date": "Jun-17",
+      "title_en": "Hyatt on the Bund, Shanghai, China",
+      "title_ch": "上海外滩茂悦大酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA121039",
       "date": "Aug-12",
       "title_en": "ICC Observation Deck Sky 100",
@@ -4253,9 +5922,32 @@
     },
     {
       "nda": "",
+      "project": "PA163001",
+      "date": "Apr-16",
+      "title_en": "IMET BPO, Philippines",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Pasay",
+      "city_ch": "帕赛市",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA156013",
       "date": "Oct-15",
-      "title_en": "IHG Special Project",
+      "title_en": "IT",
       "title_ch": "IHG",
       "disciplines": [
         "I"
@@ -4263,12 +5955,34 @@
       "codes": [
         "H"
       ],
-      "city_en": "Shanghai",
-      "city_ch": "上海",
-      "country_en": "China",
-      "country_ch": "中国",
+      "city_en": "0",
+      "city_ch": "",
+      "country_en": "",
+      "country_ch": "",
       "hotel_en": "IHG",
       "hotel_ch": "洲际",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186005",
+      "date": "Feb-18",
+      "title_en": "ITC Marriott Hotel",
+      "title_ch": "凯达尔枢纽广场万豪酒店",
+      "disciplines": [
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Guangzhou",
+      "city_ch": "广州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -4278,7 +5992,7 @@
       "project": "PA174003",
       "date": "Feb-17",
       "title_en": "Ikano JBSC in Johor Bahru",
-      "title_ch": "0",
+      "title_ch": "马来西亚新山Ikano购物中心",
       "disciplines": [
         "A",
         "C",
@@ -4287,7 +6001,54 @@
       "codes": [
         "H"
       ],
-      "city_en": "Malaysia",
+      "city_en": "Johor Bahru",
+      "city_ch": "新山",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA184006",
+      "date": "Aug-18",
+      "title_en": "Ikano Johor Bahru Shopping Centre, Malaysia",
+      "title_ch": "马来西亚新山Ikano购物中心",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Guizhou",
+      "city_ch": "贵州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176020",
+      "date": "Oct-17",
+      "title_en": "In Mall at Ji Jia Plaza, Shanghai",
+      "title_ch": "上海马陆镇吉嘉广场",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -4312,33 +6073,6 @@
       "country_ch": "中国",
       "hotel_en": "0",
       "hotel_ch": "",
-      "desc_en": null,
-      "desc_ch": null,
-      "files": []
-    },
-    {
-      "nda": "",
-      "project": "PA161019",
-      "date": "Jul-16",
-      "title_en": "InterContinental Sanya Resort",
-      "title_ch": "三亚半山半岛酒堡項目",
-      "disciplines": [
-        "E",
-        "T"
-      ],
-      "codes": [
-        "H",
-        "O",
-        "R",
-        "V",
-        "Z"
-      ],
-      "city_en": "Sanya",
-      "city_ch": "三亜",
-      "country_en": "China",
-      "country_ch": "中国",
-      "hotel_en": "Four Seasons",
-      "hotel_ch": "四季",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -4389,23 +6123,136 @@
     },
     {
       "nda": "",
+      "project": "PA181016",
+      "date": "Mar-18",
+      "title_en": "JW Marriott Da Nang, Vietnam",
+      "title_ch": "越南岘港JW万豪酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Da Nang",
+      "city_ch": "岘港",
+      "country_en": "Vietnam",
+      "country_ch": "越南",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA161037",
       "date": "Dec-16",
       "title_en": "JW Marriott Hong Kong - L3 Ballroom, Function Rooms",
-      "title_ch": "香港JW萬豪酒店 - L3宴會廳，功能廳",
+      "title_ch": "香港JW万豪酒店 - L3宴会厅，功能厅",
       "disciplines": [
         "A",
         "C"
       ],
       "codes": [
-        "0"
+        "H"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "Marriott",
+      "hotel_ch": "万豪",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA008026",
+      "date": "Jan-00",
+      "title_en": "JW Marriott Hotel, New Delhi (Jasola)",
+      "title_ch": "印度新德里JW万豪酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Delhi",
+      "city_ch": "德里",
+      "country_en": "India",
+      "country_ch": "印度",
+      "hotel_en": "JW Marriott",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176026",
+      "date": "Nov-17",
+      "title_en": "JW Marriott Shijiazhuang",
+      "title_ch": "石家庄JW万豪酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shijiazhuang",
+      "city_ch": "Shijiazhuang",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "JW Marriott",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176026",
+      "date": "Nov-17",
+      "title_en": "JW Marriott Shijiazhuang",
+      "title_ch": "石家庄JW万豪酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shijiazhuang",
+      "city_ch": "Shijiazhuang",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171040",
+      "date": "Oct-17",
+      "title_en": "Jardine Matheson - 49F Jardine House",
+      "title_ch": "怡和洋行 - 香港怡和大廈49楼办公室",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "I"
       ],
       "city_en": "Hong Kong",
       "city_ch": "香港",
       "country_en": "Hong Kong",
       "country_ch": "香港",
       "hotel_en": "0",
-      "hotel_ch": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -4434,6 +6281,28 @@
         "PA141037-1.jpg",
         "PA141037-2.jpg"
       ]
+    },
+    {
+      "nda": "",
+      "project": "PA181024",
+      "date": "Apr-18",
+      "title_en": "Jeju Dream Tower Integrated Resort, Korea",
+      "title_ch": "韩国济州梦想塔综合度假村",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Jeju",
+      "city_ch": "济州",
+      "country_en": "Korea",
+      "country_ch": "韩国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
     },
     {
       "nda": "",
@@ -4485,6 +6354,29 @@
     },
     {
       "nda": "",
+      "project": "PA186030",
+      "date": "Sep-18",
+      "title_en": "Jinwan Marriott Hotel, Zhuhai, China",
+      "title_ch": "珠海金湾万豪酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA011015",
       "date": "Apr-11",
       "title_en": "Jiu Hua Shan Resort",
@@ -4524,6 +6416,28 @@
       "country_ch": "中国",
       "hotel_en": "Jumeirah",
       "hotel_ch": "卓美亚",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171022",
+      "date": "Jun-17",
+      "title_en": "Kapok hotel renovation work in Shenzhen",
+      "title_ch": "华润置地(深圳)罗湖木棉花酒店改造项目",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -4598,6 +6512,30 @@
     },
     {
       "nda": "",
+      "project": "PA171042",
+      "date": "Oct-17",
+      "title_en": "Le Meridien Cam Ranh",
+      "title_ch": "越南金兰艾美酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Cam Ranh",
+      "city_ch": "Cam Ranh",
+      "country_en": "Vietnam",
+      "country_ch": "越南",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA131041",
       "date": "Nov-13",
       "title_en": "Le Meridien Emeishan",
@@ -4665,6 +6603,29 @@
     },
     {
       "nda": "",
+      "project": "PA186006",
+      "date": "Feb-18",
+      "title_en": "Lijiang Four Seasons Hotel, Yunnan",
+      "title_ch": "云南丽江四季酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Yunnan",
+      "city_ch": "云南",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Four Seasons",
+      "hotel_ch": "四季",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA010033",
       "date": "Nov-10",
       "title_en": "Longhua Wei Yade Hotel, Shenzhen",
@@ -4712,8 +6673,7 @@
       "city_ch": "苏州",
       "country_en": "China",
       "country_ch": "中国",
-      "hotel_en": "??",
-      "hotel_ch": "文华东方",
+      "hotel_en": " ",
       "desc_en": null,
       "desc_ch": null,
       "files": [
@@ -4723,10 +6683,58 @@
     },
     {
       "nda": "",
+      "project": "PA186004",
+      "date": "Feb-18",
+      "title_en": "Luohu Kapok Hotel",
+      "title_ch": "罗湖木棉花酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Luohu",
+      "city_ch": "罗湖",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176010",
+      "date": "Jun-17",
+      "title_en": "Luxelakes Lux Hotel in Chengdu",
+      "title_ch": "成都麓湖丽世酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "E",
+        "T"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Chengdu",
+      "city_ch": "成都",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA171009",
       "date": "Feb-17",
       "title_en": "Luxury Collection Champarama, Nha Trang, Vietnam",
-      "title_ch": "0",
+      "title_ch": "越南芽庄豪华精选",
       "disciplines": [
         "A",
         "C"
@@ -4734,7 +6742,32 @@
       "codes": [
         "H"
       ],
-      "city_en": "Vietnam",
+      "city_en": "Nha Trang",
+      "city_ch": "芽庄",
+      "country_en": "India",
+      "country_ch": "印度",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181001",
+      "date": "Jan-18",
+      "title_en": "MGM Cotai, Macau - Audio System Tuning",
+      "title_ch": "澳门美獅美高梅 - 音频系统调试",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "C"
+      ],
+      "city_en": "Macau",
+      "city_ch": "澳门",
+      "country_en": "China",
+      "country_ch": "中国",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -4854,6 +6887,74 @@
     },
     {
       "nda": "",
+      "project": "PA171025",
+      "date": "Jun-17",
+      "title_en": "MO Bar Landmark Mandarin HK",
+      "title_ch": "香港置地文华东方酒店酒吧",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "B"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "MO",
+      "hotel_ch": "文华东方",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171018",
+      "date": "Apr-17",
+      "title_en": "MOHKG - Public Area Renovation Project",
+      "title_ch": "香港东方文华酒店公共区域改造工程",
+      "disciplines": [
+        "A",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "MO",
+      "hotel_ch": "文华东方",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA008028",
+      "date": "Jan-00",
+      "title_en": "Mactan Shangri-La Ballroom Report",
+      "title_ch": "菲律宾香格里拉麦丹岛度假酒店 舞厅 ",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Manila",
+      "city_ch": "马尼拉",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "Shangri-La",
+      "hotel_ch": "香格里拉",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA010036",
       "date": "Nov-10",
       "title_en": "Madera Hotel, Jordan",
@@ -4951,6 +7052,29 @@
     },
     {
       "nda": "",
+      "project": "PA141045",
+      "date": "Nov-14",
+      "title_en": "Mandarin Oriental Bali",
+      "title_ch": "巴利岛文华东方酒店",
+      "disciplines": [
+        "A",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Bali",
+      "city_ch": "巴里",
+      "country_en": "Indonesia",
+      "country_ch": "印度尼西亚",
+      "hotel_en": "MO",
+      "hotel_ch": "文华东方",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA151009",
       "date": "Feb-15",
       "title_en": "Mandarin Oriental Bali",
@@ -4973,29 +7097,6 @@
         "PA151009-1.jpg",
         "PA151009-2.jpg"
       ]
-    },
-    {
-      "nda": "",
-      "project": "PA141045",
-      "date": "Nov-14",
-      "title_en": "Mandarin Oriental Bali",
-      "title_ch": "巴利岛文华东方酒店",
-      "disciplines": [
-        "A",
-        "I"
-      ],
-      "codes": [
-        "H"
-      ],
-      "city_en": "Bali",
-      "city_ch": "巴里",
-      "country_en": "Indonesia",
-      "country_ch": "印度尼西亚",
-      "hotel_en": "MO",
-      "hotel_ch": "文华东方",
-      "desc_en": null,
-      "desc_ch": null,
-      "files": []
     },
     {
       "nda": "",
@@ -5022,6 +7123,29 @@
         "PA141027-1.jpg",
         "PA141027-2.jpg"
       ]
+    },
+    {
+      "nda": "",
+      "project": "PA181029",
+      "date": "Jul-18",
+      "title_en": "Mandarin Oriental Bangkok",
+      "title_ch": "文华东方酒店曼谷",
+      "disciplines": [
+        "A",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Bangkok",
+      "city_ch": "曼谷",
+      "country_en": "Thailand",
+      "country_ch": "泰国",
+      "hotel_en": "MO",
+      "hotel_ch": "文华东方",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
     },
     {
       "nda": "",
@@ -5095,7 +7219,100 @@
     },
     {
       "nda": "",
-      "project": "PA10001P",
+      "project": "PA181003",
+      "date": "Jan-18",
+      "title_en": "Mandarin Oriental Guangzhou",
+      "title_ch": "广州文华东方酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Guangzhou",
+      "city_ch": "广州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181027",
+      "date": "Jun-18",
+      "title_en": "Mandarin Oriental Guangzhou",
+      "title_ch": "广州文华东方酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Guizhou",
+      "city_ch": "贵州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "MO",
+      "hotel_ch": "文华东方",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181035",
+      "date": "Sep-18",
+      "title_en": "Mandarin Oriental Guangzhou",
+      "title_ch": "广州文华东方酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Guangzhou",
+      "city_ch": "广州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "MO",
+      "hotel_ch": "文华东方",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163003",
+      "date": "May-16",
+      "title_en": "Mandarin Oriental, Manila, Philippines",
+      "title_ch": "菲律宾马尼拉文华东方酒店",
+      "disciplines": [
+        "A",
+        "V",
+        "A",
+        "C",
+        "I",
+        "T"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Makati",
+      "city_ch": "麦卡蒂",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PAihDP",
       "date": "Sep-10",
       "title_en": "Manila Buddha Bar",
       "title_ch": "马尼拉佛陀酒吧",
@@ -5119,7 +7336,7 @@
     },
     {
       "nda": "",
-      "project": "PA10002P",
+      "project": "PA10002",
       "date": "Aug-10",
       "title_en": "Manila Hotel",
       "title_ch": "马尼拉酒店",
@@ -5142,7 +7359,7 @@
     },
     {
       "nda": "",
-      "project": "PA11006P",
+      "project": "PA11006",
       "date": "Jul-11",
       "title_en": "Marco Polo, Ortigas",
       "title_ch": "奥提加斯马哥孛罗酒店",
@@ -5158,6 +7375,28 @@
       "country_ch": "菲律宾",
       "hotel_en": "Marco Polo",
       "hotel_ch": "马可孛罗",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PHA11006",
+      "date": "Jul-11",
+      "title_en": "Marco Polo, Ortigas",
+      "title_ch": "奥提加斯马哥孛罗酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Pasig",
+      "city_ch": "帕西格",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -5360,20 +7599,20 @@
     },
     {
       "nda": "",
-      "project": "PA000114",
-      "date": "Jan-07",
-      "title_en": "Megabox Hong Kong",
-      "title_ch": "香港 MEGABOX",
+      "project": "PA186013",
+      "date": "May-18",
+      "title_en": "Mayland M.LIVE Plaza, Guangzhou, China",
+      "title_ch": "广州美林M.LIVE天地",
       "disciplines": [
         "A"
       ],
       "codes": [
         "M"
       ],
-      "city_en": "Hong Kong",
-      "city_ch": "香港",
-      "country_en": "Hong Kong",
-      "country_ch": "香港",
+      "city_en": "Guangzhou",
+      "city_ch": "广州",
+      "country_en": "China",
+      "country_ch": "中国",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -5398,6 +7637,50 @@
       "country_ch": "香港",
       "hotel_en": "0",
       "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171039",
+      "date": "Sep-17",
+      "title_en": "Mia Saigon, Vietnam",
+      "title_ch": " ",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Vietnam",
+      "city_ch": "越南",
+      "country_en": "Vietnam",
+      "country_ch": "越南",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186027",
+      "date": "Aug-18",
+      "title_en": "Mianyang Sheraton Hotel at Sichuan",
+      "title_ch": "四川绵阳首开喜来登酒店",
+      "disciplines": [
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Sichuan Province",
+      "city_ch": "四川",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Starwood",
+      "hotel_ch": "喜达屋",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -5471,6 +7754,28 @@
     },
     {
       "nda": "",
+      "project": "PA186037 ",
+      "date": "Jan-00",
+      "title_en": "Nanjing Jinling Central ",
+      "title_ch": "南京金陵中环",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Nanjing",
+      "city_ch": "南京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA151028",
       "date": "Dec-15",
       "title_en": "New World Center Project",
@@ -5512,6 +7817,29 @@
       "country_ch": "中国",
       "hotel_en": "New World",
       "hotel_ch": "新世界",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171027",
+      "date": "Jun-17",
+      "title_en": "New World Department Store Renovation Project",
+      "title_ch": "新世界百货改造步行街项目",
+      "disciplines": [
+        "A",
+        "I"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Wuhan",
+      "city_ch": "武汉",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -5653,6 +7981,73 @@
     },
     {
       "nda": "",
+      "project": "PA186029",
+      "date": "Sep-18",
+      "title_en": "Niccolo Suzhou, China - L89 Sky Bar",
+      "title_ch": "苏州尼依格羅酒店L89 层空中酒吧",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Suzhou",
+      "city_ch": "苏州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181037",
+      "date": "Sep-18",
+      "title_en": "Ningbo Ritz-Carlton Hotel",
+      "title_ch": "广州文华东方酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Guangzhou",
+      "city_ch": "广州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "MO",
+      "hotel_ch": "文华东方",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181008",
+      "date": "Feb-18",
+      "title_en": "No. 1 Shenzhen Bay, Shenzhen, China",
+      "title_ch": "深圳湾一号 - 智能家居",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "R"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA121036",
       "date": "Jul-12",
       "title_en": "Novotel - Zhuhai",
@@ -5683,7 +8078,32 @@
     },
     {
       "nda": "",
-      "project": "PA11009P",
+      "project": "PHA11009",
+      "date": "Nov-11",
+      "title_en": "Novotel Hotel, Philippines",
+      "title_ch": "菲律宾诺富特酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "T"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Quezon City",
+      "city_ch": "奎松市",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA11009",
       "date": "Nov-11",
       "title_en": "Novotel Hotel, Philippines",
       "title_ch": "菲律宾诺富特酒店",
@@ -5704,26 +8124,228 @@
       "hotel_ch": "雅高",
       "desc_en": null,
       "desc_ch": null,
+      "files": [
+        "PA11009-1.jpg",
+        "PA11009-2.jpg"
+      ]
+    },
+    {
+      "nda": "",
+      "project": "PHA11005",
+      "date": "Aug-11",
+      "title_en": "Novotel Quezon City, Philippines",
+      "title_ch": "菲律宾奎松诺富特酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Makati",
+      "city_ch": "麦卡蒂",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176002",
+      "date": "Mar-17",
+      "title_en": "Office Building at Modery City Zone B",
+      "title_ch": "现代城B区办公楼项目",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Tianjin",
+      "city_ch": "天津",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171013",
+      "date": "Mar-17",
+      "title_en": "Office Development at 704-730 King's Road, North Point",
+      "title_ch": "北角英皇道704-730号办事处",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "O"
+      ],
+      "city_en": "North Point",
+      "city_ch": "北角",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181033",
+      "date": "Aug-18",
+      "title_en": "One Bangkok, Thailand",
+      "title_ch": "泰国曼谷一号",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Bangkok",
+      "city_ch": "曼谷",
+      "country_en": "Thailand",
+      "country_ch": "泰国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
       "files": []
     },
     {
       "nda": "",
       "project": "PA164002",
-      "date": "Apr-16",
+      "date": "Mar-16",
       "title_en": "Oxley Towers KLCC",
-      "title_ch": "Oxley Towers 吉隆坡",
+      "title_ch": "马来西亚吉隆坡卓美亞酒店",
       "disciplines": [
         "A",
         "C",
         "I"
       ],
       "codes": [
-        "I"
+        "H"
       ],
       "city_en": "Kuala Lumpur",
       "city_ch": "吉隆坡",
       "country_en": "Malaysia",
       "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA004",
+      "date": "Oct-06",
+      "title_en": "PA004 HK Disneyland",
+      "title_ch": "0",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "T"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA005",
+      "date": "Oct-06",
+      "title_en": "PA005 Wanchai Bier Keller",
+      "title_ch": "0",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "B"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA006",
+      "date": "Oct-06",
+      "title_en": "PA006 The LOFT Bar",
+      "title_ch": "0",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "B"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA007",
+      "date": "Oct-06",
+      "title_en": "PA007 EMID VGA",
+      "title_ch": "0",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "S"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA008",
+      "date": "Oct-06",
+      "title_en": "PA008 Saint Andrews Church - New PC",
+      "title_ch": "0",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "W"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -5920,6 +8542,29 @@
     },
     {
       "nda": "",
+      "project": "PA171015",
+      "date": "Mar-17",
+      "title_en": "Park Hyatt Saigon",
+      "title_ch": "西贡凯悦酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Saigon",
+      "city_ch": "胡志明市",
+      "country_en": "Vietnam",
+      "country_ch": "越南",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA161005",
       "date": "Feb-16",
       "title_en": "Park Hyatt Saigon -Ballroom",
@@ -5942,16 +8587,62 @@
     },
     {
       "nda": "",
+      "project": "PA171026",
+      "date": "Jun-17",
+      "title_en": "Peak Tram",
+      "title_ch": "山顶缆车",
+      "disciplines": [
+        "I"
+      ],
+      "codes": [
+        "O",
+        "T"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA184001",
+      "date": "Jul-18",
+      "title_en": "Penang Waterfront",
+      "title_ch": "海滨槟城",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "O",
+        "T"
+      ],
+      "city_en": "Penang",
+      "city_ch": "槟城",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA174002",
       "date": "Feb-17",
       "title_en": "Penang Waterfront Convention Centre",
-      "title_ch": "0",
+      "title_ch": "槟城海滨会议中心项目",
       "disciplines": [
         "A",
         "C"
       ],
       "codes": [
-        "I"
+        "Y"
       ],
       "city_en": "Penang",
       "city_ch": "槟城",
@@ -5990,7 +8681,7 @@
     {
       "nda": "",
       "project": "PA011033",
-      "date": "Dec-12",
+      "date": "Dec-11",
       "title_en": "Peninsula - Headend System",
       "title_ch": "半岛酒店 - 前端系统",
       "disciplines": [
@@ -6056,6 +8747,28 @@
     },
     {
       "nda": "",
+      "project": "PA186034",
+      "date": "Nov-18",
+      "title_en": "Pfizer Beijing",
+      "title_ch": "辉瑞北京",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "O"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA121013",
       "date": "Feb-12",
       "title_en": "Plantation Hotel",
@@ -6079,6 +8792,75 @@
     },
     {
       "nda": "",
+      "project": "PA171021",
+      "date": "May-17",
+      "title_en": "Poly GISE New Town Phase 3, Guangzhou, China",
+      "title_ch": "保利广钢三期项目",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "R",
+        "M"
+      ],
+      "city_en": "Guangzhou",
+      "city_ch": "广州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181030",
+      "date": "Aug-18",
+      "title_en": "Private Residence, 7 Headland Road",
+      "title_ch": "香港豪宅赫兰道",
+      "disciplines": [
+        "A",
+        "C",
+        "I"
+      ],
+      "codes": [
+        "R"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186001",
+      "date": "Jan-18",
+      "title_en": "Pudong Leonra Hotel",
+      "title_ch": "浦东丽昂酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA009027",
       "date": "Nov-09",
       "title_en": "Pui Ching Primary School",
@@ -6093,6 +8875,28 @@
       "city_ch": "香港",
       "country_en": "Hong Kong",
       "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176016",
+      "date": "Aug-17",
+      "title_en": "Qianhai Conrad Hotel at Shenzhen",
+      "title_ch": "深圳前海康莱德酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -6153,6 +8957,49 @@
     },
     {
       "nda": "",
+      "project": "PA186017",
+      "date": "Mar-18",
+      "title_en": "Qingdao Int'l Innovation Zone",
+      "title_ch": "青岛国际创新区-大讲堂",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Qingdao",
+      "city_ch": "青岛",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176018",
+      "date": "Sep-17",
+      "title_en": "Qingdao International Beer City",
+      "title_ch": "青岛国际啤酒城",
+      "disciplines": [
+        "A",
+        "E"
+      ],
+      "codes": [],
+      "city_en": "Qingdao",
+      "city_ch": "青岛",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA141023",
       "date": "May-14",
       "title_en": "Radisson Blu Hotel, Wuxi",
@@ -6169,6 +9016,29 @@
       "country_ch": "中国",
       "hotel_en": "Radisson",
       "hotel_ch": "丽笙",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA184004",
+      "date": "Mar-18",
+      "title_en": "Radisson Red KL Sentral, Malaysia",
+      "title_ch": "马来西亚吉隆坡丽芮酒店",
+      "disciplines": [
+        "A",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Kuala Lumpur",
+      "city_ch": "吉隆坡",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -6294,12 +9164,80 @@
     },
     {
       "nda": "",
-      "project": "PA141019",
-      "date": "Apr-14",
+      "project": "PA176022",
+      "date": "Nov-17",
+      "title_en": "Renaissance at Hongzhou Centre, Sanya",
+      "title_ch": "三亚鸿洲中心万丽酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Sanya",
+      "city_ch": "三亜",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176022",
+      "date": "Nov-17",
+      "title_en": "Renaissance at Hongzhou Centre, Sanya",
+      "title_ch": "三亚鸿洲中心万丽酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Sanya",
+      "city_ch": "三亜",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176023",
+      "date": "Nov-17",
+      "title_en": "Renaissance at Hongzhou Centre, Sanya",
+      "title_ch": "深圳光明万怡酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA131033",
+      "date": "Sep-13",
       "title_en": "Rosewood Hotel Hong Kong",
       "title_ch": "香港瑰丽酒店",
       "disciplines": [
-        "I"
+        "A"
       ],
       "codes": [
         "H"
@@ -6316,12 +9254,12 @@
     },
     {
       "nda": "",
-      "project": "PA131033",
-      "date": "Sep-13",
+      "project": "PA141019",
+      "date": "Apr-14",
       "title_en": "Rosewood Hotel Hong Kong",
       "title_ch": "香港瑰丽酒店",
       "disciplines": [
-        "A"
+        "I"
       ],
       "codes": [
         "H"
@@ -6394,6 +9332,29 @@
     },
     {
       "nda": "",
+      "project": "PA163010",
+      "date": "Sep-16",
+      "title_en": "Royalton Residences",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "R"
+      ],
+      "city_en": "Pasig",
+      "city_ch": "帕西格",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA141002",
       "date": "Jan-14",
       "title_en": "Ruili Double Tree by Hilton, Yunnan",
@@ -6440,10 +9401,10 @@
     },
     {
       "nda": "",
-      "project": "PA123004P",
+      "project": "PA123004",
       "date": "Nov-12",
       "title_en": "SM Two E-Com Center, Manila",
-      "title_ch": "马尼拉SM Two 電子商貿中心",
+      "title_ch": "马尼拉SM Two 电子商贸中心",
       "disciplines": [
         "A"
       ],
@@ -6458,16 +9419,19 @@
       "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
-      "files": []
+      "files": [
+        "PA123004-1.jpg",
+        "PA123004-2.jpg"
+      ]
     },
     {
       "nda": "",
       "project": "PA171003",
       "date": "Mar-17",
       "title_en": "SOGO Causeway Bay",
-      "title_ch": "祟高铜锣湾",
+      "title_ch": "铜锣湾祟光百货",
       "disciplines": [
-        "",
+        " ",
         "A"
       ],
       "codes": [
@@ -6477,6 +9441,30 @@
       "city_ch": "香港",
       "country_en": "Hong Kong",
       "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA184007",
+      "date": "Aug-18",
+      "title_en": "Sabah Internatiional Convention Centre, Malaysia",
+      "title_ch": "马来西亚沙巴国际会议中心",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "C",
+        "C"
+      ],
+      "city_en": "Sabah",
+      "city_ch": "Sabah",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -6530,6 +9518,173 @@
     },
     {
       "nda": "",
+      "project": "PA163017",
+      "date": "Nov-16",
+      "title_en": "Seda Hote Manila Bay",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "V",
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Pasay",
+      "city_ch": "帕赛市",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163014",
+      "date": "Nov-16",
+      "title_en": "Seda Hotel Arca South",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Taguig",
+      "city_ch": "达义市",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163011",
+      "date": "Nov-16",
+      "title_en": "Seda Hotel BGC",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "V",
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Bonifacio Global City",
+      "city_ch": "BGC",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163013",
+      "date": "Nov-16",
+      "title_en": "Seda Hotel CITP",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Bacolod",
+      "city_ch": "巴科洛德",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163012",
+      "date": "Nov-16",
+      "title_en": "Seda Hotel Cirtcuit Makati",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Makati",
+      "city_ch": "麦卡蒂",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163015",
+      "date": "Nov-16",
+      "title_en": "Seda Hotel Glorietta",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "V",
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Makati",
+      "city_ch": "麦卡蒂",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163005",
+      "date": "Jun-16",
+      "title_en": "Seda Hotel Iloilo, Philippines",
+      "title_ch": "菲律宾马尼拉索纳塔广场威斯汀酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Iloilo",
+      "city_ch": "伊洛伊洛",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA141006",
       "date": "Jan-14",
       "title_en": "Sha Tin Racecourse Grandstands Renovation Project",
@@ -6576,6 +9731,145 @@
     },
     {
       "nda": "",
+      "project": "PA186018",
+      "date": "Jun-18",
+      "title_en": "Shangdong Weifang Hanting Sheraton Hotel",
+      "title_ch": "山东潍坊寒亭喜来登酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shandong",
+      "city_ch": "山东",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186020",
+      "date": "Jun-18",
+      "title_en": "Shanghai Cordis Hotel",
+      "title_ch": "上海康德思酒店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Cordis",
+      "hotel_ch": "康德思",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186022",
+      "date": "Jul-18",
+      "title_en": "Shanghai Hyatt Place & Hyatt House Hotel",
+      "title_ch": "上海凯悦嘉轩和凯悦嘉寓酒店宴会厅",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186019",
+      "date": "Jun-18",
+      "title_en": "Shanghai IHG Office",
+      "title_ch": "上海洲际办公室",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "O"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "IHG",
+      "hotel_ch": "洲际",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171023",
+      "date": "Jun-17",
+      "title_en": "Shanghai Qiantan 50-01 plot Commercial and Residential Project",
+      "title_ch": "上海前滩50-01地块酒店项目",
+      "disciplines": [
+        "A",
+        "C",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186028",
+      "date": "Aug-18",
+      "title_en": "Shanghai Tengfei Building",
+      "title_ch": "上海腾飞大厦",
+      "disciplines": [
+        "A",
+        "I"
+      ],
+      "codes": [
+        "O",
+        "T"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA156010",
       "date": "Aug-15",
       "title_en": "Shanghai The Bund One project",
@@ -6585,6 +9879,30 @@
       ],
       "codes": [
         "D"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186021",
+      "date": "Jun-18",
+      "title_en": "Shanghai Zhangjiang Science Hall",
+      "title_ch": "上海张江科学会堂",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "O",
+        "T"
       ],
       "city_en": "Shanghai",
       "city_ch": "上海",
@@ -6774,6 +10092,94 @@
     },
     {
       "nda": "",
+      "project": "PA008027",
+      "date": "Jan-00",
+      "title_en": "Shangri-La Hotel Chengdu",
+      "title_ch": "成都香格里拉大酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Chengdu",
+      "city_ch": "成都",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Shangri-La",
+      "hotel_ch": "香格里拉",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA000067",
+      "date": "Jan-05",
+      "title_en": "Shangri-La Hotel PaZhou",
+      "title_ch": "琶州香格里拉酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Pazhou",
+      "city_ch": "琶州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Shangri-La",
+      "hotel_ch": "香格里拉",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181042",
+      "date": "Jan-00",
+      "title_en": "Shangri-La Hotel Wuhan ",
+      "title_ch": "武汉香格里拉大酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Wuhan",
+      "city_ch": "武汉",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181014",
+      "date": "Mar-18",
+      "title_en": "Shangri-La Hotel, Tokyo",
+      "title_ch": "东京香格里拉酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Tokyo",
+      "city_ch": "东京",
+      "country_en": "Japan",
+      "country_ch": "日本",
+      "hotel_en": "Shangri-La",
+      "hotel_ch": "香格里拉",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA141048",
       "date": "Nov-14",
       "title_en": "Shangri-La Hung Hom",
@@ -6818,6 +10224,28 @@
     },
     {
       "nda": "",
+      "project": "PA181038",
+      "date": "Oct-18",
+      "title_en": "Shangri-La International - IT Design Standard Review",
+      "title_ch": "香格里拉酒店集团 - 修订IT设计标准",
+      "disciplines": [
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA011051",
       "date": "Feb-12",
       "title_en": "Shangri-La Istanbul",
@@ -6834,6 +10262,44 @@
       "country_ch": "土耳其",
       "hotel_en": "Shangri-La",
       "hotel_ch": "香格里拉",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA008020",
+      "date": "Jan-00",
+      "title_en": "Shangri-La Jakarta, Horizon Club Lounge",
+      "title_ch": "印度尼西亞雅加达香格里拉大酒店俱乐部休息室 ",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Jakarta",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA008019",
+      "date": "Jan-00",
+      "title_en": "Shangri-La Jakarta, Lobby Lounge",
+      "title_ch": "印度尼西亞雅加达 香格里拉大酒店酒廊 ",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Jakarta",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -6986,7 +10452,7 @@
         "H"
       ],
       "city_en": "Nanning",
-      "city_ch": "南寧",
+      "city_ch": "南宁",
       "country_en": "China",
       "country_ch": "中国",
       "hotel_en": "Shangri-La",
@@ -7246,6 +10712,28 @@
     },
     {
       "nda": "",
+      "project": "PA000066",
+      "date": "Jan-05",
+      "title_en": "Shangri-la Beijing Extension",
+      "title_ch": "北京香格里拉酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Shangri-La",
+      "hotel_ch": "香格里拉",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA151027",
       "date": "Dec-15",
       "title_en": "Shanwei Double Tree by Hilton",
@@ -7278,6 +10766,50 @@
       ],
       "codes": [
         "I"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176005",
+      "date": "Jun-17",
+      "title_en": "Shenzhen Long Guang Renaissance Hotel",
+      "title_ch": "深圳龙光玖钻万丽酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "ShenZhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186014",
+      "date": "May-18",
+      "title_en": "Shenzhen Qianhai Guiwan District Zone Two",
+      "title_ch": "深圳前海桂湾区二单元",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "O"
       ],
       "city_en": "Shenzhen",
       "city_ch": "深圳",
@@ -7536,6 +11068,29 @@
     },
     {
       "nda": "",
+      "project": "PA174004",
+      "date": "Mar-17",
+      "title_en": "Sheraton Kuching, Sarawak, Malaysia",
+      "title_ch": "马来西亚砂拉越古普喜来登酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Kuching",
+      "city_ch": "古晋",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "Starwood",
+      "hotel_ch": "喜达屋",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA151029",
       "date": "Dec-15",
       "title_en": "Sheraton Resort Da Nang",
@@ -7561,6 +11116,28 @@
     },
     {
       "nda": "",
+      "project": "PA000069",
+      "date": "Jan-05",
+      "title_en": "Sheraton XinJiang",
+      "title_ch": "新疆喜来登大酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "XinJiang",
+      "city_ch": "新疆",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Starwood",
+      "hotel_ch": "喜达屋",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA141042",
       "date": "Oct-14",
       "title_en": "Sheraton Yibin",
@@ -7573,7 +11150,7 @@
         "H"
       ],
       "city_en": "Yibin",
-      "city_ch": "宜賓",
+      "city_ch": "宜宾",
       "country_en": "China",
       "country_ch": "中国",
       "hotel_en": "Starwood",
@@ -7654,6 +11231,101 @@
     },
     {
       "nda": "",
+      "project": "PA171037",
+      "date": "Aug-17",
+      "title_en": "Song Shan Huawei Univerisity Project",
+      "title_ch": "松山湖华为大学项目",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "E"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181020",
+      "date": "Mar-18",
+      "title_en": "Sports Hall Renovation at LRC",
+      "title_ch": "女子俱乐部体育馆翻新",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "U"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181026",
+      "date": "May-18",
+      "title_en": "Spring City 66 - Interactive Directory System",
+      "title_ch": "昆明恒隆广场",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Kunming",
+      "city_ch": "昆明",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA173004",
+      "date": "Jul-17",
+      "title_en": "St Lukes Hospital QC",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "V",
+        "I",
+        "T",
+        "S",
+        "E",
+        "C"
+      ],
+      "codes": [
+        "L"
+      ],
+      "city_en": "Quezon City",
+      "city_ch": "奎松市",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA121047",
       "date": "Nov-12",
       "title_en": "St. Andrew's Church",
@@ -7701,6 +11373,29 @@
     },
     {
       "nda": "",
+      "project": "PA176006",
+      "date": "Jun-17",
+      "title_en": "St. Regis Hotel Guizhou",
+      "title_ch": "贵州瑞吉酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Guizhou",
+      "city_ch": "贵州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA008031",
       "date": "Dec-08",
       "title_en": "St. Regis Hotel at Sanya",
@@ -7718,6 +11413,52 @@
       "country_ch": "中国",
       "hotel_en": "Starwood",
       "hotel_ch": "喜达屋",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171032",
+      "date": "Aug-17",
+      "title_en": "Sugar Renovation at L32 East Hote",
+      "title_ch": " ",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "D"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186023",
+      "date": "Jul-18",
+      "title_en": "Suzhou Cangjie Commercial Project",
+      "title_ch": "苏州仓街商业项目",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Suzhou",
+      "city_ch": "苏州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -7783,6 +11524,30 @@
       ],
       "codes": [
         "H",
+        "R"
+      ],
+      "city_en": "Kuala Lumpur",
+      "city_ch": "吉隆坡",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA164001",
+      "date": "Feb-16",
+      "title_en": "TA3&4 Kuala Lumpur",
+      "title_ch": "吉隆坡TA3和4",
+      "disciplines": [
+        "A",
+        "C",
+        "I"
+      ],
+      "codes": [
         "R"
       ],
       "city_en": "Kuala Lumpur",
@@ -7863,6 +11628,98 @@
     },
     {
       "nda": "",
+      "project": "PA181032",
+      "date": "Jul-18",
+      "title_en": "Taichung Intercontinental Hotel",
+      "title_ch": "洲际酒店台中",
+      "disciplines": [
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Taichung",
+      "city_ch": "台中",
+      "country_en": "Taiwan",
+      "country_ch": "台湾",
+      "hotel_en": "IHG",
+      "hotel_ch": "洲际",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181023",
+      "date": "Apr-18",
+      "title_en": "Taichung Intercontinental Hotel, Taiwan",
+      "title_ch": "台中洲际酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Taichung",
+      "city_ch": "台中",
+      "country_en": "Taiwan",
+      "country_ch": "台湾",
+      "hotel_en": "IHG",
+      "hotel_ch": "洲际",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181021",
+      "date": "Apr-18",
+      "title_en": "Taipei EVEN Hotel, Taiwan",
+      "title_ch": "台北伊凡酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Taipei",
+      "city_ch": "台北",
+      "country_en": "Taiwan",
+      "country_ch": "台湾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186002",
+      "date": "Jan-18",
+      "title_en": "Taiyuan Hyatt Place Hotel",
+      "title_ch": "太原凯悦嘉轩酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Taiyuan",
+      "city_ch": "Taiyuan",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Hyatt",
+      "hotel_ch": "凯悦",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA141040",
       "date": "Oct-14",
       "title_en": "The American Club",
@@ -7884,6 +11741,138 @@
       "files": [
         "PA141040-1.jpg"
       ]
+    },
+    {
+      "nda": "",
+      "project": "PA181040",
+      "date": "Jan-00",
+      "title_en": "The American Club - Country Club Phase IIA ",
+      "title_ch": "美国俱乐部，乡村俱乐部，IIa期 ",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "U"
+      ],
+      "city_en": "Samui",
+      "city_ch": "Samui",
+      "country_en": "Thailand",
+      "country_ch": "泰国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171041",
+      "date": "Oct-17",
+      "title_en": "The American Club HK - Country Club Adult Pool Bar",
+      "title_ch": "香港美国会 - 大潭会所池畔酒吧",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "U"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171043",
+      "date": "Oct-17",
+      "title_en": "The American Club HK - Country Club Golf Simulators",
+      "title_ch": "香港美国会 - 大潭会所室内高尔夫模拟场",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "U"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181044",
+      "date": "Jan-00",
+      "title_en": "The American Club HK - Town Club 49F",
+      "title_ch": "香港美国会所俱乐部49F ",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "U"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181005",
+      "date": "Feb-18",
+      "title_en": "The American Club Hong Kong - Country Club Golf Simulators",
+      "title_ch": "香港美国会 - 大潭会所室内高尔夫模拟场",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "U"
+      ],
+      "city_en": "Haiphong",
+      "city_ch": "海防",
+      "country_en": "Vietnam",
+      "country_ch": "越南",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181031",
+      "date": "Jul-18",
+      "title_en": "The American Club Hong Kong - Country Club Renovation Phase 1B",
+      "title_ch": "香港美国会 - 大潭会所改造1期B",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "U"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
     },
     {
       "nda": "",
@@ -7977,15 +11966,12 @@
     },
     {
       "nda": "",
-      "project": "PA008023",
-      "date": "Sep-08",
+      "project": "PA131013",
+      "date": "Mar-13",
       "title_en": "The Hong Kong Club",
       "title_ch": "香港会",
       "disciplines": [
-        "A",
-        "I",
-        "S",
-        "T"
+        "S"
       ],
       "codes": [
         "U"
@@ -8002,12 +11988,15 @@
     },
     {
       "nda": "",
-      "project": "PA131013",
-      "date": "Mar-13",
+      "project": "PA008023",
+      "date": "Sep-08",
       "title_en": "The Hong Kong Club",
       "title_ch": "香港会",
       "disciplines": [
-        "S"
+        "A",
+        "I",
+        "S",
+        "T"
       ],
       "codes": [
         "U"
@@ -8050,12 +12039,12 @@
     },
     {
       "nda": "",
-      "project": "PA000083",
-      "date": "Jan-06",
+      "project": "PA131021",
+      "date": "May-13",
       "title_en": "The Hong Kong Football Club",
       "title_ch": "香港足球会",
       "disciplines": [
-        "P"
+        "A"
       ],
       "codes": [
         "U"
@@ -8072,12 +12061,12 @@
     },
     {
       "nda": "",
-      "project": "PA131021",
-      "date": "May-13",
+      "project": "PA000083",
+      "date": "Jan-06",
       "title_en": "The Hong Kong Football Club",
       "title_ch": "香港足球会",
       "disciplines": [
-        "A"
+        "P"
       ],
       "codes": [
         "U"
@@ -8254,6 +12243,29 @@
     },
     {
       "nda": "",
+      "project": "PA181004",
+      "date": "Feb-18",
+      "title_en": "The Hong Kong Jockey Club - Happy Valley Racecourse Grandstand 2018",
+      "title_ch": "香港赛马会 - 沙田公众看台 2018",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "U"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA000055",
       "date": "Jan-05",
       "title_en": "The Hong Kong Jockey Club - M1 Stands",
@@ -8342,6 +12354,27 @@
     },
     {
       "nda": "",
+      "project": "PA008025",
+      "date": "Jan-00",
+      "title_en": "The Intercon Kuwait",
+      "title_ch": "科威特国际贸易中心",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Kuwait",
+      "city_ch": "Kuwait",
+      "country_en": "Kuwait",
+      "country_ch": "Kuwait",
+      "hotel_en": "Intercontinental",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA121014",
       "date": "Mar-12",
       "title_en": "The Landmark",
@@ -8370,7 +12403,7 @@
       "project": "PA121041",
       "date": "Aug-12",
       "title_en": "The Landmark Chater, Alexandra, Prince's - BGM System",
-      "title_ch": "置地遮打历山太子大厦 - 背景音乐系统",
+      "title_ch": "置地遮打,历山,太子大厦 - 背景音乐系统",
       "disciplines": [
         "A"
       ],
@@ -8411,6 +12444,29 @@
         "PA141036-1.jpg",
         "PA141036-2.jpg"
       ]
+    },
+    {
+      "nda": "",
+      "project": "PA184002",
+      "date": "Jul-18",
+      "title_en": "The Light City - Retail and Convention Centre, Penang, Malaysia",
+      "title_ch": "马来西亚槟城滨海湾综合项目 - 商场及会议中心",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "O",
+        "T"
+      ],
+      "city_en": "Penang",
+      "city_ch": "槟城",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
     },
     {
       "nda": "",
@@ -8473,6 +12529,73 @@
       "city_ch": "杜拜",
       "country_en": "UAE",
       "country_ch": "亚联酋",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA008008",
+      "date": "Jan-00",
+      "title_en": "The Peninsula HK - Lounge Bar",
+      "title_ch": "半岛酒店 - 酒廊酒吧",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "B"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "Peninsula",
+      "hotel_ch": "半岛",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA008030",
+      "date": "Jan-00",
+      "title_en": "The Peninsula Shanghai",
+      "title_ch": "上海半岛酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shanghai",
+      "city_ch": "上海",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163004",
+      "date": "May-16",
+      "title_en": "The Proscenium Residences, Philippines",
+      "title_ch": "菲律宾马卡蒂The Proscenium公寓",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Mandaluyong",
+      "city_ch": "曼达卢永",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -8594,6 +12717,50 @@
     },
     {
       "nda": "",
+      "project": "PA186015",
+      "date": "Jun-18",
+      "title_en": "Tiantai Lotus Hotel at Taizhou",
+      "title_ch": "台州天台莲花酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Taizhou",
+      "city_ch": "台州",
+      "country_en": "Taiwan",
+      "country_ch": "台湾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA008015",
+      "date": "Jan-00",
+      "title_en": "Trader Hotel Male Maldives",
+      "title_ch": "马尔代夫马累仁民酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Maldives",
+      "city_ch": "马尔代夫",
+      "country_en": "Maldives",
+      "country_ch": "马尔代夫",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA121008",
       "date": "Feb-12",
       "title_en": "Traders Hotel Shenyang - Ballroom & Function Room",
@@ -8689,10 +12856,10 @@
     },
     {
       "nda": "",
-      "project": "PA161034",
-      "date": "Dec-16",
-      "title_en": "Victoria's Secret Flagship Store in Beijing",
-      "title_ch": "0",
+      "project": "PA181013",
+      "date": "Mar-18",
+      "title_en": "VS Flagship Store in Xidan Joy City, Beijing",
+      "title_ch": "北京西单大悦城维多利亚秘密旗舰店",
       "disciplines": [
         "E"
       ],
@@ -8703,6 +12870,428 @@
       "city_ch": "北京",
       "country_en": "China",
       "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181025",
+      "date": "May-18",
+      "title_en": "VS Store in Chaoyang Joy City, Beijing",
+      "title_ch": "北京朝阳大悦城维多利亚的秘密店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181017",
+      "date": "Mar-18",
+      "title_en": "VS Store in Joy City, Xian",
+      "title_ch": "西安大悦城维多利亚的秘密店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Xian",
+      "city_ch": "西安",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181041",
+      "date": "Jan-00",
+      "title_en": "Venetian Macau - Executive Conference Room ",
+      "title_ch": "澳门威尼斯人- 行政会议室 ",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "C"
+      ],
+      "city_en": "Macau",
+      "city_ch": "澳门",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171030",
+      "date": "Aug-17",
+      "title_en": "Victoria's Secret  Store in Nanjing Deji Plaza",
+      "title_ch": "南京德吉广场维多利亚秘密店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Nanjing",
+      "city_ch": "南京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171031",
+      "date": "Aug-17",
+      "title_en": "Victoria's Secret  Store in Suzhou",
+      "title_ch": "苏州维多利亚秘密店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Suzhou",
+      "city_ch": "苏州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA161034",
+      "date": "Dec-16",
+      "title_en": "Victoria's Secret Flagship Store in Beijing",
+      "title_ch": "北京维多利亚的秘密旗舰店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171033",
+      "date": "Aug-17",
+      "title_en": "Victoria's Secret Flagship Store in Causeway Bay",
+      "title_ch": "铜锣湾维多利亚的秘密旗舰店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171045",
+      "date": "Oct-17",
+      "title_en": "Victoria's Secret Flagship Store in Hubin Yintai, Hangzhou",
+      "title_ch": "杭州湖滨银泰维多利亚秘密旗舰店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Huizhou",
+      "city_ch": "惠州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181009",
+      "date": "Feb-18",
+      "title_en": "Victoria's Secret Store in Beijing The Place",
+      "title_ch": " 北京世贸天阶维多利亚的秘密店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176007",
+      "date": "Jun-17",
+      "title_en": "Victoria's Secret Store in Chongqing",
+      "title_ch": "重庆维多利亚的秘密店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Chongqing",
+      "city_ch": "重庆",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171029",
+      "date": "Aug-17",
+      "title_en": "Victoria's Secret Store in Guangzhou Taikoo Hui",
+      "title_ch": "广州太古汇维多利亚秘密店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Guangzhou",
+      "city_ch": "广州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171044",
+      "date": "Oct-17",
+      "title_en": "Victoria's Secret Store in King Glory Plaza, Shenzhen",
+      "title_ch": "深圳金光华广场维多利亚秘密店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181006",
+      "date": "Feb-18",
+      "title_en": "Victoria's Secret, China - Shenzhen Haiya Mega Mall Store",
+      "title_ch": "維多利亞的秘密 - 深圳海雅缤纷城店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181007",
+      "date": "Feb-18",
+      "title_en": "Victoria's Secret, China - Shenzhen Upper Hills Store",
+      "title_ch": "維多利亞的秘密 - 深圳深业上城店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA171049",
+      "date": "Nov-17",
+      "title_en": "Victory Secret Store in Times Paradise Walk, Chongqing",
+      "title_ch": "重庆时代天街维多利亚秘密店",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "M"
+      ],
+      "city_en": "Chongqing",
+      "city_ch": "重庆",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181034",
+      "date": "Aug-18",
+      "title_en": "Vietcombank Training Centre, Vietnam",
+      "title_ch": "越南外贸股份商业银行培训中心",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Vietnam",
+      "city_ch": "越南",
+      "country_en": "Vietnam",
+      "country_ch": "越南",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163009",
+      "date": "Sep-16",
+      "title_en": "Viridian Residences",
+      "title_ch": "0",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "R"
+      ],
+      "city_en": "Pasig",
+      "city_ch": "帕西格",
+      "country_en": "Philippines",
+      "country_ch": "菲律宾",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186007",
+      "date": "Mar-18",
+      "title_en": "Volkswagen Headquarters in Beijing",
+      "title_ch": "北京大众汽车总部",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181015",
+      "date": "Mar-18",
+      "title_en": "W Bali - Ubud, Indonesia",
+      "title_ch": "印度尼西亚峇里島乌布 W 酒店",
+      "disciplines": [
+        "A",
+        "I",
+        "S"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Bali",
+      "city_ch": "巴里",
+      "country_en": "Indonesia",
+      "country_ch": "印度尼西亚",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -8741,8 +13330,7 @@
       "title_en": "WA Hotel and Villa at Sanya",
       "title_ch": "三亚华尔道夫酒店及别墅",
       "disciplines": [
-        "E",
-        ""
+        "E"
       ],
       "codes": [
         "H"
@@ -8752,14 +13340,37 @@
       "country_en": "China",
       "country_ch": "中国",
       "hotel_en": "WA",
-      "hotel_ch": "華爾代夫",
+      "hotel_ch": "华尔代夫",
       "desc_en": null,
       "desc_ch": null,
       "files": []
     },
     {
       "nda": "",
-      "project": "PA",
+      "project": "PA010001",
+      "date": "Jan-10",
+      "title_en": "Waldorf Astoria Beijing",
+      "title_ch": "台湾饭店 (北京华尔道夫酒店)",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Beijing",
+      "city_ch": "北京",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "WA",
+      "hotel_ch": "华尔代夫",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA161022",
       "date": "May-16",
       "title_en": "Waldorf Astoria at Shenzhen Bay",
       "title_ch": "深圳湾华尔道夫酒店",
@@ -8775,58 +13386,10 @@
       "country_en": "China",
       "country_ch": "中国",
       "hotel_en": "WA",
-      "hotel_ch": "華爾代夫",
+      "hotel_ch": "华尔代夫",
       "desc_en": null,
       "desc_ch": null,
       "files": []
-    },
-    {
-      "nda": "",
-      "project": "PA010001",
-      "date": "Jan-10",
-      "title_en": "Waldorf=Astoria Beijing",
-      "title_ch": "台湾饭店 (北京华尔道夫酒店)",
-      "disciplines": [
-        "A",
-        "C"
-      ],
-      "codes": [
-        "H"
-      ],
-      "city_en": "Beijing",
-      "city_ch": "北京",
-      "country_en": "China",
-      "country_ch": "中国",
-      "hotel_en": "WA",
-      "hotel_ch": "華爾代夫",
-      "desc_en": null,
-      "desc_ch": null,
-      "files": []
-    },
-    {
-      "nda": "",
-      "project": "PA121018",
-      "date": "Mar-12",
-      "title_en": "Westin Clearwater Bay, Hainan",
-      "title_ch": "海南绿城清水湾威斯汀度假酒店",
-      "disciplines": [
-        "C"
-      ],
-      "codes": [
-        "H"
-      ],
-      "city_en": "Hainan",
-      "city_ch": "海南",
-      "country_en": "China",
-      "country_ch": "中国",
-      "hotel_en": "Starwood",
-      "hotel_ch": "喜达屋",
-      "desc_en": null,
-      "desc_ch": null,
-      "files": [
-        "PA121018-1.jpg",
-        "PA121018-2.jpg"
-      ]
     },
     {
       "nda": "",
@@ -8855,6 +13418,31 @@
     },
     {
       "nda": "",
+      "project": "PA121018",
+      "date": "Mar-12",
+      "title_en": "Westin Clearwater Bay, Hainan",
+      "title_ch": "海南绿城清水湾威斯汀度假酒店",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Hainan",
+      "city_ch": "海南",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "Starwood",
+      "hotel_ch": "喜达屋",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": [
+        "PA121018-1.jpg",
+        "PA121018-2.jpg"
+      ]
+    },
+    {
+      "nda": "",
       "project": "PA141035",
       "date": "Aug-14",
       "title_en": "Westin Hotel Kolkata",
@@ -8867,11 +13455,83 @@
         "H"
       ],
       "city_en": "Kolkata",
-      "city_ch": "加爾各答",
+      "city_ch": "加尔各答",
       "country_en": "India",
       "country_ch": "印度",
       "hotel_en": "Starwood",
       "hotel_ch": "喜达屋",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA176003",
+      "date": "May-17",
+      "title_en": "Westin Hotel at Zhongshan",
+      "title_ch": "中山利和威斯汀酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Zhongshan",
+      "city_ch": "中山",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA163006",
+      "date": "Aug-16",
+      "title_en": "Westin Manila Sonata Hotel",
+      "title_ch": "菲律宾马尼拉索纳塔广场威斯汀酒店",
+      "disciplines": [
+        "A",
+        "V",
+        "A",
+        "C",
+        "I",
+        "T"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Mandaluyong",
+      "city_ch": "曼达卢永",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA008033",
+      "date": "Jan-00",
+      "title_en": "Westin Shenzhen",
+      "title_ch": "深圳威斯汀酒店",
+      "disciplines": [
+        "A"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Shenzhen",
+      "city_ch": "深圳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
       "desc_en": null,
       "desc_ch": null,
       "files": []
@@ -8949,10 +13609,32 @@
     },
     {
       "nda": "",
+      "project": "PA171038",
+      "date": "Aug-17",
+      "title_en": "Windsor House Office at 39F, Causeway Bay",
+      "title_ch": "铜锣湾皇室大厦办公室39楼",
+      "disciplines": [
+        "C"
+      ],
+      "codes": [
+        "O"
+      ],
+      "city_en": "Hong Kong",
+      "city_ch": "香港",
+      "country_en": "Hong Kong",
+      "country_ch": "香港",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA171002",
       "date": "Jan-17",
       "title_en": "Wisma Damansara at Kuala Lumpur",
-      "title_ch": "",
+      "title_ch": " ",
       "disciplines": [
         "A",
         "S",
@@ -8960,7 +13642,9 @@
         "T"
       ],
       "codes": [
-        "H"
+        "H",
+        "R",
+        "M"
       ],
       "city_en": "Kuala Lumpur",
       "city_ch": "吉隆坡",
@@ -8974,7 +13658,7 @@
     },
     {
       "nda": "",
-      "project": "PA11005P",
+      "project": "PA11005",
       "date": "Aug-11",
       "title_en": "World Hotel & Residences",
       "title_ch": "世界酒店及住宅",
@@ -8997,6 +13681,76 @@
     },
     {
       "nda": "",
+      "project": "PA171047",
+      "date": "Nov-17",
+      "title_en": "Wudang Hyatt Place & Unbound Collection",
+      "title_ch": "贵阳乌当凯悦嘉轩及臻选酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Guiyang",
+      "city_ch": "贵阳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186024",
+      "date": "Jul-18",
+      "title_en": "Xiamen Yuji Lotus Project",
+      "title_ch": "厦门盘基莲花项目",
+      "disciplines": [
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Xiamen",
+      "city_ch": "厦门",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186011",
+      "date": "Apr-18",
+      "title_en": "Xiangshan Lake Hotel Guangzhou",
+      "title_ch": "广州香山湖酒店",
+      "disciplines": [
+        "A",
+        "I"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Guangzhou",
+      "city_ch": "广州",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA171001",
       "date": "Feb-17",
       "title_en": "YZU Phase 1 Hotel",
@@ -9009,7 +13763,7 @@
         "H"
       ],
       "city_en": "Yangzhou",
-      "city_ch": "楊州",
+      "city_ch": "杨州",
       "country_en": "China",
       "country_ch": "中国",
       "hotel_en": "New World",
@@ -9020,10 +13774,58 @@
     },
     {
       "nda": "",
+      "project": "PA186003",
+      "date": "Jan-18",
+      "title_en": "Yalong Bay Westin Hotel at Sanya",
+      "title_ch": "三亚亚龙湾合正威斯汀酒店",
+      "disciplines": [
+        "A",
+        "C"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Sanya",
+      "city_ch": "三亜",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA186035",
+      "date": "Dec-18",
+      "title_en": "Yangshuo Autograph Collection Hotel ",
+      "title_ch": "阳朔傲途格精选酒店",
+      "disciplines": [
+        "A",
+        "C",
+        "I",
+        "E"
+      ],
+      "codes": [
+        "H"
+      ],
+      "city_en": "Yangshuo",
+      "city_ch": "阳朔",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
       "project": "PA161032",
       "date": "Dec-16",
       "title_en": "Yanjiao Courtyard Hotel at Ocean Spring",
-      "title_ch": "燕郊海泉灣万怡酒店",
+      "title_ch": "燕郊海泉湾万怡酒店",
       "disciplines": [
         "A",
         "C"
@@ -9032,6 +13834,9 @@
         "H"
       ],
       "city_en": "Yanjiao",
+      "city_ch": "燕郊",
+      "country_en": "China",
+      "country_ch": "中国",
       "hotel_en": "0",
       "hotel_ch": "",
       "desc_en": null,
@@ -9203,6 +14008,55 @@
       "desc_en": null,
       "desc_ch": null,
       "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA181019",
+      "date": "Mar-18",
+      "title_en": "Zhongtian Future Ark Chinese Opera House, Guiyang, China",
+      "title_ch": "贵阳中天假日方舟戏楼",
+      "disciplines": [
+        "A",
+        "I",
+        "E"
+      ],
+      "codes": [
+        "O",
+        "T"
+      ],
+      "city_en": "Guiyang",
+      "city_ch": "贵阳",
+      "country_en": "China",
+      "country_ch": "中国",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
+    },
+    {
+      "nda": "",
+      "project": "PA164002",
+      "date": "Apr-16",
+      "title_en": "奥克斯利塔吉隆坡",
+      "title_ch": "吉隆坡Oxley Towers",
+      "disciplines": [
+        "A",
+        "C",
+        "I"
+      ],
+      "codes": [
+        "I"
+      ],
+      "city_en": "Kuala Lumpur",
+      "city_ch": "吉隆坡",
+      "country_en": "Malaysia",
+      "country_ch": "马来西亚",
+      "hotel_en": "0",
+      "hotel_ch": "",
+      "desc_en": null,
+      "desc_ch": null,
+      "files": []
     }
   ],
   "disciplines": {
@@ -9338,6 +14192,10 @@
       "en": "Malaysia",
       "ch": "马来西亚"
     },
+    "Thailand": {
+      "en": "Thailand",
+      "ch": "泰国"
+    },
     "Indonesia": {
       "en": "Indonesia",
       "ch": "印度尼西亚"
@@ -9346,13 +14204,17 @@
       "en": "Philippines",
       "ch": "菲律宾"
     },
-    "India": {
-      "en": "India",
-      "ch": "印度"
+    "Vietnam": {
+      "en": "Vietnam",
+      "ch": "越南"
     },
     "Korea": {
       "en": "Korea",
       "ch": "韩国"
+    },
+    "India": {
+      "en": "India",
+      "ch": "印度"
     },
     "Singapore": {
       "en": "Singapore",
@@ -9370,17 +14232,9 @@
       "en": "Taiwan",
       "ch": "台湾"
     },
-    "Vietnam": {
-      "en": "Vietnam",
-      "ch": "越南"
-    },
     "Sri Lanka": {
       "en": "Sri Lanka",
       "ch": "斯里兰卡"
-    },
-    "Thailand": {
-      "en": "Thailand",
-      "ch": "泰国"
     },
     "Turkey": {
       "en": "Turkey",
@@ -9393,6 +14247,10 @@
     "Cambodia": {
       "en": "Cambodia",
       "ch": "柬埔寨"
+    },
+    "Kuwait": {
+      "en": "Kuwait",
+      "ch": "Kuwait"
     },
     "UAE": {
       "en": "UAE",

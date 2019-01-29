@@ -7,11 +7,11 @@ $font-family-sans-serif:  Tahoma, Arial, sans-serif;
 
 $icon-font-path: '../fonts/';
 $component-offset-horizontal: 120px;
-$body-bg: #fff;
+// $body-bg: #fff;
 $font-size-base: 1rem;
-$grid-gutter-width-base: 20px;
+$grid-gutter-width: 20px;
 
-$brand-primary: rgb(255,90,1);
+$primary: rgb(255,90,1);
 $navbar-padding-x: 0;
 $navbar-padding-y: 0;
 
@@ -32,8 +32,8 @@ $transition-team-row: cubic-bezier(0.86, 0, 0.07, 1);
 @import "tether/tether.sass";
 @import "leaflet/leaflet";
 
-$footer-background: $gray-dark;
-$footer-color: $gray-lighter;
+$footer-background: $dark;
+$footer-color: $light;
 
 $navbar-bg: rgba(#f0f0f0, 0.95);
 
@@ -109,24 +109,30 @@ footer {
           font-size: 1rem;
         }
         &:hover {
-          background-color: lighten($brand-primary, 33.333%)
+          background-color: lighten($primary, 33.333%)
         }
       }
       &.active {
         .nav-link {
-          background-color: $brand-primary;
+          background-color: $primary;
           color: #f0f0f0;
         }
       }
     }
   }
-  &.navbar-toggleable-sm {
+  &.navbar-expand-md {
     .container {
       @include media-breakpoint-down(sm) {
-        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: relative;
         .navbar-toggler {
           float: left;
         }
+      }
+      @include media-breakpoint-down(xs) {
+        margin-left: 10px;
+        margin-right: 10px;
       }
     }
   }
@@ -250,9 +256,9 @@ footer {
 #portfolio_page {
   .card {
     &.has-images {
-      .card-block {
+      .card-body {
         padding-top: 100%;
-        margin-top: $spacer-y;
+        margin-top: $spacer;
       }
     }
     img.card-img-top {
@@ -348,8 +354,8 @@ footer {
     @include media-breakpoint-down(sm) {
       position: absolute;
       bottom: 0;
-      left: $grid-gutter-width-base / 2;
-      right: $grid-gutter-width-base / 2;
+      left: $grid-gutter-width / 2;
+      right: $grid-gutter-width / 2;
       background: rgba(255,255,255, 0.5);
       text-shadow: 0 0 2px white;
       padding: 0.5em 0;
