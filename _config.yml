@@ -19,7 +19,7 @@ kramdown:
   enable_coderay: false
   parse_block_html: true
   math_engine: mathjax # Forced Default from GH Pages
-gems:
+plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
   - jekyll-seo-tag
