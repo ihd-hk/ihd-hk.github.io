@@ -432,8 +432,17 @@ footer {
 
 #hof-wrapper {
   .card {
-    margin: 100px 0;
+    margin: 25% 0 12.5%;
+    @include media-breakpoint-up(sm) {
+      // margin: 100px 0;
+    }
     border-top: 10px solid $primary;
+
+    @include media-breakpoint-down(sm) {
+      h5 { font-size: 5vw; }
+      h6 { font-size: 3vw; }
+      small { font-size: 3vw; }
+    }
 
     .card-img {
       margin: -28% auto 0;
