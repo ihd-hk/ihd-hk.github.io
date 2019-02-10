@@ -425,7 +425,51 @@ footer {
 #map {
   height: 50vh;
   @include media-breakpoint-up(md) {
-  height: 66vh;
+    height: 66vh;
   }
   margin-bottom: 2rem;
 }
+
+#hof-wrapper {
+  .card {
+    margin: 25% 0 12.5%;
+    border-top: 10px solid $primary;
+
+    @include media-breakpoint-down(sm) {
+      h5 { font-size: 5vw; }
+      h6 { font-size: 3vw; }
+      small { font-size: 3vw; }
+    }
+
+    .card-img {
+      margin: -28% auto 0;
+      border: 5px solid $primary;
+      box-sizing: content-box;
+      border-radius: 33%;
+      overflow: hidden;
+      position: relative;
+      img {
+        filter: gray; /* IE6-9 */
+        filter: brightness(1.25)  grayscale(1);
+        transition: 0.3s filter;
+      }
+      &:hover img {
+        filter: none;
+        -webkit-filter: none;
+      }
+      &::after {
+        box-shadow: inset 0px 0px 25px black;
+        content: '';
+        display: block;
+        height: 102%;
+        position: absolute;
+        top: -1%;
+        width: 102%;
+        border-radius: 33%;
+        left: -1%;
+      }
+    }
+  }
+}
+
+
