@@ -449,13 +449,11 @@ footer {
       overflow: hidden;
       position: relative;
       img {
-        filter: gray; /* IE6-9 */
-        filter: brightness(1.25)  grayscale(1);
-        transition: 0.3s filter;
+        transition: 0.25s transform ease-out;
+        transform: scale(1);
       }
       &:hover img {
-        filter: none;
-        -webkit-filter: none;
+        transform: scale(1.1);
       }
       &::after {
         box-shadow: inset 0px 0px 25px black;
