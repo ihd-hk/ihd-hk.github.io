@@ -39,8 +39,6 @@ navigation:
     url: '/'
   - text: About
     url: '/about.html'
-  - text: Hall of Fame
-    url: '/hall-of-fame.html'
   - text: Services
     url: '/services.html'
   - text: Portfolio
@@ -52,8 +50,6 @@ navigation:
     url: '/ch/'
   - text: 关于德勤
     url: '/ch/about.html'
-  - text: '名人堂'
-    url: '/ch/hall-of-fame.html'
   - text: 服务范围
     url: '/ch/services.html'
   - text: 项目案例
