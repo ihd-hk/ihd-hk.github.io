@@ -22,7 +22,7 @@ language: ch
 {% include company-feature.html name="通讯"   color="3276B4" image_url="/images/company-features/itt.jpg" %}
 {% include company-feature.html name="安全"   color="C35A20" image_url="/images/company-features/security.jpg" %}
 {% include company-feature.html name="音视频" color="558139" image_url="/images/company-features/av.jpg" %}
-{% include company-feature.html name="声学"   color="7F7F7F" image_url="/images/company-features/accoustics.jpg" %}
+{% include company-feature.html name="声学"   color="7F7F7F" image_url="/images/company-features/acoustics.jpg" %}
 </div>
 
 {:.text-center}

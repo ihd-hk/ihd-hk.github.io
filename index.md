@@ -20,7 +20,7 @@ Our primary disciplines are as follows, within which we continually push the bou
 {% include company-feature.html name="IT&amp;T"     color="3276B4" image_url="/images/company-features/itt.jpg" %}
 {% include company-feature.html name="Security"     color="C35A20" image_url="/images/company-features/security.jpg" %}
 {% include company-feature.html name="Audio-Visual" color="558139" image_url="/images/company-features/av.jpg" %}
-{% include company-feature.html name="Acoustics"    color="7F7F7F" image_url="/images/company-features/accoustics.jpg" %}
+{% include company-feature.html name="Acoustics"    color="7F7F7F" image_url="/images/company-features/acoustics.jpg" %}
 </div>
 
 {:.text-center}
