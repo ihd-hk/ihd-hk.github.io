@@ -45,6 +45,8 @@ navigation:
     url: '/portfolio.html'
   - text: Contact
     url: '/contact.html'
+  - text: 中文
+    url: '/ch/'
   ch:
   - text: 主页
     url: '/ch/'

@@ -1,7 +1,7 @@
 ---
 ---
 
-$font-family-sans-serif:  Tahoma, Arial, sans-serif;
+$font-family-sans-serif:  Lato, Arial, sans-serif;
 
 $icon-font-path: '../fonts/';
 $component-offset-horizontal: 120px;
@@ -29,6 +29,8 @@ $transition-team-row: cubic-bezier(0.86, 0, 0.07, 1);
 @import "tether/tether.sass";
 @import "leaflet/leaflet";
 
+@import "fonts";
+
 $footer-background: $dark;
 $footer-color: $light;
 
@@ -43,7 +45,7 @@ body {
   background-color: $footer-background;
   border-top: 70px solid $body-bg;
   @include media-breakpoint-up(md) {
-    border-top-width: 50px;
+    border-top-width: 105px;
   }
   @include media-breakpoint-down(xs) {
     font-size: 0.75rem;
@@ -52,13 +54,6 @@ body {
 
   & > #page {
     background-color: $body-bg;
-    padding-top: 10px;
-  }
-
-  &#contact_page {
-    #page {
-      padding-top: 0;
-    }
   }
 }
 footer {
@@ -70,53 +65,37 @@ footer {
   }
 }
 .navbar-brand {
-  padding: 0;
-  line-height: 50px;
-  height: 50px;
+  padding: 33px 0 14px 0;
   display: block;
   &> img {
-    height: 50px;
+    height: 58px;
     display: block;
-    position: absolute;
-    right: 0;
-    @include media-breakpoint-up(md) {
-      left: 0;
-    }
   }
 
 }
-.nav {
-  .flag {
-    a {
-      padding:0;
-      img {
-        display: block;
-        width: auto;
-        height: 50px;
-      }
-    }
-  }
-}
+
 .navbar {
   border-bottom: 1px solid darken($navbar-bg, 6.5%);
   .navbar-nav {
+    padding-bottom: 14px;
     .nav-item {
       .nav-link {
         line-height: 22px;
-        padding: 14px 8px;
+        padding: 0 15px;
         font-size: 0.8rem;
+        transform: translateY(0);
+        transition: ease transform 0.2s;
         @include media-breakpoint-up(lg) {
-          padding: 14px;
+          padding: 0 20px;
           font-size: 1rem;
         }
         &:hover {
-          background-color: lighten($primary, 33.333%)
+          transform: translateY(-2px);
         }
       }
       &.active {
         .nav-link {
-          background-color: $primary;
-          color: #f0f0f0;
+          font-weight: bold;
         }
       }
     }
@@ -139,7 +118,7 @@ footer {
   }
 }
 .bg-faded {
-  background-color: $navbar-bg;
+  background-color: #f3f3f4;
 }
 
 .carousel-cover-image {
@@ -430,3 +409,18 @@ footer {
   margin-bottom: 2rem;
 }
 
+
+$block-size: 460px;
+.homepage-text-block {
+  width: $block-size;
+  height: $block-size;
+  left: 50%;
+  top: 50%;
+  margin: (-$block-size/2) 0 0 (-$block-size/2);
+  color: white;
+  background: rgba(240, 85, 35, 0.5);
+  padding: 20px;
+  h1 {
+    font-size: 36px;
+  }
+}

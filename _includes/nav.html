@@ -1,5 +1,5 @@
 <nav class="navbar navbar-light navbar-expand-md fixed-top bg-faded">
-  <div class="container">
+  <div class="container align-items-end">
     <div class="navbar-header">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primarynav" aria-controls="primarynav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,6 @@
             <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.text }}</a>
           </li>
           {% endfor %}
-          <li class="flag"><a href="{{ page.url | prepend:"ch" | relative_url }}"><img src="{{ "/images/CN.png" | relative_url }}" alt="Chinese" /></a></li>
         {% else %}
           {% for link in site.navigation.ch %}
           <li class="nav-item{% if page.url == link.url %} active{% endif %}">
