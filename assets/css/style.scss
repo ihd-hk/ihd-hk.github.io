@@ -2,9 +2,7 @@
 ---
 
 $font-family-sans-serif:  Lato, Arial, sans-serif;
-
-$icon-font-path: '../fonts/';
-$component-offset-horizontal: 120px;
+$headings-font-family: Montserrat, Arial, sans-serif;
 $font-size-base: 1rem;
 $grid-gutter-width: 20px;
 
@@ -65,13 +63,21 @@ footer {
   }
 }
 .navbar-brand {
-  padding: 33px 0 14px 0;
   display: block;
+  float: right;
+
   &> img {
-    height: 58px;
+    height: 40px;
     display: block;
   }
 
+  @include media-breakpoint-up(sm) {
+    padding: 33px 0 14px 0;
+    float: none;
+    &> img {
+      height: 58px;
+    }
+  }
 }
 
 .navbar {
@@ -83,19 +89,24 @@ footer {
         line-height: 22px;
         padding: 0 15px;
         font-size: 0.8rem;
-        transform: translateY(0);
-        transition: ease transform 0.2s;
+        transition: ease all 0.2s;
+        border-bottom: 0px solid $primary;
+        white-space: nowrap;
+
         @include media-breakpoint-up(lg) {
           padding: 0 20px;
           font-size: 1rem;
         }
         &:hover {
-          transform: translateY(-2px);
+          padding-bottom: 5px;
+          border-bottom-width: 3px;
         }
       }
       &.active {
         .nav-link {
           font-weight: bold;
+          padding-bottom: 5px;
+          border-bottom-width: 3px;
         }
       }
     }
@@ -409,18 +420,56 @@ footer {
   margin-bottom: 2rem;
 }
 
+.homepage-block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-$block-size: 460px;
+  min-width: 100vw;
+  min-height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 50px;
+  }
+}
+
 .homepage-text-block {
-  width: $block-size;
-  height: $block-size;
-  left: 50%;
-  top: 50%;
-  margin: (-$block-size/2) 0 0 (-$block-size/2);
+  position: absolute;
+  display: flex;
+  align-items: center;
+
   color: white;
   background: rgba(240, 85, 35, 0.5);
-  padding: 20px;
+  padding: 5px;
+
+  width: 60vw;
+  height: 60vh;
+
   h1 {
-    font-size: 36px;
+    font-size: 24pt;
+    font-weight: 800;
+    div {
+      font-weight: 300;
+    }
   }
+  p {
+    margin-top: 1rem;
+  }
+
+  @include media-breakpoint-up(sm) {
+    width: 50vw;
+    height: 50vh;
+    max-width: 500px;
+    max-height: 500px;
+    h1 {
+      font-size: 42pt;
+    }
+  }
+
 }

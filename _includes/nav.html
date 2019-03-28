@@ -1,6 +1,6 @@
 <nav class="navbar navbar-light navbar-expand-md fixed-top bg-faded">
   <div class="container align-items-end">
-    <div class="navbar-header">
+    <div class="navbar-header w-100">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primarynav" aria-controls="primarynav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -11,7 +11,7 @@
     </div>
 
     <div id="primarynav" class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto align-items-end">
         {% if page.language == "en" %}
           {% for link in site.navigation.en %}
           <li class="nav-item{% if page.url == link.url %} active{% endif %}">
