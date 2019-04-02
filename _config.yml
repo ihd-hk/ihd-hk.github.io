@@ -41,6 +41,8 @@ navigation:
     url: '/about.html'
   - text: Services
     url: '/services.html'
+  - text: Team
+    url: '/team.html'
   - text: Portfolio
     url: '/portfolio.html'
   - text: Contact

@@ -6,7 +6,7 @@ $headings-font-family: Montserrat, Arial, sans-serif;
 $font-size-base: 1rem;
 $grid-gutter-width: 20px;
 
-$primary: rgb(255,90,1);
+$primary: #F15623;
 $navbar-padding-x: 0;
 $navbar-padding-y: 0;
 
@@ -22,6 +22,10 @@ $figure-caption-color: #000;
 
 $transition-team-row: cubic-bezier(0.86, 0, 0.07, 1);
 
+$headings-margin-bottom: 1rem;
+
+$navbar-bg: rgba(#f0f0f0, 0.95);
+
 @import "bootstrap/bootstrap";
 @import "select2/core.scss";
 @import "tether/tether.sass";
@@ -32,10 +36,9 @@ $transition-team-row: cubic-bezier(0.86, 0, 0.07, 1);
 $footer-background: $dark;
 $footer-color: $light;
 
-$navbar-bg: rgba(#f0f0f0, 0.95);
+
 
 p {
-  margin-bottom: 0.5rem;
   text-align: justify;
 }
 
@@ -52,6 +55,7 @@ body {
 
   & > #page {
     background-color: $body-bg;
+    overflow: hidden;
   }
 }
 footer {
@@ -89,17 +93,12 @@ footer {
         line-height: 22px;
         padding: 0 15px;
         font-size: 0.8rem;
-        transition: ease all 0.2s;
         border-bottom: 0px solid $primary;
         white-space: nowrap;
 
         @include media-breakpoint-up(lg) {
           padding: 0 20px;
           font-size: 1rem;
-        }
-        &:hover {
-          padding-bottom: 5px;
-          border-bottom-width: 3px;
         }
       }
       &.active {
@@ -445,19 +444,12 @@ footer {
   align-items: center;
 
   color: white;
-  background: rgba(240, 85, 35, 0.5);
+  background: rgba($primary, 0.5);
   padding: 5px;
 
   width: 60vw;
   height: 60vh;
 
-  h1 {
-    font-size: 24pt;
-    font-weight: 800;
-    div {
-      font-weight: 300;
-    }
-  }
   p {
     margin-top: 1rem;
   }
@@ -467,9 +459,52 @@ footer {
     height: 50vh;
     max-width: 500px;
     max-height: 500px;
-    h1 {
-      font-size: 42pt;
+  }
+}
+
+h1 {
+  font-size: 24pt;
+  font-weight: 800;
+  div,span {
+    font-weight: 300;
+  }
+  @include media-breakpoint-up(sm) {
+    font-size: 42pt;
+  }
+}
+
+#page {
+  .section-wrapper {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    margin-bottom: 5em;
+
+    .outer-container {
+      background: rgba(0,0,0, 0.75);
+      color: white;
+      margin: 200px 0;
+      > .container {
+        padding: 100px 0;
+      }
     }
   }
+}
 
+body#about_us_page {
+  #page {
+    .outer-container {
+      background: $primary;
+    }
+  }
+}
+
+body#our_services_page {
+  ul.lead {
+    li {
+      @extend .mb-3;
+    }
+  }
 }
