@@ -1,0 +1,14 @@
+<div class="row team-row">
+  {% for person in site.data.team %}
+  <figure class="figure">
+    {% if person.page != null %}<a href="{{person.page}}" title="{{person.name}}">{% endif %}
+    <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" class="mw-100" />
+    {% if person.page != null %}</a>{% endif %}
+
+    <figcaption class="figure-caption">
+      <h3>{{person.name}}</h3>
+      <p class="small">{{ person.job_title }}</p>
+    </figcaption>
+  </figure>
+  {% endfor %}
+</div>

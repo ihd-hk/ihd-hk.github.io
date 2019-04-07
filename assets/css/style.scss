@@ -34,9 +34,7 @@ $navbar-bg: rgba(#f0f0f0, 0.95);
 @import "fonts";
 
 $footer-background: #e7e7e8;
-$footer-color: #231f20;
-
-
+$body-color: #231f20;
 
 p {
   text-align: justify;
@@ -61,7 +59,7 @@ body {
 footer {
   background-color: $footer-background;
   &, & a, & a:hover {
-    color: $footer-color;
+    color: $body-color;
     text-decoration: none;
   }
 
@@ -213,55 +211,17 @@ footer {
 
 .team-row {
   justify-content: space-around;
-  &:hover {
-    figure {
-      img {
-        filter: gray; /* IE6-9 */
-        -webkit-filter: opacity(0.25) brightness(0.75) blur(2px); /* Google Chrome, Safari 6+ & Opera 15+ */
-        filter: opacity(0.25) brightness(0.75) blur(2px); /* Microsoft Edge and Firefox 35+ */
-      }
-    }
-  }
 
   figure {
-    position: relative;
-    overflow: hidden;
-
-    p {
-      margin: 0;
-      overflow: hidden;
-    }
-
-    img {
-      @include transition();
-    }
-
+    @extend .col-lg-2;
+    padding: 0;
     figcaption {
-      @extend %grid-column;
-      @include transition();
-
-      position: absolute;
-      overflow: hidden;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      transform: translateY(100%);
-
-      p {
-        padding: $spacer $spacer;
-        background-color: rgba(255,255,255, 0.75);
-        color: $body-color;
-        text-align: center;
-      }
-    }
-
-    &:hover {
-      img {
-        -webkit-filter: none;
-        filter: none;
-      }
-      figcaption {
-        transform: translateY(0%);
+      color: #58595b;
+      margin: 0.75rem;
+      h3 {
+        font-size: 1rem;
+        font-weight: 800;
+        margin: 0;
       }
     }
   }
@@ -489,6 +449,15 @@ body#our_services_page {
   ul.lead {
     li {
       @extend .mb-3;
+    }
+  }
+}
+
+body#our_team_page {
+  #page {
+    .outer-container {
+      background: $body-bg;
+      color: $body-color;
     }
   }
 }

@@ -18,4 +18,3 @@ redirect_from:
 
 ## 团队成员
 
-{% include team.md %}
