@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Portfolio
+layout: default
+title: Projects
 permalink: /projects.html
 language: en
 page_id: portfolio_page
@@ -11,9 +11,10 @@ redirect_from:
   - /portfolio.html
 ---
 
-<h1>Portfolio</h1>
+{% capture content %}
+<h1 class="col-12">Our<span>Projects</span></h1>
 
-<div id="portfolio_filters" class="row">
+<div id="portfolio_filters" class="row w-100 mx-0">
   <div class="col-4 px-2 pl-4">
     <select name="location" class="form-control input-lg">
       <option value="-1">All Countries</option>
@@ -41,13 +42,17 @@ redirect_from:
     </select>
   </div>
 </div>
+{% endcapture %}
+{% include section-wrapper.html section_background_url='/images/homepage/our-projects.jpg' section_style='white' content=content %}
 
-<div class="row" id="porfolio_grid">
-{% for item in site.data.portfolio.items %}
+<div class="container">
+  <div class="row" id="porfolio_grid">
+  {% for item in site.data.portfolio.items %}
 
-{% include portfolio-en.html item=item %}
+  {% include portfolio-en.html item=item %}
 
-{% endfor %}
+  {% endfor %}
+  </div>
 </div>
 
 {% include modal.html %}
