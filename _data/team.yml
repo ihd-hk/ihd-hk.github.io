@@ -1,7 +1,7 @@
 - name: Ian Harris
   job_title: President
   image: /images/team/ian-harris.jpg
-  page: /team/ian-harris.html
+  modal_id: ian-harris
 
 - name: Adrian Lim
   job_title: Dir. GlobalBusDev

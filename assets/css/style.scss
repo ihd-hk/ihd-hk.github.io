@@ -5,6 +5,7 @@ $font-family-sans-serif:  Lato, Arial, sans-serif;
 $headings-font-family: Montserrat, Arial, sans-serif;
 $font-size-base: 1rem;
 $grid-gutter-width: 20px;
+$headings-font-weight: 800;
 $h1-font-size: 42pt;
 
 $primary: #F15623;
@@ -210,13 +211,15 @@ footer {
   margin-bottom: 1em;
 }
 
-.person-card {
+figure.person-card {
+  &[data-toggle] {
+    cursor: pointer;
+  }
   figcaption {
     color: #58595b;
-    margin: 0.75rem;
+    margin: 0.75rem 0;
     h3 {
       font-size: 1rem;
-      font-weight: 800;
       margin: 0;
     }
   }
@@ -401,8 +404,7 @@ footer {
   }
 }
 
-h1, h2 {
-  font-weight: 800;
+h1, h2, h3, h4, h5, h6 {
   div, span {
     font-weight: 300;
   }
