@@ -33,8 +33,8 @@ $navbar-bg: rgba(#f0f0f0, 0.95);
 
 @import "fonts";
 
-$footer-background: $dark;
-$footer-color: $light;
+$footer-background: #e7e7e8;
+$footer-color: #231f20;
 
 
 
@@ -60,10 +60,44 @@ body {
 }
 footer {
   background-color: $footer-background;
-  color: $footer-color;
+  &, & a, & a:hover {
+    color: $footer-color;
+    text-decoration: none;
+  }
 
   &>.container {
-    padding-top: 10px;
+    padding-top: $spacer*4;
+    padding-bottom: $spacer*4;
+  }
+
+  .our-values {
+    .value-cell {
+      // @extend .col-sm-4;
+      @extend .col-4;
+      @extend .col-md-2;
+      margin-bottom: $spacer*4;
+      img {
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+      }
+      p {
+        margin: $spacer 0 0;
+        @extend .small;
+        font-size: 0.8em;
+        text-align: center;
+      }
+    }
+  }
+  .copyright {
+    margin: $spacer 0 0;
+    @extend .small;
+    address {
+      margin-bottom: $spacer;
+    }
+    img {
+      max-height: 20px;
+    }
   }
 }
 .navbar-brand {
@@ -72,10 +106,14 @@ footer {
 
   &> img {
     height: 40px;
-    display: block;
+    display: inline-block;
+  }
+  span {
+    font-size: 0.75rem;
+    vertical-align: bottom;
   }
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     padding: 33px 0 14px 0;
     float: none;
     &> img {
@@ -91,8 +129,8 @@ footer {
     .nav-item {
       .nav-link {
         line-height: 22px;
-        padding: 0 15px;
-        font-size: 0.8rem;
+        padding: 0 10px;
+        font-size: 0.75rem;
         border-bottom: 0px solid $primary;
         white-space: nowrap;
 
@@ -354,63 +392,6 @@ footer {
 }
 
 
-.row {
-  &.copyright {
-    margin: $spacer 0 0;
-    color: lighten($footer-background, 25%);
-    @extend .small;
-    address {
-      margin-bottom: $spacer;
-    }
-  }
-  &.our-values {
-    div {
-      a {
-        display: block;
-        height: 100%;
-        color: $footer-color;
-      }
-      img {
-        width: 3em;
-        height: 3em;
-        margin-right: 0.5em;
-        float: left;
-        @include media-breakpoint-between(sm, md) {
-          float: none;
-          margin: 0 auto 0.5em;
-          display: block;
-        }
-      }
-      p {
-        margin: 0;
-        font-size: 0.8em;
-        line-height: 3.75em;
-
-        // Vertical align
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-
-        @include media-breakpoint-between(sm, md) {
-          top: 0;
-          transform: none;
-        }
-
-        @include media-breakpoint-up(sm) {
-          line-height: 1.25em;
-          text-align: center;
-        }
-        @include media-breakpoint-up(lg) {
-          margin-left: 4.375em;  // ( (3em + 0.5em) / 0.8em)... width+margin / font-size
-        }
-        @include media-breakpoint-up(xl) {
-          margin-right: 1rem;  // No maths... just looks right ;)
-        }
-      }
-    }
-  }
-}
-
 #map {
   height: 50vh;
   @include media-breakpoint-up(md) {
@@ -449,14 +430,15 @@ footer {
 
   width: 60vw;
   height: 60vh;
+  h1 {
+    line-height: 0.85em;
+  }
 
   p {
     margin-top: 1rem;
   }
 
   @include media-breakpoint-up(sm) {
-    width: 50vw;
-    height: 50vh;
     max-width: 500px;
     max-height: 500px;
   }
