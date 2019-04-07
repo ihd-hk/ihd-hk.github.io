@@ -144,6 +144,7 @@ footer {
           font-weight: bold;
           padding-bottom: 5px;
           border-bottom-width: 3px;
+          margin-bottom: -8px;
         }
       }
     }
@@ -430,6 +431,7 @@ footer {
 
   width: 60vw;
   height: 60vh;
+  min-height: 340px;
   h1 {
     line-height: 0.85em;
   }
