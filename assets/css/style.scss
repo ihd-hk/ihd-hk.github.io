@@ -290,25 +290,16 @@ figure.person-card {
     margin-bottom: 0;
     dt {
       @extend %grid-column;
-      @include media-breakpoint-up(md) {
-        @include make-col(2);
-      }
-      @include media-breakpoint-up(sm) {
-        text-align: right;
-        @include make-col(3);
-      }
+      text-align: right;
+      @include make-col(1);
       &:after {
         content: ':';
       }
     }
     dd {
       @extend %grid-column;
-      @include media-breakpoint-up(md) {
-        @include make-col(10);
-      }
-      @include media-breakpoint-up(sm) {
-        @include make-col(9);
-      }
+      @include make-col(11);
+
       p {
         margin: 0;
         @include media-breakpoint-only(md) {
@@ -318,18 +309,22 @@ figure.person-card {
         }
       }
       &+dd {
-        @include media-breakpoint-up(md) {
-          @include make-col-offset(2);
-        }
-        @include media-breakpoint-up(sm) {
-          @include make-col-offset(3);
-        }
+        @include make-col-offset(1);
       }
       &.address {
         white-space: pre-line;
       }
     }
   }
+  .locations {
+    h2 {
+      background: transparent url(/assets/css/images/marker-icon-2x.png) no-repeat left top;
+      background-size: 1.4rem;
+      padding-left: 32px;
+      padding-top: 8px;
+    }
+  }
+
 }
 
 .company-features {

@@ -1,7 +1,7 @@
 - name: Hong Kong
   id: hong-kong
   address: |
-    **Units 1901-1903, 19/F**
+    <strong>Units 1901-1903, 19/F</strong>
     Bonham Trade Centre
     50 Bonham Strand,
     Sheung Wan,
@@ -26,7 +26,7 @@
 - name: Shanghai
   id: shanghai
   address: |
-    **ihD (Shanghai) Technology Consultant Co. Ltd**
+    <strong>ihD (Shanghai) Technology Consultant Co. Ltd</strong>
     Unit F, 19/F, Zhongxi Mansion,
     121 Jiangsu Road,
     Changning District,
@@ -48,7 +48,7 @@
 - name: Beijing
   id: beijing
   address: |
-    **1504 Block B Chaowai MEN Office Building**
+    <strong>1504 Block B Chaowai MEN Office Building</strong>
     26 Chaoyangmen Street,
     Chaoyang District,
     Beijing,
@@ -69,7 +69,7 @@
 - name: Malaysia
   id: malaysia
   address: |
-    **ihDesign Sdn Bhd**
+    <strong>ihDesign Sdn Bhd</strong>
     Unit 5-40-2, No. 14,
     Persiaran Anggerik Vanilla
     Kota Kemuning, 40460 Shah Alam,
@@ -87,7 +87,7 @@
 - name: Philippines
   id: philippines
   address: |
-    **ihD Philippines Ltd. Inc.**
+    <strong>ihD Philippines Ltd. Inc.</strong>
     6C, Emerald Place Building,
     604 Shaw Blvd
     Pasig City, 1600,
@@ -104,7 +104,7 @@
 - name: India
   id: india
   address: |
-    **#1256, KAS Towers, 1st Floor**
+    <strong>#1256, KAS Towers, 1st Floor</strong>
     HBR Layout,
     Outer Ring Road Hennur Junction,
     Bangalore - 560044,

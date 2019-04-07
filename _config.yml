@@ -43,8 +43,8 @@ navigation:
     url: '/services.html'
   - text: Team
     url: '/team.html'
-  - text: Portfolio
-    url: '/portfolio.html'
+  - text: Projects
+    url: '/projects.html'
   - text: Contact
     url: '/contact.html'
   - text: 中文

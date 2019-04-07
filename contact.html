@@ -1,0 +1,61 @@
+---
+layout: default
+title: Contact Us
+permalink: /contact.html
+page_id: 'contact_page'
+language: en
+---
+
+<div class="homepage-block" style="background-image: url(/images/contact-us.jpg); background-position-y: -100px">
+  <div class="homepage-text-block">
+    <div class="inner-text-block">
+      <h1><div>Contact</div>Us</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  {% include contact_map.html %}
+
+  <div class="row">
+    <div class="col-12">
+      <p>You can contact us on this email or at any of the local offices listed below.</p>
+      <p class="border-top border-bottom py-4">Email: <a href="mailto:ihd@ihd-hk.com">ihd@ihd-hk.com</a></p>
+    </div>
+  </div>
+
+  <div class="row locations">
+    {% for location in site.data.contact_en %}
+    <div class="col-md-6 my-4" id="{{ location.id }}">
+      <h2>{{ location.name }}</h2>
+      <dl>
+        {% if location.address %}
+          <dt>A</dt>
+          <dd class="address">{{ location.address }}</dd>
+        {% endif %}
+
+
+        {% if location.tel %}
+          <dt>T</dt>
+          <dd><a href="tel:{{ location.tel.href }}">{{ location.tel.text }}</a></dd>
+        {% endif %}
+
+        {% if location.fax %}
+          <dt>F</dt>
+          <dd><a href="tel:{{ location.fax.href }}">{{ location.fax.text }}</a></dd>
+        {% endif %}
+
+
+        {% if location.contact %}
+          <dt>C</dt>
+          {% for contact in location.contact %}
+            <dd><strong>{{ contact.name }}</strong> {% if contact.tel %}<a href="tel:{{ contact.tel.href }}">{{ contact.tel.text }}</a>{% endif %}</dd>
+          {% endfor %}
+        {% endif %}
+      </dl>
+
+      <a class="d-block d-sm-none float-right" href="#page">Back To Top</a>
+    </div>
+  {% endfor %}
+  </div>
+</div>
