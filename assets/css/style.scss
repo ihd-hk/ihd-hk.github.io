@@ -5,6 +5,7 @@ $font-family-sans-serif:  Lato, Arial, sans-serif;
 $headings-font-family: Montserrat, Arial, sans-serif;
 $font-size-base: 1rem;
 $grid-gutter-width: 20px;
+$h1-font-size: 42pt;
 
 $primary: #F15623;
 $navbar-padding-x: 0;
@@ -209,20 +210,14 @@ footer {
   margin-bottom: 1em;
 }
 
-.team-row {
-  justify-content: space-around;
-
-  figure {
-    @extend .col-lg-2;
-    padding: 0;
-    figcaption {
-      color: #58595b;
-      margin: 0.75rem;
-      h3 {
-        font-size: 1rem;
-        font-weight: 800;
-        margin: 0;
-      }
+.person-card {
+  figcaption {
+    color: #58595b;
+    margin: 0.75rem;
+    h3 {
+      font-size: 1rem;
+      font-weight: 800;
+      margin: 0;
     }
   }
 }
@@ -406,14 +401,16 @@ footer {
   }
 }
 
-h1 {
-  font-size: 24pt;
+h1, h2 {
   font-weight: 800;
-  div,span {
+  div, span {
     font-weight: 300;
   }
-  @include media-breakpoint-up(sm) {
-    font-size: 42pt;
+}
+
+h1 {
+  @include media-breakpoint-down(sm) {
+    font-size: $h1-font-size/2;
   }
 }
 
@@ -424,40 +421,42 @@ h1 {
     background-position: center;
     background-size: cover;
     overflow: auto;
-    margin-bottom: 5em;
+    @include media-breakpoint-up(sm) {
+      margin-bottom: 5em;
+    }
 
     .outer-container {
-      background: rgba(0,0,0, 0.75);
+      background: $body-bg;
       color: white;
-      margin: 200px 0;
+      margin: 25vh 0;
+      @include media-breakpoint-up(sm) {
+        margin: 200px 0;
+      }
       > .container {
-        padding: 100px 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+
+      &.primary {
+        background: $primary;
+      }
+      &.white {
+        color: $body-color;
+      }
+
+      &.dark {
+        background: rgba(0,0,0, 0.5);
+        text-shadow: 0 0 3px black;
       }
     }
   }
 }
 
-body#about_us_page {
-  #page {
-    .outer-container {
-      background: $primary;
-    }
-  }
-}
 
 body#our_services_page {
   ul.lead {
     li {
       @extend .mb-3;
-    }
-  }
-}
-
-body#our_team_page {
-  #page {
-    .outer-container {
-      background: $body-bg;
-      color: $body-color;
     }
   }
 }
