@@ -1,4 +1,4 @@
-<div class="section-wrapper" style="background-image:url({{ include.section_background_url }})">
+<div class="section-wrapper {{include.additional_classes}}{% if include.section_background_url %}" style="background-image:url({{ include.section_background_url }})"{% else %} no-background"{% endif %}>
   <div class="outer-container {{ include.section_style | default: 'white' }}">
     <div class="container">
       <div class="row">

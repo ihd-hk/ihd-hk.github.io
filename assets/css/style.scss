@@ -28,6 +28,11 @@ $headings-margin-bottom: 1rem;
 
 $navbar-bg: rgba(#f0f0f0, 0.95);
 
+$carousel-indicator-width: 16px;
+$carousel-indicator-height: 16px;
+$carousel-indicator-spacer: 6px;
+$carousel-control-width: auto;
+
 @import "bootstrap/bootstrap";
 @import "select2/core.scss";
 @import "tether/tether.sass";
@@ -111,6 +116,7 @@ footer {
   span {
     font-size: 0.75rem;
     vertical-align: bottom;
+    line-height: 1;
   }
 
   @include media-breakpoint-up(md) {
@@ -128,23 +134,23 @@ footer {
     padding-bottom: 14px;
     .nav-item {
       .nav-link {
-        line-height: 22px;
-        padding: 0 10px;
+        line-height: 1em;
+        padding: 0 8px 2px;
         font-size: 0.75rem;
         border-bottom: 0px solid $primary;
         white-space: nowrap;
+        margin-bottom: -2px;
 
         @include media-breakpoint-up(lg) {
-          padding: 0 20px;
-          font-size: 1rem;
+          padding: 0 16px 2px;
+          font-size: 0.85rem;
         }
       }
       &.active {
         .nav-link {
           font-weight: bold;
-          padding-bottom: 5px;
-          border-bottom-width: 3px;
-          margin-bottom: -8px;
+          border-bottom-width: 2px;
+          margin-bottom: -4px;
         }
       }
     }
@@ -170,40 +176,14 @@ footer {
   background-color: #f3f3f4;
 }
 
-.carousel-cover-image {
-  height: 200px;
-  @include media-breakpoint-up(md) {
-    height: 500px;
+.carousel-indicators {
+  width: 60vw;
+  max-width: 500px;
+  li {
+    border-radius: 50%;
   }
-  background-size: cover;
-  background-position: center;
 }
 
-.carousel-indicators,
-.carousel-caption {
-  background: rgba(0,0,0, 0.5);
-  color: rgba(255,255,255, 0.8);
-  left: 0;
-  right: 0;
-}
-.carousel-indicators {
-  bottom: 0;
-  height: 3px;
-  margin: 0;
-  padding: 15px 0;
-}
-.carousel-caption {
-  bottom: 30px;
-  top: auto;
-  padding: 1em 0 0;
-  &.carousel-caption-top {
-    background: transparent;
-    color: rgba(255,255,255, 0.75);
-    padding: 0.5em 0;
-    top: 0;
-    bottom: auto;
-  }
-}
 .profile-image {
   img {
     max-width: 100%;
@@ -309,8 +289,8 @@ figure.person-card {
   .locations {
     h2 {
       background: transparent url(/assets/css/images/marker-icon-2x.png) no-repeat left top;
-      background-size: 1.4rem;
-      padding-left: 32px;
+      background-size: 1.8rem;
+      padding-left: 38px;
       padding-top: 8px;
     }
   }
@@ -351,41 +331,61 @@ figure.person-card {
   justify-content: center;
 
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: 90vh;
 
   background-position: center;
   background-repeat: no-repeat;
   background-color: white;
   background-size: cover;
-
-  @include media-breakpoint-up(sm) {
-    margin-bottom: 50px;
-  }
 }
 
-.homepage-text-block {
+.homepage-inner-block {
   position: absolute;
-  display: flex;
-  align-items: center;
-
-  color: white;
-  background: rgba($primary, 0.5);
-  padding: 5px;
-
   width: 60vw;
   height: 60vh;
   min-height: 340px;
-  h1 {
-    line-height: 0.85em;
-  }
-
-  p {
-    margin-top: 1rem;
-  }
-
   @include media-breakpoint-up(sm) {
     max-width: 500px;
     max-height: 500px;
+  }
+}
+.homepage-image-block {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+}
+
+.homepage-text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  color: white;
+  background: rgba(#f05523, 0.7);
+  padding: 5px;
+
+
+  &>div,&>h1 {
+    flex: 1 1 0;
+  }
+
+  h1 {
+    line-height: 0.85em;
+    margin: 0;
+    flex: 0;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    p {
+      margin: 0;
+    }
   }
 }
 
@@ -408,9 +408,6 @@ h1 {
     background-position: center;
     background-size: cover;
     overflow: auto;
-    @include media-breakpoint-up(sm) {
-      margin-bottom: 5em;
-    }
 
     .outer-container {
       background: $body-bg;
@@ -432,8 +429,18 @@ h1 {
       }
 
       &.dark {
-        background: rgba(0,0,0, 0.5);
+        background: transparent;
         text-shadow: 0 0 3px black;
+      }
+    }
+    &.no-background {
+      .outer-container {
+        margin: 0;
+      }
+    }
+    &.tight-container {
+      .container {
+        padding: 0;
       }
     }
   }
@@ -441,9 +448,24 @@ h1 {
 
 
 body#our_services_page {
+  .section-wrapper {
+    @include media-breakpoint-up(sm) {
+      margin-bottom: 5em;
+    }
+  }
   ul.lead {
     li {
       @extend .mb-3;
+    }
+  }
+}
+
+.leaflet-container {
+  .leaflet-marker-pane {
+    img {
+      // @TODO - this is crap. Maybe maybe a custom LeafletJS icon.
+      width: 30px !important;
+      height: 41px !important;
     }
   }
 }
