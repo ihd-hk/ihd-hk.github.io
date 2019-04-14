@@ -449,8 +449,15 @@ h1 {
 
 body#our_services_page {
   .section-wrapper {
-    @include media-breakpoint-up(sm) {
-      margin-bottom: 5em;
+    margin-bottom: 25px;
+    &:nth-child(n+5) {
+      .outer-container {
+        margin: 25px 0;
+        > .container {
+          padding-top: 25px;
+          padding-bottom: 25px;
+        }
+      }
     }
   }
   ul.lead {
@@ -466,6 +473,28 @@ body#our_services_page {
       // @TODO - this is crap. Maybe maybe a custom LeafletJS icon.
       width: 30px !important;
       height: 41px !important;
+    }
+  }
+}
+
+.team-modal {
+  .bio {
+    @include media-breakpoint-up(lg) {
+      max-height: 345px;
+      overflow-y: scroll;
+    }
+    @include media-breakpoint-up(xl) { max-height: 500px; }
+
+
+    &::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,.5);
+        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
     }
   }
 }
