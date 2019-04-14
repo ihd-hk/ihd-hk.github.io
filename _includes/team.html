@@ -1,6 +1,7 @@
+{% assign image_base = '/images/team/thumbnails/' %}
 {% for person in site.data.team %}
 <figure class="figure person-card col-lg-2 px-0" {% if person.modal_id %}data-toggle="modal" data-target="#team-{{ person.modal_id }}-modal" {% endif %}>
-  <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" class="mw-100" />
+  <img src="{{ image_base | append: person.image | relative_url }}" alt="{{ person.name }}" class="mw-100" />
 
   <figcaption class="figure-caption">
     <h3>{{person.name}}</h3>

@@ -1,30 +1,30 @@
 - name: Ian Harris
   job_title: President
-  image: /images/team/ian-harris.jpg
+  image: ian-harris.jpg
   modal_id: ian-harris
 
 - name: Adrian Lim
   job_title: Dir. GlobalBusDev
-  image: /images/team/adrian-lim.jpg
+  image: adrian-lim.jpg
   modal_id: adrian-lim
 
 - name: Chong Kok Siong
   job_title: Dir. GlobalBusDev
-  image: /images/team/chong-kok-siong.jpg
+  image: chong-kok-siong.jpg
   modal_id: chong-kok-siong
 
 - name: Patrick Shek
   job_title: Dir. AV & Projects
-  image: /images/team/patrick-shek.jpg
+  image: patrick-shek.jpg
   modal_id: patrick-shek
 
 - name: Alfie Chen
   job_title: Dir. IT & Security
-  image: /images/team/alfie-chen.jpg
+  image: alfie-chen.jpg
   modal_id: alfie-chen
 
 
 - name: Dr. Justin Kwan
   job_title: Dir. Acoustics
-  image: /images/team/justin-kwan.jpg
+  image: justin-kwan.jpg
   modal_id: justin-kwan
