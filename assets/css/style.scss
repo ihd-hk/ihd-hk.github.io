@@ -498,3 +498,29 @@ body#our_services_page {
     }
   }
 }
+
+.news-card {
+  @extend .col-md-8;
+  @extend .shadow-lg;
+  @extend .mb-5;
+  padding: 1em;
+
+  .avatar {
+    width: 64px;
+    height: 64px;
+    background: $footer-background;
+    float: left;
+    margin-right: 1em;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-top: 25%;
+    }
+  }
+  .card-title {
+    a {
+      color: $body-color;
+    }
+  }
+}
