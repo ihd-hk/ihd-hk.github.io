@@ -209,45 +209,75 @@ figure.person-card {
   width: 125px;
 }
 
-
 #portfolio_page {
-  .card {
-    &.has-images {
-      .card-body {
-        padding-top: 100%;
-        margin-top: $spacer;
-      }
-    }
-    img.card-img-top {
-      position: absolute;
-      left:0;
-      transition: all .3s ease-in-out;
-      &:nth-child(2) {
-        opacity: 0;
-      }
-      &:hover {
-        &:nth-child(2) {
-          opacity: 1;
-        }
-      }
-    }
-    .card-title {
-      text-align: center;
-    }
-    .tags {
-      text-align: right;
-      span {
-        font-weight: lighter;
-        font-size: 0.6rem;
-        font-style: italic;
-        color: #aaa;
-        white-space: nowrap;
+  .project-inner {
+    padding: 1em 3em;
 
-        &:after {
-          content: ', ';
-        }
-        &:last-child:after {
-          content: '';
+    @include media-breakpoint-up(md) {
+      min-height: calc(244px + 8rem);
+    }
+    @include media-breakpoint-up(lg) {
+      min-height: calc(364px + 8rem);
+    }
+    @include media-breakpoint-up(xl) {
+      min-height: calc(454px + 8rem);
+    }
+
+    .placeholder {
+      padding-bottom: 100%;
+    }
+    .description-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0, 0.5);
+      color: white;
+      padding: 2em;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      p {
+        font-size: 90%;
+      }
+    }
+    &.force-description,
+    &:hover {
+      .description-overlay {
+        opacity: 1;
+      }
+    }
+
+    .facets {
+      @extend .small;
+      text-align: left;
+    }
+    .facet {
+      white-space: nowrap;
+      padding-right: 0.25em;
+      margin-bottom: 0;
+      &:before {
+        content: ' | ';
+        padding-right: 0.25em;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+      &:last-child:after {
+        content: ' | ';
+        padding-left: 0.25em;
+      }
+
+      &.disciplines {
+        .discipline {
+          &:after {
+            content: ', ';
+            padding-right: 0.2em;
+          }
+          &:last-child:after {
+            content: '';
+            padding-right: 0;
+          }
         }
       }
     }

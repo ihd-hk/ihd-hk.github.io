@@ -1,0 +1,476 @@
+- title: China Resources Headquarters
+  location:
+    city: Shenzhen
+    country: China
+  disciplines:
+    - Acoustics
+  types:
+    - Corporate
+  completed_year: 2018
+  completed: true
+  image: china-resources-headquarters.jpg
+
+
+- title: China Resources University
+  location:
+    city: Huizhou
+    country: China
+  disciplines:
+    - Acoustics
+    - Audio-visual
+  types:
+    - Education
+  completed_year: 2016
+  completed: true
+  image: china-resources-university.jpg
+
+
+- title: China World Trade Center
+  location:
+    city: Beijing
+    country: China
+  disciplines:
+    - Audio-visual
+  types:
+    - Mixed property
+  completed_year: 2010
+  completed: true
+  image: china-world-trade-center.jpg
+  description: China World Trade Center Phase 3, one of the tallest structures in Beijing, is located in the CBD area of the Chaoyang District. This 330 metre-tall building was ihD’s first super-tall skyscraper project to maximise audio-visual control of 73 floors. To cater the different functions’ needs, this mixed property, including a 2340sqm Grand Ballroom, has a fully built in audio-visual facility.
+
+
+- title: Clark Marriott, Pampanga
+  location:
+    city: Pampanga
+    country: Philippines
+  disciplines:
+    - Acoustics
+    - Audio-visual
+    - IT
+    - Security
+  types:
+    - Hospitality
+  completed_year: 2018
+  completed: true
+  image: clark-marriott-pampanga.jpg
+
+
+- title: Cordis Beijing Capital Airport
+  location:
+    city: Beijing
+    country: China
+  disciplines:
+    - Acoustics
+    - Audio-visual
+  types:
+    - Hospitality
+  completed_year: 2018
+  completed: true
+  image: cordis-beijing.jpg
+
+
+- title: Four Seasons Hotel Guangzhou
+  location:
+    city: Guangzhou
+    country: China
+  disciplines:
+    - Audio-visual
+    - IT
+    - Security
+    - ELV
+  types:
+    - Hospitality
+  completed_year: 2012
+  completed: true
+  image: four-seasons-guangzhou.jpg
+
+
+- title: Four Seasons Hotel Kuala Lumpur
+  location:
+    city: Kuala Lumpur
+    country: Malaysia
+  disciplines:
+    - Audio-visual
+    - IT
+    - Guestroom Control
+    - Online Door Lock
+  types:
+    - Hospitality
+  completed_year: 2018
+  completed: true
+  image: four-seasons-kl.jpg
+
+
+- title: Four Seasons Hotel Seoul
+  location:
+    city: Seoul
+    country: South Korea
+  disciplines:
+    - Audio-visual
+    - IT
+    - Security
+    - ELV
+  types:
+    - Hospitality
+  completed_year: 2015
+  completed: true
+  image: four-seasons-seoul.jpg
+
+
+- title: Galaxy Macau
+  location:
+    city: Macau
+    country: China
+  disciplines:
+    - Audio-visual
+  types:
+    - Hospitality
+    - Gaming
+  completed_year: 2010
+  completed: true
+  image: galaxy-macau.jpg
+
+
+- title: Grand Hyatt Shenzhen
+  location:
+    city: Shenzhen
+    country: China
+  disciplines:
+    - Audio-visual
+  types:
+    - Hospitality
+  completed_year: 2009
+  completed: true
+  image: grand-hyatt-shenzhen.jpg
+
+
+- title: Huawei University
+  location:
+    city: Dongguan
+    country: China
+  disciplines:
+    - Acoustics
+    - Audio-visual
+  types:
+    - Hospitality
+  completed_year: 2020
+  completed: false
+  image: hauwei-university.jpg
+
+
+- title: Imperial Palace Saipan
+  location:
+    city: Saipan
+    country: US
+  disciplines:
+    - Audio-visual
+  types:
+    - Hospitality
+    - Gaming
+  completed_year: 2020
+  completed: false
+  image: imperial-palace-saipan.jpg
+
+
+- title: Jeju Dream Tower Integrated Resort
+  location:
+    city: Jeju
+    country: South Korea
+  disciplines:
+    - Acoustics
+  types:
+    - Hospitality
+    - Gaming
+  completed_year: 2021
+  completed: false
+  image: jeju-dream-tower-integrated-resort.jpg
+
+
+- title: Kempinski Hotel and Residences
+  location:
+    city: Yinchuan
+    country: China
+  disciplines:
+    - ELV
+    - Smart home
+  types:
+    - Hospitality
+  completed_year: 2015
+  completed: true
+  image: kempinski-hotel-and-residences.jpg
+
+
+- title: Rosewood Hong Kong
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - Audio-visual
+    - IT
+  types:
+    - Hospitality
+  completed_year: 2019
+  completed: true
+  image: rosewood.jpg
+
+
+- title: Raffles Shenzhen
+  location:
+    city: Shenzhen
+    country: China
+  disciplines:
+    - IT
+    - Guestroom Control
+  types:
+    - Hospitality
+  completed_year: 2019
+  completed: true
+  image: raffles-shenzhen.jpg
+
+
+- title: Megabox
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - Audio-visual
+  types:
+    - Retail
+  completed_year: 2006
+  completed: true
+  image: megabox-hong-kong.jpg
+
+
+- title: Mandarin Oriental Bangkok
+  location:
+    city: Bangkok
+    country: Thailand
+  disciplines:
+    - Audio-visual
+    - IT
+  types:
+    - Hospitality
+  completed_year: 2006
+  completed: true
+  image: mandarin-oriental-bangkok.jpg
+
+
+- title: Marriott Nanjing South Hotel
+  location:
+    city: Nanjing
+    country: China
+  disciplines:
+    - Acoustics
+    - Audio-visual
+    - IT
+    - ELV
+  types:
+    - Hospitality
+  completed_year: 2018
+  completed: true
+  image: marriott-nanjing-south.jpg
+
+
+- title: Shangri-La Hotel, Bangkok
+  location:
+    city: Bangkok
+    country: Thailand
+  disciplines:
+    - Audio-visual
+  types:
+    - Hospitality
+  completed_year: 2004
+  completed: true
+  image: shangri-la-hotel-bangkok.jpg
+
+
+- title: Shangri-La Hotel, Singapore
+  location:
+    country: Singapore
+  disciplines:
+    - Audio-visual
+    - Lighting
+  types:
+    - Hospitality
+  completed_year: 2009
+  completed: true
+  image: shangri-la-hotel-singapore.jpg
+
+
+- title: St. Andrew's Church
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - Audio-visual
+  types:
+    - Place of Worship
+  completed_year: 2014
+  completed: true
+  image: st-andrew-church.jpg
+
+
+- title: Sky100
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - Audio-visual
+  types:
+    - Gallery
+  completed_year: 2014
+  completed: true
+  image: sky100.jpg
+
+
+- title: The Fifth At Rockwell
+  location:
+    city: Makati
+    country: Philippines
+  disciplines:
+    - Acoustics
+    - Audio-visual
+    - Lighting
+  types:
+    - Hospitality
+  completed_year: 2018
+  completed: true
+  image: the-fifth-at-rockwell.jpg
+
+
+- title: W Suzhou
+  location:
+    city: Suzhou
+    country: China
+  disciplines:
+    - Acoustics
+    - Audio-visual
+  types:
+    - Hospitality
+  completed_year: 2018
+  completed: true
+  image: w-suzhou.jpg
+
+
+- title: The Peak Tram
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - IT
+  types:
+    - Place of Interest
+  completed_year: 2022
+  completed: false
+  image: the-peak-tram.jpg
+
+
+- title: The Hong Kong Jockey Club
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - Acoustics
+    - Audio-visual
+  types:
+    - Gaming
+  completed_year: 2006
+  completed: true
+  ongoing: true # @TODO - ongoing (show as 2006 - now)
+  image: the-hong-kong-jockey-club.jpg
+
+
+- title: Victoria's Secret
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - ELV
+  types:
+    - Retail
+  completed_year: 2018
+  completed: true
+  image: victoria-secret.jpg
+
+
+- title: Tianjin CTF Finance Centre
+  location:
+    city: Tianjin
+    country: China
+  disciplines:
+    - Audio-visual
+    - IT
+  types:
+    - Mixed Property
+  completed_year: 2022
+  completed: false
+  image: tianjin-ctf-finance-centre.jpg
+
+
+- title: The University of Hong Kong, Yuet Ming Auditorium
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - Acoustics
+    - Audio-visual
+  types:
+    - Education
+  completed_year: 2016
+  completed: true
+  image: the-university-of-hong-kong-yuet-ming-auditorium.jpg
+
+
+- title: The Peninsula Hong Kong
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - Audio-visual
+  types:
+    - Hospitality
+  completed_year: 2009
+  completed: true
+  image: the-peninsula-hong-kong.jpg
+
+
+- title: Waldorf Astoria Beijing
+  location:
+    city: Beijing
+    country: China
+  disciplines:
+    - Acoustics
+    - Audio-visual
+  types:
+    - Hospitality
+  completed_year: 2014
+  completed: true
+  image: waldorf-astoria-beijing.jpg
+
+
+- title: Chimelong Paradise Tourist Resort
+  location:
+    city: Guangzhou
+    country: China
+  disciplines:
+    - Audio-visual
+  types:
+    - Theme Park
+  completed_year: 2012
+  completed: true
+  image: chimelong-paradise-tourist-resort.jpg
+
+
+- title: Grand Hyatt JJ's
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - Audio-visual
+  types:
+    - Hospitality
+  completed_year: 2006
+  completed: true
+  image: null
+  description: JJ’s Bar, renowned across Asia in its day, was re-designed by ihD with a complete 3D-modelling of its labyrinthine network. The solution was a perfectly-reproduced live band sound throughout the stage, dance floor, passageways and bar areas. Designed by the renowned architect & interior designer John Morford, JJ's Bar was another extremely challenging yet successful project.
+

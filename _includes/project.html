@@ -1,0 +1,45 @@
+{% assign image_base = '/images/projects/' %}
+{% assign this_year = 'now' | date: "%Y" %}
+<div class="col-md-6 col-12 project" data-locations='{{ project.location.country | join: "," }}' data-types='{{ project.types | join: "," }}' data-disciplines='{{ project.disciplines | join: "," }}'>
+  <div class="project-inner {% if project.image == null %}force-description{% endif %}">
+    <div class="position-relative">
+      {% if project.image %}
+      <img src="{{ image_base | append: project.image | relative_url }}" alt="{{ project.title }}" class="mw-100" />
+      {% else %}
+      <div class="placeholder"></div>
+      {% endif %}
+
+      {% if project.description %}
+        <div class="description-overlay">
+          <h4>{{ project.title }}</h4>
+          <p>{{project.description}}</p>
+        </div>
+      {% endif %}
+    </div>
+
+    <p>{{ project.title }}</p>
+    <p class="facets">
+      <span class="facet location">
+        {% if project.location.city %}{{ project.location.city }}, {% endif %}
+        {{ project.location.country }}
+      </span>
+
+      <span class="facet types">
+        {% for type in project.types %}
+        <span class="type">{{ type }}</span>
+        {% endfor %}
+      </span>
+
+      <span class="facet completed">
+        {% if project.completed %}Completed{% else %}Target Completion{% endif %}
+        in
+        {{ project.completed_year }}
+      </span>
+      <span class="facet disciplines">
+        {% for discipline in project.disciplines %}
+        <span class="discipline">{{ discipline }}</span>
+        {% endfor %}
+      </span>
+    </p>
+  </div>
+</div>
