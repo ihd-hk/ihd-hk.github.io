@@ -341,9 +341,9 @@ figure.person-card {
 
 .homepage-inner-block {
   position: absolute;
-  width: 60vw;
-  height: 60vh;
-  min-height: 340px;
+  width: 70vw;
+  height: 70vw;
+
   @include media-breakpoint-up(sm) {
     max-width: 500px;
     max-height: 500px;
