@@ -524,3 +524,13 @@ body#our_services_page {
     }
   }
 }
+#news_page {
+  .homepage-block {
+    min-height: auto;
+    .homepage-inner-block {
+      position: relative;
+      margin: 5% 0;
+      height: auto;
+    }
+  }
+}
