@@ -240,11 +240,29 @@ figure.person-card {
       p {
         font-size: 90%;
       }
+      h4 {
+        margin-top: 2rem;
+      }
     }
     &.force-description,
     &:hover {
       .description-overlay {
         opacity: 1;
+      }
+    }
+    &.force-description {
+      .description-overlay {
+        p {
+          transition: opacity 0.3s ease;
+          opacity: 0
+        }
+      }
+      &:hover {
+        .description-overlay {
+          p {
+            opacity: 1
+          }
+        }
       }
     }
 
