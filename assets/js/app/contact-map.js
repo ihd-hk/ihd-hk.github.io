@@ -29,9 +29,3 @@ requirejs(['leaflet/leaflet', 'leaflet.ChineseTmsProviders'], function (L) {
   });
   map.fitBounds(bounds);
 });
-
-requirejs(['smoothScroll'], function(SmoothScroll) {
-  var scroll = new SmoothScroll('a[href*="#"]', {
-    header: 'nav.navbar',
-  });
-});
