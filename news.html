@@ -26,6 +26,13 @@ page_id: news_page
       </div>
       <p class="card-text">{{ post.excerpt }}</p>
       <a class="text-right" href="{{ post.url }}">See more&hellip;</a>
+      {% if post.photos %}
+      <div class="images">
+        {% for photo in post.photos %}
+          <img src="/images/news/{{ post.photo_folder }}/small--{{photo}}" />
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
     {% endfor %}
   </div>

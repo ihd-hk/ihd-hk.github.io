@@ -600,7 +600,7 @@ body#our_services_page {
 .news-card {
   @extend .col-md-8;
   @extend .shadow-lg;
-  @extend .mb-5;
+  margin-bottom: 3rem;
   padding: 1em;
 
   .avatar {
@@ -619,6 +619,26 @@ body#our_services_page {
   .card-title {
     a {
       color: $body-color;
+    }
+  }
+  .images {
+    @extend .row;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 -16px;
+    height: 506px;
+
+    img {
+      @extend .col-md-4;
+
+      padding: 0 !important;
+      display: block;
+      width: 100%;
+      height: auto;
+
+      &:first-child {
+        @extend .col-md-8;
+      }
     }
   }
 }

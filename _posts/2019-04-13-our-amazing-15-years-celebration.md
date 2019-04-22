@@ -2,6 +2,11 @@
 layout: news
 title: Our Amazing 15 years Celebration
 language: en
+photo_folder: 2019-04-13-our-amazing-15-years-celebration
+photos:
+  - news_15years-1.jpg
+  - news_15years-2.jpg
+  - news_15years-4.jpg
 ---
 
 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
