@@ -320,6 +320,13 @@ figure.person-card {
       background-size: 1.5rem;
       padding-left: $header-icon-padding;
       font-weight: 400;
+
+      &#beijing, &#shanghai, &#shenzhen {
+        margin-left: -32px;
+      }
+      &#shanghai, &#shenzhen {
+        @extend .mt-5;
+      }
     }
     address {
       display: block;
