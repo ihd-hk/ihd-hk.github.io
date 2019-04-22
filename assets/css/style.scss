@@ -418,16 +418,13 @@ figure.person-card {
   background: rgba(#f05523, 0.7);
   padding: 5px;
 
-
-  &>div,&>h1 {
-    flex: 1 1 0;
-  }
-
-  h1 {
+  & > h1 {
+    display: flex;
+    flex: 2 1 0;
+    flex-direction: column;
     line-height: 0.85em;
     font-size: 7vw;
     margin: 0;
-    flex: 0;
 
     @include media-breakpoint-up(sm) {
       font-size: 34pt;
@@ -438,8 +435,9 @@ figure.person-card {
       text-decoration: none;
     }
   }
-  div {
+  & > div {
     display: flex;
+    flex: 1 1 0;
     flex-direction: column;
     justify-content: flex-end;
     h3 {

@@ -1,7 +1,6 @@
 ---
 layout: news
 title: Our New Opening
-permalink: /news/2019-03-22--our-new-opening.html
 language: en
 ---
 

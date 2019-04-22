@@ -1,7 +1,6 @@
 ---
 layout: news
 title: Our Amazing 15 years Celebration
-permalink: /news/our-amazing-15-years-celebration.html
 language: en
 ---
 
