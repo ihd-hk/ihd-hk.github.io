@@ -598,8 +598,6 @@ body#our_services_page {
 }
 
 .news-card {
-  @extend .col-md-8;
-  @extend .shadow-lg;
   margin-bottom: 3rem;
   padding: 1em;
 
@@ -622,14 +620,30 @@ body#our_services_page {
     }
   }
   .images {
-    @extend .row;
-    align-items: flex-start;
     flex-direction: column;
-    margin: 0 -16px;
-    height: 506px;
+    margin: 0 -12px;
+
+    height: 63vw;
+
+    @include media-breakpoint-up(sm) {
+      margin: 0 -16px;
+      height: 329px;
+    }
+
+    @include media-breakpoint-up(md) {
+      height: 439px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: 426px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      height: 506px;
+    }
 
     img {
-      @extend .col-md-4;
+      @extend .col-4;
 
       padding: 0 !important;
       display: block;
@@ -637,7 +651,7 @@ body#our_services_page {
       height: auto;
 
       &:first-child {
-        @extend .col-md-8;
+        @extend .col-8;
       }
     }
   }

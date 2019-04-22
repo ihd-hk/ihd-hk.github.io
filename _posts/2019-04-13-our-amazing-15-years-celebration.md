@@ -9,7 +9,8 @@ photos:
   - news_15years-4.jpg
 ---
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-praesentium voluptatum deleniti atque corrupti quos dolores et quas
-molestias excepturi sint occaecati cupiditate non provident, similique
-sunt in culpa qui officia deserunt mollitia animi, id est laborum et do <!-- more -->
+Tonight midnight marks the 15th Anniversary of ihD \| Global Technology Consultant, and I want to thank all of our Team members for their hard work, creative and smart thinking, and high-energy in building the relationships needed with the Design, Client, Contractor, and Operator/User Teams in creating successful Projects, small, large and Mega!!
+<!-- more -->
+I also want to thank our clients and peer Consultants for your Trust in us, and for the opportunity to work on so many high-profile and exciting Projects.
+
+Here's to the next 15 years, onwards and upwards!!
