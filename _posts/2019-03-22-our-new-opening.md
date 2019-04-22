@@ -7,6 +7,8 @@ photos:
   - news_india-office1.jpeg
   - news_india-office.jpeg
   - news_india-office2.jpeg
+image:
+  path: /images/news/2019-03-22-our-new-opening/small--news_india-office1.jpeg
 ---
 
 
