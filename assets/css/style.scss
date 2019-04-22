@@ -313,10 +313,12 @@ figure.person-card {
     @extend .border-bottom;
     @extend .py-5;
 
+    $header-icon-padding: 32px;
+
     h3 {
       background: transparent url(/assets/css/images/marker-icon-2x.png) no-repeat left top;
       background-size: 1.5rem;
-      padding-left: 32px;
+      padding-left: $header-icon-padding;
       font-weight: 400;
     }
     address {
@@ -326,12 +328,14 @@ figure.person-card {
     .office {
       @extend .col-md-8;
       @extend .align-self-start;
+      padding-left: $header-icon-padding;
     }
     .contact {
       @extend .col-md-4;
       @extend .align-self-center;
       @include media-breakpoint-down(sm) {
         margin-top: 1rem;
+        padding-left: $header-icon-padding;
       }
     }
   }
@@ -521,6 +525,20 @@ body#our_services_page {
       }
     }
   }
+
+  .read-more-link {
+    float: right;
+    line-height: 16px;
+    cursor: pointer;
+
+    &:before {
+      content: 'more';
+      display: inline-block;
+      background: url(/images/more-icon.png) no-repeat center right;
+      background-size: 14px;
+      padding-right: 18px;
+    }
+  }
 }
 
 .leaflet-container {
@@ -552,6 +570,11 @@ body#our_services_page {
         background-color: rgba(0,0,0,.5);
         -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
     }
+  }
+}
+.services-modal {
+  h4 {
+    font-weight: 400;
   }
 }
 
