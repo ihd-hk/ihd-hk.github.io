@@ -73,7 +73,6 @@ footer {
 
   .our-values {
     .value-cell {
-      // @extend .col-sm-4;
       @extend .col-4;
       @extend .col-md-2;
       margin-bottom: $spacer*4;
@@ -396,8 +395,11 @@ figure.person-card {
   height: 70vw;
 
   @include media-breakpoint-up(sm) {
-    max-width: 500px;
-    max-height: 500px;
+    min-width: 320px;
+    min-height: 320px;
+
+    max-width: 60vh;
+    max-height: 60vh;
   }
 }
 .homepage-image-block {
@@ -423,8 +425,14 @@ figure.person-card {
 
   h1 {
     line-height: 0.85em;
+    font-size: 7vw;
     margin: 0;
     flex: 0;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 34pt;
+    }
+
     a {
       color: white;
       text-decoration: none;
@@ -434,8 +442,14 @@ figure.person-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    h3 {
+      @include media-breakpoint-down(sm) {
+        font-size: 4vw;
+      }
+    }
     p {
       margin: 0;
+      font-weight: 100;
     }
   }
 }
