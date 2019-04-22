@@ -43,10 +43,6 @@ $carousel-control-width: auto;
 $footer-background: #e7e7e8;
 $body-color: #231f20;
 
-p {
-  text-align: justify;
-}
-
 body {
   background-color: $footer-background;
   border-top: 70px solid $body-bg;
@@ -133,24 +129,29 @@ footer {
   .navbar-nav {
     padding-bottom: 14px;
     .nav-item {
+      padding: 0 6px;
       .nav-link {
         line-height: 1em;
-        padding: 0 8px 2px;
+        padding: 0 2px 2px;
         font-size: 0.75rem;
         border-bottom: 0px solid $primary;
         white-space: nowrap;
         margin-bottom: -2px;
-
-        @include media-breakpoint-up(lg) {
-          padding: 0 16px 2px;
-          font-size: 0.85rem;
-        }
       }
       &.active {
         .nav-link {
           font-weight: bold;
           border-bottom-width: 2px;
           margin-bottom: -4px;
+        }
+      }
+
+      @include media-breakpoint-up(lg) {
+        padding: 0 12px;
+
+        .nav-link {
+          padding: 0 4px 2px;
+          font-size: 0.85rem;
         }
       }
     }
@@ -211,16 +212,18 @@ figure.person-card {
 
 #portfolio_page {
   .project-inner {
-    padding: 1em 3em;
+    padding: 1em;
 
     @include media-breakpoint-up(md) {
-      min-height: calc(244px + 8rem);
+      min-height: calc(308px + 9rem);
     }
     @include media-breakpoint-up(lg) {
-      min-height: calc(364px + 8rem);
+      min-height: calc(396px + 8rem);
+      padding: 1em 2em;
     }
     @include media-breakpoint-up(xl) {
       min-height: calc(454px + 8rem);
+      padding: 1em 3em;
     }
 
     .placeholder {
@@ -241,7 +244,9 @@ figure.person-card {
         font-size: 90%;
       }
       h4 {
-        margin-top: 2rem;
+        @include media-breakpoint-up(xl) {
+          margin-top: 2rem;
+        }
       }
     }
     &.force-description,
@@ -303,46 +308,33 @@ figure.person-card {
 }
 
 #contact_page {
-  dl {
-    @include make-row();
-    margin-bottom: 0;
-    dt {
-      @extend %grid-column;
-      text-align: right;
-      @include make-col(1);
-      &:after {
-        content: ':';
-      }
-    }
-    dd {
-      @extend %grid-column;
-      @include make-col(11);
+  .location {
+    @extend .row;
+    @extend .border-bottom;
+    @extend .py-5;
 
-      p {
-        margin: 0;
-        @include media-breakpoint-only(md) {
-          strong {
-            display: block;
-          }
-        }
-      }
-      &+dd {
-        @include make-col-offset(1);
-      }
-      &.address {
-        white-space: pre-line;
-      }
-    }
-  }
-  .locations {
-    h2 {
+    h3 {
       background: transparent url(/assets/css/images/marker-icon-2x.png) no-repeat left top;
-      background-size: 1.8rem;
-      padding-left: 38px;
-      padding-top: 8px;
+      background-size: 1.5rem;
+      padding-left: 32px;
+      font-weight: 400;
+    }
+    address {
+      display: block;
+      margin: 0;
+    }
+    .office {
+      @extend .col-md-8;
+      @extend .align-self-start;
+    }
+    .contact {
+      @extend .col-md-4;
+      @extend .align-self-center;
+      @include media-breakpoint-down(sm) {
+        margin-top: 1rem;
+      }
     }
   }
-
 }
 
 .company-features {

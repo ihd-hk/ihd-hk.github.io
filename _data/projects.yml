@@ -9,6 +9,7 @@
   completed_year: 2018
   completed: true
   image: china-resources-headquarters.jpg
+  description: Inspired by the shape of the spring bamboo, China Resources Headquarters is the third tallest building to invigorate Shenzhen’s skyline. Mechanical Electrical and Plumbing (MEP) floors are inevitable with skyscrapers, which presented a massive challenge for the acoustic design. ihD was commissioned to tackle the compliance of the acoustic environment and comfortable ambiance of the conical tower.
 
 
 - title: China Resources University
@@ -23,6 +24,7 @@
   completed_year: 2016
   completed: true
   image: china-resources-university.jpg
+  description: The largest China Resources training facility in Huizhou consists of a 500-seat auditorium, 50-seat boardroom, 25 discussion rooms, 15 classrooms, 4 raked-seating classrooms, a sports hall, and multiple restaurants. ihD designed the acoustic and audio-visual system, including BGM, classroom AV, AV distribution system, the broadcasting & recording facility and digital signage.
 
 
 - title: China World Trade Center
@@ -36,7 +38,7 @@
   completed_year: 2010
   completed: true
   image: china-world-trade-center.jpg
-  description: China World Trade Center Phase 3, one of the tallest structures in Beijing, is located in the CBD area of the Chaoyang District. This 330 metre-tall building was ihD’s first super-tall skyscraper project to maximise audio-visual control of 73 floors. To cater the different functions’ needs, this mixed property, including a 2340sqm Grand Ballroom, has a fully built in audio-visual facility.
+  description: China World Trade Center Phase 3, one of the tallest structures in Beijing, is located in the CBD area of the Chaoyang District. This 330 metre-tall building was ihD’s first super-tall skyscraper project to maximise audio-visual control of 73 floors. To cater the different functions’ needs, this mixed property, including a 2,340sqm Grand Ballroom, has a fully built in audio-visual facility.
 
 
 - title: Clark Marriott, Pampanga
@@ -53,6 +55,7 @@
   completed_year: 2018
   completed: true
   image: clark-marriott-pampanga.jpg
+  description: Marriott Clark is not only the first five-star hotel but also the first international brand to be opened in booming Clark Freeport, Pampanga. Designed with the latest technology from audio-visual, IT, security and acoustic systems, the guest’s experiences are guaranteed to be exciting in this tallest structure in Clark.
 
 
 - title: Cordis Beijing Capital Airport
@@ -67,6 +70,7 @@
   completed_year: 2018
   completed: true
   image: cordis-beijing.jpg
+  description: Conveniently located next to Terminal 3, Cordis Beijing Capital Airport hotel is within close proximity of the exhibition centre, downtown Beijing and the city’s best-known attractions. ihD was engaged to provide acoustic and audio-visual system design with the challenges of a multi-phase renovation of the hotel and restricted to completion in 6 months.
 
 
 - title: Four Seasons Hotel Guangzhou
@@ -83,6 +87,7 @@
   completed_year: 2012
   completed: true
   image: four-seasons-guangzhou.jpg
+  description: IFC Guangzhou (GZ West Tower), one of the tallest skyscrapers in the world, Four Seasons Guangzhou occupies the massive Podium as well as the Tower basement, ground, and 75th to 103rd floors at the lop floors of the 103-storey building.  This marked ihD’s inaugural IT, Security, and ELV projects in the industry. The task was to design an extremely reliable audio-visual, IT, security and ELV system to bridge the 75 floors gap between hotel guestrooms, staff back of house and front of house areas.
 
 
 - title: Four Seasons Hotel Kuala Lumpur
@@ -99,6 +104,7 @@
   completed_year: 2018
   completed: true
   image: four-seasons-kl.jpg
+  description: The luxury lifestyle, Four Seasons Hotel Kuala Lumpur, welcomes the guests to a new era of luxurious experience in the center of Malaysia’s capital city. ihD is proud to be responsible for the fingertip control of the fully digitized guestrooms with personalized services and the newest audio-visual technology to enhance the guests’ experience in the third tallest building in Malaysia.
 
 
 - title: Four Seasons Hotel Seoul
@@ -115,6 +121,7 @@
   completed_year: 2015
   completed: true
   image: four-seasons-seoul.jpg
+  description: Centrally located in the vibrant Gwanghwamun district of South Korea’s capital city, Four Seasons Hotel Seoul was one of the first IP-enabled hotels that ihD designed by integrating audio-visual, IT, security and various ELV systems. With these networked systems, guests share an impeccable and unique experience.
 
 
 - title: Galaxy Macau
@@ -129,6 +136,7 @@
   completed_year: 2010
   completed: true
   image: galaxy-macau.jpg
+  description: ihD’s first Mega casino project, the Galaxy Macau Phase A, consists of three luxury hotels, gaming, and retail shops. There is also a massive landscaped podium with wave pool and lavish gardens. The project was to design the entire Galaxy audio-visual systems along with a central control room to manage the whole property’s audio-visual system, as well as fully modelling the structure in 3D for simulation and design of the audio system.
 
 
 - title: Grand Hyatt Shenzhen
@@ -142,6 +150,7 @@
   completed_year: 2009
   completed: true
   image: grand-hyatt-shenzhen.jpg
+  description: Grand Hyatt Shenzhen, one of the most prestigious mixed-used commercial developments, is located in the Luohu district of Shenzhen. ihD was responsible for the audio-visual system design of the highly flexible ballrooms to accommodate any style or size of conference and banquet settings.
 
 
 - title: Huawei University
@@ -156,6 +165,7 @@
   completed_year: 2020
   completed: false
   image: hauwei-university.jpg
+  description: Huawei University is situated in Dongguan, just north of Shenzhen. ihD is engaged to design over 90 interlinked classrooms, studios and broadcast studios with a fully integrated IP network system with audio-visual, broadcast system, content storage, and management, streaming, and an online command, control, and monitoring system. The vision is to allow better future collaboration for all Huawei campuses and meeting spaces around the world.
 
 
 - title: Imperial Palace Saipan
@@ -170,6 +180,7 @@
   completed_year: 2020
   completed: false
   image: imperial-palace-saipan.jpg
+  description: For this large two-hotel Casino in the US Territory of Guam, we created a spectacular whole-ceiling Video LED as well as a giant spherical Video Pearl in the Casino entrance, for the two giant dragons underneath, as well as Projection-mapping to the building (to be implemented later) and designed the whole of the remainder of the property.
 
 
 - title: Jeju Dream Tower Integrated Resort
@@ -184,6 +195,7 @@
   completed_year: 2021
   completed: false
   image: jeju-dream-tower-integrated-resort.jpg
+  description: Jeju Dream Tower is the one-and-only urban integrated resort located in the heart of Jeju City. We are ensuring that the acoustic design for the very diverse functional areas gives the guests the ultimate pleasant environment while inside the island’s tallest building.
 
 
 - title: Kempinski Hotel and Residences
@@ -198,47 +210,7 @@
   completed_year: 2015
   completed: true
   image: kempinski-hotel-and-residences.jpg
-
-
-- title: Rosewood Hong Kong
-  location:
-    city: Hong Kong
-    country: China
-  disciplines:
-    - Audio-visual
-    - IT
-  types:
-    - Hospitality
-  completed_year: 2019
-  completed: true
-  image: rosewood.jpg
-
-
-- title: Raffles Shenzhen
-  location:
-    city: Shenzhen
-    country: China
-  disciplines:
-    - IT
-    - Guestroom Control
-  types:
-    - Hospitality
-  completed_year: 2019
-  completed: true
-  image: raffles-shenzhen.jpg
-
-
-- title: Megabox
-  location:
-    city: Hong Kong
-    country: China
-  disciplines:
-    - Audio-visual
-  types:
-    - Retail
-  completed_year: 2006
-  completed: true
-  image: megabox-hong-kong.jpg
+  description: The Kempinski Hotel Yinchuan, the first European luxury international hotel in Yinchuan, is located in the heart of Yinchuan city in the Jinfeng District. The mixed-use property consists of a hotel, residential, shopping mall and the headquarters of the Hanas Energy Group. ihD was engaged to design the ELV systems for the development as well as a smart home system for the entire residential project.
 
 
 - title: Mandarin Oriental Bangkok
@@ -253,6 +225,7 @@
   completed_year: 2006
   completed: true
   image: mandarin-oriental-bangkok.jpg
+  description: For more than 140 years, the legendary Mandarin Oriental Bangkok has been one of the most luxurious five-star hotels in the world. In 2015, ihD was tasked to integrate an upgrade for the audio-visual and IT systems for the Garden Wing. The project included all suites and guestrooms, a Michelin Star restaurant, and the meeting rooms. Two years later, for the renovation of River Wing, ihD was commissioned for a larger scale project revising and re-designing the current infrastructure, to creating and implementing the changeover & phasing plans for all guestroom floors, restaurants, and outdoor areas.
 
 
 - title: Marriott Nanjing South Hotel
@@ -269,6 +242,51 @@
   completed_year: 2018
   completed: true
   image: marriott-nanjing-south.jpg
+  description: Marriott Nanjing South Hotel signifies a milestone achievement for ihD. The first Marriott hotel to launch in Nanjing appointed ihD Shanghai to design the audio-visual, IT, ELV, and acoustic systems. This project inaugurated the beginning of IT and ELV consultancy for the Marriott group.
+
+
+- title: Megabox
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - Audio-visual
+  types:
+    - Retail
+  completed_year: 2006
+  completed: true
+  image: megabox-hong-kong.jpg
+  description: The Megabox is a mega-mall, owned and developed by Kerry Properties. ihD designed the "Eye" circular and linear LED video-walls as well as LED "Chandeliers" to which guests could text messages live. ihD also designed a motorised hanging system for the ice rink and the main mall. An extensive audio system that is unusually linked and synchronized to the event staging area to avoid the typical cacophony was also integrated.
+
+
+- title: Raffles Shenzhen
+  location:
+    city: Shenzhen
+    country: China
+  disciplines:
+    - IT
+    - Guestroom Control
+  types:
+    - Hospitality
+  completed_year: 2019
+  completed: true
+  image: raffles-shenzhen.jpg
+  description: Raffles Shenzhen is the new innovative icon strategically located at One Shenzhen Bay. The spacious and luxurious guestrooms feature state-of-the-art technology. ihD’s IT and room-control  solutions have contributed to enhance the legendary guest experience as well as advancing energy-efficiency for the timeless hotel.
+
+
+- title: Rosewood Hong Kong
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - Audio-visual
+    - IT
+  types:
+    - Hospitality
+  completed_year: 2019
+  completed: true
+  image: rosewood.jpg
+  description: Rosewood Hong Kong, the venue of ihD’s 15th Anniversary celebration, is the crown jewel of the Victoria Dockside arts and design district. With its uniquely beautiful interior design by the famed Tony Chi, ihD created Audio-Visual and IT solutions to seamlessly fit the design, creating a  truly inspiring guest-experience. The project was a remarkable achievement of seven years of creative design solutions and strong collaboration work.
 
 
 - title: Shangri-La Hotel, Bangkok
@@ -282,6 +300,7 @@
   completed_year: 2004
   completed: true
   image: shangri-la-hotel-bangkok.jpg
+  description: Our first hotel project, within the huge Shangri-la Bangkok, was the lovely fan-shaped and therefore very challenging Ballroom, completely re-designing it into what became a new reference point for the Group's Ballrooms due to the exceptional performance of the sound and video systems. We subsequently carried out redesign of the whole hotel.
 
 
 - title: Shangri-La Hotel, Singapore
@@ -295,19 +314,7 @@
   completed_year: 2009
   completed: true
   image: shangri-la-hotel-singapore.jpg
-
-
-- title: St. Andrew's Church
-  location:
-    city: Hong Kong
-    country: China
-  disciplines:
-    - Audio-visual
-  types:
-    - Place of Worship
-  completed_year: 2014
-  completed: true
-  image: st-andrew-church.jpg
+  description: The Shangri-La Singapore Island Ballroom was given an aggressive 10-weeks timeframe to complete its renovation in 2009. ihD through well-orchestrated design and detailed planning, ensured smooth-delivery and flawless-execution of this magnificent project. ihD was engaged as the audio-visual and special effects lighting consultant to permanently integrate over 80 powerful moving-head robotic lights in the ballroom. The result is an exquisitely lit banqueting venue.
 
 
 - title: Sky100
@@ -321,6 +328,21 @@
   completed_year: 2014
   completed: true
   image: sky100.jpg
+  description: Sky100, one of the top Hong Kong tourist attractions, is a 360-degree indoor observation deck on the 100th floor of the International Commerce Centre. With a new lobby and also sky bar refurbishments, ihD upgraded its audio-visual system design by featuring digital signage, BGM, gobo lighting, and projection mapping.
+
+
+- title: St. Andrew's Church
+  location:
+    city: Hong Kong
+    country: China
+  disciplines:
+    - Audio-visual
+  types:
+    - Place of Worship
+  completed_year: 2014
+  completed: true
+  image: st-andrew-church.jpg
+  description: Saint Andrew’s Church, an Anglican church with a tall and long worship area, was constructed in 1904. ihD designed and 3D-modelled the audio-visual system for its new suite of worship, training and childrens auditoria. The upgraded system ensured clear and intelligible speech as well as fully-integrated computer connectivity to the multiple projection screens.
 
 
 - title: The Fifth At Rockwell
@@ -336,33 +358,7 @@
   completed_year: 2018
   completed: true
   image: the-fifth-at-rockwell.jpg
-
-
-- title: W Suzhou
-  location:
-    city: Suzhou
-    country: China
-  disciplines:
-    - Acoustics
-    - Audio-visual
-  types:
-    - Hospitality
-  completed_year: 2018
-  completed: true
-  image: w-suzhou.jpg
-
-
-- title: The Peak Tram
-  location:
-    city: Hong Kong
-    country: China
-  disciplines:
-    - IT
-  types:
-    - Place of Interest
-  completed_year: 2022
-  completed: false
-  image: the-peak-tram.jpg
+  description: The Fifth is situated in Level 5 of the Power Plant Mall, right at the heart of the luxurious Rockwell Centre in Makati, Manila. ihD designed the audio-visual and stage-lighting system, to accommodate both in-house banquet teams, and out-sourced entertainment production companies. The Fifth aims to redefine gatherings by building the highest quality of light and sound system to bring the best experience to meet customers’ needs. The 23.04-metre by 4.32-metre Panoramic LED screen ensures a dynamic and grand visual experience.
 
 
 - title: The Hong Kong Jockey Club
@@ -378,33 +374,35 @@
   completed: true
   ongoing: true # @TODO - ongoing (show as 2006 - now)
   image: the-hong-kong-jockey-club.jpg
+  description: ihD has been engaged by The Hong Kong Jockey Club as term Consultant for the acoustic and audio visual systems design since 2011. Over the years, the Grandstands, Member’s Stands, many F&B outlets, and the Main Control Room have been gradually upgraded to current’s day technology.
 
 
-- title: Victoria's Secret
+- title: The Peak Tram
   location:
     city: Hong Kong
     country: China
   disciplines:
-    - ELV
+    - IT
   types:
-    - Retail
-  completed_year: 2018
-  completed: true
-  image: victoria-secret.jpg
+    - Place of Interest
+  completed_year: 2022
+  completed: false
+  image: the-peak-tram.jpg
+  description: The Peak Tram is the world’s steepest funicular railway, which has carried both tourists and residents past Central’s skyscrapers to the rooftop of Hong Kong Island since 1888. The biggest challenge of the project has been the delivery of seamless and fast Wi-Fi to 400 passengers simultaneously travelling up and down the mountain at up to 21Km/hour.
 
 
-- title: Tianjin CTF Finance Centre
+- title: The Peninsula Hong Kong
   location:
-    city: Tianjin
+    city: Hong Kong
     country: China
   disciplines:
     - Audio-visual
-    - IT
   types:
-    - Mixed Property
-  completed_year: 2022
-  completed: false
-  image: tianjin-ctf-finance-centre.jpg
+    - Hospitality
+  completed_year: 2009
+  completed: true
+  image: the-peninsula-hong-kong.jpg
+  description: The Salon De Ning was an exciting and daring venture, with fantastic drinks but also full of surprises. The rich, enveloping, and yet not too overpowering sound of the live band and the cleverly integrated “living” pictures on the walls were a great hit for The Peninsula Hotel Hong Kong. The project was challenging yet fun for ihD.  ihD subsequently completed the upgrade of the meeting space and F&B outlet.
 
 
 - title: The University of Hong Kong, Yuet Ming Auditorium
@@ -419,19 +417,51 @@
   completed_year: 2016
   completed: true
   image: the-university-of-hong-kong-yuet-ming-auditorium.jpg
+  description: A 400-seat multi-purpose theatre and a 120-seat black box theatre were built on top of an existing and operating Yuet Ming Building in The University of Hong Kong.  ihD was contracted to provide the acoustic and audio-visual systems design for all areas, including performance systems, staging systems and stage lighting.
 
 
-- title: The Peninsula Hong Kong
+- title: Tianjin CTF Finance Centre
+  location:
+    city: Tianjin
+    country: China
+  disciplines:
+    - Audio-visual
+    - IT
+  types:
+    - Mixed Property
+  completed_year: 2022
+  completed: false
+  image: tianjin-ctf-finance-centre.jpg
+  description: Currently, with construction still underway, the Tianjin CTF Finance Centre is anchored in the Tianjin Economic-Technological Development Area (TEDA), an outer district of Tianjin, China. ihD is responsible for creating a smart networked audio-visual and IT design for this 530-metre mixed-use tower that houses luxury serviced apartments, a five-star hotel, office space, and a shopping mall.
+
+
+- title: Victoria's Secret
   location:
     city: Hong Kong
     country: China
   disciplines:
+    - ELV
+  types:
+    - Retail
+  completed_year: 2018
+  completed: true
+  image: victoria-secret.jpg
+  description: Causeway Bay Flagship Store, one of Hong Kong’s prime shopping destinations, is the home to Victoria’s Secret three-floor flagship store in Hong Kong. The world-famous lingerie brand was the first such retail shop ELV project for ihD. By leveraging its ELV expertise, ihD orchestrated the very successful launch by coordinating closely and authoritatively with all collaborators involved. We carried out the design of the Beijing Flagship store at the same time.
+
+
+- title: W Suzhou
+  location:
+    city: Suzhou
+    country: China
+  disciplines:
+    - Acoustics
     - Audio-visual
   types:
     - Hospitality
-  completed_year: 2009
+  completed_year: 2018
   completed: true
-  image: the-peninsula-hong-kong.jpg
+  image: w-suzhou.jpg
+  description: Located on the banks of Jinji Lake, W Suzhou is within walking distance to all of the beautiful attractions in Suzhou. ihD designed audio-visual and acoustic solutions for the contemporary hotel and serviced residences. State-of-the-art BGM systems, DJ facilities, AV distribution, stage lighting, and digital signage are found throughout the innovative hotel.
 
 
 - title: Waldorf Astoria Beijing
@@ -446,6 +476,7 @@
   completed_year: 2014
   completed: true
   image: waldorf-astoria-beijing.jpg
+  description: Situated in the heart of the Wangfujing area in Beijing, Waldorf Astoria Beijing is a luxury hotel that blends rich Chinese tradition and modern affluence. ihD enriched the experience of all guests through the incorporation of BYOD Bring-Your-Own Device connectivity and high-end entertainment system into the guestrooms, and through the superb acoustic treatment.
 
 
 - title: Chimelong Paradise Tourist Resort
@@ -459,6 +490,7 @@
   completed_year: 2012
   completed: true
   image: chimelong-paradise-tourist-resort.jpg
+  description: Chimelong Paradise is an integrated theme park, which features fun rides, stunt shows, parades, eco leisure, specialty shops, and restaurants. With the new upgrade of a digital BGM system and Parade System, ihD creatively designed a pleasant and quality sound ambiance for one of the largest amusement parks in China.
 
 
 - title: Grand Hyatt JJ's

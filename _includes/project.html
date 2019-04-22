@@ -17,29 +17,31 @@
       {% endif %}
     </div>
 
-    <p>{{ project.title }}</p>
-    <p class="facets">
-      <span class="facet location">
-        {% if project.location.city %}{{ project.location.city }}, {% endif %}
-        {{ project.location.country }}
-      </span>
+    <div class="details">
+      <p>{{ project.title }}</p>
+      <p class="facets">
+        <span class="facet location">
+          {% if project.location.city %}{{ project.location.city }}, {% endif %}
+          {{ project.location.country }}
+        </span>
 
-      <span class="facet types">
-        {% for type in project.types %}
-        <span class="type">{{ type }}</span>
-        {% endfor %}
-      </span>
+        <span class="facet types">
+          {% for type in project.types %}
+          <span class="type">{{ type }}</span>
+          {% endfor %}
+        </span>
 
-      <span class="facet completed">
-        {% if project.completed %}Completed{% else %}Target Completion{% endif %}
-        in
-        {{ project.completed_year }}
-      </span>
-      <span class="facet disciplines">
-        {% for discipline in project.disciplines %}
-        <span class="discipline">{{ discipline }}</span>
-        {% endfor %}
-      </span>
-    </p>
+        <span class="facet completed">
+          {% if project.completed %}Completed{% else %}Target Completion{% endif %}
+          in
+          {{ project.completed_year }}
+        </span>
+        <span class="facet disciplines">
+          {% for discipline in project.disciplines %}
+          <span class="discipline">{{ discipline }}</span>
+          {% endfor %}
+        </span>
+      </p>
+    </div>
   </div>
 </div>
