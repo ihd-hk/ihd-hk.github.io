@@ -426,8 +426,8 @@ figure.person-card {
     font-size: 7vw;
     margin: 0;
 
-    @include media-breakpoint-up(sm) {
-      font-size: 34pt;
+    @include media-breakpoint-up(xl) {
+      font-size: 84px;
     }
 
     a {
@@ -441,8 +441,9 @@ figure.person-card {
     flex-direction: column;
     justify-content: flex-end;
     h3 {
-      @include media-breakpoint-down(sm) {
-        font-size: 4vw;
+      font-size: 4vw;
+      @include media-breakpoint-up(xl) {
+        font-size: 48px;
       }
     }
     p {
