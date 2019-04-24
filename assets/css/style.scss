@@ -398,16 +398,16 @@ figure.person-card {
 
 .homepage-inner-block {
   position: absolute;
-  width: 70vw;
-  height: 70vw;
+  $block_size: 0.5;
+  $min_block_size: map-get($grid-breakpoints, sm) * $block_size;
+  $max_block_size: map-get($grid-breakpoints, xl) * $block_size;
 
-  @include media-breakpoint-up(sm) {
-    min-width: 320px;
-    min-height: 320px;
-
-    max-width: 60vh;
-    max-height: 60vh;
-  }
+  min-width: $min_block_size;
+  min-height: $min_block_size;
+  max-width: $max_block_size;
+  max-height: $max_block_size;
+  width: 100vw * $block_size;
+  height: 100vw * $block_size;
 }
 .homepage-image-block {
   background-position: center;
@@ -425,38 +425,48 @@ figure.person-card {
   background: rgba(#f05523, 0.7);
   padding: 5px;
 
-  & > h1 {
-    display: flex;
-    flex: 2 1 0;
-    flex-direction: column;
-    line-height: 0.85em;
-    font-size: 7vw;
-    margin: 0;
-
-    @include media-breakpoint-up(xl) {
-      font-size: 84px;
-    }
-
-    a {
-      color: white;
-      text-decoration: none;
-    }
+  a {
+    color: white;
+    text-decoration: none;
   }
-  & > div {
+
+  & > div, h1 {
     display: flex;
     flex: 1 1 0;
     flex-direction: column;
+  }
+
+  & > div {
     justify-content: flex-end;
-    h3 {
-      font-size: 4vw;
-      @include media-breakpoint-up(xl) {
-        font-size: 48px;
-      }
+  }
+
+  @mixin homepage_text_block_font_sizes($base) {
+    font-size: (map-get($grid-breakpoints, sm) * $base / 100);
+    @include media-breakpoint-up(sm) {
+      font-size: $base * 1vw;
     }
-    p {
-      margin: 0;
-      font-weight: 100;
+    @include media-breakpoint-up(xl) {
+      font-size: (map-get($grid-breakpoints, xl) * $base / 100);
     }
+  }
+
+  h1 {
+    justify-content: center;
+    line-height: 0.85em;
+    margin: 0;
+
+    @include homepage_text_block_font_sizes(5.7);
+  }
+
+  h3 {
+    @include homepage_text_block_font_sizes(3.5);
+  }
+
+  p {
+    margin: 0;
+    font-weight: 300;
+    line-height: 1.25em;
+    @include homepage_text_block_font_sizes(2);
   }
 }
 
