@@ -55,20 +55,6 @@ navigation:
     url: '/projects.html'
   - text: Contact
     url: '/contact.html'
-  - text: 中文
-    url: '/ch/'
-  ch:
-  - text: 主页
-    url: '/ch/'
-  - text: 关于德勤
-    url: '/ch/about.html'
-  - text: 服务范围
-    url: '/ch/services.html'
-  - text: 项目案例
-    url: '/ch/portfolio.html'
-  - text: 联系方式
-    url: '/ch/contact.html'
-
 
 # CANNOT CHANGE THESE
 lsi: false
