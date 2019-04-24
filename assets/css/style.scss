@@ -459,6 +459,8 @@ figure.person-card {
   }
 
   h3 {
+    margin: 0;
+    font-weight: 500;
     @include homepage_text_block_font_sizes(3.5);
   }
 
@@ -562,19 +564,19 @@ body#our_services_page {
       }
     }
   }
+}
 
-  .read-more-link {
-    float: right;
-    line-height: 16px;
-    cursor: pointer;
+.read-more-link {
+  text-align: right;
+  line-height: 20px;
+  cursor: pointer;
 
-    &:before {
-      content: 'more';
-      display: inline-block;
-      background: url(/images/more-icon.png) no-repeat center right;
-      background-size: 14px;
-      padding-right: 18px;
-    }
+  &:before {
+    content: 'more';
+    display: inline-block;
+    background: url(/images/more-icon.png) no-repeat center right;
+    background-size: 18px;
+    padding-right: 22px;
   }
 }
 
