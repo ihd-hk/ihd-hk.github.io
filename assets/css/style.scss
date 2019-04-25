@@ -408,6 +408,10 @@ figure.person-card {
   max-height: $max_block_size;
   width: 100vw * $block_size;
   height: 100vw * $block_size;
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
 }
 .homepage-image-block {
   background-position: center;
