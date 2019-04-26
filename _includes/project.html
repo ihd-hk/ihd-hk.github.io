@@ -1,7 +1,7 @@
 {% assign image_base = '/images/projects/' %}
 {% assign this_year = 'now' | date: "%Y" %}
 <div class="col-md-6 col-12 project" data-locations='{{ project.location.country | join: "," }}' data-types='{{ project.types | join: "," }}' data-disciplines='{{ project.disciplines | join: "," }}'>
-  <div class="project-inner {% if project.image == null %}force-description{% endif %}">
+  <div class="project-inner {% if project.image == null %}force-description{% endif %}" onclick="">
     <div class="position-relative">
       {% if project.image %}
       <img src="{{ image_base | append: project.image | relative_url }}" alt="{{ project.title }}" class="mw-100" />
