@@ -1,6 +1,27 @@
 {% assign image_base = '/images/projects/' %}
 {% assign this_year = 'now' | date: "%Y" %}
-<div class="col-md-6 col-12 project" data-locations='{{ project.location.country | join: "," }}' data-types='{{ project.types | join: "," }}' data-disciplines='{{ project.disciplines | join: "," }}'>
+
+{% assign lowerCountry = project.location.country | downcase %}
+{% assign country = site.data[page.language][lowerCountry] | default: project.location.country %}
+{% assign lowerCity = project.location.city | downcase %}
+{% assign city = site.data[page.language][lowerCity] | default: project.location.city %}
+
+{% assign types = '' | split: '' %}
+{% for type in project.types %}
+  {% assign lowerType = type | downcase %}
+  {% assign translatedType = site.data[page.language][lowerType] | default: type %}
+  {% assign types = types | push: translatedType %}
+{% endfor %}
+
+{% assign disciplines = '' | split: '' %}
+{% for discipline in project.disciplines %}
+  {% assign lowerDiscipline = discipline | downcase %}
+  {% assign translatedDiscipline = site.data[page.language][lowerDiscipline] | default: discipline %}
+  {% assign disciplines = disciplines | push: translatedDiscipline %}
+{% endfor %}
+
+
+<div class="col-md-6 col-12 project" data-locations='{{ country }}' data-types='{{ types | join: "," }}' data-disciplines='{{ disciplines | join: "," }}'>
   <div class="project-inner {% if project.image == null %}force-description{% endif %}" onclick="">
     <div class="position-relative">
       {% if project.image %}
@@ -21,23 +42,34 @@
       <p>{{ project.title }}</p>
       <p class="facets">
         <span class="facet location">
-          {% if project.location.city %}{{ project.location.city }}, {% endif %}
-          {{ project.location.country }}
+          {{ country }}
+          {% if city %}, {{ city }}{% endif %}
         </span>
 
         <span class="facet types">
-          {% for type in project.types %}
+          {% for type in types %}
           <span class="type">{{ type }}</span>
           {% endfor %}
         </span>
 
         <span class="facet completed">
-          {% if project.completed %}Completed{% else %}Target Completion{% endif %}
-          in
-          {{ project.completed_year }}
+          {% if page.language == 'ch' %}
+            {% if project.completed %}
+              {{ project.completed_year }}年完工
+            {% else %}
+              计划{{ project.completed_year }}年完工
+            {% endif %}
+
+          {% else %}
+            {% if project.completed %}
+              Completed in {{ project.completed_year }}
+            {% else %}
+              Target Completion in {{ project.completed_year }}
+            {% endif %}
+          {% endif %}
         </span>
         <span class="facet disciplines">
-          {% for discipline in project.disciplines %}
+          {% for discipline in disciplines %}
           <span class="discipline">{{ discipline }}</span>
           {% endfor %}
         </span>

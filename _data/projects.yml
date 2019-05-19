@@ -1,7 +1,7 @@
 - title: China Resources Headquarters
   location:
-    city: Shenzhen
     country: China
+    city: Shenzhen
   disciplines:
     - Acoustics
   types:
@@ -14,8 +14,8 @@
 
 - title: China Resources University
   location:
-    city: Huizhou
     country: China
+    city: Huizhou
   disciplines:
     - Acoustics
     - Audio-visual
@@ -29,8 +29,8 @@
 
 - title: China World Trade Center
   location:
-    city: Beijing
     country: China
+    city: Beijing
   disciplines:
     - Audio-visual
   types:
@@ -43,8 +43,8 @@
 
 - title: Clark Marriott, Pampanga
   location:
-    city: Pampanga
     country: Philippines
+    city: Pampanga
   disciplines:
     - Acoustics
     - Audio-visual
@@ -60,8 +60,8 @@
 
 - title: Cordis Beijing Capital Airport
   location:
-    city: Beijing
     country: China
+    city: Beijing
   disciplines:
     - Acoustics
     - Audio-visual
@@ -75,8 +75,8 @@
 
 - title: Four Seasons Hotel Guangzhou
   location:
-    city: Guangzhou
     country: China
+    city: Guangzhou
   disciplines:
     - Audio-visual
     - IT
@@ -92,8 +92,8 @@
 
 - title: Four Seasons Hotel Kuala Lumpur
   location:
-    city: Kuala Lumpur
     country: Malaysia
+    city: Kuala Lumpur
   disciplines:
     - Audio-visual
     - IT
@@ -109,8 +109,8 @@
 
 - title: Four Seasons Hotel Seoul
   location:
-    city: Seoul
     country: South Korea
+    city: Seoul
   disciplines:
     - Audio-visual
     - IT
@@ -126,8 +126,8 @@
 
 - title: Galaxy Macau
   location:
-    city: Macau
     country: China
+    city: Macau
   disciplines:
     - Audio-visual
   types:
@@ -141,8 +141,8 @@
 
 - title: Grand Hyatt Shenzhen
   location:
-    city: Shenzhen
     country: China
+    city: Shenzhen
   disciplines:
     - Audio-visual
   types:
@@ -155,8 +155,8 @@
 
 - title: Huawei University
   location:
-    city: Dongguan
     country: China
+    city: Dongguan
   disciplines:
     - Acoustics
     - Audio-visual
@@ -170,8 +170,8 @@
 
 - title: Imperial Palace Saipan
   location:
-    city: Saipan
     country: US
+    city: Saipan
   disciplines:
     - Audio-visual
   types:
@@ -185,8 +185,8 @@
 
 - title: Jeju Dream Tower Integrated Resort
   location:
-    city: Jeju
     country: South Korea
+    city: Jeju
   disciplines:
     - Acoustics
   types:
@@ -200,8 +200,8 @@
 
 - title: Kempinski Hotel and Residences
   location:
-    city: Yinchuan
     country: China
+    city: Yinchuan
   disciplines:
     - ELV
     - Smart home
@@ -215,8 +215,8 @@
 
 - title: Mandarin Oriental Bangkok
   location:
-    city: Bangkok
     country: Thailand
+    city: Bangkok
   disciplines:
     - Audio-visual
     - IT
@@ -230,8 +230,8 @@
 
 - title: Marriott Nanjing South Hotel
   location:
-    city: Nanjing
     country: China
+    city: Nanjing
   disciplines:
     - Acoustics
     - Audio-visual
@@ -247,8 +247,8 @@
 
 - title: Megabox
   location:
-    city: Hong Kong
     country: China
+    city: Hong Kong
   disciplines:
     - Audio-visual
   types:
@@ -261,8 +261,8 @@
 
 - title: Raffles Shenzhen
   location:
-    city: Shenzhen
     country: China
+    city: Shenzhen
   disciplines:
     - IT
     - Guestroom Control
@@ -276,8 +276,8 @@
 
 - title: Rosewood Hong Kong
   location:
-    city: Hong Kong
     country: China
+    city: Hong Kong
   disciplines:
     - Audio-visual
     - IT
@@ -291,8 +291,8 @@
 
 - title: Shangri-La Hotel, Bangkok
   location:
-    city: Bangkok
     country: Thailand
+    city: Bangkok
   disciplines:
     - Audio-visual
   types:
@@ -319,8 +319,8 @@
 
 - title: Sky100
   location:
-    city: Hong Kong
     country: China
+    city: Hong Kong
   disciplines:
     - Audio-visual
   types:
@@ -333,8 +333,8 @@
 
 - title: St. Andrew's Church
   location:
-    city: Hong Kong
     country: China
+    city: Hong Kong
   disciplines:
     - Audio-visual
   types:
@@ -347,8 +347,8 @@
 
 - title: The Fifth At Rockwell
   location:
-    city: Makati
     country: Philippines
+    city: Makati
   disciplines:
     - Acoustics
     - Audio-visual
@@ -363,8 +363,8 @@
 
 - title: The Hong Kong Jockey Club
   location:
-    city: Hong Kong
     country: China
+    city: Hong Kong
   disciplines:
     - Acoustics
     - Audio-visual
@@ -379,8 +379,8 @@
 
 - title: The Peak Tram
   location:
-    city: Hong Kong
     country: China
+    city: Hong Kong
   disciplines:
     - IT
   types:
@@ -393,8 +393,8 @@
 
 - title: The Peninsula Hong Kong
   location:
-    city: Hong Kong
     country: China
+    city: Hong Kong
   disciplines:
     - Audio-visual
   types:
@@ -407,8 +407,8 @@
 
 - title: The University of Hong Kong, Yuet Ming Auditorium
   location:
-    city: Hong Kong
     country: China
+    city: Hong Kong
   disciplines:
     - Acoustics
     - Audio-visual
@@ -422,8 +422,8 @@
 
 - title: Tianjin CTF Finance Centre
   location:
-    city: Tianjin
     country: China
+    city: Tianjin
   disciplines:
     - Audio-visual
     - IT
@@ -437,8 +437,8 @@
 
 - title: Victoria's Secret
   location:
-    city: Hong Kong
     country: China
+    city: Hong Kong
   disciplines:
     - ELV
   types:
@@ -451,8 +451,8 @@
 
 - title: W Suzhou
   location:
-    city: Suzhou
     country: China
+    city: Suzhou
   disciplines:
     - Acoustics
     - Audio-visual
@@ -466,8 +466,8 @@
 
 - title: Waldorf Astoria Beijing
   location:
-    city: Beijing
     country: China
+    city: Beijing
   disciplines:
     - Acoustics
     - Audio-visual
@@ -481,8 +481,8 @@
 
 - title: Chimelong Paradise Tourist Resort
   location:
-    city: Guangzhou
     country: China
+    city: Guangzhou
   disciplines:
     - Audio-visual
   types:
@@ -495,8 +495,8 @@
 
 - title: Grand Hyatt JJ's
   location:
-    city: Hong Kong
     country: China
+    city: Hong Kong
   disciplines:
     - Audio-visual
   types:
