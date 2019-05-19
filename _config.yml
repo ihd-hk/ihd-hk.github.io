@@ -55,6 +55,21 @@ navigation:
     url: '/projects.html'
   - text: Contact
     url: '/contact.html'
+  ch:
+  - text: 主页
+    url: '/ch/'
+  - text: 关于德勤
+    url: '/ch/about.html'
+  - text: 我们的团队
+    url: '/ch/team.html'
+  - text: News
+    url: '/ch/news.html'
+  - text: 我们的服务
+    url: '/ch/services.html'
+  - text: 我们的项目
+    url: '/ch/projects.html'
+  - text: 联系我们
+    url: '/ch/contact.html'
 
 # CANNOT CHANGE THESE
 lsi: false

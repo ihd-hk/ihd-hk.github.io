@@ -1,0 +1,39 @@
+---
+layout: default
+title: What's New
+permalink: /ch/news.html
+language: ch
+page_id: news_page
+---
+
+<div class="homepage-block" style="background-image: url(/images/backgrounds/amazing-15-years.jpg)">
+  <div class="homepage-inner-block homepage-image-block" style="background-image: url(/images/15-years.png)">
+  </div>
+</div>
+
+<div class="container">
+  <h1 class="my-4"><span>What's</span> New</h1>
+  <div class="row justify-content-center">
+
+    {% for post in site.posts %}
+    <div class="card col-11 col-lg-8 shadow-lg news-card">
+      <div>
+        <div class="avatar">
+          <img alt="Logo" src="/images/logo.png">
+        </div>
+        <h2 class="card-title mb-0"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="small">{{ post.date | date_to_string }}</p>
+      </div>
+      {{ post.excerpt }}
+      <a class="text-right" href="{{ post.url }}">See more&hellip;</a>
+      {% if post.photos %}
+      <div class="row images">
+        {% for photo in post.photos %}
+          <img src="/images/news/{{ post.photo_folder }}/small--{{photo}}" />
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
