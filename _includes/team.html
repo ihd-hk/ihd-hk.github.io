@@ -4,8 +4,8 @@
   <img src="{{ image_base | append: person.image | relative_url }}" alt="{{ person.name }}" class="mw-100" />
 
   <figcaption class="figure-caption">
-    <h3>{{person.name}}</h3>
-    <p class="small">{{ person.job_title }}</p>
+    <h3>{% if page.language == 'ch' %}{{person.name_ch}}{% else %}{{person.name_en}}{% endif %}</h3>
+    <p class="small">{% if page.language == 'ch' %}{{person.job_title_ch}}{% else %}{{person.job_title_en}}{% endif %}</p>
   </figcaption>
 </figure>
 {% endfor %}
