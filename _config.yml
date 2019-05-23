@@ -47,14 +47,14 @@ navigation:
     url: '/about.html'
   - text: Team
     url: '/team.html'
-  - text: News
-    url: '/news.html'
   - text: Services
     url: '/services.html'
   - text: Projects
     url: '/projects.html'
   - text: Contact
     url: '/contact.html'
+  - text: News
+    url: '/news.html'
   ch:
   - text: 主页
     url: '/ch/'
@@ -62,14 +62,14 @@ navigation:
     url: '/ch/about.html'
   - text: 我们的团队
     url: '/ch/team.html'
-  - text: News
-    url: '/ch/news.html'
   - text: 我们的服务
     url: '/ch/services.html'
   - text: 我们的项目
     url: '/ch/projects.html'
   - text: 联系我们
     url: '/ch/contact.html'
+  - text: News
+    url: '/ch/news.html'
 
 # Hack to define empty array for Jekyll: https://github.com/jekyll/jekyll/issues/3246#issuecomment-68398379
 emptyArray: []
