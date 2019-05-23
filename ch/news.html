@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What's New
+title: 新鲜事
 permalink: /ch/news.html
 language: ch
 page_id: news_page
@@ -12,10 +12,11 @@ page_id: news_page
 </div>
 
 <div class="container">
-  <h1 class="my-4"><span>What's</span> New</h1>
+  <h1 class="my-4"><span>新</span>鲜事</h1>
   <div class="row justify-content-center">
 
-    {% for post in site.posts %}
+    {% assign visible_posts = site.posts | where:"language","ch" %}
+    {% for post in visible_posts %}
     <div class="card col-11 col-lg-8 shadow-lg news-card">
       <div>
         <div class="avatar">

@@ -14,8 +14,8 @@ page_id: news_page
 <div class="container">
   <h1 class="my-4"><span>What's</span> New</h1>
   <div class="row justify-content-center">
-
-    {% for post in site.posts %}
+    {% assign visible_posts = site.posts | where:"language","en" %}
+    {% for post in visible_posts %}
     <div class="card col-11 col-lg-8 shadow-lg news-card">
       <div>
         <div class="avatar">

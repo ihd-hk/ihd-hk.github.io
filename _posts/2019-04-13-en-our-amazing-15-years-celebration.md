@@ -2,6 +2,7 @@
 layout: news
 title: Our Amazing 15 years Celebration
 language: en
+permalink: /news/2019-04-13-our-amazing-15-years-celebration
 photo_folder: 2019-04-13-our-amazing-15-years-celebration
 photos:
   - news_15years-1.jpg

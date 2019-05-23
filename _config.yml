@@ -68,7 +68,7 @@ navigation:
     url: '/ch/projects.html'
   - text: 联系我们
     url: '/ch/contact.html'
-  - text: News
+  - text: 新闻
     url: '/ch/news.html'
 
 # Hack to define empty array for Jekyll: https://github.com/jekyll/jekyll/issues/3246#issuecomment-68398379
