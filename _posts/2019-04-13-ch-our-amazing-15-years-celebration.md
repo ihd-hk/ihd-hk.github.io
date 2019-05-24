@@ -1,6 +1,6 @@
 ---
 layout: news
-title: 我们盛大的十五周年庆典
+title: 公司成立15周年
 language: ch
 permalink: /ch/news/2019-04-13-our-amazing-15-years-celebration
 photo_folder: 2019-04-13-our-amazing-15-years-celebration
