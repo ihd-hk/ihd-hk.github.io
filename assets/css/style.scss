@@ -327,11 +327,12 @@ figure.person-card {
       padding-left: $header-icon-padding;
       font-weight: 400;
 
+      &:nth-child(n+2) {
+        @extend .mt-5;
+      }
+
       &#beijing, &#shanghai, &#shenzhen {
         margin-left: -32px;
-      }
-      &#shanghai, &#shenzhen {
-        @extend .mt-5;
       }
     }
     address {
