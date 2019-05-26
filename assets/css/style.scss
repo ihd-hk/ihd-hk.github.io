@@ -480,8 +480,9 @@ figure.person-card {
 
   h1 {
     justify-content: center;
-    line-height: 0.85em;
+    line-height: 1em;
     margin: 0;
+    display: inline;
 
     @include homepage_text_block_font_sizes(4.5);
   }
