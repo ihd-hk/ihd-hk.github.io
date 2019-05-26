@@ -43,11 +43,20 @@ $carousel-control-width: auto;
 $footer-background: #e7e7e8;
 $body-color: #231f20;
 
+a.target-anchor {
+  position: absolute;
+  top: -90px;
+  @include media-breakpoint-up(md) {
+    top: -125px;
+  }
+  left: 0;
+}
+
 body {
   background-color: $footer-background;
-  border-top: 70px solid $body-bg;
+  padding-top: 70px;
   @include media-breakpoint-up(md) {
-    border-top-width: 105px;
+    padding-top: 105px;
   }
   @include media-breakpoint-down(xs) {
     font-size: 0.75rem;
@@ -232,9 +241,15 @@ figure.person-card {
       padding: 1em 3em;
     }
 
-    .placeholder {
+    .project-image-wrapper {
+      position: relative;
       padding-bottom: 100%;
+      overflow: hidden;
+      img {
+        position: absolute;
+      }
     }
+
     .description-overlay {
       position: absolute;
       top: 0;
@@ -265,7 +280,7 @@ figure.person-card {
       .description-overlay {
         p {
           transition: opacity 0.3s ease;
-          opacity: 0
+          opacity: 1
         }
       }
       &:hover {
@@ -310,6 +325,14 @@ figure.person-card {
         }
       }
     }
+  }
+}
+
+#portfolio_filters {
+  input[name=search] {
+    height: 28px;
+    line-height: 28px;
+    padding: 2px 0.5rem;
   }
 }
 
@@ -399,7 +422,7 @@ figure.person-card {
 
 .homepage-inner-block {
   position: absolute;
-  $block_size: 0.5;
+  $block_size: 0.4;
   $min_block_size: map-get($grid-breakpoints, sm) * $block_size;
   $max_block_size: map-get($grid-breakpoints, xl) * $block_size;
 
@@ -460,20 +483,20 @@ figure.person-card {
     line-height: 0.85em;
     margin: 0;
 
-    @include homepage_text_block_font_sizes(5.7);
+    @include homepage_text_block_font_sizes(4.5);
   }
 
   h3 {
     margin: 0;
     font-weight: 500;
-    @include homepage_text_block_font_sizes(3.5);
+    @include homepage_text_block_font_sizes(2.8);
   }
 
   p {
     margin: 0;
     font-weight: 300;
     line-height: 1.25em;
-    @include homepage_text_block_font_sizes(2);
+    @include homepage_text_block_font_sizes(1.5);
   }
 }
 
@@ -623,6 +646,7 @@ body#our_services_page {
 }
 
 .news-card {
+  position: relative;
   margin-bottom: 3rem;
   padding: 1em;
 

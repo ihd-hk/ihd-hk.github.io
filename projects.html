@@ -15,22 +15,26 @@ redirect_from:
 <h1 class="col-12">Our<span>Projects</span></h1>
 
 <div id="portfolio_filters" class="row w-100 mx-0">
-  <div class="col-4 px-2 pl-4">
-    <select name="location" class="form-control input-lg">
+  <div class="col-3 px-2 pl-4">
+    <select name="location" class="form-control">
       <option value="-1">All Countries</option>
     </select>
   </div>
 
-  <div class="col-4 px-2">
-    <select name="discipline" class="form-control input-lg">
-      <option value="-1">All Disciplines</option> <!-- placeholder -->
+  <div class="col-3 px-2">
+    <select name="discipline" class="form-control">
+      <option value="-1">All Disciplines</option>
     </select>
   </div>
 
-  <div class="col-4 px-2 pr-4">
-    <select name="type" class="form-control input-lg">
+  <div class="col-3 px-2">
+    <select name="type" class="form-control">
       <option value="-1">All Types</option>
     </select>
+  </div>
+
+  <div class="col-3 px-2 pr-4">
+    <input name="search" class="form-control form-control-sm" placeholder="Search..." />
   </div>
 </div>
 {% endcapture %}
@@ -44,6 +48,4 @@ redirect_from:
   </div>
 </div>
 
-<script>
-  require.deps.push('app/portfolio');
-</script>
+<script> require.deps.push('app/portfolio'); </script>

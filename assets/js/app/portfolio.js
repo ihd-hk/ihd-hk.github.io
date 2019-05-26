@@ -3,7 +3,8 @@ requirejs(['jquery', 'shuffle', 'select2', 'underscore'], function ($, Shuffle, 
   var $list = $('#porfolio_grid'),
       $locationFilter = $('#portfolio_filters select[name="location"]'),
       $disciplineFilter = $('#portfolio_filters select[name="discipline"]'),
-      $typeFilter = $('#portfolio_filters select[name="type"]');
+      $typeFilter = $('#portfolio_filters select[name="type"]'),
+      $search = $('#portfolio_filters input[name="search"]');
 
   var filterData = {
     locations: {},
@@ -41,29 +42,6 @@ requirejs(['jquery', 'shuffle', 'select2', 'underscore'], function ($, Shuffle, 
     theme: 'classic'
   });
 
-  // var locations = [];
-  // $.each(data.items, function (i, portfolio) {
-  //   var disciplines = (portfolio.disciplines === undefined) ? [] : portfolio.disciplines.split('');
-  //   var codes = (portfolio.codes === undefined) ? [] : portfolio.codes.split('');
-
-  //   var portfolio_data = {
-  //     portfolio_base_path : portfolio_conf.base_path,
-  //     serializedLocations : JSON.stringify([portfolio.country_en]),
-  //     locationNames : [portfolio['country_' + portfolio_conf.lang]],
-
-  //     serializedDisciplines : JSON.stringify(disciplines),
-  //     disciplineNames : disciplines.map(function(code) { return data.disciplines[code][portfolio_conf.lang]; }),
-
-  //     serializedCodes : JSON.stringify(codes),
-  //     codeNames : codes.map(function(code) { return data.codes[code][portfolio_conf.lang]; }),
-
-  //     files: portfolio.files,
-  //     title: portfolio['title_' + portfolio_conf.lang]
-  //   };
-
-  //   $list.append(IHD.templates.portfolio(portfolio_data));
-  // });
-
   var shuffle = new Shuffle($list[0], {
     itemSelector: '.project'
   });
@@ -72,7 +50,8 @@ requirejs(['jquery', 'shuffle', 'select2', 'underscore'], function ($, Shuffle, 
   var updateFilter = function() {
     var selectedLocations = [],
         selectedDisciplines = [],
-        selectedTypes = [];
+        selectedTypes = [],
+        searchText = $search.val().toLocaleLowerCase();
 
     var v;
     if (!!(v = $locationFilter.val()) && (v !== '-1')) {
@@ -85,9 +64,10 @@ requirejs(['jquery', 'shuffle', 'select2', 'underscore'], function ($, Shuffle, 
       selectedTypes.push(v);
     }
 
-    if (selectedLocations.length + selectedDisciplines.length + selectedTypes.length > 0 ) {
+    if (searchText.length + selectedLocations.length + selectedDisciplines.length + selectedTypes.length > 0 ) {
       shuffle.filter(function(el) {
-        return (selectedLocations   === null ||  _.intersection(el.dataset['locations'  ].split(','), selectedLocations  ).length === selectedLocations.length) &&
+        return (searchText.length   === 0    || el.dataset['titleEn'].toLocaleLowerCase().indexOf(searchText) !== -1   ||   el.dataset['titleCh'].toLocaleLowerCase().indexOf(searchText) !== -1) &&
+               (selectedLocations   === null ||  _.intersection(el.dataset['locations'  ].split(','), selectedLocations  ).length === selectedLocations.length) &&
                (selectedDisciplines === null ||  _.intersection(el.dataset['disciplines'].split(','), selectedDisciplines).length === selectedDisciplines.length) &&
                (selectedTypes       === null ||  _.intersection(el.dataset['types'      ].split(','), selectedTypes      ).length === selectedTypes.length);
       });
@@ -98,5 +78,5 @@ requirejs(['jquery', 'shuffle', 'select2', 'underscore'], function ($, Shuffle, 
   };
 
   $('#portfolio_filters').on('change', 'select', updateFilter);
-
+  $search.on('change keyup', updateFilter);
 });

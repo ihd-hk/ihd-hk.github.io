@@ -17,6 +17,7 @@ page_id: news_page
     {% assign visible_posts = site.posts | where:"language","en" %}
     {% for post in visible_posts %}
     <div class="card col-11 col-lg-8 shadow-lg news-card">
+      <a name="{{ post.photo_folder }}" class="target-anchor"></a>
       <div>
         <div class="avatar">
           <img alt="Logo" src="/images/logo.png">
