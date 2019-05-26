@@ -24,7 +24,7 @@
     city: Huizhou
   disciplines:
     - Acoustics
-    - Audio-visual
+    - Audio-Visual
   types:
     - Education
   completed_year: 2016
@@ -42,7 +42,7 @@
     country: China
     city: Beijing
   disciplines:
-    - Audio-visual
+    - Audio-Visual
   types:
     - Mixed property
   completed_year: 2010
@@ -60,7 +60,7 @@
     city: Pampanga
   disciplines:
     - Acoustics
-    - Audio-visual
+    - Audio-Visual
     - IT
     - Security
   types:
@@ -81,7 +81,7 @@
     city: Beijing
   disciplines:
     - Acoustics
-    - Audio-visual
+    - Audio-Visual
   types:
     - Hospitality
   completed_year: 2018
@@ -99,7 +99,7 @@
     country: China
     city: Guangzhou
   disciplines:
-    - Audio-visual
+    - Audio-Visual
     - IT
     - Security
     - ELV
@@ -120,7 +120,7 @@
     country: Malaysia
     city: Kuala Lumpur
   disciplines:
-    - Audio-visual
+    - Audio-Visual
     - IT
     - Guestroom Control
     - Online Door Lock
@@ -141,7 +141,7 @@
     country: South Korea
     city: Seoul
   disciplines:
-    - Audio-visual
+    - Audio-Visual
     - IT
     - Security
     - ELV
@@ -162,7 +162,7 @@
     country: China
     city: Macau
   disciplines:
-    - Audio-visual
+    - Audio-Visual
   types:
     - Hospitality
     - Gaming
@@ -181,7 +181,7 @@
     country: China
     city: Shenzhen
   disciplines:
-    - Audio-visual
+    - Audio-Visual
   types:
     - Hospitality
   completed_year: 2009
@@ -200,7 +200,7 @@
     city: Dongguan
   disciplines:
     - Acoustics
-    - Audio-visual
+    - Audio-Visual
   types:
     - Hospitality
   completed_year: 2020
@@ -218,7 +218,7 @@
     country: US
     city: Saipan
   disciplines:
-    - Audio-visual
+    - Audio-Visual
   types:
     - Hospitality
     - Gaming
@@ -226,12 +226,12 @@
   completed: false
   image: imperial-palace-saipan.jpg
   description:
-    en: For this large two-hotel Casino in the US Territory of Guam, we created a spectacular whole-ceiling Video LED as well as a giant spherical Video Pearl in the Casino entrance, for the two giant dragons underneath, as well as Projection-mapping to the building (to be implemented later) and designed the whole of the remainder of the property.
+    en: For this large two-hotel Casino in the US Territory of Guam, ihD created a spectacular whole-ceiling Video LED as well as a giant spherical Video Pearl in the Casino entrance, for the two giant dragons underneath, as well as Projection-mapping to the building (to be implemented later) and designed the whole of the remainder of the property.
     ch: 对于这个位于美国领土的岛屿上的两个酒店大的赌场,我们在赌场入口设计了一个壮观的天花板LED屏幕以及一个巨大的球形视频,下面有两个巨大的龙,以及建筑的投影映射(后期实现)。我们也对酒店的其他区域进行了设计。
 
 
 - title:
-    en: Jeju Dream Tower Integrated Resort
+    en: Grand Hyatt Jeju Dream Tower Integrated Resort
     ch: 济州岛君悦梦想大厦综合度假
   location:
     country: South Korea
@@ -245,7 +245,7 @@
   completed: false
   image: jeju-dream-tower-integrated-resort.jpg
   description:
-    en: Jeju Dream Tower is the one-and-only urban integrated resort located in the heart of Jeju City. We are ensuring that the acoustic design for the very diverse functional areas gives the guests the ultimate pleasant environment while inside the island’s tallest building.
+    en: Jeju Dream Tower is the one-and-only urban integrated resort located in the heart of Jeju City. ihD ensures that the acoustic design for the very diverse functional areas gives the guests the ultimate pleasant environment while inside the island’s tallest building.
     ch: 济州岛梦塔位于济州市中心，是济州市唯一的城市综合度假区。我们负责多功能区域的声学设计，为住在这个岛上最高酒店中的客人提供最舒适的居住环境。
 
 
@@ -275,11 +275,11 @@
     country: Thailand
     city: Bangkok
   disciplines:
-    - Audio-visual
+    - Audio-Visual
     - IT
   types:
     - Hospitality
-  completed_year: 2006
+  completed_year: 2019
   completed: true
   image: mandarin-oriental-bangkok.jpg
   description:
@@ -295,7 +295,7 @@
     city: Nanjing
   disciplines:
     - Acoustics
-    - Audio-visual
+    - Audio-Visual
     - IT
     - ELV
   types:
@@ -315,7 +315,7 @@
     country: China
     city: Hong Kong
   disciplines:
-    - Audio-visual
+    - Audio-Visual
   types:
     - Retail
   completed_year: 2006
@@ -352,7 +352,7 @@
     country: China
     city: Hong Kong
   disciplines:
-    - Audio-visual
+    - Audio-Visual
     - IT
   types:
     - Hospitality
@@ -371,14 +371,14 @@
     country: Thailand
     city: Bangkok
   disciplines:
-    - Audio-visual
+    - Audio-Visual
   types:
     - Hospitality
   completed_year: 2004
   completed: true
   image: shangri-la-hotel-bangkok.jpg
   description:
-    en: Our first hotel project, within the huge Shangri-la Bangkok, was the lovely fan-shaped and therefore very challenging Ballroom, completely re-designing it into what became a new reference point for the Group's Ballrooms due to the exceptional performance of the sound and video systems. We subsequently carried out redesign of the whole hotel.
+    en: ihD’s first hotel project, within the huge Shangri-la Bangkok, was the lovely fan-shaped and therefore very challenging Ballroom, completely re-designing it into what became a new reference point for the Group's Ballrooms due to the exceptional performance of the sound and video systems. ihD subsequently carried out redesign of the whole hotel.
     ch: 该项目是香格里拉大酒店里的一个扇形宴会厅，也是我们的第一个在泰国曼谷的项目。由于我们在音视频系统中的出色设计，使其成为香格里拉一个有代表性的宴会厅。之后我们对整个酒店也进行了重新设计。
 
 
@@ -388,7 +388,7 @@
   location:
     country: Singapore
   disciplines:
-    - Audio-visual
+    - Audio-Visual
     - Lighting
   types:
     - Hospitality
@@ -407,7 +407,7 @@
     country: China
     city: Hong Kong
   disciplines:
-    - Audio-visual
+    - Audio-Visual
   types:
     - Gallery
   completed_year: 2014
@@ -425,7 +425,7 @@
     country: China
     city: Hong Kong
   disciplines:
-    - Audio-visual
+    - Audio-Visual
   types:
     - Place of Worship
   completed_year: 2014
@@ -444,7 +444,7 @@
     city: Makati
   disciplines:
     - Acoustics
-    - Audio-visual
+    - Audio-Visual
     - Lighting
   types:
     - Hospitality
@@ -464,11 +464,10 @@
     city: Hong Kong
   disciplines:
     - Acoustics
-    - Audio-visual
+    - Audio-Visual
   types:
     - Gaming
   completed_year: 2006
-  completed: true
   ongoing: true # @TODO - ongoing (show as 2006 - now)
   image: the-hong-kong-jockey-club.jpg
   description:
@@ -501,7 +500,7 @@
     country: China
     city: Hong Kong
   disciplines:
-    - Audio-visual
+    - Audio-Visual
   types:
     - Hospitality
   completed_year: 2009
@@ -520,7 +519,7 @@
     city: Hong Kong
   disciplines:
     - Acoustics
-    - Audio-visual
+    - Audio-Visual
   types:
     - Education
   completed_year: 2016
@@ -538,7 +537,7 @@
     country: China
     city: Tianjin
   disciplines:
-    - Audio-visual
+    - Audio-Visual
     - IT
   types:
     - Mixed Property
@@ -576,7 +575,7 @@
     city: Suzhou
   disciplines:
     - Acoustics
-    - Audio-visual
+    - Audio-Visual
   types:
     - Hospitality
   completed_year: 2018
@@ -595,7 +594,7 @@
     city: Beijing
   disciplines:
     - Acoustics
-    - Audio-visual
+    - Audio-Visual
   types:
     - Hospitality
   completed_year: 2014
@@ -613,7 +612,7 @@
     country: China
     city: Hong Kong
   disciplines:
-    - Audio-visual
+    - Audio-Visual
   types:
     - Hospitality
   completed_year: 2006
@@ -631,7 +630,7 @@
     country: China
     city: Guangzhou
   disciplines:
-    - Audio-visual
+    - Audio-Visual
   types:
     - Theme Park
   completed_year: 2012

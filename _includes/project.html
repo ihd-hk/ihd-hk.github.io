@@ -64,6 +64,8 @@
           {% else %}
             {% if project.completed %}
               Completed in {{ project.completed_year }}
+            {% elsif project.ongoing %}
+              {{ project.completed_year }} - now
             {% else %}
               Target Completion in {{ project.completed_year }}
             {% endif %}
