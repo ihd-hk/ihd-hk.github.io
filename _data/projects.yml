@@ -606,24 +606,6 @@
 
 
 - title:
-    en: Grand Hyatt JJ's
-    ch: 君悦JJ‘s酒吧
-  location:
-    country: China
-    city: Hong Kong
-  disciplines:
-    - Audio-Visual
-  types:
-    - Hospitality
-  completed_year: 2006
-  completed: true
-  image: null
-  description:
-    en: JJ’s Bar, renowned across Asia in its day, was re-designed by ihD with a complete 3D-modelling of its labyrinthine network. The solution was a perfectly-reproduced live band sound throughout the stage, dance floor, passageways and bar areas. Designed by the renowned architect & interior designer John Morford, JJ's Bar was another extremely challenging yet successful project.
-    ch: JJ 's Bar，在当时享誉亚洲。德勤利用三维建模技术，对其迷宫般的网络进行了重新设计。完美处理了舞台、舞池、过道和酒吧区域等处现场乐队的声音。JJ's Bar是由著名的建筑师和室内设计师John Morford设计，是一个极具挑战性的项目，但我们成功地完成了它。
-
-
-- title:
     en: Chimelong Paradise Tourist Resort
     ch: 长隆乐园旅游度假区
   location:
@@ -639,3 +621,21 @@
   description:
     en: Chimelong Paradise is an integrated theme park, which features fun rides, stunt shows, parades, eco leisure, specialty shops, and restaurants. With the new upgrade of a digital BGM system and Parade System, ihD creatively designed a pleasant and quality sound ambiance for one of the largest amusement parks in China.
     ch: 长隆乐园是一个综合性的主题公园，以游乐设施、特技表演、花车游行、生态休闲、专卖店和餐厅为特色。通过对背景音乐系统和游行系统的升级，德勤为其打造了一个高品质的视听环境。
+
+
+- title:
+    en: Grand Hyatt JJ's
+    ch: 君悦JJ‘s酒吧
+  location:
+    country: China
+    city: Hong Kong
+  disciplines:
+    - Audio-Visual
+  types:
+    - Hospitality
+  completed_year: 2006
+  completed: true
+  image: null
+  description:
+    en: JJ’s Bar, renowned across Asia in its day, was re-designed by ihD with a complete 3D-modelling of its labyrinthine network. The solution was a perfectly-reproduced live band sound throughout the stage, dance floor, passageways and bar areas. Designed by the renowned architect & interior designer John Morford, JJ's Bar was another extremely challenging yet successful project.
+    ch: JJ 's Bar，在当时享誉亚洲。德勤利用三维建模技术，对其迷宫般的网络进行了重新设计。完美处理了舞台、舞池、过道和酒吧区域等处现场乐队的声音。JJ's Bar是由著名的建筑师和室内设计师John Morford设计，是一个极具挑战性的项目，但我们成功地完成了它。
