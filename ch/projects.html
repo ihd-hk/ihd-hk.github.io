@@ -12,22 +12,26 @@ redirect_from:
 <h1 class="col-12">我们<span>的项目</span></h1>
 
 <div id="portfolio_filters" class="row w-100 mx-0">
-  <div class="col-4 px-2 pl-4">
-    <select name="location" class="form-control input-lg">
-      <option value="-1">{% if page.language == 'ch' %}国家{% else %}All Countries{% endif %}</option>
+  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
+    <select name="location" class="form-control">
+      <option value="-1">国家</option>
     </select>
   </div>
 
-  <div class="col-4 px-2">
-    <select name="discipline" class="form-control input-lg">
-      <option value="-1">{% if page.language == 'ch' %}学科{% else %}All Disciplines{% endif %}</option>
+  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
+    <select name="discipline" class="form-control">
+      <option value="-1">学科</option>
     </select>
   </div>
 
-  <div class="col-4 px-2 pr-4">
-    <select name="type" class="form-control input-lg">
-      <option value="-1">{% if page.language == 'ch' %}类型{% else %}All Types{% endif %}</option>
+  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
+    <select name="type" class="form-control">
+      <option value="-1">类型</option>
     </select>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
+    <input name="search" class="form-control form-control-sm" placeholder="搜索" />
   </div>
 </div>
 {% endcapture %}
