@@ -722,3 +722,17 @@ body#our_services_page {
     min-height: 500px;
   }
 }
+
+.social-buttons-block {
+  @extend .d-none;
+  @extend .d-md-block;
+
+  position: absolute;
+  right: $grid-gutter-width;
+  top: $grid-gutter-width / 2;
+
+  img {
+    width: 32px;
+    height: auto;
+  }
+}
