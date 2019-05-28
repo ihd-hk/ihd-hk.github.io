@@ -74,6 +74,9 @@ navigation:
 # Hack to define empty array for Jekyll: https://github.com/jekyll/jekyll/issues/3246#issuecomment-68398379
 emptyArray: []
 
+# Hide futures posts - GH shows them!
+future: false
+
 # CANNOT CHANGE THESE
 lsi: false
 safe: true

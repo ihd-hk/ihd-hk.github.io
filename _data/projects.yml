@@ -374,7 +374,7 @@
     - Audio-Visual
   types:
     - Hospitality
-  completed_year: 2004
+  completed_year: 2004, 2010
   completed: true
   image: shangri-la-hotel-bangkok.jpg
   description:
@@ -445,7 +445,7 @@
   disciplines:
     - Acoustics
     - Audio-Visual
-    - Lighting
+    - Stage-Lighting
   types:
     - Hospitality
   completed_year: 2018
