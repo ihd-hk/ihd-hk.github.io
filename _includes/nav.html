@@ -1,34 +1,55 @@
+{% assign homepage_url = "/" %}
+{% if page.language == "ch" %}
+  {% assign homepage_url = "/ch/" %}
+{% endif %}
+
 <nav class="navbar navbar-light navbar-expand-md fixed-top bg-faded">
-  <div class="container">
-    <div class="navbar-header">
+  <div class="container align-items-end position-relative">
+    <div class="navbar-header w-100">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primarynav" aria-controls="primarynav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <a class="navbar-brand" href="{{ "/" | relative_url }}">
+      <a class="navbar-brand" href="{{ homepage_url | relative_url }}">
         <img alt="Brand" src="{{ "/images/logo.png" | relative_url }}">
+        {% if page.language == "ch" %}
+          <span>德勤设计有限公司</span>
+        {% else %}
+          <span>Global Technology Consultant</span>
+        {% endif %}
       </a>
     </div>
 
     <div id="primarynav" class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto align-items-end">
         {% if page.language == "en" %}
           {% for link in site.navigation.en %}
           <li class="nav-item{% if page.url == link.url %} active{% endif %}">
             <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.text }}</a>
           </li>
           {% endfor %}
-          <li class="flag"><a href="{{ page.url | prepend:"ch" | relative_url }}"><img src="{{ "/images/CN.png" | relative_url }}" alt="Chinese" /></a></li>
+          <li class="nav-item chinese"><a class="nav-link" href="{{ page.url | prepend:"ch" | relative_url }}">中文</a></li>
         {% else %}
           {% for link in site.navigation.ch %}
           <li class="nav-item{% if page.url == link.url %} active{% endif %}">
             <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.text }}</a>
           </li>
           {% endfor %}
-          <li class="flag"><a href="{{ page.url | remove_first:"ch/" | relative_url }}"><img src="{{ "/images/GB.png" | relative_url }}" alt="English" /></a></li>
+          <li class="nav-item english"><a class="nav-link" href="{{ page.url | remove_first:"ch/" | relative_url }}">English</a></li>
         {% endif %}
-
       </ul>
+    </div>
+
+    <div class="social-buttons-block">
+      <a href="https://www.facebook.com/ihdltd/" target="_blank">
+        <img src="{{ '/images/social-buttons/fb.png' | relative_url }}" alt="Facebook" />
+      </a>
+      <a href="https://www.linkedin.com/company/ihd-ltd/" target="_blank">
+        <img src="{{ '/images/social-buttons/linkedin.png' | relative_url }}" alt="LinkedIn" />
+      </a>
+      <a href="mailto:ihd@ihd-hk.com">
+        <img src="{{ '/images/social-buttons/mail.png' | relative_url }}" alt="Mail" />
+      </a>
     </div>
   </div>
 </nav>

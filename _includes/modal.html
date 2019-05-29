@@ -1,0 +1,10 @@
+<div class="modal fade {{ include.additional_classes }}" id="{{ include.id }}" tabindex="-1" role="dialog" aria-labelledby="{{ include.id }}-label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered {{ include.modal_size | default: '' }}" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="float-right btn btn-outline-secondary rounded-circle" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>

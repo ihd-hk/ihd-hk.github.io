@@ -1,0 +1,50 @@
+---
+layout: default
+title: 我们的项目
+permalink: /ch/projects.html
+language: ch
+page_id: portfolio_page
+redirect_from:
+  - /ch/portfolio.html
+---
+
+{% capture content %}
+<h1 class="col-12">我们<span>的项目</span></h1>
+
+<div id="portfolio_filters" class="row w-100 mx-0">
+  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
+    <select name="location" class="form-control">
+      <option value="-1">国家</option>
+    </select>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
+    <select name="discipline" class="form-control">
+      <option value="-1">学科</option>
+    </select>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
+    <select name="type" class="form-control">
+      <option value="-1">类型</option>
+    </select>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
+    <input name="search" class="form-control form-control-sm" placeholder="搜索" />
+  </div>
+</div>
+{% endcapture %}
+{% include section-wrapper.html section_background_url='/images/backgrounds/our-projects.jpg' section_style='white' content=content %}
+
+<div class="container">
+  <div class="row my-5" id="porfolio_grid">
+  {% for project in site.data.projects %}
+    {% include project.html project=project %}
+  {% endfor %}
+  </div>
+</div>
+
+<script>
+  require.deps.push('app/portfolio');
+</script>

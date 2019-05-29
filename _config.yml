@@ -31,6 +31,12 @@ exclude:
   - Gemfile.lock
 sass:
   style: compressed
+permalink: /news/:year-:month-:day--:title:output_ext
+
+excerpt_separator: '<!-- more -->'
+
+twitter:
+  card: summary_large_image
 
 # Navigation
 navigation:
@@ -39,24 +45,37 @@ navigation:
     url: '/'
   - text: About
     url: '/about.html'
+  - text: Team
+    url: '/team.html'
   - text: Services
     url: '/services.html'
-  - text: Portfolio
-    url: '/portfolio.html'
+  - text: Projects
+    url: '/projects.html'
   - text: Contact
     url: '/contact.html'
+  - text: News
+    url: '/news.html'
   ch:
   - text: 主页
     url: '/ch/'
   - text: 关于德勤
     url: '/ch/about.html'
-  - text: 服务范围
+  - text: 我们的团队
+    url: '/ch/team.html'
+  - text: 我们的服务
     url: '/ch/services.html'
-  - text: 项目案例
-    url: '/ch/portfolio.html'
-  - text: 联系方式
+  - text: 我们的项目
+    url: '/ch/projects.html'
+  - text: 联系我们
     url: '/ch/contact.html'
+  - text: 新闻
+    url: '/ch/news.html'
 
+# Hack to define empty array for Jekyll: https://github.com/jekyll/jekyll/issues/3246#issuecomment-68398379
+emptyArray: []
+
+# Hide futures posts - GH shows them!
+future: false
 
 # CANNOT CHANGE THESE
 lsi: false
