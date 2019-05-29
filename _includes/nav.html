@@ -11,8 +11,12 @@
       </button>
 
       <a class="navbar-brand" href="{{ homepage_url | relative_url }}">
-        <img alt="Brand" src="{{ "/images/logo.png" | relative_url }}">
-        <span>Global Technology Consultant</span>
+        {% if page.language == "ch" %}
+          <img alt="Brand" src="{{ "/images/logo-ch.png" | relative_url }}">
+        {% else %}
+          <img alt="Brand" src="{{ "/images/logo.png" | relative_url }}">
+          <span>Global Technology Consultant</span>
+        {% endif %}
       </a>
     </div>
 
