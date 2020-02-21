@@ -7,11 +7,11 @@ requirejs(['leaflet/leaflet', 'leaflet.ChineseTmsProviders'], function (L) {
   L.tileLayer.chinaProvider('Google.Normal.Map', {}).addTo(map);
 
   var locations = [
-    { name: { en: 'Hong Kong',   ch: '香港'},           id: 'hong-kong',   lat: 22.285751, lng: 114.151216 },
-    { name: { en: 'Shanghai',    ch: '上海'},           id: 'shanghai',    lat: 31.223229, lng: 121.429183 },
-    { name: { en: 'Beijing',     ch: '北京'},           id: 'beijing',     lat: 39.921755, lng: 116.441423 },
-    { name: { en: 'Shenzhen',    ch: '深圳'},           id: 'shenzhen',    lat: 22.5403023, lng: 114.0385605 },
-    { name: { en: 'Malaysia',    ch: '马来西亚，吉隆坡'}, id: 'malaysia',    lat: 3.0026910, lng: 101.539828 },
+    { name: { en: 'Hong Kong',   ch: '香港'},           id: 'hong-kong',  lat: 22.285751, lng: 114.151216 },
+    { name: { en: 'Shanghai',    ch: '上海'},           id: 'shanghai',   lat: 31.223229, lng: 121.429183 },
+    { name: { en: 'Beijing',     ch: '北京'},           id: 'beijing',    lat: 39.921755, lng: 116.441423 },
+    { name: { en: 'Shenzhen',    ch: '深圳'},           id: 'shenzhen',   lat: 22.540302, lng: 114.038560 },
+    { name: { en: 'Malaysia',    ch: '马来西亚，吉隆坡'}, id: 'malaysia',   lat: 3.0648183, lng: 101.608208 },
     { name: { en: 'Philippines', ch: '菲律宾，马尼拉'},  id: 'philippines', lat: 14.583366, lng: 121.051311 },
     { name: { en: 'India',       ch: '印度，班加罗尔'},  id: 'india',       lat: 13.026855, lng: 77.6307368 }
   ];
