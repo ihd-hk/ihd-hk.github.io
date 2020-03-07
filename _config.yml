@@ -7,8 +7,6 @@ description: > # this means to ignore newlines until "baseurl:"
   supply of equipment nor in installation. We focus instead on Design, Consultancy,
   and Project Management, allowing us to remain independant, specifying equipment
   and systems most suited to our clients technical and budgetary needs.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 repository: ihd-hk/ihd-hk.github.io
 
 # Build settings
