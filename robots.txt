@@ -1,0 +1,5 @@
+# All robots allowed
+User-agent: *
+Disallow:
+
+Sitemap: https://ihd-hk.com/sitemap.xml
