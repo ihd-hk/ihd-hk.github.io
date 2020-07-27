@@ -223,9 +223,22 @@ figure.person-card {
   &[data-toggle] {
     cursor: pointer;
   }
+
+  min-width: 50%;
+  max-width: 50%;
+  @include media-breakpoint-up(md) {
+    min-width: calc(100% / 3);
+    max-width: calc(100% / 3);
+  }
+
+  @include media-breakpoint-up(lg) {
+    min-width: 180px;
+    max-width: auto;
+  }
+
   figcaption {
     color: #58595b;
-    margin: 0.75rem 0;
+    margin: 1.5*$spacer $spacer;
     h3 {
       font-size: 1rem;
       margin: 0;
