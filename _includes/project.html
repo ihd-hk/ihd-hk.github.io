@@ -20,8 +20,8 @@
   {% assign disciplines = disciplines | push: translatedDiscipline %}
 {% endfor %}
 
-{% assign title = project.title[page.language] %}
-{% assign description = project.description[page.language] %}
+{% assign title = project.title[page.language] | default: project.title['en']  %}
+{% assign description = project.description[page.language] | default: project.description['en'] %}
 
 <div class="col-md-6 col-12 project" data-locations='{{ country }}' data-types='{{ types | join: "," }}' data-disciplines='{{ disciplines | join: "," }}' data-title-en="{{ project.title.en | escape }}" data-title-ch="{{ project.title.ch | escape }}">
   <div class="project-inner {% if project.image == null %}force-description{% endif %}" onclick="">
