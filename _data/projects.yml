@@ -93,6 +93,40 @@
 
 
 - title:
+    en: Four Seasons Bengalaru
+  location:
+    country: India
+    city: Bengaluru
+  disciplines:
+    - Audio-Visual
+    - IT
+    - Security
+  types:
+    - Hospitality
+  completed_year: 2019
+  completed: true
+  image: four-seasons-bengalaru.jpg
+  description:
+    en: Four Seasons Bengaluru is an IT, Security, and ELV project. The task was to design an extremely reliable audio-visual, IT, security and ELV system for the hotel guestrooms, staff back of house and front of house areas.
+
+
+- title:
+    en: Four Seasons Mumbai
+  location:
+    country: India
+    city: Mumbai
+  disciplines:
+    - Audio-Visual
+  types:
+    - Hospitality
+  completed_year: 2006
+  completed: true
+  image: four-seasons-mumbai.jpg
+  description:
+    en: Four Seasons Mumbai was our first Four Seasons project, filled with the newest technology and easy-to-use AV Meeting facilities, and high-quality music enhancing the fantastic F&B provisions and food!
+
+
+- title:
     en: Four Seasons Hotel Guangzhou
     ch: 广州四季酒店
   location:
@@ -193,6 +227,57 @@
 
 
 - title:
+    en: Grand Hyatt Jeju Dream Tower Integrated Resort
+    ch: 济州岛君悦梦想大厦综合度假
+  location:
+    country: South Korea
+    city: Jeju
+  disciplines:
+    - Acoustics
+  types:
+    - Hospitality
+    - Gaming
+  completed_year: 2021
+  completed: false
+  image: jeju-dream-tower-integrated-resort.jpg
+  description:
+    en: Jeju Dream Tower is the one-and-only urban integrated resort located in the heart of Jeju City. ihD ensures that the acoustic design for the very diverse functional areas gives the guests the ultimate pleasant environment while inside the island’s tallest building.
+    ch: 济州岛梦塔位于济州市中心，是济州市唯一的城市综合度假区。我们负责多功能区域的声学设计，为住在这个岛上最高酒店中的客人提供最舒适的居住环境。
+
+- title:
+    en: Grand Hyatt Goa
+  location:
+    country: India
+    city: Goa
+  disciplines:
+    - Audio-Visual
+  types:
+    - Hotel
+    - Resort
+  completed_year: 2011
+  completed: true
+  image: grand-hyatt-goa.jpg
+  description:
+    en: Grand Hyatt Goa on the seashore of the Ocean, is a beautiful hotel, designed in the local style, and providing full AV Services to the many guests
+
+
+- title:
+    en: Hyatt Regency Mumbai
+  location:
+    country: India
+    city: Mumbai
+  disciplines:
+    - Audio-Visual
+  types:
+    - Hospitality
+  completed_year: 2010
+  completed: true
+  image: hyatt-regency-mumbai.jpg
+  description:
+    en: Hyatt Regency Mumbai was a challenging project, needing to service all kinds of corporate clients and Events, being adjacent to the International airport. The Ballroom, as well as Meeting Rooms, serves all kinds of International Conferences, and is designed by us.
+
+
+- title:
     en: Imperial Palace Saipan
     ch: 塞班 帝国贝尔维帝皇宫酒店
   location:
@@ -212,25 +297,6 @@
 
 
 - title:
-    en: Grand Hyatt Jeju Dream Tower Integrated Resort
-    ch: 济州岛君悦梦想大厦综合度假
-  location:
-    country: South Korea
-    city: Jeju
-  disciplines:
-    - Acoustics
-  types:
-    - Hospitality
-    - Gaming
-  completed_year: 2021
-  completed: false
-  image: jeju-dream-tower-integrated-resort.jpg
-  description:
-    en: Jeju Dream Tower is the one-and-only urban integrated resort located in the heart of Jeju City. ihD ensures that the acoustic design for the very diverse functional areas gives the guests the ultimate pleasant environment while inside the island’s tallest building.
-    ch: 济州岛梦塔位于济州市中心，是济州市唯一的城市综合度假区。我们负责多功能区域的声学设计，为住在这个岛上最高酒店中的客人提供最舒适的居住环境。
-
-
-- title:
     en: Kempinski Hotel and Residences
     ch: 凯宾斯基酒店及公寓
   location:
@@ -247,6 +313,22 @@
   description:
     en: The Kempinski Hotel Yinchuan, the first European luxury international hotel in Yinchuan, is located in the heart of Yinchuan city in the Jinfeng District. The mixed-use property consists of a hotel, residential, shopping mall and the headquarters of the Hanas Energy Group. ihD was engaged to design the ELV systems for the development as well as a smart home system for the entire residential project.
     ch: 银川凯宾斯基酒店是银川首家欧洲豪华国际酒店，位于银川市中心的金凤区。该多功能物业包括一家酒店、住宅、购物中心和哈纳斯能源集团的总部。德勤负责整个住宅项目弱电系统和智能家居系统的设计。
+
+
+- title:
+    en: Maker Maxity Mall & Clubhouse
+  location:
+    country: India
+    city: Mumbai
+  disciplines:
+    - Audio-Visual
+  types:
+    - Mall & Clubhouse
+  completed_year: 2019
+  completed: true
+  image: maker-maxity-mall-and-clubhouse-2.jpg
+  description:
+    en: Maker Maxity Mall & Clubhouse is an extension to the Owners Corporate Offices, popular with the leading Western Companies as well as many local ones. The artwork, including a double decker bus with wings, enhances the experience. But our Design enahnces further the new Mall and private clubhouse
 
 
 - title:
@@ -305,6 +387,39 @@
   description:
     en: The Megabox is a mega-mall, owned and developed by Kerry Properties. ihD designed the "Eye" circular and linear LED video-walls as well as LED "Chandeliers" to which guests could text messages live. ihD also designed a motorised hanging system for the ice rink and the main mall. An extensive audio system that is unusually linked and synchronized to the event staging area to avoid the typical cacophony was also integrated.
     ch: Megabox是一个大型购物中心，由嘉里地产开发。德勤设计了圆形“眼睛”和线性LED视频墙，以及可以现场留言的LED“枝形吊灯”。德勤还为溜冰场和商场设计了一个电动悬挂系统。此外，还与音频系统进行了集成，该系统与表演区域进行了链接和同步，以避免特别的噪音。
+
+
+- title:
+    en: Park Hyatt Goa
+  location:
+    country: Goa
+    city: India
+  disciplines:
+    - Audio-Visual
+  types:
+    - Hotel
+    - Resort
+  completed_year: 2003
+  completed: true
+  image: park-hyatt-goa.jpg
+  description:
+    en: Park Hyatt Goa is such a beautiful hotel, with all of its Audio-Visual facilities designed by ihD. The Background Music enhances the guest's experience of this peaceful and beautiful State.
+
+
+- title:
+    en: Park Hyatt Hyderabad
+  location:
+    country: Hyderabad
+    city: India
+  disciplines:
+    - Audio-Visual
+  types:
+    - Hospitality
+  completed_year: 2012
+  completed: true
+  image: park-hyatt-hyderabad.jpg
+  description:
+    en: Park Hyatt Hyderabad is an efficient and well-used hotel for may corporate events, our Ballroom and Meeting Rooms enabling the Banqueting Team to provide for all kinds of needs in this amazing and efficient city
 
 
 - title:
@@ -415,6 +530,23 @@
   description:
     en: Saint Andrew’s Church, an Anglican church with a tall and long worship area, was constructed in 1904. ihD designed and 3D-modelled the audio-visual system for its new suite of worship, training and childrens auditoria. The upgraded system ensured clear and intelligible speech as well as fully-integrated computer connectivity to the multiple projection screens.
     ch: 圣安德鲁教堂建于1904年，是英国圣公会教堂，它的礼拜区又高又长。德勤通过设计和利用3d技术为其新的礼拜区、培训区、儿童教堂区进行了的视听升级。升级后的系统确保了语音的清晰，并且通过网络将画面与多个投影屏幕进行连接。
+
+
+- title:
+    en: Taj Krishna Hyderabad
+  location:
+    country: India
+    city: Hyderabad
+  disciplines:
+    - Audio-Visual
+  types:
+    - Ballroom
+    - Function Room
+  completed_year: 2007
+  completed: true
+  image: taj-krishna-hyderabad.jpg
+  description:
+    en: Taj Krishna Hyderabad saw us re-design and fully-modernise their Corporate meeting and banqueting facilities
 
 
 - title:
