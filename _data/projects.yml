@@ -93,7 +93,8 @@
 
 
 - title:
-    en: Four Seasons Bengalaru
+    en: Four Seasons Bengaluru
+    ch: 四季
   location:
     country: India
     city: Bengaluru
@@ -108,10 +109,12 @@
   image: four-seasons-bengalaru.jpg
   description:
     en: Four Seasons Bengaluru is an IT, Security, and ELV project. The task was to design an extremely reliable audio-visual, IT, security and ELV system for the hotel guestrooms, staff back of house and front of house areas.
+    ch: 班加罗尔 四季酒店，设计范围包括酒店客房区，公共区域及后勤区的视听 IT 及安防系统
 
 
 - title:
     en: Four Seasons Mumbai
+    ch: 四季 孟买
   location:
     country: India
     city: Mumbai
@@ -124,6 +127,7 @@
   image: four-seasons-mumbai.jpg
   description:
     en: Four Seasons Mumbai was our first Four Seasons project, filled with the newest technology and easy-to-use AV Meeting facilities, and high-quality music enhancing the fantastic F&B provisions and food!
+    ch: 孟买四季酒店是我们的第一个四季项目，最新的技术配合便捷的音视频会议设施和高质量的背景音乐，给了客人在享受餐饮供应的同时，拥有美妙的体验
 
 
 - title:
@@ -246,23 +250,25 @@
 
 - title:
     en: Grand Hyatt Goa
+    ch: 君悦酒店 果阿
   location:
     country: India
     city: Goa
   disciplines:
     - Audio-Visual
   types:
-    - Hotel
-    - Resort
+    - Hotel Resort
   completed_year: 2011
   completed: true
   image: grand-hyatt-goa.jpg
   description:
     en: Grand Hyatt Goa on the seashore of the Ocean, is a beautiful hotel, designed in the local style, and providing full AV Services to the many guests
+    ch: 位于海边的果阿凯悦是一家美丽的酒店，以当地风格设计，为众多客人提供全方位的影音服务
 
 
 - title:
     en: Hyatt Regency Mumbai
+    ch: 印度凯悦酒店 孟买
   location:
     country: India
     city: Mumbai
@@ -275,6 +281,7 @@
   image: hyatt-regency-mumbai.jpg
   description:
     en: Hyatt Regency Mumbai was a challenging project, needing to service all kinds of corporate clients and Events, being adjacent to the International airport. The Ballroom, as well as Meeting Rooms, serves all kinds of International Conferences, and is designed by us.
+    ch: 孟买凯悦酒店是一个具有挑战性的项目，它毗邻国际机场，需要为各种企业客户和活动提供服务。由我们设计的宴会厅和会议室可承办各种国际会议。
 
 
 - title:
@@ -317,6 +324,7 @@
 
 - title:
     en: Maker Maxity Mall & Clubhouse
+    ch: Maker Maxity 孟买
   location:
     country: India
     city: Mumbai
@@ -329,6 +337,7 @@
   image: maker-maxity-mall-and-clubhouse-2.jpg
   description:
     en: Maker Maxity Mall & Clubhouse is an extension to the Owners Corporate Offices, popular with the leading Western Companies as well as many local ones. The artwork, including a double decker bus with wings, enhances the experience. But our Design enahnces further the new Mall and private clubhouse
+    ch: 购物中心及私人会所是业主原有企业办公的配套项目，深受西方以及本地顶级公司的欢迎。其中包括“带翅膀的双层巴士”在内的许多艺术品装饰大大增强了项目的体验感，配合我们的设计使得购物中心和私人会所有了更多的可能性
 
 
 - title:
@@ -391,23 +400,25 @@
 
 - title:
     en: Park Hyatt Goa
+    ch: 拉巴柏悦酒店 果阿
   location:
     country: Goa
     city: India
   disciplines:
     - Audio-Visual
   types:
-    - Hotel
-    - Resort
+    - Hotel Resort
   completed_year: 2003
   completed: true
   image: park-hyatt-goa.jpg
   description:
     en: Park Hyatt Goa is such a beautiful hotel, with all of its Audio-Visual facilities designed by ihD. The Background Music enhances the guest's experience of this peaceful and beautiful State.
+    ch: 果阿柏悦是一家非常漂亮的酒店，所有的音视频设施都是由ihD设计完成的。良好的背景音乐增强了客人对这个美丽平和的果阿邦的体验
 
 
 - title:
     en: Park Hyatt Hyderabad
+    ch: 拉巴柏悦酒店 海得拉巴
   location:
     country: Hyderabad
     city: India
@@ -420,6 +431,7 @@
   image: park-hyatt-hyderabad.jpg
   description:
     en: Park Hyatt Hyderabad is an efficient and well-used hotel for may corporate events, our Ballroom and Meeting Rooms enabling the Banqueting Team to provide for all kinds of needs in this amazing and efficient city
+    ch: 印度海得拉巴柏悦酒店对于企业举行活动来说是一家非常高效且特别好用的，我们的宴会厅和会议室允许宴会团队为这座城市的客人提供各种类型的需求
 
 
 - title:
@@ -534,6 +546,7 @@
 
 - title:
     en: Taj Krishna Hyderabad
+    ch: 泰姬陵 海得拉巴
   location:
     country: India
     city: Hyderabad
@@ -546,6 +559,7 @@
   image: taj-krishna-hyderabad.jpg
   description:
     en: Taj Krishna Hyderabad saw us re-design and fully-modernise their Corporate meeting and banqueting facilities
+    ch: 印度海得拉巴泰姬克里希纳酒店见证了我们对其公司的会议设施，宴会设施的改造和现代化
 
 
 - title:
