@@ -400,6 +400,9 @@ figure.person-card {
         padding-left: $header-icon-padding;
       }
     }
+    &#china .office {
+      @extend .mt-5;
+    }
   }
 }
 
