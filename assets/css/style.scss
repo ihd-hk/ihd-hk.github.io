@@ -790,6 +790,10 @@ body#our_services_page {
   th.award-date {
     min-width: 130px;
   }
+  td.location,
+  td.hotel-name {
+    white-space: nowrap;
+  }
 
   @include media-breakpoint-down(sm) {
     border: none;

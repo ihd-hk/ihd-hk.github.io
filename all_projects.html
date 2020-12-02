@@ -67,9 +67,8 @@ page_id: all_projects_page
         <thead>
           <th class="name">Project Name</th>
           <th class="disciplines">Disciplines</th>
-          <th class="disciplines">Types</th>
-          <th class="country">Country</th>
-          <th class="city">City</th>
+          <th class="types">Types</th>
+          <th class="location">Location</th>
           <th class="hotel-name">Hotel</th>
           <th class="award-date">Awarded Date</th>
         </thead>
@@ -87,8 +86,7 @@ page_id: all_projects_page
               <td data-label="Types" class="codes">
                 {% for k in codes %}<span>{{ site.data.project_codes[k].en }}</span>{% endfor -%}
               </td>
-              <td data-label="Country" class="country">{{ project.country.en }}</td>
-              <td data-label="City" class="city">{{ project.city.en }}</td>
+              <td data-label="Location" class="location">{{ project.city.en }}, {{ project.country.en }}</td>
               <td data-label="Hotel" class="hotel-name">{{ project.hotel_name.en }}</td>
               <td data-label="Awarded Date" class="award-date">{{ project.award_date }}</td>
             </tr>
