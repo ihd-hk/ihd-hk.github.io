@@ -1,0 +1,27 @@
+A:
+  en: Audio-Visual
+  ch: 音视频
+C:
+  en: Acoustics
+  ch: 声学
+E:
+  en: ELV
+  ch: 弱电
+I:
+  en: IT/Communications
+  ch: 信息技术
+P:
+  en: Public Address
+  ch: 公共广播
+S:
+  en: Security
+  ch: 安防
+T:
+  en: PABX/Tel
+  ch: 公共广播系统/通讯
+M:
+  en: Smart Home
+  ch: 未来#1
+O:
+  en: IOT
+  ch: 联网
