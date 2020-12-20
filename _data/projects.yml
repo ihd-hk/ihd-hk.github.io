@@ -730,6 +730,23 @@
     en: Situated in the heart of the Wangfujing area in Beijing, Waldorf Astoria Beijing is a luxury hotel that blends rich Chinese tradition and modern affluence. ihD enriched the experience of all guests through the incorporation of BYOD Bring-Your-Own Device connectivity and high-end entertainment system into the guestrooms, and through the superb acoustic treatment.
     ch: 北京华尔道夫酒店位于北京王府井，是一家集中国传统与现代于一体的豪华酒店。德勤通过将其BYOB设备和高端娱乐系统连接融入客房，并通过高超的声学处理，提高了客人的体验。
 
+- title:
+    en: Waldorf Astoria Xiamen
+    ch: 厦门华尔道夫酒店
+  location:
+    country: China
+    city: Xiamen
+  disciplines:
+    - Acoustics
+    - Audio-Visual
+  types:
+    - Hospitality
+  completed_year: 2020
+  completed: true
+  image: waldorf-astoria-xiamen.jpg
+  description:
+    en: Waldorf Astoria Xiamen is the 300th Hilton hotel, 4th Waldorf Astoria hotel in China market. It's not just a new landmark in Xiamen, also a new milestone of Hilton's development road.
+    ch: 厦门华尔道夫是希尔顿集团在中国市场的第300家酒店，也是开业的第四家华尔道夫酒店.它不仅是厦门的新地标，而且也是希尔顿发展路上的一个新的里程碑
 
 - title:
     en: Chimelong Paradise Tourist Resort
