@@ -354,14 +354,6 @@ figure.person-card {
   }
 }
 
-#portfolio_filters {
-  input[name=search] {
-    height: 28px;
-    line-height: 28px;
-    padding: 2px 0.5rem;
-  }
-}
-
 #contact_page {
   .location {
     @extend .row;
@@ -776,6 +768,12 @@ body#our_services_page {
 }
 
 #all_projects_grid {
+  td {
+    font-size: 0.8em;
+    @include media-breakpoint-up(xl) {
+    font-size: 1em;
+    }
+  }
   td.codes,
   td.disciplines {
     span {
@@ -798,7 +796,7 @@ body#our_services_page {
     white-space: nowrap;
   }
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     border: none;
 
     thead {
@@ -828,4 +826,8 @@ body#our_services_page {
       }
     }
   }
+}
+
+.select2-container {
+  width: auto !important;
 }

@@ -26,20 +26,20 @@ requirejs(['jquery', 'shuffle', 'select2', 'underscore'], function ($, Shuffle, 
     data: Object.values(filterData.locations).sort(function(a, b) { return a.text > b.text }),
     placeholder: 'All Countries',
     minimumResultsForSearch: Infinity,
-    theme: 'classic'
+    theme: 'bootstrap4'
   });
 
   $disciplineFilter.select2({
     data: Object.values(filterData.disciplines).sort(function(a, b) { return a.text > b.text }),
     placeholder: 'All Disciplines',
     minimumResultsForSearch: Infinity,
-    theme: 'classic'
+    theme: 'bootstrap4'
   });
   $typeFilter.select2({
     data: Object.values(filterData.types).sort(function(a, b) { return a.text > b.text }),
     placeholder: 'All Types',
     minimumResultsForSearch: Infinity,
-    theme: 'classic'
+    theme: 'bootstrap4'
   });
 
   var shuffle = new Shuffle($list[0], {

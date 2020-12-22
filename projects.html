@@ -12,29 +12,35 @@ redirect_from:
 ---
 
 {% capture content %}
-<h1 class="col-12">Our<span>Projects</span></h1>
+<div class="d-flex w-100 align-items-center mb-4">
+  <h1 class="col-auto flex-shrink-1 mb-0">Our<span>Projects</span></h1>
+  <div class="col-auto flex-grow-1"></div>
+  <div class="col-auto flex-shrink-1">
+    <a href="/all_projects.html" class="btn btn-outline-secondary">All Projects</a>
+  </div>
+</div>
 
 <div id="portfolio_filters" class="row w-100 mx-0">
-  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
+  <div class="col-12 col-sm-6 col-lg-3 pb-3">
     <select name="location" class="form-control">
       <option value="-1">All Countries</option>
     </select>
   </div>
 
-  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
+  <div class="col-12 col-sm-6 col-lg-3 pb-3">
     <select name="discipline" class="form-control">
       <option value="-1">All Disciplines</option>
     </select>
   </div>
 
-  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
+  <div class="col-12 col-sm-6 col-lg-3 pb-3">
     <select name="type" class="form-control">
       <option value="-1">All Types</option>
     </select>
   </div>
 
-  <div class="col-12 col-sm-6 col-lg-3 px-2 pb-3">
-    <input name="search" class="form-control form-control-sm" placeholder="Search..." />
+  <div class="col-12 col-sm-6 col-lg-3 pb-3">
+    <input name="search" class="form-control" placeholder="Search..." />
   </div>
 </div>
 {% endcapture %}

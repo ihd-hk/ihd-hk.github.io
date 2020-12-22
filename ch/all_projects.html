@@ -1,76 +1,78 @@
 ---
 layout: default
-title: All Projects
+title: 所有项目
 permalink: /ch/all_projects.html
 language: ch
 page_id: all_projects_page
 ---
 
 {% capture content %}
-<div class="col">
-  <h1>All<span>Projects</span></h1>
+<div class="row w-100 align-items-center justify-content-between">
+  <h1 class="col-auto flex-shrink-1">所有<span>项目</span></h1>
+  <div class="col-auto flex-grow-1"></div>
+  <div class="col-auto flex-shrink-1">
+    <a href="/ch/projects.html" class="btn btn-outline-secondary">我们的项目</a>
+  </div>
+</div>
+
+<div class="row w-100 mb-5" id="all_projects_filters">
+  <div class="col-6 my-3 col-md-3">
+    <select class="custom-select" data-filter-target="disciplines" data-placeholder="学科" value="">
+      <option></option>
+      {% for discipline in site.data.disciplines -%}
+        <option value="{{ discipline[0] }}">{{ discipline[1].ch }}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="col-6 my-3 col-md-3">
+    <select class="custom-select" data-filter-target="codes" data-placeholder="类型" value="">
+      <option></option>
+      {% for project_code in site.data.project_codes -%}
+        <option value="{{ project_code[0] }}">{{ project_code[1].ch }}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="col-6 my-3 col-md-3">
+    <select class="custom-select" data-filter-target="hotelName" data-placeholder="酒店品牌">
+      <option></option>
+      {% assign hotels = site.data.full_projects | group_by: "hotel_name.ch" | sort: "name" -%}
+      {% for hotel in hotels -%}
+        {% if hotel.name != '' -%}
+          <option value="{{ hotel.name }}">{{ hotel.name }}</option>
+        {% endif %}
+      {%- endfor -%}
+    </select>
+  </div>
+
+  <div class="col-6 my-3 col-md-3">
+    <select class="custom-select" data-filter-target="location" data-placeholder="国家">
+      <option></option>
+      {% assign countries = site.data.full_projects | group_by: "country.ch" | sort: "name" -%}
+      {% for country in countries -%}
+        {% if country.name != '' -%}
+          <option value="{{ country.name }}">{{ country.name }}</option>
+        {% endif %}
+      {%- endfor -%}
+    </select>
+  </div>
 </div>
 {% endcapture %}
 
 {% include section-wrapper.html section_background_url='/images/backgrounds/our-projects.jpg' section_style='white' content=content %}
-
-<div class="container" id="all_projects_filters">
-  <div class="row mb-5">
-    <div class="col-6 my-3 col-md-3">
-      <select class="custom-select" data-filter-target="disciplines" data-placeholder="Disciplines" value="">
-        <option></option>
-        {% for discipline in site.data.disciplines -%}
-          <option value="{{ discipline[0] }}">{{ discipline[1].ch }}</option>
-        {% endfor %}
-      </select>
-    </div>
-
-    <div class="col-6 my-3 col-md-3">
-      <select class="custom-select" data-filter-target="codes" data-placeholder="Types" value="">
-        <option></option>
-        {% for project_code in site.data.project_codes -%}
-          <option value="{{ project_code[0] }}">{{ project_code[1].ch }}</option>
-        {% endfor %}
-      </select>
-    </div>
-
-    <div class="col-6 my-3 col-md-3">
-      <select class="custom-select" data-filter-target="hotelName" data-placeholder="Hotel Name">
-        <option></option>
-        {% assign hotels = site.data.full_projects | group_by: "hotel_name.ch" | sort: "name" -%}
-        {% for hotel in hotels -%}
-          {% if hotel.name != '' -%}
-            <option value="{{ hotel.name }}">{{ hotel.name }}</option>
-          {% endif %}
-        {%- endfor -%}
-      </select>
-    </div>
-
-    <div class="col-6 my-3 col-md-3">
-      <select class="custom-select" data-filter-target="location" data-placeholder="Location">
-        <option></option>
-        {% assign countries = site.data.full_projects | group_by: "country.ch" | sort: "name" -%}
-        {% for country in countries -%}
-          {% if country.name != '' -%}
-            <option value="{{ country.name }}">{{ country.name }}</option>
-          {% endif %}
-        {%- endfor -%}
-      </select>
-    </div>
-  </div>
-</div>
 
 <div class="container">
   <div class="row mb-5">
     <div class="col">
       <table class="table table-bordered" id="all_projects_grid">
         <thead>
-          <th class="name">Project Name</th>
-          <th class="disciplines">Disciplines</th>
-          <th class="types">Types</th>
-          <th class="country">Location</th>
-          <th class="hotel-name">Hotel</th>
-          <th class="award-date">Awarded Date</th>
+          <th class="name">项目名称</th>
+          <th class="disciplines">学科</th>
+          <th class="types">类型</th>
+          <th class="country">国家</th>
+          <th class="hotel-name">酒店品牌</th>
+          <th class="award-date">授予日期</th>
         </thead>
 
         <tbody>
@@ -87,7 +89,7 @@ page_id: all_projects_page
               <td data-label="Types" class="codes">
                 {% for k in codes %}<span>{{ site.data.project_codes[k].ch }}</span>{% endfor -%}
               </td>
-              <td data-label="Location" class="location">{{ project.city.ch }}, {{ project.country.ch }}</td>
+              <td data-label="Location" class="location">{{ project.country.ch }}, {{ project.city.ch }}</td>
               <td data-label="Hotel" class="hotel-name">{{ project.hotel_name.ch }}</td>
               <td data-label="Awarded Date" class="award-date">{{ project.award_date }}</td>
             </tr>
