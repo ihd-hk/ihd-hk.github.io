@@ -7,16 +7,16 @@ page_id: all_projects_page
 ---
 
 {% capture content %}
-<div class="row w-100 align-items-center justify-content-between">
-  <h1 class="col-auto flex-shrink-1">所有<span>项目</span></h1>
+<div class="row mx-0 mb-4 w-100 align-items-center justify-content-between">
+  <h1 class="col-auto flex-shrink-1 mb-0">所有<span>项目</span></h1>
   <div class="col-auto flex-grow-1"></div>
   <div class="col-auto flex-shrink-1">
     <a href="/ch/projects.html" class="btn btn-outline-secondary">我们的项目</a>
   </div>
 </div>
 
-<div class="row w-100 mb-5" id="all_projects_filters">
-  <div class="col-6 my-3 col-md-3">
+<div class="row mx-0 w-100" id="all_projects_filters">
+  <div class="col-12 col-sm-6 col-lg-3 pb-3">
     <select class="custom-select" data-filter-target="disciplines" data-placeholder="学科" value="">
       <option></option>
       {% for discipline in site.data.disciplines -%}
@@ -25,7 +25,7 @@ page_id: all_projects_page
     </select>
   </div>
 
-  <div class="col-6 my-3 col-md-3">
+  <div class="col-12 col-sm-6 col-lg-3 pb-3">
     <select class="custom-select" data-filter-target="codes" data-placeholder="类型" value="">
       <option></option>
       {% for project_code in site.data.project_codes -%}
@@ -34,7 +34,7 @@ page_id: all_projects_page
     </select>
   </div>
 
-  <div class="col-6 my-3 col-md-3">
+  <div class="col-12 col-sm-6 col-lg-3 pb-3">
     <select class="custom-select" data-filter-target="hotelName" data-placeholder="酒店品牌">
       <option></option>
       {% assign hotels = site.data.full_projects | group_by: "hotel_name.ch" | sort: "name" -%}
@@ -46,7 +46,7 @@ page_id: all_projects_page
     </select>
   </div>
 
-  <div class="col-6 my-3 col-md-3">
+  <div class="col-12 col-sm-6 col-lg-3 pb-3">
     <select class="custom-select" data-filter-target="location" data-placeholder="国家">
       <option></option>
       {% assign countries = site.data.full_projects | group_by: "country.ch" | sort: "name" -%}
