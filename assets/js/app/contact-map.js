@@ -1,14 +1,15 @@
 requirejs(['leaflet/leaflet', 'leaflet.ChineseTmsProviders'], function (L) {
   var map = L.map('map', {
     zoomControl: true,
-    scrollWheelZoom: false
+    scrollWheelZoom: false,
+    maxZoom: 16
   });
-
-  L.tileLayer.chinaProvider('Google.Normal.Map', {}).addTo(map);
+  var provider = IHD_PAGE_LANG == 'en' ? 'Geoq.Normal.MapEN' : 'Geoq.Normal.Map';
+  L.tileLayer.chinaProvider(provider, {}).addTo(map);
 
   var locations = [
     { name: { en: 'Hong Kong',   ch: '香港'},           id: 'hong-kong',  lat: 22.285751, lng: 114.151216 },
-    { name: { en: 'Shanghai',    ch: '上海'},           id: 'shanghai',   lat: 31.216116, lng: 121.431984 },
+    { name: { en: 'Shanghai',    ch: '上海'},           id: 'shanghai',   lat: 31.215511, lng: 121.433283 },
     { name: { en: 'Beijing',     ch: '北京'},           id: 'beijing',    lat: 39.921755, lng: 116.441423 },
     { name: { en: 'Shenzhen',    ch: '深圳'},           id: 'shenzhen',   lat: 22.540302, lng: 114.038560 },
     { name: { en: 'Malaysia',    ch: '马来西亚，吉隆坡'}, id: 'malaysia',   lat: 3.0648183, lng: 101.608208 },
