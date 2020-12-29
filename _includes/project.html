@@ -1,42 +1,38 @@
-{% assign image_base = '/images/projects/' %}
-{% assign this_year = 'now' | date: "%Y" %}
-
-{% assign lowerCountry = project.location.country | downcase %}
-{% assign country = site.data[page.language][lowerCountry] | default: project.location.country %}
-{% assign lowerCity = project.location.city | downcase %}
-{% assign city = site.data[page.language][lowerCity] | default: project.location.city %}
-
-{% assign types = '' | split: '' %}
-{% for type in project.types %}
-  {% assign lowerType = type | downcase %}
-  {% assign translatedType = site.data[page.language][lowerType] | default: type %}
-  {% assign types = types | push: translatedType %}
-{% endfor %}
-
-{% assign disciplines = '' | split: '' %}
-{% for discipline in project.disciplines %}
-  {% assign lowerDiscipline = discipline | downcase %}
-  {% assign translatedDiscipline = site.data[page.language][lowerDiscipline] | default: discipline %}
-  {% assign disciplines = disciplines | push: translatedDiscipline %}
-{% endfor %}
-
-{% assign title = project.title[page.language] | default: project.title['en']  %}
-{% assign description = project.description[page.language] | default: project.description['en'] %}
+{%- assign image_base = '/images/projects/' %}
+{%- assign this_year = 'now' | date: "%Y" %}
+{%- assign lowerCountry = project.location.country | downcase %}
+{%- assign country = site.data[page.language][lowerCountry] | default: project.location.country %}
+{%- assign lowerCity = project.location.city | downcase %}
+{%- assign city = site.data[page.language][lowerCity] | default: project.location.city %}
+{%- assign types = '' | split: '' %}
+{%- for type in project.types %}
+{%- assign lowerType = type | downcase %}
+{%- assign translatedType = site.data[page.language][lowerType] | default: type %}
+{%- assign types = types | push: translatedType %}
+{%- endfor %}
+{%- assign disciplines = '' | split: '' %}
+{%- for discipline in project.disciplines %}
+{%- assign lowerDiscipline = discipline | downcase %}
+{%- assign translatedDiscipline = site.data[page.language][lowerDiscipline] | default: discipline %}
+{%- assign disciplines = disciplines | push: translatedDiscipline %}
+{%- endfor %}
+{%- assign title = project.title[page.language] | default: project.title['en']  %}
+{%- assign description = project.description[page.language] | default: project.description['en'] %}
 
 <div class="col-md-6 col-12 project" data-locations='{{ country }}' data-types='{{ types | join: "," }}' data-disciplines='{{ disciplines | join: "," }}' data-title-en="{{ project.title.en | escape }}" data-title-ch="{{ project.title.ch | escape }}">
   <div class="project-inner {% if project.image == null %}force-description{% endif %}" onclick="">
     <div class="project-image-wrapper">
-      {% if project.image %}
+      {%- if project.image %}
       <a name="{{ project.image | remove: '.jpg' }}" class="target-anchor"></a>
       <img src="{{ image_base | append: project.image | relative_url }}" alt="{{ title }}" class="mw-100" />
-      {% endif %}
+      {%- endif %}
 
-      {% if project.description %}
+      {%- if project.description %}
         <div class="description-overlay">
           <h4>{{ title }}</h4>
           <p>{{ description }}</p>
         </div>
-      {% endif %}
+      {%- endif %}
     </div>
 
     <div class="details">
@@ -44,37 +40,37 @@
       <p class="facets">
         <span class="facet location">
           {{ country }}
-          {% if city %}, {{ city }}{% endif %}
+          {%- if city %}, {{ city }}{% endif %}
         </span>
 
         <span class="facet types">
-          {% for type in types %}
+          {%- for type in types %}
           <span class="type">{{ type }}</span>
-          {% endfor %}
+          {%- endfor %}
         </span>
 
         <span class="facet completed">
-          {% if page.language == 'ch' %}
-            {% if project.completed %}
+          {%- if page.language == 'ch' %}
+            {%- if project.completed %}
               {{ project.completed_year }}年完工
-            {% else %}
+            {%- else %}
               计划{{ project.completed_year }}年完工
-            {% endif %}
+            {%- endif %}
 
-          {% else %}
-            {% if project.completed %}
+          {%- else %}
+            {%- if project.completed %}
               Completed in {{ project.completed_year }}
-            {% elsif project.ongoing %}
+            {%- elsif project.ongoing %}
               {{ project.completed_year }} - now
-            {% else %}
+            {%- else %}
               Target Completion in {{ project.completed_year }}
-            {% endif %}
-          {% endif %}
+            {%- endif %}
+          {%- endif %}
         </span>
         <span class="facet disciplines">
-          {% for discipline in disciplines %}
+          {%- for discipline in disciplines %}
           <span class="discipline">{{ discipline }}</span>
-          {% endfor %}
+          {%- endfor %}
         </span>
       </p>
     </div>
