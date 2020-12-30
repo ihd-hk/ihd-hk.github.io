@@ -22,10 +22,15 @@ requirejs(['leaflet/leaflet', 'leaflet.markercluster/leaflet.markercluster', 'le
     [-Infinity, -Infinity] // Bottom Right
   ];
 
+  var iconOne = new L.divIcon({
+    className: 'leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive',
+    html: '<div><span>1</span></div>',
+    iconSize: [40, 40]
+  });
 
   var markers = L.markerClusterGroup();
   locations.forEach(function(location) {
-    markers.addLayer(new L.Marker([location.lat, location.lng]).bindPopup('<a href="#' + location.id + '">' + location.name[IHD_PAGE_LANG] + '</a>'));
+    markers.addLayer(new L.Marker([location.lat, location.lng], { icon: iconOne }).bindPopup('<a href="#' + location.id + '">' + location.name[IHD_PAGE_LANG] + '</a>'));
     bounds[0][0] = Math.min(bounds[0][0], location.lat);
     bounds[0][1] = Math.min(bounds[0][1], location.lng);
     bounds[1][0] = Math.max(bounds[1][0], location.lat);
