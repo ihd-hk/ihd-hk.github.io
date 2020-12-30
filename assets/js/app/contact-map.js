@@ -1,4 +1,4 @@
-requirejs(['leaflet/leaflet', 'leaflet.ChineseTmsProviders'], function (L) {
+requirejs(['leaflet/leaflet', 'leaflet.markercluster/leaflet.markercluster', 'leaflet.ChineseTmsProviders'], function (L) {
   var map = L.map('map', {
     zoomControl: true,
     scrollWheelZoom: false,
@@ -23,12 +23,14 @@ requirejs(['leaflet/leaflet', 'leaflet.ChineseTmsProviders'], function (L) {
   ];
 
 
+  var markers = L.markerClusterGroup();
   locations.forEach(function(location) {
-    new L.Marker([location.lat, location.lng]).addTo(map).bindPopup('<a href="#' + location.id + '">' + location.name[IHD_PAGE_LANG] + '</a>');
+    markers.addLayer(new L.Marker([location.lat, location.lng]).bindPopup('<a href="#' + location.id + '">' + location.name[IHD_PAGE_LANG] + '</a>'));
     bounds[0][0] = Math.min(bounds[0][0], location.lat);
     bounds[0][1] = Math.min(bounds[0][1], location.lng);
     bounds[1][0] = Math.max(bounds[1][0], location.lat);
     bounds[1][1] = Math.max(bounds[1][1], location.lng);
   });
+  map.addLayer(markers);
   map.fitBounds(bounds);
 });
