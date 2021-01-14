@@ -14,8 +14,7 @@ requirejs(['leaflet/leaflet', 'leaflet.markercluster/leaflet.markercluster', 'le
     { name: { en: 'Shenzhen',    ch: '深圳'},           id: 'shenzhen',   lat: 22.540302, lng: 114.038560 },
     { name: { en: 'Malaysia',    ch: '马来西亚，吉隆坡'}, id: 'malaysia',   lat: 3.0648183, lng: 101.608208 },
     { name: { en: 'Philippines', ch: '菲律宾，马尼拉'},  id: 'philippines', lat: 14.583366, lng: 121.051311 },
-    { name: { en: 'India',       ch: '印度，班加罗尔'},  id: 'india',       lat: 13.026855, lng: 77.6307368 },
-    { name: { en: 'Singapore',   ch: 'Singapore'},     id: 'singapore',   lat: 1.316382, lng: 103.833828 }
+    { name: { en: 'India',       ch: '印度，班加罗尔'},  id: 'india',       lat: 13.026855, lng: 77.6307368 }
   ];
 
   var bounds = [
