@@ -28,14 +28,14 @@
             <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.text }}</a>
           </li>
           {% endfor %}
-          <li class="nav-item chinese"><a class="nav-link" href="{{ page.url | prepend:"ch" | relative_url }}">中文</a></li>
+          <li class="nav-item chinese"><a class="nav-link" href="{{ page.url | prepend:"cn" | relative_url }}">中文</a></li>
         {% else %}
           {% for link in site.navigation.ch %}
           <li class="nav-item{% if page.url == link.url %} active{% endif %}">
             <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.text }}</a>
           </li>
           {% endfor %}
-          <li class="nav-item english"><a class="nav-link" href="{{ page.url | remove_first:"ch/" | relative_url }}">English</a></li>
+          <li class="nav-item english"><a class="nav-link" href="{{ page.url | remove_first:"cn/" | relative_url }}">English</a></li>
         {% endif %}
       </ul>
     </div>
