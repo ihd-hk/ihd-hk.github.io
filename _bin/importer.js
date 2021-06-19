@@ -32,6 +32,12 @@ const csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTBE580s_uVwLbxB
       'hotel_name_ch',
       '_', // Description EN (both are empty)
       '_', // Description CH
+      '_', // 6 empty / unused columns
+      '_',
+      '_',
+      '_',
+      '_',
+      '_',
     ]
   });
 
