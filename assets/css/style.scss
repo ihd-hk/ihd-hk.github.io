@@ -32,6 +32,7 @@ $carousel-indicator-width: 16px;
 $carousel-indicator-height: 16px;
 $carousel-indicator-spacer: 6px;
 $carousel-control-width: auto;
+$carousel-indicator-hit-area-height: 1px;
 
 @import "bootstrap/bootstrap";
 @import "select2/core.scss";
@@ -212,6 +213,7 @@ footer {
   max-width: 500px;
   li {
     border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 }
 
