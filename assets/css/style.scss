@@ -633,6 +633,13 @@ body#our_services_page {
     padding-right: 22px;
   }
 }
+html[lang="zh-hans"] {
+  .read-more-link {
+    &:before {
+      content: '更多';
+    }
+  }
+}
 
 .leaflet-container {
   .leaflet-marker-pane {
