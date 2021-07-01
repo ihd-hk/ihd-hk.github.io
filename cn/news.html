@@ -33,7 +33,8 @@ redirect_from:
       <a class="text-right" href="{{ post.url }}">See more&hellip;</a>
       {% if post.photos %}
       <div class="row images">
-        {% for photo in post.photos %}
+        {% assign first_photos = post.photos | slice: 0,3 %}
+        {% for photo in first_photos %}
           <img src="/images/news/{{ post.photo_folder }}/small--{{photo}}" />
         {% endfor %}
       </div>
