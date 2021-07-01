@@ -2,7 +2,7 @@
 layout: news
 title: 我们新开的办公室
 language: ch
-permalink: /ch/news/2019-03-22-our-new-opening
+permalink: /cn/news/2019-03-22-our-new-opening
 photo_folder: 2019-03-22-our-new-opening
 photos:
   - news_india-office1.jpeg
@@ -10,6 +10,8 @@ photos:
   - news_india-office2.jpeg
 image:
   path: /images/news/2019-03-22-our-new-opening/small--news_india-office1.jpeg
+redirect_from:
+  - /ch/news/2019-03-22-our-new-opening
 ---
 
 ihD 在班加罗尔的新家
