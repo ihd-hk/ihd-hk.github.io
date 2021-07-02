@@ -1,8 +1,8 @@
 ---
 layout: news
-title: 上海辦事處搬遷
-language: ch
-permalink: /cn/news/2021-07-01-shanghai-office
+title: Shanghai office moved
+language: en
+permalink: /news/2021-02-01-shanghai-office
 photo_folder: 2021-07-01-shanghai-office
 photos:
   - 1624646731216.jpg
@@ -14,10 +14,16 @@ photos:
   - mmexport1611087331950.jpg
 image:
   path: /images/backgrounds/2021-07-01-shanghai-office/1624646731216.jpg
+redirect_from:
+  - /news/2021-07-01-shanghai-office
 ---
-近日，上海办公室搬迁新址，新办公室位置坐落于长宁区延安西路726号华敏翰尊大厦18F,较之前拥有更大的办公面积，同时我们有一个大的会议室和多间小型会议室，方便员工与业主沟通交流。当员工疲惫时，我们还有休息区供员工休息。
+
+Recently, the Shanghai office moved to a new location.
+
+The new office location is located in Changning District Yan'anxi Road 726 Huamin HanZun Building 18F, than before has a larger office space, at the same time we have a large conference room and a number of small meeting rooms, convenient for employees and owners to communicate.
 
 <!-- more -->
+
 
 {:.row}
 ![image 1](/images/news/2021-07-01-shanghai-office/small--1624646731216.jpg "Image 1"){:.col-2.mb-5}
