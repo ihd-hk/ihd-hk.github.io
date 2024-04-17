@@ -81,7 +81,7 @@ future: false
 # CANNOT CHANGE THESE
 lsi: false
 safe: true
-source: ""
+source: .
 incremental: false
 highlighter: rouge
 gist:
