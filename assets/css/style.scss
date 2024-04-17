@@ -854,3 +854,10 @@ html[lang="zh-hans"] {
   }
 }
 
+#ian-harris-obituary-modal {
+  .modal-body {
+    img {
+      filter: grayscale(100%);
+    }
+  }
+}
