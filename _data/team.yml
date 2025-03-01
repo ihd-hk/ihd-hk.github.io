@@ -1,14 +1,14 @@
 - name_en: Ian Harris
   name_ch: 夏德勤
-  job_title_en: President & Principal Consultant
-  job_title_ch: 总裁首席顾问
+  job_title_en: Founder
+  job_title_ch: 创办人
   image: ian-harris.jpg
   modal_id: ian-harris
 
 - name_en: Adrian Lim
   name_ch: 林忠祥
-  job_title_en: Group Director of Business Development
-  job_title_ch: 集团业务拓展总监
+  job_title_en: Managing Director
+  job_title_ch: 常务董事
   image: adrian-lim.jpg
   modal_id: adrian-lim
 
@@ -18,13 +18,6 @@
   job_title_ch: 业务发展总监（东南亚
   image: chong-kok-siong.jpg
   modal_id: chong-kok-siong
-
-- name_en: Patrick Shek
-  name_ch: 石骏熙
-  job_title_en: Project Director
-  job_title_ch: 项目总监
-  image: patrick-shek.jpg
-  modal_id: patrick-shek
 
 - name_en: Alfie Cheng
   name_ch: 郑泽恩
