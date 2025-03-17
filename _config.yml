@@ -54,6 +54,8 @@ navigation:
     url: '/projects.html'
   - text: Contact
     url: '/contact.html'
+  - text: Careers
+    url: '/careers.html'
   - text: News
     url: '/news.html'
   ch:
@@ -69,6 +71,8 @@ navigation:
     url: '/ch/projects.html'
   - text: 联系我们
     url: '/ch/contact.html'
+  - text: 职位空缺
+    url: '/ch/careers.html'
   - text: 新闻
     url: '/ch/news.html'
 
