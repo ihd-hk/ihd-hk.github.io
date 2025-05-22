@@ -23,6 +23,7 @@ page_id: our_services_page
       <li><a data-scroll href="#elv">ELV Extra-Low Voltage Systems</a></li>
       <li><a data-scroll href="#it">Information Technology Service</a></li>
       <li><a data-scroll href="#security">Security Systems</a></li>
+      <li><a data-scroll href="#iot">IoT</a></li>
     </ul>
   </div>
 {% endcapture %}
@@ -94,6 +95,16 @@ page_id: our_services_page
 {% endcapture %}
 {% include section-wrapper.html id='security' section_background_url='/images/services/security-systems.jpg' section_style='dark' content=content %}
 
+
+{% capture content %}
+  <h2 class="col-12"><span>IoT (Internet of Things) NEW</span></h2>
+  <div class="col-md-6">
+    <p>Our IoT consultancy delivers intelligent, connected solutions that enhance operational efficiency, energy management, and user experience. By integrating sensors, devices, and data analytics, we help clients unlock actionable insights and optimize performance across their properties. From concept to deployment, ihD ensures seamless, secure, and scalable IoT ecosystems tailored to each project’s unique needs.</p>
+
+    <div class="read-more-link" data-toggle="modal" data-target="#iot-modal"></div>
+  </div>
+{% endcapture %}
+{% include section-wrapper.html id='iot' section_background_url='/images/services/iot.jpg' section_style='dark' content=content %}
 
 
 
@@ -225,6 +236,16 @@ page_id: our_services_page
 <p>All of the above examples bring about vastly-increased response and success from the Security systems, in-turn affording our clients Better Security, better collection and also retention of money, and better experience and therefore return rates of customers and guests.</p>
 {% endcapture %}
 {% include modal.html modal_size='modal-xl' additional_classes='services-modal' id='services-security-modal' content=content %}
+
+
+
+
+{% capture content %}
+<h2>IoT (Internet of Things) NEW</h2>
+<p>Our IoT consultancy delivers intelligent, connected solutions that enhance operational efficiency, energy management, and user experience. By integrating sensors, devices, and data analytics, we help clients unlock actionable insights and optimize performance across their properties. From concept to deployment, ihD ensures seamless, secure, and scalable IoT ecosystems tailored to each project’s unique needs.</p>
+
+{% endcapture %}
+{% include modal.html modal_size='modal-xl' additional_classes='services-modal' id='services-iot-modal' content=content %}
 
 
 
