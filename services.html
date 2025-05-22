@@ -26,6 +26,7 @@ page_id: our_services_page
       <li><a data-scroll href="#iot">IoT</a></li>
       <li><a data-scroll href="#bms">BMS (Building Management Systems)</a></li>
       <li><a data-scroll href="#bms">EPMS (Electrical Power Monitoring Systems)</a></li>
+      <li><a data-scroll href="#grms">GRMS (Guest Room Management Systems)</a></li>
     </ul>
   </div>
 {% endcapture %}
@@ -118,6 +119,17 @@ page_id: our_services_page
   </div>
 {% endcapture %}
 {% include section-wrapper.html id='bms' section_background_url='/images/services/bms.jpg' section_style='dark' content=content %}
+
+
+{% capture content %}
+  <h2 class="col-12"><span>GRMS (Guest Room Management Systems) NEW NEW</span></h2>
+  <div class="col-md-6">
+    <p>We specialize in GRMS consultancy, delivering advanced in-room control solutions for the hospitality sector. Our designs seamlessly integrate lighting, climate, shading, and service requests into a user-friendly platform that enhances guest comfort and operational efficiency. ihD’s GRMS solutions help hotels achieve superior guest satisfaction while driving energy savings and streamlined maintenance.</p>
+
+    <div class="read-more-link" data-toggle="modal" data-target="#services-grms-modal"></div>
+  </div>
+{% endcapture %}
+{% include section-wrapper.html id='grms' section_background_url='/images/services/grms.jpg' section_style='dark' content=content %}
 
 
 {% capture content %}
@@ -266,6 +278,14 @@ page_id: our_services_page
 
 {% endcapture %}
 {% include modal.html modal_size='modal-xl' additional_classes='services-modal' id='services-bms-modal' content=content %}
+
+
+{% capture content %}
+<h2>GRMS (Guest Room Management Systems) NEW</h2>
+<p>We specialize in GRMS consultancy, delivering advanced in-room control solutions for the hospitality sector. Our designs seamlessly integrate lighting, climate, shading, and service requests into a user-friendly platform that enhances guest comfort and operational efficiency. ihD’s GRMS solutions help hotels achieve superior guest satisfaction while driving energy savings and streamlined maintenance.</p>
+
+{% endcapture %}
+{% include modal.html modal_size='modal-xl' additional_classes='services-modal' id='services-grms-modal' content=content %}
 
 
 <script> require.deps.push('app/smooth-scroll', 'bootstrap/modal') </script>
