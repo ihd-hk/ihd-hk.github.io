@@ -45,3 +45,10 @@ Data Center OS官网：[https://x1studio.co.jp/en/datacenter-os-en/](https://x1s
 董事总经理：Adrian Lim 林忠祥 <br>
 成立时间：2003年9月<br>
 官网：[https://ihd-hk.com/](https://ihd-hk.com/)
+
+**联系我们** <br>
+X1Studio Marketing 
+Email: [press@x1studio.co.jp](mailto:press@x1studio.co.jp)
+
+**我们的项目 (PDF)**<br>
+[https://x1studio.co.jp/wp-content/uploads/2025/05/Project-List_X1Studio_ihD.pdf](https://x1studio.co.jp/wp-content/uploads/2025/05/Project-List_X1Studio_ihD.pdf)
