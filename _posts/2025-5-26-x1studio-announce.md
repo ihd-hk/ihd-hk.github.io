@@ -16,6 +16,8 @@ This strategic move marks a pivotal milestone in the long-standing collaboration
 
 *“Having worked closely with ihD for about 10 years across key projects in Japan, I have always admired the deep professionalism and values that define the ihD team,”* said **William Achury**, CEO of X1Studio. *“Mr. Ian’s legacy is exceptional. Under the leadership of the new Board of Directors—Adrian Lim, Chong Kok Siong, and Alfie Cheng—I’m confident ihD will continue to thrive and inspire a new generation of hospitality and building consultants.”* 
 
+<img src="/images/news/2025-5-26-x1studio-announce/ihd-team.png" style="max-width: 100%; height: auto;" />
+
 **Together, X1Studio and ihD now combine a team of over 150 industry professionals and consultants across Tokyo, Singapore, Hong Kong, Shanghai, Beijing, Shenzhen, Kuala Lumpur and Noida, strengthening their market positions in the Hospitality, and Buildings sectors. Combined, they bring a proven track record of delivering about 600 (see attached list of projects across the region) — demonstrating deep expertise, execution capabilities, and client trust.** 
 
 *“We are thrilled to announce our strategic alliance with X1Studio,”* said **Adrian Lim**, Managing Director of ihD. *“Working and learning with William and his team has helped us redefine our vision. This partnership enables us to jointly develop innovative products and solutions for the hospitality, corporate, education, and building sectors. We look forward to creating impactful changes that benefit our clients and communities across Asia.”* 
