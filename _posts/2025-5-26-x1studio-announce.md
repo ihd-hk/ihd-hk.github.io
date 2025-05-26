@@ -34,9 +34,9 @@ Founded: September 2020
 Business Overview: 
 X1Studio is a human-centric IoT technology consulting firm specializing in integrated solutions for hospitality (GRMS, ERMS) and data centers (BMS, EPMS, DCIM), featuring its proprietary hotelOS and Data Center OS cloud platforms to enhance operations in five-star hotels and hyperscale data centers. 
 
-Website: [https://x1studio.co.jp/en/](https://x1studio.co.jp/en/)
-hotelOS website: [https://hotel-os.jp/en/](https://hotel-os.jp/en/)
-Data Center OS website: [https://x1studio.co.jp/en/datacenter-os-en/](https://x1studio.co.jp/en/datacenter-os-en/)
+Website: [https://x1studio.co.jp/en/](https://x1studio.co.jp/en/)<br>
+hotelOS website: [https://hotel-os.jp/en/](https://hotel-os.jp/en/)<br>
+Data Center OS website: [https://x1studio.co.jp/en/datacenter-os-en/](https://x1studio.co.jp/en/datacenter-os-en/)<br>
 
 
 **About ihD** 
@@ -46,7 +46,7 @@ Address: Room 401, 4/F, The L’Plaza, 367-375 Queens Road Central, Sheung Wan, 
 Managing Director: Adrian Lim 
 Founded: September 2003 
 Business Overview: 
-Established over 22 years ago, ihD is a leading technology consultancy renowned for delivering integrated IT, IoT, Security, ELV, Audio-Visual, and Acoustics solutions across the APAC region. 
+Established over 22 years ago, ihD is a leading technology consultancy renowned for delivering integrated IT, IoT, Security, ELV, Audio-Visual, and Acoustics solutions across the APAC region. <br>
 Website: [https://ihd-hk.com/](https://ihd-hk.com/)
 
 
