@@ -7,7 +7,7 @@ photo_folder: 2025-5-26-x1studio-announce
 photos:
   - x1studio_ihd.jpg
 image:
-  path: images/news/2025-5-26-x1studio-announce/large--x1studio_ihd.jpg
+  path: images/news/2025-5-26-x1studio-announce/large--x1studio1_ihd.jpg
 ---
 
 *Tokyo, Japan – 26<sub>th</sub> May, 2025* – **X1Studio Co., Ltd.** (Headquarters: Minato-ku, Tokyo;  Founder and President : William Achury), today announced the acquisition of shares from **Mr. Ian Harris**, the esteemed founder of **ihD Ltd.** — a respected pioneer in integrated technology consultancy with **22 years of leadership and innovation across the APAC region**. Renowned for its deep domain expertise and long-standing client relationships, **ihD has built a legacy of excellence in the hospitality and building technology sectors.** <!-- more --> 
