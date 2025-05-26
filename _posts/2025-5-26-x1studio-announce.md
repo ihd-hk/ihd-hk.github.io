@@ -5,7 +5,7 @@ language: en
 permalink: /news/2024-05-26-x1studio-ihd
 photo_folder: 2025-5-26-x1studio-announce
 photos:
-  - large--x1studio_ihd.jpg
+  - x1studio_ihd.jpg
 image:
   path: /images/news/2025-5-26-x1studio-announce/small--x1studio_ihd.jpg
 ---
