@@ -27,11 +27,11 @@ Later this year, X1Studio and ihD will unveil a new portfolio of solutions and e
 
 **About X1Studio**
 
-Company Name: X1Studio Co., Ltd. 
-Address: 6F Akasaka Muromachi Building, 2-5-4 Akasaka, Minato-ku, Tokyo 
-Founder & President: William Achury 
-Founded: September 2020 
-Business Overview: 
+Company Name: X1Studio Co., Ltd. <br>
+Address: 6F Akasaka Muromachi Building, 2-5-4 Akasaka, Minato-ku, Tokyo <br>
+Founder & President: William Achury <br>
+Founded: September 2020 <br>
+Business Overview: <br>
 X1Studio is a human-centric IoT technology consulting firm specializing in integrated solutions for hospitality (GRMS, ERMS) and data centers (BMS, EPMS, DCIM), featuring its proprietary hotelOS and Data Center OS cloud platforms to enhance operations in five-star hotels and hyperscale data centers. 
 
 Website: [https://x1studio.co.jp/en/](https://x1studio.co.jp/en/)<br>
@@ -41,19 +41,18 @@ Data Center OS website: [https://x1studio.co.jp/en/datacenter-os-en/](https://x1
 
 **About ihD** 
 
-Company Name: ihD Ltd. 
-Address: Room 401, 4/F, The L’Plaza, 367-375 Queens Road Central, Sheung Wan, Hong Kong 
-Managing Director: Adrian Lim 
-Founded: September 2003 
-Business Overview: 
+Company Name: ihD Ltd. <br>
+Address: Room 401, 4/F, The L’Plaza, 367-375 Queens Road Central, Sheung Wan, Hong Kong <br>
+Managing Director: Adrian Lim <br>
+Founded: September 2003 <br>
+Business Overview: <br>
 Established over 22 years ago, ihD is a leading technology consultancy renowned for delivering integrated IT, IoT, Security, ELV, Audio-Visual, and Acoustics solutions across the APAC region. <br>
 Website: [https://ihd-hk.com/](https://ihd-hk.com/)
 
 
-**Media Inquiries** 
-
+**Media Inquiries** <br>
 X1Studio Marketing 
 Email: [press@x1studio.co.jp](mailto:press@x1studio.co.jp)
 
-**Track Record (PDF)**
+**Track Record (PDF)**<br>
 [https://x1studio.co.jp/wp-content/uploads/2025/05/Project-List_X1Studio_ihD.pdf](https://x1studio.co.jp/wp-content/uploads/2025/05/Project-List_X1Studio_ihD.pdf)
