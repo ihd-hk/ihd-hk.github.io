@@ -2,7 +2,7 @@
 layout: news
 title: X1Studio宣布收购ihD创始人Ian Harris股份携手开创发展新纪元
 language: ch
-permalink: /cn/news/2024-05-26-x1studio-ihd
+permalink: /cn/news/2025-05-26-x1studio-ihd
 photo_folder: 2025-5-26-x1studio-announce
 photos:
   - x1studio_ihd.jpg
