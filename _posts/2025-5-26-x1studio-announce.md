@@ -2,7 +2,7 @@
 layout: news
 title: X1Studio Announces Acquisition of Shares from ihD Founder Ian Harris, Making a New Era of Strategic Growth
 language: en
-permalink: /news/2024-05-26-x1studio-ihd
+permalink: /news/2025-05-26-x1studio-ihd
 photo_folder: 2025-5-26-x1studio-announce
 photos:
   - x1studio_ihd.jpg
