@@ -245,42 +245,42 @@ redirect_from:
 
     <!-- Item 1 -->
     <div class="e-sports-item">
-      <img src="images/esports/service-1.jpg" alt="Main Stage">
+      <img src="/images/esports/service-1.jpg" alt="Main Stage">
       <h3>1. 主舞台</h3>
       <p>作为场馆的核心区域，专业竞赛区将声学设计置于优先地位，重点解决降噪与隔音问题。这一设计既能隔绝外界声音干扰，为选手营造无干扰环境，同时又能保留观众沉浸式的观赛体验。</p>
     </div>
 
     <!-- Item 2 -->
     <div class="e-sports-item">
-      <img src="images/esports/service-2.jpg" alt="Audio System">
+      <img src="/images/esports/service-2.jpg" alt="Audio System">
       <h3>2. 音响系统</h3>
       <p>电子竞技场馆的音响系统需通过线阵列（主左 / 右声道 + 后左 / 右声道）实现立体声增强。为提升声音还原度与拾音清晰度，ihD 借助声学模拟技术控制振动与混响，进而定制扬声器 / 麦克风配置方案。</p>
     </div>
 
     <!-- Item 3 -->
     <div class="e-sports-item">
-      <img src="images/esports/service-3.jpg" alt="Video System">
+      <img src="/images/esports/service-3.jpg" alt="Video System">
       <h3>3. 视频系统</h3>
       <p>一套出色的电子竞技场馆视频系统，需具备高分辨率、低延迟、可扩展、可备份及灵活适配的显示特性。赛事画面通过 “三分区布局”（主场 / 客场 / 主舞台）的 LED 屏进行直播，大型场馆还可额外配备后置显示屏。该系统具备 4K30 传输功能，并支持数模双向备份。</p>
     </div>
 
     <!-- Item 4 -->
     <div class="e-sports-item">
-      <img src="images/esports/service-4.jpg" alt="Audience Area">
+      <img src="/images/esports/service-4.jpg" alt="Audience Area">
       <h3>4. 观众区</h3>
       <p>场馆容量随定位不同而变化：中小型场馆可容纳 500 人以下；大型场馆可容纳数千人。座位类型包括阶梯式、平层式或 VIP 座席，所有座位均能无遮挡观看舞台 / 屏幕。通过合理的座位间距与优化的声学设计，可进一步提升观众的观赛舒适度。</p>
     </div>
 
     <!-- Item 5 -->
     <div class="e-sports-item">
-      <img src="images/esports/service-5.jpg" alt="Broadcast Control Room">
+      <img src="/images/esports/service-5.jpg" alt="Broadcast Control Room">
       <h3>5. 广播控制室</h3>
       <p>广播控制室负责赛事导播、信号切换及直播输出工作。室内需配备切换台、音频控制设备与监视器矩阵，且这些设备需符合相关赛事转播设计标准。</p>
     </div>
 
     <!-- Item 6 -->
     <div class="e-sports-item">
-      <img src="images/esports/service-61.jpg" alt="IT Room">
+      <img src="/images/esports/service-61.jpg" alt="IT Room">
       <h3>6. IT 机房</h3>
       <p>T机房是存放核心服务器、网络交换机及赛事录制硬盘的关键区域，需具备直播、赛事运行、网络连接及数据传输功能。<br><br>
       <strong>– 网络基础设施解决方案：</strong> 连接竞赛区、解说间与导演室；实现信号传输网络与竞赛网络的隔离；部署本地 / 云端媒体资产管理系统（MAM）或微型数据中心。<br><br>
@@ -290,14 +290,14 @@ redirect_from:
 
     <!-- Item 7 -->
     <div class="e-sports-item">
-      <img src="images/esports/service-7.jpg" alt="Commentator Booth">
+      <img src="/images/esports/service-7.jpg" alt="Commentator Booth">
       <h3>7. 解说间</h3>
       <p>解说区域需邻近舞台，且具备优质隔声效果。该区域可容纳 2-3 名解说员，能同步赛事直播进度、集成数据输入系统，并确保信号低延迟传输。</p>
     </div>
 
     <!-- Item 8 -->
     <div class="e-sports-item">
-      <img src="images/esports/service-8.jpg" alt="Referee & Admin Room">
+      <img src="/images/esports/service-8.jpg" alt="Referee & Admin Room">
       <h3>8. 裁判与管理室</h3>
       <p>部署打印 / 通信设备的赛事管理终端，用于赛事管控、选手注册及判罚处理。</p>
     </div>
