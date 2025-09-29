@@ -9,3 +9,302 @@ page_id: 'e_sports_page'
 redirect_from:
   - /ch/e-sports.html
 ---
+
+<section class="hero-video">
+  <video autoplay muted loop playsinline width="100%" height="auto" poster="/images/esports/e-sports-background.jpg">
+    <source src="videos/esports-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+
+<section class="content-section">
+  <!-- Bloque de texto alineado a la izquierda -->
+  <div class="container" style="max-width: 960px; margin: 80px auto 0 auto;">
+    <div style="text-align: left;">
+      <h1 style="font-weight: 800; font-size: 3rem;">E-Sports</h1>
+      <h2 style="font-weight: 700; font-size: 1.8rem;">电子竞技社群的可扩展解决方案</h2>
+      <p style="margin-top: 1rem;">
+        
+        依托专业技术及丰富的场馆设计经验，ihD提供全方位解决方案，助力电子竞技产业发展：<br/>
+        <br/>我们的电子竞技场馆为竞技类游戏提供专业级环境，适用范围广泛。
+      </p>
+    </div>
+  </div>
+
+  <!-- Bloque de imágenes centradas -->
+  <div class="container" style="max-width: 960px; margin: 0 auto;">
+    <div style="display: flex; justify-content: center; gap: 40px; margin-top: 3rem; flex-wrap: wrap; text-align: center;">
+      
+      <div style="max-width: 280px;">
+        <h3 style="font-weight: 700;">团队培训</h3>
+        <img src="/images/esports/team-training.jpg" alt="Team Training" style="width: 100%; border-radius: 0px;">
+      </div>
+
+      <div style="max-width: 280px;">
+        <h3 style="font-weight: 700;">竞赛现场</h3>
+        <img src="/images/esports/competition-site.jpg" alt="Competition Site" style="width: 100%; border-radius: 0px;">
+      </div>
+
+      <div style="max-width: 280px;">
+        <h3 style="font-weight: 700;">粉丝体验</h3>
+        <img src="/images/esports/fan-experience.jpg" alt="Fan Experience" style="width: 100%; border-radius: 0px;">
+      </div>
+<div style="height: 80px;"></div>
+    </div>
+  </div>
+</section>
+
+<section style="background-color: #F15A24; padding: 80px 20px; color: white;">
+  <div class="container" style="max-width: 1100px; margin: 0 auto;">
+
+    <h2 style="font-weight: 800; font-size: 2.5rem; color: white; text-align: left; margin-bottom: 40px;">
+      我们真正需要的是什么样的电子竞技场馆？
+    </h2>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px;">
+
+      <div>
+        <h3 style="font-size: 1.5rem; font-weight: 700;">S级/A级场馆：</h3>
+        <p style="font-size: 1rem; line-height: 1.6;">
+          由政府支持、融合品牌合作且具备举办国际赛事资质的场馆。
+        </p>
+      </div>
+
+      <div>
+        <h3 style="font-size: 1.5rem; font-weight: 700;">B 级场馆：</h3>
+        <p style="font-size: 1rem; line-height: 1.6;">
+          专业电子竞技俱乐部主场馆、地方电子竞技协会赛事举办地，同时融合青少年培养计划与社群发展功能。
+        </p>
+      </div>
+
+      <div>
+        <h3 style="font-size: 1.5rem; font-weight: 700;">C 级场馆：</h3>
+        <p style="font-size: 1rem; line-height: 1.6;">
+          协作空间、商场电竞专区以及电竞主题文旅项目。
+        </p>
+      </div>
+
+      <div>
+        <h3 style="font-size: 1.5rem; font-weight: 700;">D 级场馆：</h3>
+        <p style="font-size: 1rem; line-height: 1.6;">
+          高校电竞社团活动场地、电竞教育实训设施、MCN 机构直播间及小型内容创作空间。
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Sección con fondo de imagen + íconos -->
+<section style="background-image: url('/images/esports/background-icons.jpg'); background-size: cover; background-position: center; padding: 60px 20px; color: white;">
+  <div class="container" style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center;">
+
+    <div style="max-width: 200px;">
+      <img src="/images/esports/icon-audiovisual.svg" alt="Audiovisual Spectacle" style="height: 60px; margin-bottom: 10px;">
+      <p><strong>视听盛宴</strong></p>
+    </div>
+
+    <div style="max-width: 200px;">
+      <img src="/images/esports/icon-sound.svg" alt="Sound Insulation" style="height: 60px; margin-bottom: 10px;">
+      <p><strong>出色的隔音效果</strong></p>
+    </div>
+
+    <div style="max-width: 200px;">
+      <img src="/images/esports/icon-data.svg" alt="Fast Data" style="height: 60px; margin-bottom: 10px;">
+      <p><strong>高速数据传输</strong></p>
+    </div>
+
+    <div style="max-width: 200px;">
+      <img src="/images/esports/icon-network.svg" alt="Stable Network" style="height: 60px; margin-bottom: 10px;">
+      <p><strong>稳定的网络</strong></p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Sección gris con beneficios -->
+<!-- Sección de título con fondo gris claro -->
+<section style="background-color: #f5f5f5; padding: 80px 20px;">
+  <div class="container" style="max-width: 1200px; margin: 0 auto;">
+    <h2 style="font-size: 48px; font-weight: 900; margin-bottom: 20px; line-height: 1.2; text-align: left;">
+      ihD — 您发展电子竞技的最佳合作伙伴
+    </h2>
+    <p style="font-size: 28px; font-weight: 500; text-align: left; margin-top: 30px; margin-bottom: 60px;">
+      ihD 为电子竞技场馆提供独特优势：
+    </p>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px;">
+
+      <div style="flex: 1 1 45%; text-align: left;">
+        <h3 style="font-weight: 700;">1. 丰富的经验</h3>
+        <p>ihD 在大型场馆的声学、视听（AV）及信息技术（IT）咨询领域拥有丰富经验。此外，ihD 还交付了众多中小型多功能空间项目，所有项目均配备先进的舞台技术与艺术技术支持。</p>
+      </div>
+
+      <div style="flex: 1 1 45%; text-align: left;">
+        <h3 style="font-weight: 700;">2. 视听（AV）及声学解决方案领域的专业能力</h3>
+        <p>ihD 在高品质音视频及声学设计领域拥有深厚经验，既能提升视听（AV）传输性能，也能解决振动与噪音问题。这些能力尤其契合电子竞技场馆的技术需求。</p>
+      </div>
+
+      <div style="flex: 1 1 45%; text-align: left;">
+        <h3 style="font-weight: 700;">3. 全周期设计与集成</h3>
+        <p>ihD 提供从概念设计到项目管理的全周期服务，在信息技术（IT）系统集成、声学工程监理等环节具备尤为突出的优势。ihD 擅长协调多学科团队，并凭借系统化的设计思路，满足电子竞技场馆复杂的技术需求。</p>
+      </div>
+
+      <div style="flex: 1 1 45%; text-align: left;">
+        <h3 style="font-weight: 700;">4. 优质资源与尖端技术</h3>
+        <p>通过长期为高端客户提供服务，ihD 积累了丰富的供应链资源，这使其能够优先获取国际一线品牌的声学材料、网络设备及其他产品。与此同时，ihD 在新兴技术的应用方面始终保持着敏锐的洞察力。</p>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 60px; text-align: center;">
+  <a href="/cn/contact.html" style="background-color: #f0511b; color: white; padding: 15px 30px; text-decoration: none; font-weight: bold; border-radius: 0px;">
+    联系我们
+  </a>
+</div>
+
+  </div>
+</section>
+
+<style>
+  .e-sports-section {
+    padding: 60px 20px;
+    background-color: white;
+  }
+
+  .e-sports-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+
+  .e-sports-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px 60px;
+  }
+
+  .e-sports-item {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .e-sports-item img {
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .e-sports-item h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .e-sports-item p {
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .e-sports-button {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .e-sports-button a {
+    background-color: #f0511b;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0px;
+    transition: background-color 0.3s ease;
+  }
+
+  .e-sports-button a:hover {
+    background-color: #d04418;
+  }
+
+  @media screen and (max-width: 768px) {
+    .e-sports-item {
+      width: 100%;
+    }
+  }
+</style>
+
+<section class="e-sports-section">
+  <h2 class="e-sports-title">我们为电子竞技提供的服务</h2>
+
+  <div class="e-sports-grid">
+
+    <!-- Item 1 -->
+    <div class="e-sports-item">
+      <img src="images/esports/service-1.jpg" alt="Main Stage">
+      <h3>1. 主舞台</h3>
+      <p>作为场馆的核心区域，专业竞赛区将声学设计置于优先地位，重点解决降噪与隔音问题。这一设计既能隔绝外界声音干扰，为选手营造无干扰环境，同时又能保留观众沉浸式的观赛体验。</p>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="e-sports-item">
+      <img src="images/esports/service-2.jpg" alt="Audio System">
+      <h3>2. 音响系统</h3>
+      <p>电子竞技场馆的音响系统需通过线阵列（主左 / 右声道 + 后左 / 右声道）实现立体声增强。为提升声音还原度与拾音清晰度，ihD 借助声学模拟技术控制振动与混响，进而定制扬声器 / 麦克风配置方案。</p>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="e-sports-item">
+      <img src="images/esports/service-3.jpg" alt="Video System">
+      <h3>3. 视频系统</h3>
+      <p>一套出色的电子竞技场馆视频系统，需具备高分辨率、低延迟、可扩展、可备份及灵活适配的显示特性。赛事画面通过 “三分区布局”（主场 / 客场 / 主舞台）的 LED 屏进行直播，大型场馆还可额外配备后置显示屏。该系统具备 4K30 传输功能，并支持数模双向备份。</p>
+    </div>
+
+    <!-- Item 4 -->
+    <div class="e-sports-item">
+      <img src="images/esports/service-4.jpg" alt="Audience Area">
+      <h3>4. 观众区</h3>
+      <p>场馆容量随定位不同而变化：中小型场馆可容纳 500 人以下；大型场馆可容纳数千人。座位类型包括阶梯式、平层式或 VIP 座席，所有座位均能无遮挡观看舞台 / 屏幕。通过合理的座位间距与优化的声学设计，可进一步提升观众的观赛舒适度。</p>
+    </div>
+
+    <!-- Item 5 -->
+    <div class="e-sports-item">
+      <img src="images/esports/service-5.jpg" alt="Broadcast Control Room">
+      <h3>5. 广播控制室</h3>
+      <p>广播控制室负责赛事导播、信号切换及直播输出工作。室内需配备切换台、音频控制设备与监视器矩阵，且这些设备需符合相关赛事转播设计标准。</p>
+    </div>
+
+    <!-- Item 6 -->
+    <div class="e-sports-item">
+      <img src="images/esports/service-61.jpg" alt="IT Room">
+      <h3>6. IT 机房</h3>
+      <p>T机房是存放核心服务器、网络交换机及赛事录制硬盘的关键区域，需具备直播、赛事运行、网络连接及数据传输功能。<br><br>
+      <strong>– 网络基础设施解决方案：</strong> 连接竞赛区、解说间与导演室；实现信号传输网络与竞赛网络的隔离；部署本地 / 云端媒体资产管理系统（MAM）或微型数据中心。<br><br>
+      <strong>– 通信基础设施解决方案：</strong> 为选手配备专用对讲系统，连接导演、裁判、选手、教练及休息室，确保分组通信稳定且音频录制独立隔离。
+      </p>
+    </div>
+
+    <!-- Item 7 -->
+    <div class="e-sports-item">
+      <img src="images/esports/service-7.jpg" alt="Commentator Booth">
+      <h3>7. 解说间</h3>
+      <p>解说区域需邻近舞台，且具备优质隔声效果。该区域可容纳 2-3 名解说员，能同步赛事直播进度、集成数据输入系统，并确保信号低延迟传输。</p>
+    </div>
+
+    <!-- Item 8 -->
+    <div class="e-sports-item">
+      <img src="images/esports/service-8.jpg" alt="Referee & Admin Room">
+      <h3>8. 裁判与管理室</h3>
+      <p>部署打印 / 通信设备的赛事管理终端，用于赛事管控、选手注册及判罚处理。</p>
+    </div>
+
+  </div>
+
+  <div class="e-sports-button">
+    <a href="/cn/contact.html">联系我们</a>
+  </div>
+</section>
