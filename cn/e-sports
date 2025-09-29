@@ -1,0 +1,11 @@
+---
+layout: default
+title: 电子竞技解决方案
+permalink: /cn/e-sports.html
+language: ch
+lang: zh_cn
+description: 电子竞技社群的可扩展解决方案
+page_id: 'e_sports_page'
+redirect_from:
+  - /ch/e-sports.html
+---
