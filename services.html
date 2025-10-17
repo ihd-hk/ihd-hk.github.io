@@ -18,13 +18,14 @@ page_id: our_services_page
 
   <div class="col-md-4 offset-md-1">
     <ul class="list-unstyled lead">
+      <li><a data-scroll href="#esports">E-Sports Venues</a></li>
       <li><a data-scroll href="#iot">IoT</a></li>
       <li><a data-scroll href="#bms">BMS (Building Management Systems)</a></li>
       <li><a data-scroll href="#bms">EPMS (Electrical Power Monitoring Systems)</a></li>
       <li><a data-scroll href="#grms">GRMS (Guest Room Management Systems)</a></li>
       <li><a data-scroll href="#acoustics">Acoustics</a></li>
       <li><a data-scroll href="#av">Audio-Visual &amp; Multimedia</a></li>
-      <li><a data-scroll href="#elv">ELV Extra-Low Voltage Systems</a></li>
+      <li><a data-scroll href="#elv">ELV (Extra-Low Voltage) System</a></li>
       <li><a data-scroll href="#it">Information Technology Service</a></li>
       <li><a data-scroll href="#security">Security Systems</a></li>
     </ul>
@@ -33,6 +34,15 @@ page_id: our_services_page
 {% include section-wrapper.html section_background_url='/images/backgrounds/our-services.jpg' section_style='white' content=content %}
 
 
+{% capture content %}
+  <h2 class="col-12"><span>E-Sports Venues NEW</span></h2>
+  <div class="col-md-6">
+    <p>In the thriving era of E-Sports, ihD leverages professional expertise and systematic design to create fully functional E-Sports venues. With proven strengths in AV, Acoustics, and IT systems, we deliver integrated one-stop solutions covering concept design, equipment selection, construction supervision, and final implementation. Our team designs every key zone—from stage and spectator seating to control rooms and IT server rooms—according to rigorous international standards. Partnering with ihD means ensuring your E-Sports project achieves the perfect balance of competitive quality, audience experience, operational efficiency, and brand value.</p>
+
+    <div class="read-more-link" data-toggle="modal" data-target="#services-esports-modal"></div>
+  </div>
+{% endcapture %}
+{% include section-wrapper.html id='esports' section_background_url='/images/services/esports.jpg' section_style='dark' content=content %}
 
 
 {% capture content %}
@@ -94,7 +104,7 @@ page_id: our_services_page
 
 
 {% capture content %}
-  <h2 class="col-12">ELV <span>Extra-Low Voltage Systems</span></h2>
+  <h2 class="col-12">ELV <span>(Extra-Low Voltage) System</span></h2>
 
   <div class="col-md-6">
     <p>ELV includes all the systems in a building which operate on low voltage like access control, data transmission, LAN, CCTV, fire alarm, public address system, audio-visual, enterprise Wi-Fi, telephone, automation and smart home systems, etc.</p>
