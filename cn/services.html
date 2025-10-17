@@ -21,6 +21,7 @@ redirect_from:
 
   <div class="col-md-4 offset-md-1">
     <ul class="list-unstyled lead">
+      <li><a data-scroll href="#esports">电子竞技场馆</a></li>
       <li><a data-scroll href="#acoustics">声学</a></li>
       <li><a data-scroll href="#av">音视频和多媒体</a></li>
       <li><a data-scroll href="#elv">弱电系统</a></li>
@@ -32,6 +33,17 @@ redirect_from:
 {% include section-wrapper.html section_background_url='/images/backgrounds/our-services.jpg' section_style='white' content=content %}
 
 
+
+{% capture content %}
+  <h2 class="col-12"><span>电子竞技场馆</span></h2>
+
+  <div class="col-md-6">
+    <p>在电竞产业蓬勃发展的时代，ihD 致力于以专业技术与系统化设计打造功能全面的电子竞技场馆。我们在视听、声学、IT系统等领域拥有成熟的技术和深厚的积累，致力于提供从方案设计、设备选型、施工监理直至方案落地的一站式的整合解决方案。我们具备电竞场馆全功能区的专业设计能力，从舞台、观众席到控制室、IT机房，均按国际赛事严苛标准打造。选择 ihD，就是选择一个能兼顾竞技品质、观众体验、运营效率与品牌价值的合作伙伴。</p>
+
+    <div class="read-more-link" data-toggle="modal" data-target="#services-esports-modal"></div>
+  </div>
+{% endcapture %}
+{% include section-wrapper.html id='esports' section_background_url='/images/services/esports.jpg' section_style='dark' content=content %}
 
 
 {% capture content %}
@@ -233,6 +245,14 @@ redirect_from:
 <p>以上的案例都在安全系统的实施中取得了很好的反响，也为我们的客户提供了人身和财产的安全保障，通过客户更好的体验，增加了再次合作的机率。</p>
 {% endcapture %}
 {% include modal.html modal_size='modal-xl' additional_classes='services-modal' id='services-security-modal' content=content %}
+
+
+{% capture content %}
+<h2>电子竞技场馆</h2>
+<p>在电竞产业蓬勃发展的时代，ihD 致力于以专业技术与系统化设计打造功能全面的电子竞技场馆。我们在视听、声学、IT系统等领域拥有成熟的技术和深厚的积累，致力于提供从方案设计、设备选型、施工监理直至方案落地的一站式的整合解决方案。我们具备电竞场馆全功能区的专业设计能力，从舞台、观众席到控制室、IT机房，均按国际赛事严苛标准打造。选择 ihD，就是选择一个能兼顾竞技品质、观众体验、运营效率与品牌价值的合作伙伴。</p>
+
+{% endcapture %}
+{% include modal.html modal_size='modal-xl' additional_classes='services-modal' id='services-esports-modal' content=content %}
 
 
 <script> require.deps.push('app/smooth-scroll', 'bootstrap/modal') </script>
